@@ -116,7 +116,6 @@
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 23",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 15",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 16",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -176,7 +175,6 @@
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 23",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 15",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 16",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -549,35 +547,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "152.42.150.110",
-            "server_port": 3030,
-            "uuid": "aa227058-2272-444c-8226-264fd892cf8e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "49X3hTKdvzGBqoHvFO1sZEkhQhnOL9hEp8xd7acVQgc",
-                    "short_id": "aa8da351"
                 }
             }
         },
