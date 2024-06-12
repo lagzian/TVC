@@ -109,7 +109,6 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
@@ -132,7 +131,6 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 18",
@@ -223,40 +221,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "best-charm-pediatrician.glitch.me",
-            "server_port": 443,
-            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "best-charm-pediatrician.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
-                "headers": {
-                    "Host": "best-charm-pediatrician.glitch.me"
-                }
             }
         },
         {
