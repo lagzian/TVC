@@ -119,7 +119,7 @@
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 5",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 6",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 22",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 23",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 23",
                 "🇸🇪SE | 🔴 | vless | @frev2ray | 0",
                 "🇨🇦CA | 🔴 | vless | @frev2ray | 1",
                 "🇸🇪SE | 🔴 | vless | @ARv2ray | 12",
@@ -187,8 +187,8 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 24",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 25",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 5",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 6",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 22",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 23",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 23",
                 "🇸🇪SE | 🔴 | vless | @frev2ray | 0",
                 "🇨🇦CA | 🔴 | vless | @frev2ray | 1",
                 "🇸🇪SE | 🔴 | vless | @ARv2ray | 12",
@@ -310,8 +310,8 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 24",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 25",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -671,7 +671,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 23",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 23",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -2323,11 +2323,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "st-fr-1.brocdn.com",
-            "server_port": 443,
-            "uuid": "958acd09-d5fe-11ee-aaa8-00505603e70d",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "0681f4d9-1a85-4ea1-bdfd-84dd090d0b80",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2335,30 +2335,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-fr-1.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/",
                 "headers": {
-                    "Host": "st-fr-1.brocdn.com"
+                    "Host": "185.146.173.9"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "188.114.96.3",
+            "server": "dd.gevom47953.workers.dev",
             "server_port": 443,
-            "uuid": "4ca5934d-482b-4c1d-b729-efda18b2ea67",
+            "uuid": "780161d1-a345-45d4-96fb-c2c4b88bf151",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2368,7 +2358,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "DisVpn.us.kg",
+                "server_name": "dd.gevom47953.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2378,9 +2368,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "dd.gevom47953.workers.dev"
                 }
             }
         },
