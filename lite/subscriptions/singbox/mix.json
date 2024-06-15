@@ -193,14 +193,14 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 26",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
-                "🇹🇷TR | 🔴 | trojan | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @polproxy | 5",
@@ -219,8 +219,8 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🔴 | trojan | @iP_CF | 4",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇨🇳CN | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 7",
@@ -330,14 +330,14 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 26",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
-                "🇹🇷TR | 🔴 | trojan | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @polproxy | 5",
@@ -356,8 +356,8 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🔴 | trojan | @iP_CF | 4",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇨🇳CN | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 7",
@@ -2402,11 +2402,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
-            "type": "trojan",
-            "server": "89.187.181.172",
-            "server_port": 43118,
-            "password": "ypDt8RkT7J",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2414,21 +2416,54 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "egcmi.phooeyunfold.com",
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "207.211.215.169",
-            "server_port": 43118,
-            "password": "ypDt8RkT7J",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "c44ecd98-353e-4d82-be52-b3a9d7fcd145",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2436,17 +2471,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tpmwf.phooeyunfold.com",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -2464,20 +2506,6 @@
                 "headers": {
                     "Host": "188.114.98.224"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
-            "type": "vless",
-            "server": "94.182.222.29",
-            "server_port": 12061,
-            "uuid": "6e435f9f-25df-4101-9a5c-736a6858b8cb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2570,7 +2598,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "185.146.173.185",
             "server_port": 80,
@@ -3087,6 +3115,35 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | trojan | @iP_CF | 4",
+            "type": "trojan",
+            "server": "icy-mountain-1847.hukinghumans.WORkerS.DeV",
+            "server_port": 8443,
+            "password": "8270f450-7143-548a-b311-4eeefe44f773",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icy-mountain-1847.hukinghumans.WORkerS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/trojan-ws\/?ed",
+                "headers": {
+                    "Host": "icy-mountain-1847.hukinghumans.WORkerS.DeV"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @iP_CF | 5",
             "type": "vless",
             "server": "icy-mountain-1847.hukinghumans.wOrkErS.deV",
@@ -3114,27 +3171,6 @@
                 "path": "\/vless-ws\/",
                 "headers": {
                     "Host": "icy-mountain-1847.hukinghumans.wOrkErS.deV"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @iP_CF | 6",
-            "type": "vless",
-            "server": "icy-mountain-1847.hukinghumans.WORkErs.dEV",
-            "server_port": 80,
-            "uuid": "8270f450-7143-548a-b311-4eeefe44f773",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "icy-mountain-1847.hukinghumans.WORkErs.dEV"
                 }
             }
         },

@@ -180,8 +180,9 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 25",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 26",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
@@ -199,7 +200,6 @@
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇨🇳CN | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 7",
@@ -295,8 +295,9 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 25",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 26",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
@@ -314,7 +315,6 @@
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇨🇳CN | 🔴 | vless | @mehrosaboran | 4",
                 "🇺🇸US | 🔴 | vless | @kiava | 7",
@@ -2082,7 +2082,59 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "c44ecd98-353e-4d82-be52-b3a9d7fcd145",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -2100,20 +2152,6 @@
                 "headers": {
                     "Host": "188.114.98.224"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 1",
-            "type": "vless",
-            "server": "94.182.222.29",
-            "server_port": 12061,
-            "uuid": "6e435f9f-25df-4101-9a5c-736a6858b8cb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2566,27 +2604,6 @@
                 "path": "\/vless-ws\/",
                 "headers": {
                     "Host": "icy-mountain-1847.hukinghumans.wOrkErS.deV"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @iP_CF | 6",
-            "type": "vless",
-            "server": "icy-mountain-1847.hukinghumans.WORkErs.dEV",
-            "server_port": 80,
-            "uuid": "8270f450-7143-548a-b311-4eeefe44f773",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "icy-mountain-1847.hukinghumans.WORkErs.dEV"
                 }
             }
         },
