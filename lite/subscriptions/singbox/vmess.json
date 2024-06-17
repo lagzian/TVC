@@ -110,8 +110,8 @@
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 5",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -132,8 +132,8 @@
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 5",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -258,7 +258,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "crackthecode.ftp.sh",
             "server_port": 443,
@@ -288,30 +322,6 @@
                 "path": "\/gwdef.sbs:443\/linkws",
                 "headers": {
                     "Host": "vcp3.dehel15354.woRKErS.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "us.eaxeg.be",
-            "server_port": 80,
-            "uuid": "bded6b7a-efe3-4164-badd-0d9cfab6a072",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/XC3c53DiSQ9N70H4Y2aW",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
