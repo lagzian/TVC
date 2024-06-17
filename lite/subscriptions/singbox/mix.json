@@ -190,8 +190,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 22",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -323,8 +323,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 22",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -2315,42 +2315,25 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
+            "server": "104.17.243.198",
+            "server_port": 8080,
+            "uuid": "a532a0ba-30b8-429c-8b64-ee5329151297",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2358,21 +2341,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "104.17.243.198"
                 }
             }
         },
