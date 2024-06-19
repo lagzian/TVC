@@ -170,13 +170,12 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
+                "🇮🇷IR | 🔴 | vless | @V2RayTz | 17",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
-                "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 5",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -279,13 +278,12 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
+                "🇮🇷IR | 🔴 | vless | @V2RayTz | 17",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
-                "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 5",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -1824,6 +1822,37 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @V2RayTz | 17",
+            "type": "vless",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "dafa0b54-901a-4dc2-bc13-82ec7ca04fb7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "185.146.173.18",
@@ -1841,27 +1870,6 @@
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "185.146.173.18"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
-            "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "945c13d2-4a94-4f25-ae6b-8c4e1389cc9f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1949,40 +1957,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "65.109.195.165",
-            "server_port": 443,
-            "uuid": "ee07639f-ca84-4b93-950b-eac9c1f4eb3f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "m05r3bf1t7.execute-api.eu-west-1.amazonaws.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cN11L2DIETgMceN6hX0p7ZRKArOgcZUXvEMfImeSmGo",
-                    "short_id": "97ad8890"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.18.84.115",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "104.18.1.125",
+            "server_port": 2052,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1990,21 +1969,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/bmkpskkiym1rrlxm?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV"
+                    "Host": "104.18.1.125"
                 }
             }
         },
