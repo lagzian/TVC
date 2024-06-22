@@ -177,8 +177,8 @@
                 "🇬🇧GB | 🔴 | vless | @sinabigo | 3",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 35",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 5",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
@@ -290,8 +290,8 @@
                 "🇬🇧GB | 🔴 | vless | @sinabigo | 3",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 35",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 5",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
@@ -1952,11 +1952,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "30705832-4fc5-4e59-a8c1-8b37d34a238b",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "25360cda-e65d-4ec6-8a71-46dc50f3d8a1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1964,30 +1964,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "LIGHTNING6-joinbed.filj.top"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "30705832-4fc5-4e59-a8c1-8b37d34a238b",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "8adfaf43-8e3a-4eec-94c9-e7c8d81e8add",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1995,21 +1985,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "185.146.173.37"
                 }
             }
         },
