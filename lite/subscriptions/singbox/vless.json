@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 22",
-                "🇸🇪SE | 🔴 | vless | @EliV2ray | 23",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 20",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 21",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
@@ -169,7 +169,7 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 7",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 8",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 1",
-                "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 5",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 129",
@@ -219,8 +219,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 22",
-                "🇸🇪SE | 🔴 | vless | @EliV2ray | 23",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 20",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 21",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
@@ -282,7 +282,7 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 7",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 8",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 1",
-                "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 5",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 129",
@@ -348,11 +348,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 22",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 20",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
-            "uuid": "-Join-Channel-ELiV2ray--",
+            "uuid": "--Join-Channel-ELiV2ray--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -369,11 +369,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @EliV2ray | 23",
+            "tag": "🇸🇪SE | 🔴 | vless | @EliV2ray | 21",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "-Join-Channel-ELiV2ray--",
+            "uuid": "--Join-Channel-ELiV2ray--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1781,11 +1781,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.17.147.22",
+            "server_port": 2095,
+            "uuid": "DIGIv2rAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1795,18 +1795,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
             "tag": "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "4e57d49a-4013-4b69-8bbf-3ae4925cde0e",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "DIGIv2rAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1816,9 +1816,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1954,27 +1954,6 @@
         {
             "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "25360cda-e65d-4ec6-8a71-46dc50f3d8a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
-                "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
             "uuid": "8adfaf43-8e3a-4eec-94c9-e7c8d81e8add",
@@ -1990,6 +1969,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "25360cda-e65d-4ec6-8a71-46dc50f3d8a1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbed.filj.top"
                 }
             }
         },
