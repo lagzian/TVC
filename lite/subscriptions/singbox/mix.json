@@ -126,6 +126,7 @@
                 "🇸🇪SE | 🔴 | vless | @shh_proxy | 28",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | 🔴 | vless | @lightning6 | 18",
                 "🇸🇪SE | 🔴 | vless | @lightning6 | 19",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGmat | 5",
@@ -188,8 +189,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
                 "🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -261,6 +262,7 @@
                 "🇸🇪SE | 🔴 | vless | @shh_proxy | 28",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 16",
+                "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | 🔴 | vless | @lightning6 | 18",
                 "🇸🇪SE | 🔴 | vless | @lightning6 | 19",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGmat | 5",
@@ -323,8 +325,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
                 "🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -838,6 +840,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.18.121.44"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 9",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "befecb38-8e7a-47c4-9201-7e7b8cc30d30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -2258,35 +2281,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "129.146.113.254"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "00d7f3b7-c34c-4250-8c44-f8d9b7b6801d",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2294,11 +2293,52 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.64.111.69",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
