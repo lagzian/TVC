@@ -154,7 +154,7 @@
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 19",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 184",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 185",
+                "🇨🇦CA | 🔴 | vless | @prrofile_purple | 185",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 14",
@@ -184,11 +184,12 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 15",
                 "🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 16",
-                "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇲🇾MY | 🔴 | vless | @proxystore11 | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -284,7 +285,7 @@
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 19",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 184",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 185",
+                "🇨🇦CA | 🔴 | vless | @prrofile_purple | 185",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 14",
@@ -314,11 +315,12 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 15",
                 "🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 16",
-                "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇲🇾MY | 🔴 | vless | @proxystore11 | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -1506,7 +1508,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 185",
+            "tag": "🇨🇦CA | 🔴 | vless | @prrofile_purple | 185",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -2180,11 +2182,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇲🇾MY | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.66.45.32",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "af5a3844-2453-417d-87f6-5ce2af5fc234",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "uuid": "601899cf-ed90-433d-9ccd-9fcd2c0cfcac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2194,7 +2217,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
+                "server_name": "join-v2rey.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2204,9 +2227,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
@@ -2297,7 +2320,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
