@@ -131,7 +131,7 @@
                 "🇮🇷IR | 🟢 | vmess | @vless_vmess | 5",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 114",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 130",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 12",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | 🟢 | vmess | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -192,7 +192,7 @@
                 "🇮🇷IR | 🟢 | vmess | @vless_vmess | 5",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 114",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 130",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 12",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇳🇱NL | 🟢 | vmess | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -878,11 +878,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 12",
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 9",
             "type": "vmess",
-            "server": "mrp.miracleriders.top",
-            "server_port": 2082,
-            "uuid": "381e60a0-e90b-4cba-8c2b-b7b17997c7db",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -892,6 +892,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
