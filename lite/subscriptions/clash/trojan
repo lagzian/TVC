@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"52.56.247.143","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
   - {"name":"🇷🇺RU | 🟢 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @VmessProtocol | 5","type":"trojan","server":"w3.org","port":443,"udp":false,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"msnghdfy4c2.cpiforpersia.uk"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @VmessProtocol | 6","type":"trojan","server":"w3.org","port":443,"udp":false,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"msnghdfy4c2.cpiforpersia.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇷🇺RU | 🟢 | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 5'
+      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇷🇺RU | 🟢 | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 5'
+      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 16'
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇷🇺RU | 🟢 | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 5'
+      - '🇺🇸US | 🔴 | trojan | @VmessProtocol | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
