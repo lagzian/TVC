@@ -165,14 +165,12 @@
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 5",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 138",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 139",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 130",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 131",
                 "🇨🇷CR | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 43",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 44",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 10",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 8",
@@ -275,14 +273,12 @@
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 18",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 5",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 138",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 139",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 130",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 131",
                 "🇨🇷CR | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 43",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 44",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 10",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 8",
@@ -1780,32 +1776,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 138",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 130",
             "type": "vless",
-            "server": "104.16.61.8",
-            "server_port": 80,
-            "uuid": "378ac207-38d3-4401-ba96-3a7931968bc5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/http",
-                "headers": {
-                    "Host": "104.16.61.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 139",
-            "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1815,7 +1790,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "server_name": "dva2.gameintow.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1825,9 +1800,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "dva2.gameintow.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 131",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vvd5.footballgame20.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vvd5.footballgame20.org"
                 }
             }
         },
@@ -1912,64 +1918,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "176.96.137.139",
-            "server_port": 2083,
-            "uuid": "4b5d8318-fcaa-470c-aa9c-5d376e416df6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21Wy4raA5577OR54aGehA9q8wuFLV38XCbUr39e0SV0",
-                    "short_id": "c3949bd4"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "91.107.176.13",
-            "server_port": 8080,
-            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
-                    "short_id": "18cada"
                 }
             }
         },
