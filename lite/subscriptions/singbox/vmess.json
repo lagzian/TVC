@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇭🇰HK | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -133,8 +133,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇭🇰HK | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -243,11 +243,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 11",
             "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -260,11 +260,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
             "type": "vmess",
-            "server": "104.21.75.142",
-            "server_port": 443,
-            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
+            "server": "129.146.113.254",
+            "server_port": 43121,
+            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,21 +275,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5c1.foriran.trade",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Nbs2DSTSkFW6MrrFQHeSDQ7",
+                "path": "\/",
                 "headers": {
-                    "Host": "hdfy5c1.foriran.trade"
+                    "Host": "129.146.113.254"
                 }
             }
         },
