@@ -185,8 +185,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 10",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -315,8 +315,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 10",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -2207,11 +2207,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "162.159.152.152",
-            "server_port": 443,
-            "uuid": "bd577383-a1ec-4fd5-8ce3-17d9c834bca6",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "31331185-73c8-4941-ad33-3f83de50906c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2219,9 +2219,33 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbed.filj.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 2083,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
             "tls": {
                 "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
+                "server_name": "6ba6-sound-6ba6.siliy37818.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2231,30 +2255,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/obdii.cfd\/linkws",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "6ba6-sound-6ba6.siliy37818.workers.dev"
                 }
             }
         },
