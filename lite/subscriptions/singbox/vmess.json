@@ -109,8 +109,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 12",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -129,8 +129,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 12",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -230,11 +230,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 12",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "104.17.199.24",
+            "server_port": 80,
+            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -245,30 +245,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 16",
+            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 13",
             "type": "vmess",
-            "server": "104.21.44.106",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "server": "45.89.52.114",
+            "server_port": 13701,
+            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,23 +268,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
-                }
             }
         },
         {
