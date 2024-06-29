@@ -145,8 +145,8 @@
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 187",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 188",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 16",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
@@ -172,6 +172,8 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 40",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
@@ -251,8 +253,8 @@
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 187",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 188",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 16",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
@@ -278,6 +280,8 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 40",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 41",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇲🇾MY | 🔴 | vless | @free1_vpn | 0",
@@ -1242,7 +1246,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 15",
+            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 15",
             "type": "vless",
             "server": "eagle.hafezdivan.online.",
             "server_port": 443,
@@ -1273,7 +1277,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1878,6 +1882,58 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "eagle.hafezdivan.online.",
+            "server_port": 443,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eagle.hafezdivan.online.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-@MARAMBASHI-MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "eagle.hafezdivan.online."
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-sqp",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
+                "headers": {
+                    "Host": "185.146.173.58"
                 }
             }
         },
