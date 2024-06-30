@@ -110,8 +110,6 @@
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -131,8 +129,6 @@
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -236,47 +232,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "nb24.ntbq.dynu.net",
-            "server_port": 4443,
-            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "129.146.113.254"
-                }
             }
         },
         {
