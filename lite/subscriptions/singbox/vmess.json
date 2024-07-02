@@ -112,16 +112,18 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇯🇵JP | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @customv2ray | 17",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @v2rayng_config_amin | 3",
                 "🇹🇷TR | 🟢 | vmess | @v2Line | 5",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 2",
                 "🇺🇸US | 🟢 | vmess | @SINABIGO | 1",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 3",
@@ -138,16 +140,18 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇯🇵JP | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @customv2ray | 17",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @v2rayng_config_amin | 3",
                 "🇹🇷TR | 🟢 | vmess | @v2Line | 5",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 2",
                 "🇺🇸US | 🟢 | vmess | @SINABIGO | 1",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 3",
@@ -300,7 +304,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @customv2ray | 17",
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
             "type": "vmess",
             "server": "104.16.219.108",
             "server_port": 80,
@@ -324,7 +328,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 20",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
             "type": "vmess",
             "server": "104.20.36.139",
             "server_port": 80,
@@ -353,6 +357,57 @@
             "server": "45.89.52.114",
             "server_port": 13701,
             "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -457,7 +512,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
@@ -532,7 +587,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
