@@ -189,8 +189,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 34",
                 "🇩🇰DK | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -320,8 +320,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 34",
                 "🇩🇰DK | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -2231,11 +2231,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2095,
-            "uuid": "a3c48196-a190-48d8-9af2-c59b2d4c3b71",
+            "server": "172.64.101.233",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2243,20 +2243,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "se.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "Telegram-ExpressVPN_420",
+            "server": "104.19.230.57",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2264,11 +2274,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "523afb17.IRS23.pAgES.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
                 "headers": {
-                    "Host": "se.hosting-ip.com"
+                    "Host": "523afb17.IRS23.pAgES.Dev"
                 }
             }
         },
