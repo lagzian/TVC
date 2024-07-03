@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -131,10 +130,9 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
+                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
@@ -202,30 +200,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "172.67.185.79",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.185.79"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 17",
             "type": "vmess",
             "server": "104.16.219.108",
@@ -250,7 +224,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
             "type": "vmess",
             "server": "104.20.36.139",
             "server_port": 80,
@@ -274,7 +248,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 21",
+            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 22",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
