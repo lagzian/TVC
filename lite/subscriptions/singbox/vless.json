@@ -148,7 +148,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 17",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 16",
                 "🇲🇾MY | 🔴 | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 0",
@@ -166,11 +167,11 @@
                 "🇳🇴NO | 🟢 | vless | @VmessProtocol | 9",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 99",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 100",
-                "🇺🇸US | 🔴 | vless | @sinabigo | 3",
+                "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 30",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 31",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -247,7 +248,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 17",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 16",
                 "🇲🇾MY | 🔴 | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 0",
@@ -265,11 +267,11 @@
                 "🇳🇴NO | 🟢 | vless | @VmessProtocol | 9",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 99",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 100",
-                "🇺🇸US | 🔴 | vless | @sinabigo | 3",
+                "🇺🇸US | 🔴 | vless | @sinabigo | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 30",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 31",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -1321,11 +1323,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
             "type": "vless",
-            "server": "104.21.78.161",
+            "server": "104.17.227.99",
             "server_port": 8080,
-            "uuid": "b756e451-7eb1-40d5-8d2d-79daebdd2531",
+            "uuid": "81bacd5e-b64e-498f-969f-799bbe7d847a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1337,7 +1339,28 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "104.21.78.161"
+                    "Host": "104.17.227.99"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
+            "type": "vless",
+            "server": "104.17.35.37",
+            "server_port": 8080,
+            "uuid": "2b59f595-bc0e-4642-a542-e8e0fc8926b6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.17.35.37"
                 }
             }
         },
@@ -1782,7 +1805,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @sinabigo | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @sinabigo | 4",
             "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 2095,
@@ -1845,25 +1868,42 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "95.38.210.142",
-            "server_port": 35021,
-            "uuid": "34ec3990-e314-48ec-a8d1-3e24dfd09172",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.237",
+            "server": "zula.ir",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "Telegram-ExpressVPN_420",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1873,9 +1913,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420,telegram-ExpressVPN_420",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "zula.ir"
                 }
             }
         },
