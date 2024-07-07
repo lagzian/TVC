@@ -164,7 +164,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 104",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 5",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -188,6 +189,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 11",
                 "🇨🇷CR | 🔴 | vless | @GozargahVPN | 12",
+                "🇺🇸US | 🔴 | vless | @SvnTeam | 4",
+                "🇺🇸US | 🔴 | vless | @SvnTeam | 5",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 3",
                 "❔XX | 🔴 | vless | @IBv2ray | 4",
                 "❔XX | 🔴 | vless | @V2FETCH | 7",
@@ -257,7 +260,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇸🇪SE | 🔴 | vless | @DailyV2RY | 104",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 5",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -281,6 +285,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 11",
                 "🇨🇷CR | 🔴 | vless | @GozargahVPN | 12",
+                "🇺🇸US | 🔴 | vless | @SvnTeam | 4",
+                "🇺🇸US | 🔴 | vless | @SvnTeam | 5",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 3",
                 "❔XX | 🔴 | vless | @IBv2ray | 4",
                 "❔XX | 🔴 | vless | @V2FETCH | 7",
@@ -1740,17 +1746,55 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "88.135.47.60",
-            "server_port": 2053,
-            "uuid": "038a0943-8327-467f-9f11-fd264b9d64a3",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "-DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "visa.com",
+            "server_port": 443,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hagh.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "Hagh.PaGes.DEv"
+                }
             }
         },
         {
@@ -2152,27 +2196,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "zula.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
-            "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 2095,
             "uuid": "-DIGIV2RAY",
@@ -2188,6 +2211,27 @@
                 "path": "\/DigiconnecT?ed=1024",
                 "headers": {
                     "Host": "www.Speedtest.Net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
+            "type": "vless",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "ac5c3b9b-01cd-42c6-b3f0-cc5d95717b3f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -2364,6 +2408,48 @@
                 "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
                 "headers": {
                     "Host": "www.GozargahVPN.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @SvnTeam | 4",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @SvnTeam | 5",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },
