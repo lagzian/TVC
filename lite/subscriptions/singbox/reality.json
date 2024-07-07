@@ -106,10 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 13",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 14",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | 🔴 | vless | @Watashi_VPN | 0",
-                "🇩🇪DE | 🔴 | vless | @V2RayTz | 17",
+                "🇩🇪DE | 🔴 | vless | @V2RayTz | 18",
+                "🇩🇪DE | 🔴 | vless | @V2RayTz | 19",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -122,10 +123,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 13",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 14",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | 🔴 | vless | @Watashi_VPN | 0",
-                "🇩🇪DE | 🔴 | vless | @V2RayTz | 17",
+                "🇩🇪DE | 🔴 | vless | @V2RayTz | 18",
+                "🇩🇪DE | 🔴 | vless | @V2RayTz | 19",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -154,7 +156,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 14",
             "type": "vless",
             "server": "188.245.64.60",
             "server_port": 443,
@@ -248,7 +250,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @V2RayTz | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2RayTz | 18",
+            "type": "vless",
+            "server": "188.245.65.59",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L9bSYVGhk9ZTB__8Ue_yfkIJ4nANnYpqtlFljBhRiG8",
+                    "short_id": "d7d4b0f4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
