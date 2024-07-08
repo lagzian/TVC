@@ -146,7 +146,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 41",
                 "🇸🇪SE | 🔴 | vless | @V2rayNGn | 42",
                 "🇫🇮FI | 🔴 | vless | @Outline_Vpn | 17",
-                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 179",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 180",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 16",
@@ -175,7 +175,8 @@
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 27",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 28",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
@@ -252,7 +253,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 41",
                 "🇸🇪SE | 🔴 | vless | @V2rayNGn | 42",
                 "🇫🇮FI | 🔴 | vless | @Outline_Vpn | 17",
-                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 179",
                 "🇸🇪SE | 🔴 | vless | @prrofile_purple | 180",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 16",
@@ -281,7 +282,8 @@
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 27",
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 28",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 6",
@@ -1303,7 +1305,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 18",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
@@ -2010,11 +2012,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "--DIGIV2RAY--",
+            "server": "www.shopssl.icu",
+            "server_port": 8080,
+            "uuid": "Telegram-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2024,9 +2026,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/Qwerty",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "www.shopssl.icu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "Zula.ir",
+            "server_port": 2095,
+            "uuid": "Telegram-iD-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Qwerty",
+                "headers": {
+                    "Host": "Zula.ir"
                 }
             }
         },
