@@ -186,8 +186,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 28",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -312,8 +312,8 @@
                 "🇸🇪SE | 🔴 | vless | @lrnbymaa | 28",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 19",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -2257,11 +2257,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "162.159.152.152",
-            "server_port": 443,
-            "uuid": "97e092ee-3a03-434d-a38a-cabd9f860254",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "--DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2269,32 +2269,25 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "medium.com",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 2",
+            "type": "vmess",
+            "server": "172.67.204.84",
             "server_port": 443,
-            "uuid": "97e092ee-3a03-434d-a38a-cabd9f860254",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2302,7 +2295,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "DisVpn.us.kg",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2312,9 +2305,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
