@@ -110,7 +110,7 @@
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
                 "❔XX | 🔴 | vless | @V2pedia | 2",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 2",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 4",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
@@ -122,7 +122,6 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 156",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -162,7 +161,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0"
             ]
         },
         {
@@ -173,7 +173,7 @@
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
                 "❔XX | 🔴 | vless | @V2pedia | 2",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 2",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 4",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
@@ -185,7 +185,6 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 156",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -225,7 +224,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -392,7 +392,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 4",
             "type": "vless",
             "server": "94.130.104.103",
             "server_port": 443,
@@ -778,35 +778,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "91.107.174.135",
-            "server_port": 1000,
-            "uuid": "fc31868c-ca54-4da6-b64f-e8a8f198061f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xqlmWddryaShYnqVDlceZdvSxmwIZ6rJwpUEulJwNkA",
-                    "short_id": "d2952538"
                 }
             }
         },
@@ -2101,6 +2072,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
+            "type": "vless",
+            "server": "xn--tr8h.snappfoodi.com.",
+            "server_port": 8081,
+            "uuid": "SVNTEAM",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0eHwd7gjc3HkKzk1mCWhSt-Yt2efpwH4gA6bFZ7IRCA",
+                    "short_id": "eab22c4c"
+                }
             }
         }
     ],
