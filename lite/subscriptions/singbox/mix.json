@@ -2203,9 +2203,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.18.215.100",
-            "server_port": 80,
-            "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+            "server": "3.208.66.250",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2213,20 +2213,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "104.18.215.100"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "198.41.219.79",
-            "server_port": 80,
-            "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+            "server": "172.66.47.126",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2234,11 +2244,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/yuyg5ujoovohfscy?ed=2560",
                 "headers": {
-                    "Host": "198.41.219.79"
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
                 }
             }
         },
