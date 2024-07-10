@@ -163,8 +163,6 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 24",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 3",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 30",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 9",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 12",
@@ -186,7 +184,7 @@
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
@@ -291,8 +289,6 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 24",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 11",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 3",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 30",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 9",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 12",
@@ -314,7 +310,7 @@
                 "🇳🇱NL | 🔴 | vless | @sinabigo | 2",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
@@ -1727,51 +1723,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 3",
-            "type": "vless",
-            "server": "104.18.84.115",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/bmkpskkiym1rrlxm?ed=2560",
-                "headers": {
-                    "Host": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 4",
-            "type": "vless",
-            "server": "app.v.seatech.ir",
-            "server_port": 8081,
-            "uuid": "b8193a2e-f914-45d5-ced4-62ea5e02fcda",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 30",
             "type": "vless",
             "server": "104.24.20.71",
@@ -2250,11 +2201,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "162.159.135.232",
-            "server_port": 2096,
-            "uuid": "81d304dd-dfdd-4db3-9918-b1516dc3510d",
+            "server": "104.18.215.100",
+            "server_port": 80,
+            "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2262,30 +2213,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "S.fruitsstore.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "S.fruitsstore.ir"
+                    "Host": "104.18.215.100"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "server": "198.41.219.79",
+            "server_port": 80,
+            "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2293,21 +2234,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                    "Host": "198.41.219.79"
                 }
             }
         },
