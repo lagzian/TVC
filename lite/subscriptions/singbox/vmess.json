@@ -113,11 +113,12 @@
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 14",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -132,11 +133,12 @@
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 14",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -324,11 +326,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "188.114.96.221",
-            "server_port": 80,
-            "uuid": "310fabb7-2abc-4301-b302-22aa49c954fb",
+            "server": "104.19.45.70",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,18 +343,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.19.45.70"
                 }
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "91.149.236.46",
-            "server_port": 20143,
-            "uuid": "6785594d-31c8-48ff-c7ad-9f99c9483bf0",
+            "server": "mmjp11.micloud.buzz",
+            "server_port": 46011,
+            "uuid": "e0affd30-6517-4f32-a2bd-71faab70b40a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -362,6 +364,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/zh-cn",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -463,6 +472,30 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 14",
+            "type": "vmess",
+            "server": "188.114.96.221",
+            "server_port": 80,
+            "uuid": "310fabb7-2abc-4301-b302-22aa49c954fb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
