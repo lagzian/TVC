@@ -131,7 +131,7 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 28",
                 "🇸🇪SE | 🔴 | vless | @DigiV2ray | 29",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 2",
-                "🇸🇪SE | 🔴 | vless | @v2logy | 9",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 9",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 10",
                 "🇰🇷KR | 🔴 | vless | @Watashi_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
@@ -180,13 +180,14 @@
                 "🇸🇪SE | 🔴 | vless | @sinabigo | 1",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 14",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
@@ -250,7 +251,7 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 28",
                 "🇸🇪SE | 🔴 | vless | @DigiV2ray | 29",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 2",
-                "🇸🇪SE | 🔴 | vless | @v2logy | 9",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 9",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 10",
                 "🇰🇷KR | 🔴 | vless | @Watashi_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
@@ -299,13 +300,14 @@
                 "🇸🇪SE | 🔴 | vless | @sinabigo | 1",
                 "🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 14",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇸🇪SE | 🔴 | vless | @fnet00 | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
@@ -938,7 +940,38 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2logy | 9",
+            "tag": "🇸🇬SG | 🔴 | vless | @v2logy | 9",
+            "type": "vless",
+            "server": "ArV2ray.mEhpow.IR.",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BO.Mehpow.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -955,27 +988,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray",
                 "headers": {
                     "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2logy | 10",
-            "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -2035,11 +2047,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
             "type": "vmess",
-            "server": "188.114.99.205",
+            "server": "104.21.83.208",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2052,7 +2064,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "afrhms16v.bestxray.buzz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2064,16 +2076,16 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
             "type": "vmess",
-            "server": "104.26.0.95",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "104.21.8.157",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2084,21 +2096,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -2240,6 +2242,30 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "bpb-worker-panel3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "104.19.47.36",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.19.47.36"
                 }
             }
         },
