@@ -119,8 +119,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
-                "🇺🇸US | 🟢 | vmess | @kingofilter | 12",
-                "🇧🇿BZ | 🟢 | vmess | @kingofilter | 13",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 11",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 2"
             ]
         },
@@ -141,8 +140,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
-                "🇺🇸US | 🟢 | vmess | @kingofilter | 12",
-                "🇧🇿BZ | 🟢 | vmess | @kingofilter | 13",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 11",
                 "🇺🇸US | 🟢 | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -497,11 +495,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 11",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
-            "uuid": "258847cf-7268-40ca-b9aa-932c4bef5b27",
+            "uuid": "26b9c4ce-1a25-4d8e-b265-17ed45ac5f12",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -527,30 +525,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇿BZ | 🟢 | vmess | @kingofilter | 13",
-            "type": "vmess",
-            "server": "45.131.208.228",
-            "server_port": 80,
-            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
