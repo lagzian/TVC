@@ -179,8 +179,8 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 105",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 106",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 108",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 109",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
@@ -309,8 +309,8 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 105",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 106",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 108",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 109",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
@@ -2158,7 +2158,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 105",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 108",
             "type": "vless",
             "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
             "server_port": 443,
@@ -2189,34 +2189,20 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 106",
-            "type": "vless",
-            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
-            "server_port": 443,
-            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 109",
+            "type": "vmess",
+            "server": "107.191.44.194",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
-                }
             }
         },
         {
