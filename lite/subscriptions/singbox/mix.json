@@ -143,6 +143,7 @@
                 "🇩🇪DE | 🟢 | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 8",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14",
@@ -179,7 +180,7 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 133",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 133",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 134",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 3",
@@ -272,6 +273,7 @@
                 "🇩🇪DE | 🟢 | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 8",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14",
@@ -308,7 +310,7 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 133",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 133",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 134",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 3",
@@ -1248,6 +1250,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
+            "type": "vless",
+            "server": "proxyforopeta.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "cdfb341e-04fb-42b4-aca4-c3d3fc5f007c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "proxyforopeta.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta",
+                "headers": {
+                    "Host": "proxyforopeta.bestgameir2.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
             "type": "vless",
             "server": "proxyforopeta.bestgameir2.ir",
@@ -1930,6 +1963,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
             "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "151.101.0.0"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
+            "type": "vless",
             "server": "172.67.199.19",
             "server_port": 2082,
             "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
@@ -1945,27 +1999,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.199.19"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
-            "type": "vless",
-            "server": "104.18.1.125",
-            "server_port": 2082,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.1.125"
                 }
             }
         },
@@ -2105,7 +2138,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 133",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 133",
             "type": "vless",
             "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
             "server_port": 443,
