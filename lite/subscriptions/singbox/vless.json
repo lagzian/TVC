@@ -1927,30 +1927,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
             "type": "vless",
-            "server": "104.18.1.125",
-            "server_port": 2082,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.1.125"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
-            "type": "vless",
-            "server": "172.66.47.2",
-            "server_port": 2096,
-            "uuid": "3fa4c645-f6a7-4a02-85ee-7289530a6d1e",
+            "server": "avval.ir",
+            "server_port": 2053,
+            "uuid": "cd8002d9-e8fd-4411-8bb6-fc80310ff81d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1960,7 +1939,38 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fala.zafarinoco.ir",
+                "server_name": "vip1-romax-tiktok.hsjsak.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/?ed",
+                "headers": {
+                    "Host": "vip1-romax-tiktok.hsjsak.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
+            "type": "vless",
+            "server": "hidden-yprsghvplxa6haj8dh.logged.store",
+            "server_port": 443,
+            "uuid": "c9b41a2e-de68-4c13-b1fe-31ac8a50e59b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-yprsghvplxa6haj8dh.logged.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1972,7 +1982,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "fala.zafarinoco.ir"
+                    "Host": "hidden-yprsghvplxa6haj8dh.logged.store"
                 }
             }
         },
