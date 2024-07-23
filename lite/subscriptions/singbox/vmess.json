@@ -112,9 +112,8 @@
                 "❔XX | 🟢 | vmess | @mftizi | 19",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | 🟢 | vmess | @vless_vmess | 11",
-                "🇺🇸US | 🟢 | vmess | @vless_vmess | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
@@ -134,9 +133,8 @@
                 "❔XX | 🟢 | vmess | @mftizi | 19",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | 🟢 | vmess | @vless_vmess | 11",
-                "🇺🇸US | 🟢 | vmess | @vless_vmess | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
@@ -292,7 +290,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.21.82.17",
             "server_port": 443,
@@ -340,30 +338,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @vless_vmess | 12",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "5456662d-9d1c-429b-9d3c-e47f2e89f013",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
