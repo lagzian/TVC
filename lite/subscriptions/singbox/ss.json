@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 19"
+                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 18",
+                "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 18",
-                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 19"
+                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 18",
+                "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +138,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "69.50.95.53",
             "server_port": 8118,
@@ -148,7 +148,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "❔XX | 🟢 | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
