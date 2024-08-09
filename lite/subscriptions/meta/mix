@@ -190,8 +190,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 0","type":"vmess","server":"104.17.148.22","port":"80","cipher":"auto","uuid":"3e5cda0a-6122-4f54-9e3c-3f49e7a526f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nlch.blueberrynetwork.store"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @FreakConfig | 12","type":"vless","server":"172.64.133.252","port":80,"udp":false,"uuid":"b5c56758-0eda-4676-a270-2540aaf5eb39","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @FreakConfig | 13","type":"vless","server":"www.parspack.com","port":80,"udp":false,"uuid":"fab785c6-ddb9-4a01-b9d7-86b5cb51b23f","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 11","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"029e3381-3687-4296-a88f-61a1ac508b6e","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560","headers":{"host":"shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.mozdfree.bUzz."}}}
-  - {"name":"🇸🇪SE | 🔴 | vless | @flyv2ray | 12","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"db347ece-5a53-4991-a531-056d6d17c27d","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/servernett","headers":{"host":"dcc33.servernet.fun."}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 11","type":"vless","server":"sport.k6n.ir","port":443,"udp":false,"uuid":"56bb5415-39d3-4fc6-a017-984c57be916e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/?ed=1048","headers":{"host":"exo.ir"}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 12","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"029e3381-3687-4296-a88f-61a1ac508b6e","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560","headers":{"host":"shhproxy.com.www.speedtest.net.www.zula.ir.cloudflare.com.mozdfree.bUzz."}}}
   - {"name":"❔XX | 🔴 | vless | @iP_CF | 10","type":"vless","server":"[2a13:7c00:6:9:f816:3eff:fea0:153]","port":23887,"udp":false,"uuid":"f2afaeaf-aa1e-4835-853c-24d974ce02f7","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | 🔴 | vless | @mehrosaboran | 7","type":"vless","server":"79.175.129.113","port":32833,"udp":false,"uuid":"b662780c-74bb-4a63-9acb-62af6056d927","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @mehrosaboran | 8","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"7ba87a4a-44a0-4859-816d-c37bf93710b4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048","headers":{"host":"www.speedtest.net.A.lightning-6.LiVE."}}}
@@ -282,7 +282,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 12'
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 13'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
-      - '🇸🇪SE | 🔴 | vless | @flyv2ray | 12'
+      - '🇺🇸US | 🔴 | vless | @flyv2ray | 12'
       - '❔XX | 🔴 | vless | @iP_CF | 10'
       - '🇮🇷IR | 🔴 | vless | @mehrosaboran | 7'
       - '🇺🇸US | 🔴 | vless | @mehrosaboran | 8'
@@ -373,7 +373,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 12'
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 13'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
-      - '🇸🇪SE | 🔴 | vless | @flyv2ray | 12'
+      - '🇺🇸US | 🔴 | vless | @flyv2ray | 12'
       - '❔XX | 🔴 | vless | @iP_CF | 10'
       - '🇮🇷IR | 🔴 | vless | @mehrosaboran | 7'
       - '🇺🇸US | 🔴 | vless | @mehrosaboran | 8'
@@ -463,7 +463,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 12'
       - '🇺🇸US | 🔴 | vless | @FreakConfig | 13'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
-      - '🇸🇪SE | 🔴 | vless | @flyv2ray | 12'
+      - '🇺🇸US | 🔴 | vless | @flyv2ray | 12'
       - '❔XX | 🔴 | vless | @iP_CF | 10'
       - '🇮🇷IR | 🔴 | vless | @mehrosaboran | 7'
       - '🇺🇸US | 🔴 | vless | @mehrosaboran | 8'
