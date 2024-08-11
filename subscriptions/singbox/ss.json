@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇩🇪DE | 🟢 | ss | @VmessProtocol | 2",
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 7",
                 "🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0",
@@ -145,8 +144,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇩🇪DE | 🟢 | ss | @VmessProtocol | 2",
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 7",
                 "🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0",
@@ -200,22 +198,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 5",
+            "tag": "🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11",
             "type": "shadowsocks",
-            "server": "194.87.45.189",
-            "server_port": 40076,
+            "server": "134.195.196.178",
+            "server_port": 812,
             "method": "chacha20-ietf-poly1305",
-            "password": "sOJ7Wo6yHqWQv8FUEq3BKV",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 15",
-            "type": "shadowsocks",
-            "server": "64.227.144.190",
-            "server_port": 50690,
-            "method": "chacha20-ietf-poly1305",
-            "password": "jQahQBlN1Xdu1uhwUKrE7k",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },
