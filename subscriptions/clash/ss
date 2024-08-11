@@ -118,7 +118,6 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11","type":"ss","server":"134.195.196.178","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | 🟢 | ss | @VmessProtocol | 7","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"51.77.53.200","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
@@ -155,7 +154,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇦🇪AE | 🟢 | ss | @VmessProtocol | 7'
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
@@ -192,7 +190,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇦🇪AE | 🟢 | ss | @VmessProtocol | 7'
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
@@ -228,7 +225,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇦🇪AE | 🟢 | ss | @VmessProtocol | 7'
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
