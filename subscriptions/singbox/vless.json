@@ -582,20 +582,21 @@
                 "🇺🇸US | 🟢 | vless | @kingofilter | 3",
                 "🇨🇦CA | 🔴 | vless | @kingofilter | 4",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 2",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 1",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 3",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 4",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 5",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 6",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 7",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 9",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 8",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 10",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 12",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 11",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 13",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 15",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 16",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 18",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 17",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 19",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 1",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 2",
@@ -1098,20 +1099,21 @@
                 "🇺🇸US | 🟢 | vless | @kingofilter | 3",
                 "🇨🇦CA | 🔴 | vless | @kingofilter | 4",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 2",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 1",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 3",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 4",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 5",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 6",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 7",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 9",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 8",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 10",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 12",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 11",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 13",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 15",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 16",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 18",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 17",
+                "🇺🇸US | 🔴 | vless | @GozargahVPN | 19",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 1",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 2",
@@ -12166,6 +12168,37 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
+            "uuid": "GozargahVPN-1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws\/",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 1",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
             "uuid": "GozargahVPN",
             "flow": "",
             "packet_encoding": "xudp",
@@ -12193,7 +12226,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 3",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12214,7 +12247,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 4",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12245,7 +12278,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 5",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12266,7 +12299,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 6",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12297,7 +12330,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 7",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12318,7 +12351,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12349,7 +12382,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 10",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12370,7 +12403,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 11",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12401,7 +12434,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 13",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12422,7 +12455,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 14",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12453,7 +12486,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 15",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 8080,
@@ -12474,7 +12507,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 16",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12505,7 +12538,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 17",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
@@ -12536,7 +12569,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 19",
             "type": "vless",
             "server": "cpanel.com",
             "server_port": 443,
