@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 9",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "❔XX | 🔴 | vless | @v2logy | 11",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -182,7 +182,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇸🇪SE | 🔴 | vless | @iP_CF | 10",
                 "🇸🇪SE | 🔴 | vless | @iP_CF | 11",
@@ -210,7 +210,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 9",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "❔XX | 🔴 | vless | @v2logy | 11",
+                "🇸🇬SG | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
                 "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | 🔴 | vless | @azadi_az_inja_migzare | 1",
@@ -286,7 +286,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇸🇪SE | 🔴 | vless | @iP_CF | 10",
                 "🇸🇪SE | 🔴 | vless | @iP_CF | 11",
@@ -330,11 +330,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "b57d083c-3b3f-426a-838a-37c00b08308e",
+            "server": "www.parsvds.ir",
+            "server_port": 8880,
+            "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -946,7 +946,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 11",
+            "tag": "🇸🇬SG | 🔴 | vless | @v2logy | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
@@ -2020,17 +2020,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
             "type": "vless",
-            "server": "www.parspack.com",
-            "server_port": 8880,
-            "uuid": "7b43e848-67fe-45bf-afba-197fd75999a8",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.Arizona.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "www.Arizona.edu"
+                }
             }
         },
         {
