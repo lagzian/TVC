@@ -134,7 +134,8 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 2",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
-                "❔XX | 🔴 | vless | @proxy_kafee | 3",
+                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
@@ -187,6 +188,7 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+                "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -238,7 +240,8 @@
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 2",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 3",
-                "❔XX | 🔴 | vless | @proxy_kafee | 3",
+                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @v2logy | 11",
                 "🇺🇸US | 🔴 | vless | @servermomo | 0",
@@ -291,6 +294,7 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+                "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @kiava | 8",
@@ -894,7 +898,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "[2a0d:5940:47:31::]",
             "server_port": 25365,
@@ -927,6 +931,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "joinbede--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -2151,6 +2176,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @iP_CF | 13",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "fef833b7-7c17-45ef-90b9-e9879d5bbe3f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
