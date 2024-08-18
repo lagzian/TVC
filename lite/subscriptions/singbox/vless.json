@@ -114,8 +114,8 @@
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 12",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 13",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 3",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 4",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
@@ -214,8 +214,8 @@
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 12",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 13",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 3",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 4",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
@@ -499,11 +499,25 @@
             }
         },
         {
+            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "846b82d2-6f31-4458-bf59-5d67f9934e58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "ea6e5af4-a368-4c42-9c79-820944c26f9d",
+            "uuid": "cc20370e-ed59-4056-b1b1-6db3cf421b42",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -517,20 +531,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
-            "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 8880,
-            "uuid": "df0fb350-e753-41f5-99be-524c40741805",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

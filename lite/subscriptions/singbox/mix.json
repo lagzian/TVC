@@ -114,8 +114,8 @@
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 12",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 13",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 3",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 4",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
@@ -151,7 +151,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 15",
@@ -197,8 +197,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2rayng_vpnrog | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -236,8 +236,8 @@
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 3",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 12",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 13",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 3",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 4",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
@@ -273,7 +273,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 15",
@@ -319,8 +319,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2rayng_vpnrog | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -543,11 +543,25 @@
             }
         },
         {
+            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 2",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "846b82d2-6f31-4458-bf59-5d67f9934e58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "ea6e5af4-a368-4c42-9c79-820944c26f9d",
+            "uuid": "cc20370e-ed59-4056-b1b1-6db3cf421b42",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -561,20 +575,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 4",
-            "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 8880,
-            "uuid": "df0fb350-e753-41f5-99be-524c40741805",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1313,7 +1313,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 15",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -2370,7 +2370,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "172.64.154.211",
             "server_port": 80,
@@ -2394,7 +2394,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
