@@ -161,7 +161,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 29",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
                 "❔XX | 🔴 | vless | @ServerNett | 23",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 24",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 14",
@@ -282,7 +283,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 29",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
                 "❔XX | 🔴 | vless | @ServerNett | 23",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 24",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 14",
@@ -1526,13 +1528,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 29",
-            "type": "vless",
-            "server": "104.24.20.71",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 20",
+            "type": "vmess",
+            "server": "172.67.183.220",
             "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1540,7 +1545,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1550,9 +1555,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
+            "type": "vmess",
+            "server": "172.67.70.167",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cake.capellare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "cake.capellare.com"
                 }
             }
         },
