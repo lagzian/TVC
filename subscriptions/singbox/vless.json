@@ -277,7 +277,6 @@
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -308,7 +307,6 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 0",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🚩CF | 🔴 | vless | @customv2ray | 3",
@@ -807,7 +805,6 @@
                 "🚩CF | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -838,7 +835,6 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 0",
-                "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🚩CF | 🔴 | vless | @customv2ray | 3",
@@ -4587,20 +4583,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "159.69.190.231",
-            "server_port": 443,
-            "uuid": "Filter-Shcan",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @v2logy | 0",
             "type": "vless",
             "server": "zula.ir",
@@ -5382,27 +5364,6 @@
                 "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-@proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta\/?ed=1024",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 80,
-            "uuid": "channel-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
                 }
             }
         },
