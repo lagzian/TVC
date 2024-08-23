@@ -148,10 +148,10 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.135.22.15","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 15","type":"vmess","server":"183.236.51.23","port":"45020","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 10","type":"vless","server":"parsvds.com","port":443,"udp":false,"uuid":"7a5a4624-df8d-4955-bccc-b3fa6161411f","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pages.dev","ws-opts":{"path":"/XV2ry2?ed=512","headers":{"host":"Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 11","type":"vless","server":"104.18.1.125","port":2086,"udp":false,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @UnlimitedDev | 6","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"230897ef-fb28-4881-be0d-01f5bfc882dd","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @UnlimitedDev | 7","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"48514232-5325-46a0-84af-a0db683a5bc9","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @customv2ray | 10","type":"vless","server":"parsvds.com","port":443,"udp":false,"uuid":"7a5a4624-df8d-4955-bccc-b3fa6161411f","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pages.dev","ws-opts":{"path":"/XV2ry2?ed=512","headers":{"host":"Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev"}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @customv2ray | 11","type":"vless","server":"104.18.1.125","port":2086,"udp":false,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"230897ef-fb28-4881-be0d-01f5bfc882dd","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @UnlimitedDev | 7","type":"vless","server":"www.parsvds.ir","port":8080,"udp":false,"uuid":"48514232-5325-46a0-84af-a0db683a5bc9","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmessorg | 12","type":"vless","server":"104.16.249.102","port":8080,"udp":false,"uuid":"3d4fac5a-6011-4526-b70d-2a71058f11f6","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080","headers":{"host":"join-to.vmessorg.Community."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmessorg | 13","type":"vless","server":"104.16.214.241","port":8080,"udp":false,"uuid":"0f3137a5-ce08-499c-ad63-a0de19ae06b4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080","headers":{"host":"join-to.vmessorg.Community."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1","type":"vless","server":"104.16.16.16","port":443,"udp":false,"uuid":"7a5a4624-df8d-4955-bccc-b3fa6161411f","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Pages.dev","ws-opts":{"path":"/Telegram-XV2ry2?ed=512","headers":{"host":"Telegram---XV2ray---XV2ray---XV2ray---XV2ray---XV2ray.Pages.dev"}}}
@@ -232,10 +232,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 6'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 7'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 10'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 11'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 7'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 12'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 13'
       - '🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1'
@@ -316,10 +316,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 6'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 7'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 10'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 11'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 7'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 12'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 13'
       - '🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1'
@@ -399,10 +399,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @customv2ray | 11'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 6'
-      - '🇺🇸US | 🔴 | vless | @UnlimitedDev | 7'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 10'
+      - '🇨🇦CA | 🔴 | vless | @customv2ray | 11'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 6'
+      - '🇨🇦CA | 🔴 | vless | @UnlimitedDev | 7'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 12'
       - '🇺🇸US | 🔴 | vless | @vmessorg | 13'
       - '🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1'
