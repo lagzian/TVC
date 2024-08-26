@@ -581,7 +581,6 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 6",
-                "🇸🇪SE | 🟢 | trojan | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -1230,7 +1229,6 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 5",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 6",
-                "🇸🇪SE | 🟢 | trojan | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -10964,28 +10962,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linja05.hwcar.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | trojan | @proxystore11 | 8",
-            "type": "trojan",
-            "server": "13.49.99.44",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
