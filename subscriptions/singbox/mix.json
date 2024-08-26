@@ -289,7 +289,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -355,7 +355,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
@@ -939,7 +939,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -1005,7 +1005,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
@@ -5217,7 +5217,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -6774,11 +6774,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 2086,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "server": "cake.capellare.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -6789,11 +6789,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cake.capellare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/jahfkjha.cfd\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "104.16.67.38"
+                    "Host": "cake.capellare.com"
                 }
             }
         },
