@@ -478,6 +478,7 @@
                 "🚩CF | 🔴 | vless | @V2RayTz | 15",
                 "🚩CF | 🔴 | vless | @V2RayTz | 16",
                 "🚩CF | 🔴 | vless | @V2RayTz | 17",
+                "🚩CF | 🔴 | vless | @V2RayTz | 18",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 0",
                 "🇧🇭BH | 🟢 | ss | @VmessProtocol | 1",
                 "🇬🇧GB | 🟢 | ss | @VmessProtocol | 2",
@@ -1099,6 +1100,7 @@
                 "🚩CF | 🔴 | vless | @V2RayTz | 15",
                 "🚩CF | 🔴 | vless | @V2RayTz | 16",
                 "🚩CF | 🔴 | vless | @V2RayTz | 17",
+                "🚩CF | 🔴 | vless | @V2RayTz | 18",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 0",
                 "🇧🇭BH | 🟢 | ss | @VmessProtocol | 1",
                 "🇬🇧GB | 🟢 | ss | @VmessProtocol | 2",
@@ -9125,6 +9127,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @V2RayTz | 18",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "177a5f59-2308-4aba-9961-8f756a7854a3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
