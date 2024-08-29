@@ -141,8 +141,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 7",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -165,8 +165,7 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 196",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 197",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
@@ -241,8 +240,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
-                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 7",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -265,8 +264,7 @@
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 196",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 197",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
@@ -1047,11 +1045,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 7",
             "type": "vless",
-            "server": "88.198.127.140",
-            "server_port": 12345,
-            "uuid": "4c31128c-f110-4ee3-a4ca-b51d384ef5ce",
+            "server": "185.155.72.114",
+            "server_port": 28732,
+            "uuid": "585a4670-f905-4043-a9a7-757c14f55621",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1061,31 +1059,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 8",
             "type": "vless",
-            "server": "188.245.124.204",
-            "server_port": 443,
-            "uuid": "bbbcba63-d5b2-4aee-a5f2-ad8a3ab0115d",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "f467b6a4-70e0-4f3d-b6ad-093c3b600576",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "f9yPFWY54wzWAvcPgsg8KqW1wvKhWbHHiP9pQzpD5mM",
-                    "short_id": "9d152a93"
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "104.17.148.22"
                 }
             }
         },
@@ -1481,11 +1471,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 196",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
             "type": "vless",
-            "server": "SpeeDTeST.OrG",
-            "server_port": 80,
-            "uuid": "74b26212-3b66-465a-bc46-c6bfc36254dc",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1495,30 +1485,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2095",
                 "headers": {
-                    "Host": "SpeeDTeST.OrG"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 197",
-            "type": "vless",
-            "server": "104.25.0.86",
-            "server_port": 8080,
-            "uuid": "74b26212-3b66-465a-bc46-c6bfc36254dc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.25.0.86"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
