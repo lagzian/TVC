@@ -121,7 +121,7 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇮🇷IR | 🔴 | vless | @frev2ray | 1",
                 "🇨🇦CA | 🔴 | vless | @frev2ray | 2",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
                 "🇨🇦CA | 🔴 | vless | @shh_proxy | 28",
                 "🇨🇦CA | 🔴 | vless | @shh_proxy | 29",
@@ -142,14 +142,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
-                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
-                "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
+                "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
@@ -218,7 +218,7 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇮🇷IR | 🔴 | vless | @frev2ray | 1",
                 "🇨🇦CA | 🔴 | vless | @frev2ray | 2",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
                 "🇨🇦CA | 🔴 | vless | @shh_proxy | 28",
                 "🇨🇦CA | 🔴 | vless | @shh_proxy | 29",
@@ -239,14 +239,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
-                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
-                "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
+                "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
@@ -615,7 +615,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -633,20 +664,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1079,7 +1096,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ProxyForOpeta | 10",
+            "type": "vless",
+            "server": "88.198.127.140",
+            "server_port": 12345,
+            "uuid": "4c31128c-f110-4ee3-a4ca-b51d384ef5ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2095,
@@ -1097,20 +1128,6 @@
                 "headers": {
                     "Host": "104.17.147.22"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 10",
-            "type": "vless",
-            "server": "185.155.72.114",
-            "server_port": 28732,
-            "uuid": "585a4670-f905-4043-a9a7-757c14f55621",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1218,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
+            "tag": "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
             "type": "vless",
             "server": "unlimiteddev-vpn.sabadyt.ir",
             "server_port": 8880,
@@ -1232,7 +1249,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
+            "tag": "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
             "type": "vless",
             "server": "unlimiteddev-vpn.sabadyt.ir",
             "server_port": 8880,
