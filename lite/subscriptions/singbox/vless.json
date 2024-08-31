@@ -140,15 +140,15 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇨🇷CR | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 18",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 13",
@@ -235,15 +235,15 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 10",
+                "🇨🇷CR | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 13",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 9",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 18",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 13",
@@ -1064,33 +1064,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 10",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2095,
-            "uuid": "0e777e3e-a3ee-5b31-abd6-e9c61f657b7e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Tel--@ELiV2--@ELiV2--@ELiV2-\/?ed=1024",
-                "headers": {
-                    "Host": "104.17.148.22"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
-            "type": "vless",
-            "server": "162.159.152.2",
-            "server_port": 2053,
-            "uuid": "e1913fbb-cc33-4e13-bb2b-db35b60e6a53",
-            "flow": "",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "Bia--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1099,19 +1078,45 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Code911ComEtoiRAnnSODsnefHHdKAlCoShD.PaGEs.dEv",
+                "server_name": "eset.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IfRGbxsU5A8Xec8y3hDccNrYG3_RJBChFl7wtb4cFXQ",
+                    "short_id": "7b65e82d"
                 }
             },
             "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | 🔴 | vless | @ProxyForOpeta | 11",
+            "type": "vless",
+            "server": "190.93.247.116",
+            "server_port": 8080,
+            "uuid": "2a9c29ab-9610-5f8b-85e3-c5a07dd20f32",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/vless?ed=8080",
                 "headers": {
-                    "Host": "Code911ComEtoiRAnnSODsnefHHdKAlCoShD.PaGEs.dEv"
+                    "Host": "190.93.247.116"
                 }
             }
         },
@@ -1234,7 +1239,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
             "type": "vless",
             "server": "joinbedebe.vmessorg.community",
             "server_port": 8080,
@@ -1255,7 +1260,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 19",
+            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 19",
             "type": "vless",
             "server": "104.17.93.85",
             "server_port": 8080,
