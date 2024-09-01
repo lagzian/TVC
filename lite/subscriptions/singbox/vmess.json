@@ -108,16 +108,16 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @kingofilter | 7"
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ]
         },
         {
@@ -126,16 +126,16 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @kingofilter | 7"
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -199,7 +199,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "172.67.138.140",
             "server_port": 443,
@@ -233,7 +233,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -267,11 +267,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
             "type": "vmess",
-            "server": "104.26.15.148",
-            "server_port": 80,
-            "uuid": "2f188c61-6622-4056-810e-a1a5f1c9b023",
+            "server": "104.21.74.239",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -282,16 +282,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -315,7 +325,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -349,7 +359,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -383,7 +393,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "172.67.220.83",
             "server_port": 443,
@@ -417,7 +427,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
@@ -441,7 +451,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
@@ -465,7 +475,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @kingofilter | 7",
+            "tag": "🇪🇸ES | 🟢 | vmess | @kingofilter | 7",
             "type": "vmess",
             "server": "holandostesf.aramislegend.com",
             "server_port": 8081,
