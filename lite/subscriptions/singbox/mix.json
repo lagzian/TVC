@@ -200,8 +200,8 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
-                "🇮🇷IR | 🔴 | vless | @kiava | 8",
-                "🇺🇸US | 🔴 | vless | @kiava | 9",
+                "🇮🇷IR | 🔴 | vless | @kiava | 9",
+                "🇺🇸US | 🔴 | vless | @kiava | 10",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 3",
@@ -315,8 +315,8 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
-                "🇮🇷IR | 🔴 | vless | @kiava | 8",
-                "🇺🇸US | 🔴 | vless | @kiava | 9",
+                "🇮🇷IR | 🔴 | vless | @kiava | 9",
+                "🇺🇸US | 🔴 | vless | @kiava | 10",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 3",
@@ -1082,9 +1082,9 @@
         {
             "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
-            "server": "104.25.0.86",
-            "server_port": 8080,
-            "uuid": "ad434f1b-7e0b-4077-8b6a-445ab65ff267",
+            "server": "104.17.147.22",
+            "server_port": 2082,
+            "uuid": "306b0231-7084-43f6-9149-ba0a5cc8e23b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1094,24 +1094,31 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--?ed=1024",
                 "headers": {
-                    "Host": "104.25.0.86"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
             "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
             "type": "vless",
-            "server": "[2a01:4f8:c17:eaf8::1]",
-            "server_port": 16723,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "[2a06:98c1:3121::3]",
+            "server_port": 80,
+            "uuid": "87d803c7-f879-478e-e1f2-738d804de98e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/2FF4sNFEEm2rBDKp42yuiT3j1BVZCca79h2wzV",
+                "headers": {
+                    "Host": "[2a06:98c1:3121::3]"
+                }
             }
         },
         {
@@ -2453,7 +2460,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 8",
+            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 9",
             "type": "vless",
             "server": "metrix.ir",
             "server_port": 8880,
@@ -2474,7 +2481,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @kiava | 10",
             "type": "vless",
             "server": "www.bandmusic.ir",
             "server_port": 8880,
