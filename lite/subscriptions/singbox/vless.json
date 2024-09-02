@@ -140,8 +140,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 13",
@@ -236,8 +236,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 13",
@@ -1078,7 +1078,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+            "type": "vless",
+            "server": "[2a01:4f8:c17:eaf8::1]",
+            "server_port": 16723,
+            "uuid": "TELEGRAM-ServerNett",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
             "type": "vless",
             "server": "[2a04:4e42::731]",
             "server_port": 80,
@@ -1096,20 +1110,6 @@
                 "headers": {
                     "Host": "[2a04:4e42::731]"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
-            "type": "vless",
-            "server": "[2a01:4f8:c17:eaf8::1]",
-            "server_port": 16723,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1553,9 +1553,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "c92323b0-9f2f-4236-8d50-0b4fef01fdf5",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "c68f2834-84fc-4ce6-9093-0d3e8894f98f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1565,31 +1565,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "104.21.20.148",
             "server_port": 8880,
-            "uuid": "c92323b0-9f2f-4236-8d50-0b4fef01fdf5",
+            "uuid": "a8aa36a3-c0c8-4bb5-9014-e5ee159dfb6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
             }
         },
         {

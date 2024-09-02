@@ -140,8 +140,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -180,8 +180,6 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 3",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -195,8 +193,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 4",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 6",
@@ -255,8 +253,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -295,8 +293,6 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 3",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -310,8 +306,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 4",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 6",
@@ -1116,7 +1112,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 8",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+            "type": "vless",
+            "server": "[2a01:4f8:c17:eaf8::1]",
+            "server_port": 16723,
+            "uuid": "TELEGRAM-ServerNett",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
             "type": "vless",
             "server": "[2a04:4e42::731]",
             "server_port": 80,
@@ -1134,20 +1144,6 @@
                 "headers": {
                     "Host": "[2a04:4e42::731]"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 9",
-            "type": "vless",
-            "server": "[2a01:4f8:c17:eaf8::1]",
-            "server_port": 16723,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1788,9 +1784,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "c92323b0-9f2f-4236-8d50-0b4fef01fdf5",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "c68f2834-84fc-4ce6-9093-0d3e8894f98f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1800,31 +1796,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "104.21.20.148",
             "server_port": 8880,
-            "uuid": "c92323b0-9f2f-4236-8d50-0b4fef01fdf5",
+            "uuid": "a8aa36a3-c0c8-4bb5-9014-e5ee159dfb6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
             }
         },
         {
@@ -2013,26 +2002,6 @@
                     "Host": "www.parspack.com"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
-            "type": "shadowsocks",
-            "server": "107.173.192.238",
-            "server_port": 9875,
-            "method": "aes-256-gcm",
-            "password": "BoiX102924",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 5004,
-            "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 3",
@@ -2378,7 +2347,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
@@ -2402,7 +2371,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
