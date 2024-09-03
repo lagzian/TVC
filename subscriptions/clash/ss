@@ -154,7 +154,7 @@ proxies:
   - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 34","type":"ss","server":"165.22.208.240","port":4917,"password":"l2zEoLV7XbwU4ZvGN46gyr","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35","type":"ss","server":"195.2.76.71","port":60422,"password":"WBudlMu3Zbyt8ztYtcLmS3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36","type":"ss","server":"13.94.117.31","port":10238,"password":"xPrKUBQPwCFeXEQ5uXlRNX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | 🟢 | ss | @proxy_mtm | 3","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | 🟢 | ss | @proxy_mtm | 4","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -197,7 +197,7 @@ proxy-groups:
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 3'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -240,7 +240,7 @@ proxy-groups:
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 3'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -282,7 +282,7 @@ proxy-groups:
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 3'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
