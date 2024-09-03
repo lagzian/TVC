@@ -145,7 +145,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇩🇪DE | 🟢 | vless | @iP_CF | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -206,7 +205,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇩🇪DE | 🟢 | vless | @iP_CF | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -1381,35 +1379,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @iP_CF | 5",
-            "type": "vless",
-            "server": "tezz.cloudshop.lol",
-            "server_port": 10258,
-            "uuid": "cf3a9c4e-c820-484c-bf30-77f7921662fb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gcore.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MOMJig4xLVj6qyNbqLxgdWNEovZ429gu665KGUaOCVE",
-                    "short_id": "0c9e21df2f"
                 }
             }
         },
