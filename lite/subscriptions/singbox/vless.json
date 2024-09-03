@@ -142,10 +142,9 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
-                "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
@@ -243,10 +242,9 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
-                "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 11",
@@ -1099,9 +1097,9 @@
         {
             "tag": "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
-            "server": "185.146.173.49",
-            "server_port": 2095,
-            "uuid": "50d1c295-fc17-4545-e1c1-c816b5bb0f26",
+            "server": "185.146.173.32",
+            "server_port": 80,
+            "uuid": "03d25a8c-2d35-5e37-b689-95cc627ef40f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1111,40 +1109,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/JoinTelegram-@ELiV2ry-@ELiV2ry-",
                 "headers": {
-                    "Host": "185.146.173.49"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
-            "type": "vless",
-            "server": "[2606:4700:10::ac43:1bf]",
-            "server_port": 2053,
-            "uuid": "ac51ad36-5052-460a-842a-e13455d30cb8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "emoemotional.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "emoemotional.pages.dev"
+                    "Host": "185.146.173.32"
                 }
             }
         },
@@ -1191,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
