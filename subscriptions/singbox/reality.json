@@ -145,7 +145,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇳🇱NL | 🔴 | vless | @mehrosaboran | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -206,7 +205,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
-                "🇳🇱NL | 🔴 | vless | @mehrosaboran | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -1382,42 +1380,6 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @mehrosaboran | 3",
-            "type": "vless",
-            "server": "neomci.orac.site",
-            "server_port": 34725,
-            "uuid": "168f0561-480c-414c-880e-c2becf9ec0a3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sammobile.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nGvmIREOpAS7AP-bT5xe0XT3Xb_j7uLkAhJ5yWKN5Bc",
-                    "short_id": "78145c13"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "sammobile.com"
-                ],
-                "path": "\/sammobile.com"
             }
         },
         {
