@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 5",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -126,13 +126,13 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 5",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -192,7 +192,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
+            "type": "vmess",
+            "server": "185.146.173.167",
+            "server_port": 80,
+            "uuid": "b1fecac5-0eb0-440c-ba9b-a937b34881d6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/navigate?ed=1048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "104.26.13.72",
             "server_port": 443,
@@ -226,41 +250,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "172.67.219.194",
-            "server_port": 443,
-            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "adenc36v.xtooltech.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "adenc36v.xtooltech.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -318,7 +308,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -352,7 +342,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -386,7 +376,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "172.67.220.83",
             "server_port": 443,
