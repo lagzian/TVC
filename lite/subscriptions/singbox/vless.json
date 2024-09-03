@@ -141,15 +141,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 12",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
-                "🇬🇧GB | 🔴 | vless | @vmessorg | 16",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 17",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 20",
@@ -240,15 +239,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 12",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
                 "🇬🇧GB | 🔴 | vless | @UnlimitedDev | 10",
-                "🇬🇧GB | 🔴 | vless | @vmessorg | 16",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 17",
+                "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 19",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 20",
@@ -1093,31 +1091,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2082,
-            "uuid": "14499a3a-bb86-44b1-a9cf-3f8b8097f549",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--?ed=1024",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
-            "type": "vless",
-            "server": "[2a01:4f8:c012:9907::1]",
-            "server_port": 30004,
+            "server": "[2a01:4f8:c17:eaf8::1]",
+            "server_port": 16723,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1201,7 +1178,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 12",
             "type": "vless",
             "server": "172.66.47.55",
             "server_port": 2096,
@@ -1246,25 +1223,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @vmessorg | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 18",
             "type": "vless",
-            "server": "www.parsvds.ir",
+            "server": "104.18.101.8",
             "server_port": 8080,
-            "uuid": "dd940716-aed0-4abe-ac84-6d0a1ee46ef3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 17",
-            "type": "vless",
-            "server": "parsvds.com",
-            "server_port": 80,
-            "uuid": "8b19f5e0-7e51-4311-92da-0c56fda12f63",
+            "uuid": "429a2672-eda2-45ab-aa66-33ea0bca8118",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1274,9 +1237,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=80",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "parsvds.com"
+                    "Host": "104.18.101.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 19",
+            "type": "vless",
+            "server": "104.16.100.84",
+            "server_port": 8080,
+            "uuid": "e6fa4064-2834-471c-bdaf-93a59bc5390c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.16.100.84"
                 }
             }
         },
@@ -1802,7 +1786,7 @@
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1823,7 +1807,7 @@
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
