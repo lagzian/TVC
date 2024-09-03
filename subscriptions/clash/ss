@@ -118,7 +118,6 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇧🇭BH | 🟢 | ss | @VmessProtocol | 10","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"38.143.66.87","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
   - {"name":"🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"193.124.46.226","port":1080,"password":"Zs07P91U4EfRisMNm8p7SQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2","type":"ss","server":"147.45.50.104","port":22195,"password":"lTV4fQ2JkTnXD8GoYzwOSg","cipher":"chacha20-ietf-poly1305"}
@@ -160,7 +159,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 10'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -202,7 +200,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 10'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -243,7 +240,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 10'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
