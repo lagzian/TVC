@@ -141,7 +141,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
@@ -241,7 +242,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
@@ -1095,11 +1097,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 80,
-            "uuid": "03d25a8c-2d35-5e37-b689-95cc627ef40f",
+            "server": "104.17.147.22",
+            "server_port": 2086,
+            "uuid": "db7a2a32-84d9-5ccf-bb19-e15e47dcce42",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1109,9 +1111,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/JoinTelegram-@ELiV2ry-@ELiV2ry-",
+                "path": "\/join-@mosiv2-@mosiv2-",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 2095,
+            "uuid": "65f299ae-a727-4df7-abd6-383d427f4ace",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--",
+                "headers": {
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1681,29 +1704,22 @@
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "172.67.193.36",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "server_port": 8880,
+            "uuid": "d5de8570-dd35-436b-ab6f-d584b6413e02",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
-                "headers": {
-                    "Host": "172.67.193.36"
-                }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAY",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "9bf334ba-9955-4c52-944b-7359290c6918",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1713,9 +1729,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
+                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
                 "headers": {
-                    "Host": "104.21.20.148"
+                    "Host": "104.17.147.22"
                 }
             }
         },
