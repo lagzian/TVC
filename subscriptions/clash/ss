@@ -118,9 +118,6 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0","type":"ss","server":"89.185.84.34","port":51348,"password":"yeKtZW31qXeZbAz8HsH4zFui7aseIogssEK7X9XZsLZcUjw6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 6","type":"ss","server":"81.19.141.45","port":52873,"password":"N6mcd94TsM8etsxGl4ua15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @DeamNet_Proxy | 15","type":"ss","server":"ss1.ctsubvpn.ggff.net","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"38.143.66.87","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
   - {"name":"🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"193.124.46.226","port":1080,"password":"Zs07P91U4EfRisMNm8p7SQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2","type":"ss","server":"147.45.50.104","port":22195,"password":"lTV4fQ2JkTnXD8GoYzwOSg","cipher":"chacha20-ietf-poly1305"}
@@ -162,9 +159,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇦🇹AT | 🟢 | ss | @DeamNet_Proxy | 15'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -206,9 +200,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇦🇹AT | 🟢 | ss | @DeamNet_Proxy | 15'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -249,9 +240,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 6'
-      - '🇦🇹AT | 🟢 | ss | @DeamNet_Proxy | 15'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
