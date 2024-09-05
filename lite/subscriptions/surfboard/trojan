@@ -11,15 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 35.177.124.248, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 35.177.58.231, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @DirectVPN | 15 = trojan, 18.170.75.19, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @DirectVPN | 16 = trojan, 13.42.157.51, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 54.76.221.195, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 54.170.19.212, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @DirectVPN | 15 = trojan, 52.51.233.209, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @DirectVPN | 16 = trojan, 54.217.179.78, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, naiu-jp.05vr9nyqg5.download, 13002, password = 8fc4337b-4636-44a2-a160-9d360436aa57, udp-delay = true, skip-cert-verify = false, sni = cloudflare.node-ssl.cdn-alibaba.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
-URL-TEST = url-test,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
-FALLBACK = fallback,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇮🇪IE | 🟢 | trojan | @DirectVPN | 15,🇮🇪IE | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
+URL-TEST = url-test,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇮🇪IE | 🟢 | trojan | @DirectVPN | 15,🇮🇪IE | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
+FALLBACK = fallback,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇮🇪IE | 🟢 | trojan | @DirectVPN | 15,🇮🇪IE | 🟢 | trojan | @DirectVPN | 16,🇨🇳CN | 🔴 | trojan | @oneclickvpnkeys | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
