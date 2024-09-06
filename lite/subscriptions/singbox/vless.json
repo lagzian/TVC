@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 9",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 8",
@@ -201,8 +201,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 9",
+                "🇸🇪SE | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 8",
@@ -312,11 +312,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇸🇪SE | 🔴 | vless | @EliV2ray | 9",
             "type": "vless",
-            "server": "104.21.51.208",
+            "server": "185.146.173.32",
+            "server_port": 2095,
+            "uuid": "03d25a8c-2d35-5e37-b689-95cc627ef40f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @EliV2ray | 10",
+            "type": "vless",
+            "server": "185.146.173.32",
             "server_port": 80,
-            "uuid": "14202ac6-fda1-525c-a359-58d69199f997",
+            "uuid": "03d25a8c-2d35-5e37-b689-95cc627ef40f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -326,24 +340,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/join-@ELiV2ry-@ELiV2ry-\/",
+                "path": "\/JoinTelegram-@ELiV2ry-@ELiV2ry-",
                 "headers": {
-                    "Host": "104.21.51.208"
+                    "Host": "185.146.173.32"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "4b7338a5-d5df-5cf3-b40c-ce0224484cb0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
