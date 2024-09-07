@@ -370,6 +370,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "6149b865-0d3c-4472-bf9c-3c61bfafa61a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
             "server": "172.64.167.5",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
@@ -388,40 +412,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.167.5"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "104.21.82.17",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
                 }
             }
         },

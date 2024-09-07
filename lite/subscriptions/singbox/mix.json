@@ -139,8 +139,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
+                "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
@@ -255,8 +255,8 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
+                "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
@@ -1116,11 +1116,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b14da791-0efc-431e-8dae-e6562c1f39fe",
+            "uuid": "13bec8ea-44d8-4a7d-9de2-ecde71f01241",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1137,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "13bec8ea-44d8-4a7d-9de2-ecde71f01241",
+            "uuid": "93852e78-e70c-4596-a811-fc822177768d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2009,6 +2009,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "6149b865-0d3c-4472-bf9c-3c61bfafa61a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
             "server": "172.64.167.5",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
@@ -2027,40 +2051,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.167.5"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "104.21.82.17",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
                 }
             }
         },
