@@ -140,7 +140,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 14",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
-                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 3",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 14",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
-                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 3",
@@ -1091,11 +1091,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
+            "tag": "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 12",
             "type": "vless",
             "server": "parsvds.com",
             "server_port": 8880,
-            "uuid": "50d1bcfb-85e7-4e6f-bff9-1cc0d590018c",
+            "uuid": "c098b00e-3cb6-451f-b4b2-fac7fc7e7cd4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1461,6 +1461,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 16",
             "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "b5197253-90cf-45e7-bdb4-59a28e3b675e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
+            "type": "vless",
             "server": "151.101.66.219",
             "server_port": 443,
             "uuid": "c6a0f017-7d7d-4bb9-a944-d6aa778900ab",
@@ -1486,27 +1507,6 @@
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "9a3c98f5-d75a-4ad1-87a5-117b4f321511",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
-                "headers": {
-                    "Host": "104.17.147.22"
                 }
             }
         },
