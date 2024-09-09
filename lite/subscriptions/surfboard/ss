@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35 = ss, 195.2.76.71, 60422, encrypt-method = chacha20-ietf-poly1305, password = WBudlMu3Zbyt8ztYtcLmS3
-🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36 = ss, 13.94.117.31, 10238, encrypt-method = chacha20-ietf-poly1305, password = xPrKUBQPwCFeXEQ5uXlRNX
+🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35 = ss, 185.172.113.182, 800, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
+🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36 = ss, 165.22.208.240, 4917, encrypt-method = chacha20-ietf-poly1305, password = l2zEoLV7XbwU4ZvGN46gyr
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36
-URL-TEST = url-test,🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36
-FALLBACK = fallback,🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36
+MANUAL = select,URL-TEST,FALLBACK,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
+URL-TEST = url-test,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
+FALLBACK = fallback,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
