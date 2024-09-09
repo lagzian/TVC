@@ -118,15 +118,15 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"54.247.110.127","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.255.35.152","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"54.154.45.134","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"52.212.172.123","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.51.141.33","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16","type":"trojan","server":"13.60.116.142","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"15.157.221.210","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"35.182.43.252","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"mmhk01.micloud.buzz","port":"46001","cipher":"auto","uuid":"c9bda0e7-4ffa-464f-84a0-41253180d04c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":""}}}
   - {"name":"🇨🇦CA | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"80","cipher":"auto","uuid":"7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/ibCT6z55","headers":{"host":"agzbjszujp4.yofnhkfc.xyz"}}}
-  - {"name":"🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"23.162.200.182","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"172.67.204.84","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"136.244.101.16","port":"59400","cipher":"auto","uuid":"e9758e0c-130f-414e-8df8-c779e65e31b5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"23.162.200.182","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35","type":"ss","server":"185.172.113.182","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36","type":"ss","server":"165.22.208.240","port":4917,"password":"l2zEoLV7XbwU4ZvGN46gyr","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇷IR | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"87.248.145.59","port":80,"cipher":"auto","uuid":"31c990dc-f987-4b66-a396-3d9bcdc242f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -142,14 +142,14 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 16'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇦CA | 🟢 | vmess | @mftizi | 17'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8'
+      - '🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 8'
       - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9'
       - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36'
@@ -166,14 +166,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 16'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇦CA | 🟢 | vmess | @mftizi | 17'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8'
+      - '🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 8'
       - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9'
       - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36'
@@ -189,14 +189,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 16'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
+      - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇦CA | 🟢 | vmess | @mftizi | 17'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8'
+      - '🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 8'
       - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9'
       - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35'
       - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36'
