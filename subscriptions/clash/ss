@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 7","type":"ss","server":"194.87.45.189","port":40076,"password":"kgEzSguyxYHRFHC8ssuN7e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | 🟢 | ss | @VmessProtocol | 1","type":"ss","server":"146.19.233.101","port":29682,"password":"m09A1lhsNMVKMLtvEKQlof","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"38.143.66.87","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
   - {"name":"🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"193.124.46.226","port":1080,"password":"Zs07P91U4EfRisMNm8p7SQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2","type":"ss","server":"147.45.50.104","port":22195,"password":"lTV4fQ2JkTnXD8GoYzwOSg","cipher":"chacha20-ietf-poly1305"}
@@ -161,6 +162,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 7'
+      - '🇩🇪DE | 🟢 | ss | @VmessProtocol | 1'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -203,6 +205,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 7'
+      - '🇩🇪DE | 🟢 | ss | @VmessProtocol | 1'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
@@ -244,6 +247,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 7'
+      - '🇩🇪DE | 🟢 | ss | @VmessProtocol | 1'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 0'
       - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
