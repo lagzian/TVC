@@ -153,7 +153,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 33","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 34","type":"ss","server":"51.77.53.200","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35","type":"ss","server":"167.71.77.212","port":62062,"password":"UeCtaK8vx4M5UfYOXzCXt5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | 🟢 | ss | @proxy_mtm | 0","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | 🟢 | ss | @proxy_mtm | 1","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -195,7 +195,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 33'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -237,7 +237,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 33'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -278,7 +278,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 33'
       - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 0'
+      - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
