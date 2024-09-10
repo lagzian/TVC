@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35"
+                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35",
+                "🇦🇪AE | 🟢 | ss | @proxy_mtm | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35"
+                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35",
+                "🇦🇪AE | 🟢 | ss | @proxy_mtm | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,6 +144,16 @@
             "server_port": 62062,
             "method": "chacha20-ietf-poly1305",
             "password": "UeCtaK8vx4M5UfYOXzCXt5",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | ss | @proxy_mtm | 1",
+            "type": "shadowsocks",
+            "server": "api.namasha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
