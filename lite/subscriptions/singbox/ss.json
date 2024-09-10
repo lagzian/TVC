@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36"
+                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36"
+                "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +136,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35",
+            "tag": "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35",
             "type": "shadowsocks",
-            "server": "185.172.113.182",
-            "server_port": 800,
+            "server": "167.71.77.212",
+            "server_port": 62062,
             "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36",
-            "type": "shadowsocks",
-            "server": "165.22.208.240",
-            "server_port": 4917,
-            "method": "chacha20-ietf-poly1305",
-            "password": "l2zEoLV7XbwU4ZvGN46gyr",
+            "password": "UeCtaK8vx4M5UfYOXzCXt5",
             "plugin": "",
             "plugin_opts": ""
         }

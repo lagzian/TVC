@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35 = ss, 185.172.113.182, 800, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36 = ss, 165.22.208.240, 4917, encrypt-method = chacha20-ietf-poly1305, password = l2zEoLV7XbwU4ZvGN46gyr
+🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35 = ss, 167.71.77.212, 62062, encrypt-method = chacha20-ietf-poly1305, password = UeCtaK8vx4M5UfYOXzCXt5
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
-URL-TEST = url-test,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
-FALLBACK = fallback,🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 35,🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 36
+MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35
+URL-TEST = url-test,🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35
+FALLBACK = fallback,🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
