@@ -121,8 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @V2pedia | 1","type":"vless","server":"91.107.167.23","port":443,"udp":true,"uuid":"62e58436-9b8c-4f42-bcbd-2be43a5bb62c","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"pvocKxZ7AZwZMjuSzDJREFKdQStouhXONYUslbqgbSg","short-id":"5b196e581bd2"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @vpn_xw | 1","type":"vless","server":"35.156.62.109","port":443,"udp":true,"uuid":"f2c40f4d-3d31-4838-8715-86ba98d2c335","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"google.com","reality-opts":{"public-key":"GD0CDrLSoAsBq7TdgDfw_IsTcuqZZJ3TcpSG7-bHFjs","short-id":"88e39306"}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @vpn_xw | 3","type":"vless","server":"3.74.101.76","port":443,"udp":true,"uuid":"0cb3222d-8700-46a6-ba68-0f52726ac0c2","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"google.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"yD24FRMEnP-mnIRplYjFtGGVO32IB3ZB_j5nVe2rBRQ","short-id":"39695f0a"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @vpn_xw | 2","type":"vless","server":"35.156.62.109","port":443,"udp":true,"uuid":"f2c40f4d-3d31-4838-8715-86ba98d2c335","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"google.com","reality-opts":{"public-key":"GD0CDrLSoAsBq7TdgDfw_IsTcuqZZJ3TcpSG7-bHFjs","short-id":"88e39306"}}
+  - {"name":"🇩🇪DE | 🔴 | vless | @vpn_xw | 4","type":"vless","server":"3.74.101.76","port":443,"udp":true,"uuid":"0cb3222d-8700-46a6-ba68-0f52726ac0c2","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"google.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"yD24FRMEnP-mnIRplYjFtGGVO32IB3ZB_j5nVe2rBRQ","short-id":"39695f0a"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9","type":"vless","server":"49.13.113.114","port":8443,"udp":true,"uuid":"8c8bb03a-0476-4f47-94c9-5f25f97f22ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"amazoon.namavaa.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12","type":"vless","server":"94.130.183.41","port":1503,"udp":true,"uuid":"482931a4-fa81-4d82-a6fd-f5efa846b586","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"0first.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0"}}
   - {"name":"🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
@@ -174,8 +174,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 1'
-      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 3'
+      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 2'
+      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 4'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12'
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
@@ -227,8 +227,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 1'
-      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 3'
+      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 2'
+      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 4'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12'
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
@@ -279,8 +279,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 1'
-      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 3'
+      - '🇩🇪DE | 🟢 | vless | @vpn_xw | 2'
+      - '🇩🇪DE | 🔴 | vless | @vpn_xw | 4'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9'
       - '🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12'
       - '🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13'
