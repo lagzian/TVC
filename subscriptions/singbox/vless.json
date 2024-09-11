@@ -389,7 +389,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 2",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -468,12 +467,12 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 357",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 358",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 359",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 24",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 25",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 27",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 28",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -902,7 +901,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 2",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -981,12 +979,12 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 357",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 358",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 359",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 24",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 25",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 27",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 28",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -7755,37 +7753,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
-            "type": "vless",
-            "server": "104.17.83.58",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @MTConfig | 0",
             "type": "vless",
             "server": "172.66.44.135",
@@ -9730,7 +9697,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -9761,7 +9728,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -9792,7 +9759,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -9823,7 +9790,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -9854,7 +9821,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 24",
+            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 27",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
@@ -9875,7 +9842,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 25",
+            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 28",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
