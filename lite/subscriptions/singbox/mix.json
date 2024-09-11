@@ -175,7 +175,7 @@
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 25",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
+                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -193,8 +193,8 @@
                 "🇺🇸US | 🟢 | vmess | @v2Line | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 1",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @kiava | 7",
@@ -287,7 +287,7 @@
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 25",
                 "🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
+                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -305,8 +305,8 @@
                 "🇺🇸US | 🟢 | vmess | @v2Line | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 1",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @kiava | 7",
@@ -1911,7 +1911,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -2019,9 +2019,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.64.110.240",
-            "server_port": 2052,
-            "uuid": "1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "cbd5521b-11df-4a4d-9365-fb854d49903a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2032,11 +2032,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/u4eCZTxW",
+                "path": "\/ws\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -2044,8 +2054,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bcaabca-aacb-aabc-adcb-ccabcabcabab",
+            "server_port": 8080,
+            "uuid": "bccabaa-aabc-caba-bcad-bcbcbcbcaaaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2348,27 +2358,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 1",
-            "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.66.44.135"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @iP_CF | 2",
             "type": "vless",
             "server": "dl.downloadha.blog",
@@ -2394,6 +2383,27 @@
                     "enabled": true,
                     "public_key": "B2iOhn9dfq_9_Q-MH5Yz8PPl2LZhJCnT9G-cckMNf0A",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 3",
+            "type": "vless",
+            "server": "81.28.12.12",
+            "server_port": 80,
+            "uuid": "c2a56771-5778-4212-8f09-138fbab5cb12",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/admin?ed=1024",
+                "headers": {
+                    "Host": "81.28.12.12"
                 }
             }
         },
