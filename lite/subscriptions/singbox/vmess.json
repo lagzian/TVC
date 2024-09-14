@@ -109,18 +109,18 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 23",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
             ]
         },
         {
@@ -130,18 +130,18 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 23",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -222,11 +222,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "104.26.0.56",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "www.visa.com.sg",
+            "server_port": 8880,
+            "uuid": "07c9b664-2b37-4e4f-b9e8-db884c98ae10",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,18 +239,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "104.26.15.148",
-            "server_port": 80,
-            "uuid": "2c4d6f66-2966-49c1-93aa-a7192ba8f8fc",
+            "server": "185.146.173.59",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,11 +261,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -311,7 +321,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 23",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 80,
@@ -376,7 +386,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -451,7 +461,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "172.67.73.174",
             "server_port": 80,
@@ -475,7 +485,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "172.67.221.19",
             "server_port": 80,
