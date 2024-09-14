@@ -121,8 +121,8 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"mmhk01.micloud.buzz","port":"46001","cipher":"auto","uuid":"c9bda0e7-4ffa-464f-84a0-41253180d04c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":""}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 19","type":"vmess","server":"ambxxic01hk.dorabbb.top","port":"44806","cipher":"auto","uuid":"ae66331e-b6b4-4c6f-959f-6ed64cf97628","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4","type":"vmess","server":"www.visa.com.sg","port":"8880","cipher":"auto","uuid":"07c9b664-2b37-4e4f-b9e8-db884c98ae10","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jpcf1.putao666.top"}}}
-  - {"name":"🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"185.146.173.59","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"www.visa.com.sg","port":"8880","cipher":"auto","uuid":"07c9b664-2b37-4e4f-b9e8-db884c98ae10","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jpcf1.putao666.top"}}}
+  - {"name":"🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"185.146.173.59","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇨🇦CA | 🟢 | vmess | @customv2ray | 15","type":"vmess","server":"172.66.168.173","port":"80","cipher":"auto","uuid":"f1fb28e5-e5b6-450c-972c-13235c94285c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
   - {"name":"🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22","type":"vmess","server":"23.162.200.182","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23","type":"vmess","server":"104.16.61.8","port":"80","cipher":"auto","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/lRkGCkYS9X5GDNJYMWXN7kCm3lL","headers":{"host":"hdfy6d3.freelines.net"}}}
@@ -140,8 +140,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 19'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4'
-      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | 🟢 | vmess | @customv2ray | 15'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
@@ -159,8 +159,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 19'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4'
-      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | 🟢 | vmess | @customv2ray | 15'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
@@ -177,8 +177,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 19'
-      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4'
-      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5'
+      - '🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6'
       - '🇨🇦CA | 🟢 | vmess | @customv2ray | 15'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 22'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 23'
