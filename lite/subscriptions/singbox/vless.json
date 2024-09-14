@@ -176,8 +176,8 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "❔XX | 🔴 | vless | @kiava | 7",
                 "❔XX | 🔴 | vless | @kiava | 8",
+                "❔XX | 🔴 | vless | @kiava | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 1",
@@ -266,8 +266,8 @@
                 "🇺🇸US | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "❔XX | 🔴 | vless | @kiava | 7",
                 "❔XX | 🔴 | vless | @kiava | 8",
+                "❔XX | 🔴 | vless | @kiava | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_mtm | 1",
@@ -1869,9 +1869,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "eb11f083-a3f7-477a-bec4-12b441ceb501",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "55349db5-b030-452e-82f0-9ace27b04406",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1879,11 +1879,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/melo\/",
+                "path": "\/@melov2ray\/ws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1892,7 +1902,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "25102a1a-e0ea-4a0d-a40d-c68f74d2fe9f",
+            "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2013,7 +2023,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 7",
+            "tag": "❔XX | 🔴 | vless | @kiava | 8",
             "type": "vless",
             "server": "join.2.kiava.cloud.nevao.ir",
             "server_port": 8880,
@@ -2034,7 +2044,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 8",
+            "tag": "❔XX | 🔴 | vless | @kiava | 9",
             "type": "vless",
             "server": "join.2.kiava.cloud.nevao.ir",
             "server_port": 8880,
