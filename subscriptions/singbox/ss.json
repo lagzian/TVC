@@ -139,7 +139,10 @@
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 33",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 34",
                 "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 1"
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 4"
             ]
         },
         {
@@ -179,7 +182,10 @@
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 33",
                 "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 34",
                 "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 1"
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -532,7 +538,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 1",
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
+            "type": "shadowsocks",
+            "server": "vienna.telegavpn.com",
+            "server_port": 61992,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ICDLzK42JC4CaBrNY9nhk9",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+            "type": "shadowsocks",
+            "server": "vienna.telegavpn.com",
+            "server_port": 61992,
+            "method": "chacha20-ietf-poly1305",
+            "password": "E8RlaWFFbllMn87qy2HHoJ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+            "type": "shadowsocks",
+            "server": "vienna.telegavpn.com",
+            "server_port": 61992,
+            "method": "chacha20-ietf-poly1305",
+            "password": "wVS5oQZH7BZorDwsoEOIei",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 4",
             "type": "shadowsocks",
             "server": "89.23.103.125",
             "server_port": 42090,
