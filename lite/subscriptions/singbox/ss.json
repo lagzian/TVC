@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 36"
+                "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
+                "🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 36"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
-                "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 36"
+                "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
+                "🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 36"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +138,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35",
+            "tag": "🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 35",
             "type": "shadowsocks",
-            "server": "15.204.87.222",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
+            "server": "45.87.219.110",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 36",
+            "tag": "🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 36",
             "type": "shadowsocks",
-            "server": "23.94.76.55",
-            "server_port": 51981,
-            "method": "aes-256-gcm",
-            "password": "06gZKkeC2J",
+            "server": "95.164.9.144",
+            "server_port": 2927,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ug4Fu79SEREdFGlt2sUyT4",
             "plugin": "",
             "plugin_opts": ""
         }
