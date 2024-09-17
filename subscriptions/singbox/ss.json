@@ -106,24 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 5",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 6",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 8"
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 5",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 6",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 8"
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,12 +148,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
-            "password": "6MvQuSIQrj6L1J7rf1rVyO",
+            "password": "S7HQ25Heg51DsAwqrH4IQK",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -161,17 +163,17 @@
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
-            "password": "Wq1UrDvBKLtnjcZlJaIFb7",
+            "password": "6MvQuSIQrj6L1J7rf1rVyO",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
-            "password": "tTCVW6owoNqQJsOSOSMhqP",
+            "password": "Wq1UrDvBKLtnjcZlJaIFb7",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -181,7 +183,7 @@
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
-            "password": "cLnglWvNFasPZ2El5Wjq5M",
+            "password": "tTCVW6owoNqQJsOSOSMhqP",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -191,12 +193,22 @@
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
+            "password": "cLnglWvNFasPZ2El5Wjq5M",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
+            "type": "shadowsocks",
+            "server": "vienna.telegavpn.com",
+            "server_port": 61992,
+            "method": "chacha20-ietf-poly1305",
             "password": "N9humx5dGmjrPv2Lmp0muB",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 8",
+            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 9",
             "type": "shadowsocks",
             "server": "89.23.103.125",
             "server_port": 42090,
