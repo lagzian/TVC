@@ -142,6 +142,7 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"45020","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"183.238.90.3","port":"40890","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"188.114.97.6","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇨🇦CA | 🔴 | vless | @customv2ray | 9","type":"vless","server":"www.speedtest.net","port":8443,"udp":false,"uuid":"6afc84e4-0d3d-4d4f-9c89-5798685f21df","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com","ws-opts":{"path":"/www.speedtest.net/VPNCSTOMIZE?ed=8443","headers":{"host":"tel.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com"}}}
   - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 16","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"3fb4a2c0-5f79-4dcd-8492-086c989efcf4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880","headers":{"host":"http.www.speedtest.net.fast.com.unlimiteddev.ir."}}}
   - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 17","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"c6a0f017-7d7d-4bb9-a944-d6aa778900ab","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880","headers":{"host":"http.www.speedtest.net.fast.com.unlimiteddev.ir."}}}
@@ -206,6 +207,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
+      - '🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | 🔴 | vless | @customv2ray | 9'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 17'
@@ -270,6 +272,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
+      - '🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | 🔴 | vless | @customv2ray | 9'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 17'
@@ -333,6 +336,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
+      - '🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | 🔴 | vless | @customv2ray | 9'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 16'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 17'
