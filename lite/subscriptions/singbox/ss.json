@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 2"
             ]
         },
@@ -115,6 +116,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
                 "🇦🇹AT | 🟢 | ss | @iP_CF | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -144,6 +146,16 @@
             "server_port": 33320,
             "method": "chacha20-ietf-poly1305",
             "password": "a16mEzcthkdQAqLds9MssJ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+            "type": "shadowsocks",
+            "server": "vienna.telegavpn.com",
+            "server_port": 61992,
+            "method": "chacha20-ietf-poly1305",
+            "password": "om6wrhCRMs9V8bTB5fitrQ",
             "plugin": "",
             "plugin_opts": ""
         },
