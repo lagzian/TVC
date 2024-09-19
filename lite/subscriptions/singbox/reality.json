@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -120,7 +119,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -174,42 +172,6 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 6",
-            "type": "vless",
-            "server": "188.245.125.54",
-            "server_port": 12345,
-            "uuid": "9a53b798-7c81-43cd-83b8-995ef74dc1ad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5-ULVwlDqXjkanMXLwofHDXCHusoe4reTbalv8D5eyo",
-                    "short_id": "95a89ac367c7"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "mdundo.com"
-                ],
-                "path": "\/"
             }
         },
         {
