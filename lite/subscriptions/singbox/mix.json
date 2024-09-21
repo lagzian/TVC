@@ -780,37 +780,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
             "type": "vless",
-            "server": "151.101.64.223",
-            "server_port": 443,
-            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "python.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Xv2ry2?ed=1080",
-                "headers": {
-                    "Host": "python.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
-            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "6d30f6ef-b713-45c9-8736-da5911e0e84a",
@@ -834,6 +803,37 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "2d813293-d830-43af-b81e-1b257330cf5a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/pKkBrz3q4jhs5kZOO\/MTI5LjE1NC41Telegram--VpnWedBaZ--Telegram--VpnWedBaZ--Telegram--Telegram--VpnWedBaZ--MC4xNTk=?ed=2560",
                 "headers": {
                     "Host": "speedtest.net"
                 }
@@ -1657,7 +1657,7 @@
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "d381c71f-e8b6-478d-8f85-51f9a9fb623f",
+            "uuid": "05670e2b-7578-4bb8-8775-b79d5331846c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1688,7 +1688,7 @@
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "d381c71f-e8b6-478d-8f85-51f9a9fb623f",
+            "uuid": "05670e2b-7578-4bb8-8775-b79d5331846c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
