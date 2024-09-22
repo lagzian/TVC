@@ -109,6 +109,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -122,6 +123,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -217,6 +219,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "91.132.50.143",
+            "server_port": 8443,
+            "uuid": "01660443-a9ea-4f16-a2fd-fced0badc684",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ilovepdf.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
             }
         },
         {

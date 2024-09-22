@@ -159,7 +159,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 23",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
@@ -167,9 +167,9 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -239,7 +239,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 23",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
@@ -247,9 +247,9 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+                "🇮🇷IR | 🔴 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -650,7 +650,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "de2547e9-1fea-4e89-b3f4-b0414d3ed1af",
+            "uuid": "4a0eadc8-cc2f-4bd3-8908-13d97f3ac59f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -671,7 +671,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "de2547e9-1fea-4e89-b3f4-b0414d3ed1af",
+            "uuid": "4a0eadc8-cc2f-4bd3-8908-13d97f3ac59f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1601,7 +1601,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "91.132.50.143",
+            "server_port": 8443,
+            "uuid": "01660443-a9ea-4f16-a2fd-fced0badc684",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ilovepdf.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1628,37 +1657,6 @@
                 "path": "\/de?ed=1048",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "172.66.47.200",
-            "server_port": 443,
-            "uuid": "850a9d4e-4e1f-41e1-8ba1-b8d0a0d6fe00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eV2rAYdEV.pageS.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pimYiCPFd3353OXG\/MTM5LjE4NS4zNC4xMzE=?ed=2560",
-                "headers": {
-                    "Host": "eV2rAYdEV.pageS.dEv"
                 }
             }
         },
@@ -1815,7 +1813,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 2",
             "type": "vless",
             "server": "79.127.70.84",
             "server_port": 8080,
@@ -1829,7 +1827,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1850,7 +1848,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
