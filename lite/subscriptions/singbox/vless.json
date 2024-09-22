@@ -153,20 +153,20 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -231,20 +231,20 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -1460,28 +1460,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-            "type": "vless",
-            "server": "SpeedTest.net",
-            "server_port": 80,
-            "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SpeedTest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
@@ -1508,6 +1487,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+            "type": "vless",
+            "server": "SpeedTest.net",
+            "server_port": 80,
+            "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SpeedTest.net"
                 }
             }
         },
@@ -1595,11 +1595,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "9f127d3d-1300-4319-bd35-7b217e69155f",
+            "uuid": "66eb3e3f-5d0e-4372-b0e0-91971ae06a1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1771,6 +1771,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "3f50bea3-578c-4383-85c3-d96d0ff1833a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=80",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "sport.k6n.ir",
@@ -1796,27 +1817,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray\/?ed=1024",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "8295c669-5ff6-4588-b628-29a37c80c756",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=80",
                 "headers": {
                     "Host": "speedtest.net"
                 }
