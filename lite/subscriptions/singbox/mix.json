@@ -155,8 +155,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 23",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
                 "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 1",
+                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
@@ -248,8 +248,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 23",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
                 "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 1",
+                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
@@ -1478,37 +1478,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
-            "type": "vless",
-            "server": "104.16.14.99",
-            "server_port": 443,
-            "uuid": "03a987de-7e12-4b38-acbc-e19c90e1cc85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ARCane-ROYAL.Pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ARCane-ROYAL.Pages.DEV"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 1",
             "type": "vless",
             "server": "104.18.218.118",
@@ -1536,6 +1505,37 @@
                 "path": "\/Telegram-@Azarakhsh_Proxy\/?ed=2560",
                 "headers": {
                     "Host": "5c53ca21.vpn-aryoo.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 2",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jOInmAHDiSERVer-AZ7.paGes.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ISB6gvC3mmVSWxzE?ed=2560",
+                "headers": {
+                    "Host": "jOInmAHDiSERVer-AZ7.paGes.dEV"
                 }
             }
         },
