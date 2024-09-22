@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -118,6 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -170,6 +172,20 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+            "type": "vless",
+            "server": "49.12.193.246",
+            "server_port": 443,
+            "uuid": "46286ed2-9abf-420b-b510-c9e663cdbadc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
