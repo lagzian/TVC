@@ -442,11 +442,12 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 22",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 23",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
@@ -891,11 +892,12 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 21",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 22",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 23",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
@@ -9586,7 +9588,38 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 0",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "V2NgFAST-b95.Pages.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fbcWzDzJvoTG4l0W?ed=2560",
+                "headers": {
+                    "Host": "V2NgFAST-b95.Pages.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
             "type": "vless",
             "server": "46.245.66.128",
             "server_port": 2095,
@@ -9607,7 +9640,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "185.234.64.35",
             "server_port": 8443,
@@ -9643,7 +9676,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "172.66.45.7",
             "server_port": 443,
@@ -9674,7 +9707,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -9705,7 +9738,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "79.127.70.118",
             "server_port": 2053,
