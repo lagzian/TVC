@@ -165,6 +165,21 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
+                "🇩🇪DE | 🔴 | vless | @V2pedia | 2",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 3",
+                "❔XX | 🔴 | vless | @V2pedia | 4",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 5",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 7",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
+                "❔XX | 🔴 | vless | @V2pedia | 11",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+                "❔XX | 🔴 | vless | @V2pedia | 13",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 14",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -669,6 +684,21 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
+                "🇩🇪DE | 🔴 | vless | @V2pedia | 2",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 3",
+                "❔XX | 🔴 | vless | @V2pedia | 4",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 5",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 7",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
+                "❔XX | 🔴 | vless | @V2pedia | 11",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+                "❔XX | 🔴 | vless | @V2pedia | 13",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 14",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -2566,6 +2596,420 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 0",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "d01d2879-894f-4675-bbda-3b2548100f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2pedia",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 1",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "a5881a0c-7943-4e42-ad35-bcde00ad80d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2pedia",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @V2pedia | 2",
+            "type": "vless",
+            "server": "91.107.167.23",
+            "server_port": 443,
+            "uuid": "62e58436-9b8c-4f42-bcbd-2be43a5bb62c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pvocKxZ7AZwZMjuSzDJREFKdQStouhXONYUslbqgbSg",
+                    "short_id": "5b196e581bd2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 3",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3f50141a-5bf6-48e0-946b-938853d09275",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2pedia?ed=80",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @V2pedia | 4",
+            "type": "vless",
+            "server": "[2a0d:5940:94:1::]",
+            "server_port": 25365,
+            "uuid": "Biain--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "avV_6gYPkk_EcWlCphwfGaJG82FPHz6tZ6BFqNUX5zY",
+                    "short_id": "f27a1982"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 5",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "tell--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "tell--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "9a35d246-06be-4d40-9f8b-ef94a33d69c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2pedia?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "e6242b23-e697-4952-9246-eff8afeb2910",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 10",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "bc757570-d942-4c8f-91a1-683275b0502d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @V2pedia | 11",
+            "type": "vless",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "Join--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xMHPs7wvQmizyc5VXW2t0_7UXW1Hs0sIE-7lssrd_1I",
+                    "short_id": "4012e21d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "Join--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @V2pedia | 13",
+            "type": "vless",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "bia--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mNXGayaz2RA0KmAo0w53rGs5yB1LsYuqxlO3Rpp23U4",
+                    "short_id": "5ee683a4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 14",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "biain--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 15",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "biain--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
             "type": "vless",
             "server": "speedtest.net",
@@ -3292,7 +3736,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
+            "uuid": "6afa3ff1-f479-47fb-b173-130e9c4b4880",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3313,7 +3757,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
+            "uuid": "6afa3ff1-f479-47fb-b173-130e9c4b4880",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3334,7 +3778,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
+            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3355,7 +3799,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
+            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3376,7 +3820,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "776c6c57-670c-4720-909b-b6e37aff4fab",
+            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3397,7 +3841,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "776c6c57-670c-4720-909b-b6e37aff4fab",
+            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3418,7 +3862,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "7a44fec4-4766-4187-baf4-79c8e7b4430b",
+            "uuid": "776c6c57-670c-4720-909b-b6e37aff4fab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3439,7 +3883,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "7a44fec4-4766-4187-baf4-79c8e7b4430b",
+            "uuid": "776c6c57-670c-4720-909b-b6e37aff4fab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3460,7 +3904,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5d882750-0a3b-4dc9-9893-c74f03b63839",
+            "uuid": "7a44fec4-4766-4187-baf4-79c8e7b4430b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3481,7 +3925,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5d882750-0a3b-4dc9-9893-c74f03b63839",
+            "uuid": "7a44fec4-4766-4187-baf4-79c8e7b4430b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3502,7 +3946,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "57570bca-8662-41af-b1d8-4824f7d71f86",
+            "uuid": "5d882750-0a3b-4dc9-9893-c74f03b63839",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3523,7 +3967,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "57570bca-8662-41af-b1d8-4824f7d71f86",
+            "uuid": "5d882750-0a3b-4dc9-9893-c74f03b63839",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3544,7 +3988,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "75d8294c-942e-49e1-a97b-1e72992044c5",
+            "uuid": "57570bca-8662-41af-b1d8-4824f7d71f86",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3565,7 +4009,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "75d8294c-942e-49e1-a97b-1e72992044c5",
+            "uuid": "57570bca-8662-41af-b1d8-4824f7d71f86",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3586,7 +4030,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "d7084b98-36ec-42e7-a40a-232dc6248ba6",
+            "uuid": "75d8294c-942e-49e1-a97b-1e72992044c5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3607,7 +4051,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "d7084b98-36ec-42e7-a40a-232dc6248ba6",
+            "uuid": "75d8294c-942e-49e1-a97b-1e72992044c5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3628,7 +4072,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "021c0b5c-8bea-4788-8331-bcb4715463ba",
+            "uuid": "d7084b98-36ec-42e7-a40a-232dc6248ba6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3649,7 +4093,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "021c0b5c-8bea-4788-8331-bcb4715463ba",
+            "uuid": "d7084b98-36ec-42e7-a40a-232dc6248ba6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3670,7 +4114,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "a3b5503b-837f-437c-9dfc-a224d3df030f",
+            "uuid": "021c0b5c-8bea-4788-8331-bcb4715463ba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3691,7 +4135,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "a3b5503b-837f-437c-9dfc-a224d3df030f",
+            "uuid": "021c0b5c-8bea-4788-8331-bcb4715463ba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
