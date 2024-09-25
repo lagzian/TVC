@@ -136,7 +136,7 @@
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
@@ -176,8 +176,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
-                "🇸🇬SG | 🟢 | ss | @iP_CF | 1",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+                "🇸🇬SG | 🟢 | ss | @iP_CF | 2",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -228,7 +228,7 @@
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 15",
                 "🇬🇧GB | 🟢 | trojan | @DirectVPN | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
@@ -268,8 +268,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
-                "🇸🇬SG | 🟢 | ss | @iP_CF | 1",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+                "🇸🇬SG | 🟢 | ss | @iP_CF | 2",
+                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -699,7 +699,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
+            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -720,7 +720,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "93c5256b-25c8-46fb-bc0a-82753cfcaac3",
+            "uuid": "9094c79a-cf8e-444e-b29c-3b554a1a6c2f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1055,13 +1055,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
-            "server": "183.236.51.23",
-            "server_port": 45020,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1069,13 +1069,20 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/VuDFdktz",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
             "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "183.236.51.23",
-            "server_port": 54104,
+            "server_port": 45020,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -2077,7 +2084,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | ss | @iP_CF | 1",
+            "tag": "🇸🇬SG | 🟢 | ss | @iP_CF | 2",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
@@ -2087,7 +2094,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 2",
+            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
             "type": "shadowsocks",
             "server": "212.113.106.76",
             "server_port": 29149,

@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | 🟢 | ss | @iP_CF | 1 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = cZ8XyhCI9jwDJUkto8bQyI
-🇦🇹AT | 🟢 | ss | @iP_CF | 2 = ss, 212.113.106.76, 29149, encrypt-method = chacha20-ietf-poly1305, password = gpG52wwJzvrdWnLEtIrfGK
+🇸🇬SG | 🟢 | ss | @iP_CF | 2 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = cZ8XyhCI9jwDJUkto8bQyI
+🇦🇹AT | 🟢 | ss | @iP_CF | 3 = ss, 212.113.106.76, 29149, encrypt-method = chacha20-ietf-poly1305, password = gpG52wwJzvrdWnLEtIrfGK
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2
-URL-TEST = url-test,🇸🇬SG | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2
-FALLBACK = fallback,🇸🇬SG | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2
+MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 3
+URL-TEST = url-test,🇸🇬SG | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 3
+FALLBACK = fallback,🇸🇬SG | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
