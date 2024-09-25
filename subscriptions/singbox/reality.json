@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "❔XX | 🔴 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
@@ -177,6 +178,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "❔XX | 🔴 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
@@ -535,6 +537,20 @@
             "server": "49.12.193.246",
             "server_port": 443,
             "uuid": "46286ed2-9abf-420b-b510-c9e663cdbadc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+            "type": "vless",
+            "server": "49.12.193.246",
+            "server_port": 443,
+            "uuid": "b8f5ba57-4439-4fe0-b3bd-47f398b3869a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
