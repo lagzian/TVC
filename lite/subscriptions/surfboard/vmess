@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | 🟢 | vmess | @mftizi | 18 = vmess, cfcdn2.sanfencdn9.com, 2052, username = 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2, ws = true, tls = , vmess-aead = true, ws-path = /video/VuDFdktz, ws-headers = Host:"zifstzamhk1.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @Hope_Net | 8 = vmess, sg-v.sshmax.xyz, 80, username = 0baaf014-af04-4028-be53-f5c75bb276ae, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"sg-v.sshmax.xyz", skip-cert-verify = true, tfo = false
+🇩🇪DE | 🟢 | vmess | @Hope_Net | 7 = vmess, s351.okggnode.top, 39503, username = e4832ca0-d6f6-32c8-87da-f3eccffe73c0, ws = true, tls = 1, vmess-aead = true, ws-path = /panelmyadmin, ws-headers = Host:"s351.okggnode.top", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 8
-URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 8
-FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 8
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇩🇪DE | 🟢 | vmess | @Hope_Net | 7
+URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇩🇪DE | 🟢 | vmess | @Hope_Net | 7
+FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 18,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇩🇪DE | 🟢 | vmess | @Hope_Net | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
