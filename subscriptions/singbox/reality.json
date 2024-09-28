@@ -117,7 +117,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -176,7 +175,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -517,35 +515,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 11",
-            "type": "vless",
-            "server": "host.the-ashegh.ir",
-            "server_port": 1024,
-            "uuid": "b3a4b75b-242a-41db-e679-3614fa7646dd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "The-Sys.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tN8Wc2ucm7c7gWvRXv2Rdy-I3qlHeeSF2eKJakY5r20",
-                    "short_id": ""
-                }
             }
         },
         {
