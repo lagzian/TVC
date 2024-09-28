@@ -117,8 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @VmessProtocol | 9",
-                "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
+                "❔XX | 🔴 | vless | @VmessProtocol | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -177,8 +176,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "❔XX | 🔴 | vless | @VmessProtocol | 9",
-                "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
+                "❔XX | 🔴 | vless | @VmessProtocol | 11",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -522,7 +520,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 9",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "host.the-ashegh.ir",
             "server_port": 1024,
@@ -547,35 +545,6 @@
                     "enabled": true,
                     "public_key": "tN8Wc2ucm7c7gWvRXv2Rdy-I3qlHeeSF2eKJakY5r20",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-            "type": "vless",
-            "server": "212.47.231.216",
-            "server_port": 443,
-            "uuid": "307fe89a-138b-4ece-84cf-4ea716a45a0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "x2CoZIWXYgYUPX7GeQgN0OMB0HjslT_o8OWi4FOdfxU",
-                    "short_id": "42"
                 }
             }
         },
