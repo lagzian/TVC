@@ -119,8 +119,6 @@ dns:
 
 proxies:
   - {"name":"🇸🇬SG | 🟢 | ss | @iP_CF | 3","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"2UwGPpJJOWcV8gnNbUzfPB","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬SG | 🟢 | ss | @iP_CF | 4","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"cZ8XyhCI9jwDJUkto8bQyI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 5","type":"ss","server":"212.113.106.76","port":29149,"password":"gpG52wwJzvrdWnLEtIrfGK","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,8 +126,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
-      - '🇸🇬SG | 🟢 | ss | @iP_CF | 4'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,16 +133,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
-      - '🇸🇬SG | 🟢 | ss | @iP_CF | 4'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
-      - '🇸🇬SG | 🟢 | ss | @iP_CF | 4'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
