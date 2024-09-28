@@ -127,8 +127,8 @@ proxies:
   - {"name":"🇹🇷TR | 🟢 | vmess | @proxystore11 | 6","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 7","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"s351.okggnode.top","port":"39503","cipher":"auto","uuid":"e4832ca0-d6f6-32c8-87da-f3eccffe73c0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/panelmyadmin","headers":{"host":"s351.okggnode.top"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"00000000000000000000000000000000000000000000000000000000000003a.rui77.com","port":"80","cipher":"auto","uuid":"f0038a33-6b22-4449-8bef-c16829a9d3aa","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"220.246.57.32","port":"16301","cipher":"auto","uuid":"6074a3b0-f2a0-4b05-b1c9-4066e8b876c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"lio.miaoge.gay","port":"443","cipher":"auto","uuid":"4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"lio.miaoge.gay"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,7 +142,7 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 7'
       - '❔XX | 🟢 | vmess | @Hope_Net | 8'
   - name: URL-TEST
     type: url-test
@@ -157,7 +157,7 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 7'
       - '❔XX | 🟢 | vmess | @Hope_Net | 8'
   - name: FALLBACK
     type: fallback
@@ -171,7 +171,7 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 7'
       - '❔XX | 🟢 | vmess | @Hope_Net | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
