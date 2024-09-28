@@ -129,8 +129,8 @@ proxies:
   - {"name":"🇹🇷TR | 🟢 | vmess | @proxystore11 | 6","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 7","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"japan.com","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
-  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"220.246.57.32","port":"16301","cipher":"auto","uuid":"6074a3b0-f2a0-4b05-b1c9-4066e8b876c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"singapore.com","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"japan.com","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🇸🇬SG | 🟢 | ss | @iP_CF | 3","type":"ss","server":"sg.outlinekeys.net","port":52252,"password":"2UwGPpJJOWcV8gnNbUzfPB","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -150,7 +150,7 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 10'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
   - name: URL-TEST
     type: url-test
@@ -170,7 +170,7 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 10'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
   - name: FALLBACK
     type: fallback
@@ -189,7 +189,7 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 10'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇸🇬SG | 🟢 | ss | @iP_CF | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
