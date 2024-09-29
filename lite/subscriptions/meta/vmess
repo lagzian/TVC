@@ -121,14 +121,15 @@ dns:
 
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"45020","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VuDFdktz","headers":{"host":"zifstzamhk1.yofnhkfc.xyz"}}}
-  - {"name":"🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 2","type":"vmess","server":"45.130.147.162","port":"4434","cipher":"auto","uuid":"6074a3b0-f2a0-4b05-b1c9-4066e8b876c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3","type":"vmess","server":"38.75.137.27","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VuDFdktz","headers":{"host":"zifstzamhk1.yofnhkfc.xyz"}}}
+  - {"name":"🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10","type":"vmess","server":"45.130.147.162","port":"4434","cipher":"auto","uuid":"6074a3b0-f2a0-4b05-b1c9-4066e8b876c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11","type":"vmess","server":"38.75.137.27","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"172.67.244.191","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"🇹🇷TR | 🟢 | vmess | @proxystore11 | 6","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 7","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"172.64.175.213","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 15","type":"vmess","server":"108.162.192.154","port":2087,"cipher":"auto","uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":null}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 15","type":"vmess","server":"162.159.140.93","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 16","type":"vmess","server":"172.64.175.213","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -136,14 +137,15 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
-      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇨🇦CA | 🟢 | vmess | @mftizi | 18'
+      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
+      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -151,28 +153,30 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
-      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇨🇦CA | 🟢 | vmess | @mftizi | 18'
+      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
+      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
-      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 2'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 3'
+      - '🇨🇦CA | 🟢 | vmess | @mftizi | 18'
+      - '🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 10'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
+      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 15'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 16'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
