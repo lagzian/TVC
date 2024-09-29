@@ -340,9 +340,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "www.darkroom.lol",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "server": "108.162.192.154",
+            "server_port": 2087,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -354,17 +354,17 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
+                "type": "grpc",
+                "service_name": "\/",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "172.64.167.25",
+            "server": "104.26.12.140",
             "server_port": 2086,
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
