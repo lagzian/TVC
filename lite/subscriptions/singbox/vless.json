@@ -148,14 +148,13 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -224,14 +223,13 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1328,25 +1326,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
-            "type": "vless",
-            "server": "SpeedTest.net",
+            "server": "whatismyipaddress.com",
             "server_port": 443,
-            "uuid": "196d4760-ddce-47f7-acc2-e6b50f174c34",
+            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1356,7 +1340,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "myqor.poonak8.one",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1366,9 +1350,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/paradise",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "myqor.poonak8.one"
                 }
             }
         },
@@ -1470,7 +1454,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "172.66.47.182",
             "server_port": 443,
@@ -1501,7 +1485,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
