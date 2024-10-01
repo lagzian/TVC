@@ -129,7 +129,7 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"104.26.5.145","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🇯🇵JP | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"fsszm-g01.jp02-9a99-vm0.entry.fr0307a.art","port":"11773","cipher":"auto","uuid":"02bf7660-c38f-30b4-b740-2f9b4d717704","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @iP_CF | 2","type":"trojan","server":"autotrader.co.uk","port":443,"udp":false,"password":"15c2491a-01d2-4d36-b4c4-7095682368cd","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sublinkhiddifyc1.makingirangreatagain.com"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @iP_CF | 3","type":"trojan","server":"autotrader.co.uk","port":443,"udp":false,"password":"15c2491a-01d2-4d36-b4c4-7095682368cd","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sublinkhiddifyc1.makingirangreatagain.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -147,7 +147,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇯🇵JP | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🔴 | trojan | @iP_CF | 2'
+      - '🇺🇸US | 🔴 | trojan | @iP_CF | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,7 +165,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇯🇵JP | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🔴 | trojan | @iP_CF | 2'
+      - '🇺🇸US | 🔴 | trojan | @iP_CF | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -182,7 +182,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇯🇵JP | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🔴 | trojan | @iP_CF | 2'
+      - '🇺🇸US | 🔴 | trojan | @iP_CF | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
