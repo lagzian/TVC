@@ -112,8 +112,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -283,13 +283,13 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "jp03-vm0.entry.s日本(油管:破解资源君2.0)rthdw.art",
-            "server_port": 447,
-            "uuid": "d27a32a9-ef65-3ef1-8ee2-99330c2345cf",
+            "server": "104.26.5.145",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -300,18 +300,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "jp03-vm0.entry.s日本(油管:破解资源君2.0)rthdw.art"
+                    "Host": "104.26.5.145"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "jp01-vm0.entry.srthdw.art",
-            "server_port": 446,
-            "uuid": "c4b2e7ea-1a0e-316f-8e28-0717cc087534",
+            "server": "fsszm-g01.jp02-9a99-vm0.entry.fr0307a.art",
+            "server_port": 11773,
+            "uuid": "02bf7660-c38f-30b4-b740-2f9b4d717704",
             "security": "auto",
             "alter_id": 1,
             "global_padding": false,
@@ -321,13 +321,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
-                "headers": {
-                    "Host": "jp01-vm0.entry.srthdw.art"
-                }
             }
         }
     ],
