@@ -109,8 +109,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
@@ -174,9 +174,7 @@
                 "🇺🇸US | 🔴 | vless | @Good_V2rayy | 6",
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5",
-                "❔XX | 🔴 | vless | @VpnSkyy | 6",
-                "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
-                "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0"
+                "❔XX | 🔴 | vless | @VpnSkyy | 6"
             ]
         },
         {
@@ -186,8 +184,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
@@ -251,9 +249,7 @@
                 "🇺🇸US | 🔴 | vless | @Good_V2rayy | 6",
                 "❔XX | 🔴 | vless | @V2FETCH | 1",
                 "❔XX | 🔴 | vless | @VpnSkyy | 5",
-                "❔XX | 🔴 | vless | @VpnSkyy | 6",
-                "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
-                "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0"
+                "❔XX | 🔴 | vless | @VpnSkyy | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -335,9 +331,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "35.181.185.110",
+            "server": "52.208.75.209",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -366,9 +362,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "15.236.217.200",
+            "server": "13.43.76.222",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -465,27 +461,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -511,6 +486,27 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1539,6 +1535,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
+            "server": "172.66.44.211",
+            "server_port": 443,
+            "uuid": "690f16d0-6425-462b-86e0-a70a8169c5d9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg97.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
+                "headers": {
+                    "Host": "pardazeshvpn-tg97.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
             "uuid": "1b3b276f-44b4-4c39-bfdf-67ff6337b41f",
@@ -1564,37 +1591,6 @@
                 "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "POOrIaREd--persEPolIS.pAGEs.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "104.21.90.210",
-            "server_port": 8443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tnetplus-1wc.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "tnetplus-1wc.pages.dev"
                 }
             }
         },
@@ -2048,68 +2044,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ROMAX_VPN | 0",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "3fedbd26-b4da-440e-9f7c-004d2463caec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------Romax_VPN---------Romax_VPN---------Romax_VPN",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @TIKTOK_PROXY | 0",
-            "type": "vless",
-            "server": "medium.com",
-            "server_port": 443,
-            "uuid": "3fedbd26-b4da-440e-9f7c-004d2463caec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------TikTok_Proxy---------TikTok_Proxy---------TikTok_Proxy",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
-                }
             }
         }
     ],
