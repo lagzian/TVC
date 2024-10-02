@@ -124,8 +124,7 @@ proxies:
   - {"name":"🇹🇷TR | 🟢 | vmess | @proxystore11 | 8","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 9","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"172.66.213.38","port":"443","cipher":"auto","uuid":"3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss49406","headers":{"host":"Tree.Blanku.Me"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"172.64.35.226","port":"443","cipher":"auto","uuid":"3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss49406","headers":{"host":"Tree.Blanku.Me"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"188.114.99.187","port":"2095","cipher":"auto","uuid":"cfde02c6-00d8-4deb-b39a-21fa3e9a9056","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -138,7 +137,6 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
   - name: URL-TEST
     type: url-test
@@ -152,7 +150,6 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
   - name: FALLBACK
     type: fallback
@@ -165,7 +162,6 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
