@@ -431,7 +431,7 @@
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🔴 | vless | @proxystore11 | 5",
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -481,7 +481,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
@@ -864,7 +864,7 @@
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🔴 | vless | @proxystore11 | 5",
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -914,7 +914,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
@@ -9152,7 +9152,38 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "104.18.218.118",
+            "server_port": 443,
+            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "104.16.16.16",
             "server_port": 443,
@@ -9183,7 +9214,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "172.66.44.75",
             "server_port": 443,
@@ -9214,7 +9245,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "162.159.138.178",
             "server_port": 8443,
@@ -9241,37 +9272,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "vless.sub.amclubs.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "172.66.45.7",
-            "server_port": 443,
-            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
                 }
             }
         },
@@ -10573,7 +10573,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
