@@ -122,9 +122,9 @@
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 19",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇨🇦CA | 🔴 | vless | @DigiV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -142,8 +142,8 @@
                 "❔XX | 🔴 | vless | @ShadowProxy66 | 4",
                 "❔XX | 🔴 | vless | @ServerNett | 18",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 19",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 27",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 28",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 29",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 30",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
@@ -198,9 +198,9 @@
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 19",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 19",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇨🇦CA | 🔴 | vless | @DigiV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -218,8 +218,8 @@
                 "❔XX | 🔴 | vless | @ShadowProxy66 | 4",
                 "❔XX | 🔴 | vless | @ServerNett | 18",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 19",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 27",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 28",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 29",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 30",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
@@ -657,7 +657,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -707,7 +707,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @DigiV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1182,7 +1182,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 27",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 29",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 30",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1209,27 +1240,6 @@
                 "path": "\/www.speedtest.net\/VPNCSTOMIZE?ed=8443",
                 "headers": {
                     "Host": "VPNCUSTOMIZEe.www.speedtest.net.Naziitness.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 28",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
