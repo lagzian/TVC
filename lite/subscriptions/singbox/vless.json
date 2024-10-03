@@ -1547,6 +1547,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
+            "server": "172.66.44.75",
+            "server_port": 443,
+            "uuid": "c2c8a201-09b9-47a7-b336-fcf1657f54a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-wORKer-paNeL-3JC.pAgeS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@Azarakhsh_Proxy\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-wORKer-paNeL-3JC.pAgeS.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
             "server": "162.159.138.178",
             "server_port": 8443,
             "uuid": "8953f5bd-6ac8-4a67-b23e-ad01770ae331",
@@ -1572,37 +1603,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "vless.sub.amclubs.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "172.66.45.7",
-            "server_port": 443,
-            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
                 }
             }
         },
