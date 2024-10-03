@@ -124,8 +124,8 @@ proxies:
   - {"name":"🇹🇷TR | 🟢 | vmess | @proxystore11 | 8","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 9","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"104.19.45.47","port":"443","cipher":"auto","uuid":"7f225ee6-6d1d-4bba-b524-708e65533c57","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7f225ee6-6d1d-4bba-b524-708e65533c57","headers":{"host":"ip1.6929198.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"172.64.166.33","port":443,"cipher":"auto","uuid":"78462755-f265-4515-b0af-cb4d524118ae","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/78462755-f265-4515-b0af-cb4d524118ae","headers":{"host":"ip1.6016725.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"104.17.147.22","port":8880,"cipher":"auto","uuid":"033ba156-3479-4948-ba00-fa66bd6253b5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2s.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.19.45.47","port":"443","cipher":"auto","uuid":"7f225ee6-6d1d-4bba-b524-708e65533c57","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7f225ee6-6d1d-4bba-b524-708e65533c57","headers":{"host":"ip1.6929198.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -138,8 +138,8 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -152,8 +152,8 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -165,8 +165,8 @@ proxy-groups:
       - '🇹🇷TR | 🟢 | vmess | @proxystore11 | 8'
       - '❔XX | 🟢 | vmess | @proxystore11 | 9'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
