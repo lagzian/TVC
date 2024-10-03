@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -115,7 +114,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
@@ -135,8 +134,8 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 12",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 14",
                 "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
@@ -198,8 +197,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -207,7 +205,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
@@ -227,8 +225,8 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 12",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 14",
                 "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
@@ -306,38 +304,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "Parsashonam-64",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
@@ -539,7 +506,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @frev2ray | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1036,9 +1003,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 14",
+            "tag": "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "13.50.200.45",
+            "server": "13.50.114.193",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1058,9 +1025,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
+            "tag": "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "13.50.114.193",
+            "server": "46.137.10.128",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1214,7 +1181,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "a5ff380f-a4a5-48fa-a652-350efdf09e2a",
+            "uuid": "92d37260-cf51-437e-a3ac-9eb70cce60b5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1245,7 +1212,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "24cd7f26-280d-4127-a31e-3cf7deef971f",
+            "uuid": "a5ff380f-a4a5-48fa-a652-350efdf09e2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
