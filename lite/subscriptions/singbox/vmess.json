@@ -112,8 +112,8 @@
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -290,11 +290,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "3498c000-8e78-41db-ba47-2bdc420b2d0e",
+            "uuid": "686de4b9-70c3-46dc-968e-ae55bccf18be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -324,11 +324,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "172.64.166.33",
-            "server_port": 443,
-            "uuid": "78462755-f265-4515-b0af-cb4d524118ae",
+            "server": "80.85.152.179",
+            "server_port": 12910,
+            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,7 +341,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "172.64.166.33",
+                "server_name": "22.lwdh.us",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -351,9 +351,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/78462755-f265-4515-b0af-cb4d524118ae",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.64.166.33"
+                    "Host": "22.lwdh.us"
                 }
             }
         }
