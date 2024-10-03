@@ -106,16 +106,17 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
@@ -185,16 +186,17 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
@@ -280,11 +282,42 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "Parsashonam-65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-64",
+            "uuid": "Parsashonam-65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -461,7 +494,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -503,7 +536,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
