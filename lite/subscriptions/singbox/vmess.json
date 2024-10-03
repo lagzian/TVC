@@ -109,10 +109,11 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
             ]
         },
         {
@@ -122,10 +123,11 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -213,6 +215,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "172.67.244.191",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -271,11 +307,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "686de4b9-70c3-46dc-968e-ae55bccf18be",
+            "server": "104.21.1.28",
+            "server_port": 8880,
+            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -286,30 +322,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ws\/",
+                "path": "\/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "80.85.152.179",
-            "server_port": 12910,
-            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "server": "104.16.67.38",
+            "server_port": 443,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,7 +348,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "22.lwdh.us",
+                "server_name": "us3e-mmnnfr9dop0.v2freevpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -332,9 +358,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/v118-fccxmxm35",
                 "headers": {
-                    "Host": "22.lwdh.us"
+                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
                 }
             }
         }
