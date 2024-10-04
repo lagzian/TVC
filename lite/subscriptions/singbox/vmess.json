@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -122,7 +123,8 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -191,11 +193,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
+            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
             "type": "vmess",
-            "server": "104.21.28.70",
+            "server": "185.146.173.94",
             "server_port": 80,
-            "uuid": "5f9a10b3-54a7-45aa-b492-a5c04765f46c",
+            "uuid": "a07b4766-1a77-555f-9f7c-ab1fb81cbee8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +210,31 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
+            "type": "vmess",
+            "server": "185.146.173.48",
+            "server_port": 80,
+            "uuid": "8b3f70bd-d3b5-5267-8fd9-a34e935eaebd",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
