@@ -135,12 +135,13 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 12",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | 🟢 | trojan | @DirectVPN | 14",
                 "🇺🇸US | 🟢 | trojan | @DirectVPN | 15",
+                "🇺🇸US | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 14",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
@@ -225,12 +226,13 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 12",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | 🟢 | trojan | @DirectVPN | 14",
                 "🇺🇸US | 🟢 | trojan | @DirectVPN | 15",
+                "🇺🇸US | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 14",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
@@ -1036,9 +1038,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | trojan | @DirectVPN | 14",
+            "tag": "🇺🇸US | 🟢 | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "3.210.226.174",
+            "server": "3.131.34.242",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1058,9 +1060,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | trojan | @DirectVPN | 15",
+            "tag": "🇺🇸US | 🟢 | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "3.131.34.242",
+            "server": "18.118.76.119",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1146,6 +1148,37 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 14",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "255546dd-6289-4a3e-a45b-017a68d71a65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
