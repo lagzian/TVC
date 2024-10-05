@@ -11,8 +11,8 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 15.236.178.99, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 51.44.55.7, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 15.236.178.99, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17 = trojan, 51.44.55.7, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | 🟢 | trojan | @DirectVPN | 15 = trojan, 99.79.173.155, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | 🟢 | trojan | @DirectVPN | 16 = trojan, 15.223.124.54, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6 = vmess, 185.146.173.94, 80, username = a07b4766-1a77-555f-9f7c-ab1fb81cbee8, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"De2.vmess.site.", skip-cert-verify = true, tfo = false
@@ -21,9 +21,9 @@ DIRECT = direct
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @Hope_Net | 13 = vmess, 172.64.166.8, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip3.6929198.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
-URL-TEST = url-test,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
-FALLBACK = fallback,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
+URL-TEST = url-test,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
+FALLBACK = fallback,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇨🇦CA | 🟢 | trojan | @DirectVPN | 15,🇨🇦CA | 🟢 | trojan | @DirectVPN | 16,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
