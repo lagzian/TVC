@@ -127,7 +127,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 1",
@@ -163,7 +163,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 2",
+                "❔XX | 🔴 | vless | @iP_CF | 3",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -201,7 +202,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 1",
@@ -237,7 +238,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 2",
+                "❔XX | 🔴 | vless | @iP_CF | 3",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -538,30 +540,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
-            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "0304ed9d-e890-4dab-83d6-44ad7378ad7a",
+            "uuid": "0b8b3fdb-659b-430a-82c0-5b5cb72ba667",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -584,6 +565,27 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -679,7 +681,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "81d1e5fe-6551-41f5-a833-31dffb15ce22",
+            "uuid": "9e4957a4-8354-4a8d-b1da-71ffd3c52862",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -700,7 +702,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "81d1e5fe-6551-41f5-a833-31dffb15ce22",
+            "uuid": "9e4957a4-8354-4a8d-b1da-71ffd3c52862",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -781,7 +783,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1698,7 +1700,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 2",
+            "tag": "❔XX | 🔴 | vless | @iP_CF | 3",
+            "type": "vless",
+            "server": "[2a01:4f8:c013:637f::1]",
+            "server_port": 40346,
+            "uuid": "6e3acf13-788a-4de7-90f3-2887871bb42d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 4",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
