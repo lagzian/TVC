@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"183.236.51.23","port":"45020","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"80","cipher":"auto","uuid":"63911f91-bc91-4b71-8d40-9ba99e7043e0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"GWYp69Yujp2.yofnhkfc.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @customv2ray | 9","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"83981345-bf0c-4d1f-bbe3-1c03c195ac19","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6","type":"vmess","server":"185.146.173.94","port":"80","cipher":"auto","uuid":"a07b4766-1a77-555f-9f7c-ab1fb81cbee8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"De2.vmess.site."}}}
   - {"name":"🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7","type":"vmess","server":"185.146.173.48","port":"80","cipher":"auto","uuid":"8b3f70bd-d3b5-5267-8fd9-a34e935eaebd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"Fr2.vmess.site."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"172.67.244.191","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
@@ -135,6 +136,7 @@ proxy-groups:
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
@@ -148,6 +150,7 @@ proxy-groups:
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
@@ -160,6 +163,7 @@ proxy-groups:
     proxies:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @customv2ray | 9'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
