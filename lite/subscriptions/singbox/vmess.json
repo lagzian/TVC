@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 12",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "❔XX | 🟢 | vmess | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
@@ -123,9 +124,10 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 12",
+                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "❔XX | 🟢 | vmess | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
@@ -186,7 +188,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 6",
+            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 12",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 80,
@@ -210,7 +212,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 7",
+            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 13",
             "type": "vmess",
             "server": "185.146.173.48",
             "server_port": 80,
@@ -265,6 +267,23 @@
                 "headers": {
                     "Host": "gwdef.sbs"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 4",
+            "type": "vmess",
+            "server": "[2a12:5940:b856::2]",
+            "server_port": 80,
+            "uuid": "c28ff98f-bb72-4800-b0b6-5eac10fdc20f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
