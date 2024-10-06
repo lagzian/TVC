@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 15",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 16",
+                "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 10",
                 "❔XX | 🟢 | vmess | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -123,8 +122,7 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 15",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 16",
+                "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 10",
                 "❔XX | 🟢 | vmess | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -186,11 +184,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 15",
+            "tag": "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 10",
             "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "a07b4766-1a77-555f-9f7c-ab1fb81cbee8",
+            "server": "barfi.mgpingmg.shop",
+            "server_port": 8080,
+            "uuid": "07daab4b-5623-4ac0-b7f7-53fadd70d5dc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -200,37 +198,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 16",
-            "type": "vmess",
-            "server": "185.146.173.48",
-            "server_port": 80,
-            "uuid": "8b3f70bd-d3b5-5267-8fd9-a34e935eaebd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
