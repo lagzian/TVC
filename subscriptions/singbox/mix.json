@@ -252,7 +252,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
@@ -342,7 +342,6 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
-                "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 2",
@@ -769,7 +768,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
@@ -859,7 +858,6 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
-                "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 1",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 2",
@@ -4701,7 +4699,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -6945,37 +6943,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2rayNG_Matsuri | 0",
-            "type": "vless",
-            "server": "104.18.5.250",
-            "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iSaa1.PAGeS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/BDwnEtVwG7BS0S9f?ed=2560",
-                "headers": {
-                    "Host": "iSaa1.PAGeS.DeV"
                 }
             }
         },
