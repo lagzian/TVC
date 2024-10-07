@@ -1551,6 +1551,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
+            "server": "104.16.14.99",
+            "server_port": 443,
+            "uuid": "03a987de-7e12-4b38-acbc-e19c90e1cc85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ARCane-ROYAL.Pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ARCane-ROYAL.Pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "type": "vless",
             "server": "172.66.45.31",
             "server_port": 8443,
             "uuid": "1de40725-3e6b-42b1-9e3e-330c852d049e",
@@ -1576,37 +1607,6 @@
                 "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
                 "headers": {
                     "Host": "pardazeshvpn-tg56.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "172.66.44.75",
-            "server_port": 443,
-            "uuid": "c2c8a201-09b9-47a7-b336-fcf1657f54a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-wORKer-paNeL-3JC.pAgeS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@Azarakhsh_Proxy\/?ed=2560",
-                "headers": {
-                    "Host": "bpb-wORKer-paNeL-3JC.pAgeS.DeV"
                 }
             }
         },
