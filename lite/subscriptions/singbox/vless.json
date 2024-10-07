@@ -125,7 +125,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 15",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇨🇦CA | 🔴 | vless | @Watashi_VPN | 2",
@@ -134,6 +134,7 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
@@ -163,8 +164,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
+                "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -202,7 +203,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @DigiV2ray | 15",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
+                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇨🇦CA | 🔴 | vless | @Watashi_VPN | 2",
@@ -211,6 +212,7 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
@@ -240,8 +242,8 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 5",
-                "❔XX | 🔴 | vless | @iP_CF | 6",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 3",
+                "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -728,7 +730,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -940,6 +942,37 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "24151688-263d-4fae-864f-1f095e6d1560",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1703,7 +1736,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 3",
             "type": "vless",
             "server": "wWw.SpEeDtEsT.net",
             "server_port": 2087,
@@ -1727,7 +1760,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @iP_CF | 6",
+            "tag": "❔XX | 🔴 | vless | @iP_CF | 4",
             "type": "vless",
             "server": "IP_CF",
             "server_port": 0,
@@ -1805,9 +1838,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
             "type": "vless",
-            "server": "104.16.198.78",
-            "server_port": 8443,
-            "uuid": "a04144f8-3024-4bcb-949d-a5d677dcf0db",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "4763739c-881f-4258-8ef2-5c305cc035ef",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1817,7 +1850,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FrANcEKing.pageS.DEv",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1827,9 +1860,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/rP9TlLFr51rLm4gM?ed=2560",
+                "path": "\/Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray\/?ed=1024",
                 "headers": {
-                    "Host": "FrANcEKing.pageS.DEv"
+                    "Host": "speedtest.net"
                 }
             }
         },
