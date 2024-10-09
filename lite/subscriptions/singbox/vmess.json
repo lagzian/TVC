@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 26",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 27",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -122,7 +123,8 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 9",
-                "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 26",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 27",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -184,11 +186,28 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 35",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 26",
             "type": "vmess",
-            "server": "barfi.mgpingmg.shop",
-            "server_port": 8080,
-            "uuid": "07daab4b-5623-4ac0-b7f7-53fadd70d5dc",
+            "server": "23.154.136.47",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 27",
+            "type": "vmess",
+            "server": "108.181.200.220",
+            "server_port": 17163,
+            "uuid": "d54814a1-7a93-45f8-9117-db317a25d100",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
