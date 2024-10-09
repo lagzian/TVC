@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 17",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
@@ -153,8 +153,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 14",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 274",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
@@ -189,8 +189,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 17",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
@@ -232,8 +232,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 14",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 274",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
@@ -370,9 +370,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.169.1.70",
+            "server": "54.247.155.36",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -401,9 +401,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.133.4.61",
+            "server": "54.194.124.201",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1445,7 +1445,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 274",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
@@ -1466,10 +1466,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 275",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 274",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "28880d8d-7131-4917-8e48-bb6099f0efbd",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1477,16 +1477,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
