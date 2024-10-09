@@ -122,8 +122,8 @@
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -163,8 +163,9 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "❔XX | 🔴 | vless | @iP_CF | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+                "❔XX | 🔴 | vless | @flyv2ray | 12",
+                "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -199,8 +200,8 @@
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 19",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -240,8 +241,9 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "❔XX | 🔴 | vless | @iP_CF | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+                "❔XX | 🔴 | vless | @flyv2ray | 12",
+                "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -664,11 +666,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "20cd6da3-f3e7-437f-932b-f5c37ef3d7b4",
+            "uuid": "ac2b5a7c-2f9f-4292-9362-4c45c2ea5b62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -685,11 +687,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "20cd6da3-f3e7-437f-932b-f5c37ef3d7b4",
+            "uuid": "ac2b5a7c-2f9f-4292-9362-4c45c2ea5b62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1659,7 +1661,28 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "46f114e8-37cd-4e8f-d84c-4bc98dae2eb2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
@@ -1690,7 +1713,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @iP_CF | 3",
+            "tag": "❔XX | 🔴 | vless | @iP_CF | 4",
             "type": "vless",
             "server": "IP_CF",
             "server_port": 0,
