@@ -106,24 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇸🇪SE | 🟢 | vless | @Good_V2rayy | 2"
+                "❔XX | 🟢 | vless | @Good_V2rayy | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇸🇪SE | 🟢 | vless | @Good_V2rayy | 2"
+                "❔XX | 🟢 | vless | @Good_V2rayy | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+            "tag": "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
             "type": "vless",
             "server": "95.217.31.246",
             "server_port": 18929,
@@ -172,6 +174,42 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
+            "type": "vless",
+            "server": "www.python.org.downloads.traderarziran.com",
+            "server_port": 8443,
+            "uuid": "dacd12ee-d990-499a-bc96-9396c9635ff8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.python.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LnJ4SXxNsRigl5MVmGlQ5_I0G1fT3DYEYiL7KUEihxo",
+                    "short_id": "c7d80f2b01a1d1fe"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.python.org"
+                ],
+                "path": "\/"
             }
         },
         {
@@ -204,7 +242,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -305,7 +343,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @Good_V2rayy | 2",
+            "tag": "❔XX | 🟢 | vless | @Good_V2rayy | 2",
             "type": "vless",
             "server": "176.124.202.240",
             "server_port": 30118,
