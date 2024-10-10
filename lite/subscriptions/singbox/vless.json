@@ -118,14 +118,14 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 22",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 23",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -158,8 +158,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -196,14 +196,14 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 22",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 23",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -236,8 +236,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -589,7 +589,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "bwdraper.faculty.ucdavis.edu",
             "server_port": 443,
@@ -616,27 +637,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "bwdraper.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -728,7 +728,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 22",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -749,7 +749,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 21",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 23",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1564,11 +1564,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "172.66.44.156",
+            "server": "104.18.93.27",
             "server_port": 443,
-            "uuid": "4045e84e-5e3c-4f70-8ff5-c1097882a55a",
+            "uuid": "0d836bdb-adbc-4863-8c56-dc662e7f6919",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1578,7 +1578,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-wOrkeR-PANEl1-E4P.PaGeS.Dev",
+                "server_name": "mahdiv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1588,19 +1588,19 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "bpb-wOrkeR-PANEl1-E4P.PaGeS.Dev"
+                    "Host": "mahdiv2.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "www.python.org.downloads.traderarziran.com",
-            "server_port": 8443,
-            "uuid": "dacd12ee-d990-499a-bc96-9396c9635ff8",
-            "flow": "xtls-rprx-vision",
+            "server": "162.159.138.178",
+            "server_port": 443,
+            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1609,25 +1609,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.python.org",
+                "server_name": "Pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LnJ4SXxNsRigl5MVmGlQ5_I0G1fT3DYEYiL7KUEihxo",
-                    "short_id": "c7d80f2b01a1d1fe"
                 }
             },
             "transport": {
-                "type": "http",
-                "host": [
-                    "www.python.org"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/Telegram-Xv2ry2-2?ed=512",
+                "headers": {
+                    "Host": "Pages.dev"
+                }
             }
         },
         {
