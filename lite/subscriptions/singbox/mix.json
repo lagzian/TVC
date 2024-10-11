@@ -1897,6 +1897,20 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
+            "server": "pro.fontawesome.com",
+            "server_port": 8080,
+            "uuid": "dacd12ee-d990-499a-bc96-9396c9635ff8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "type": "vless",
             "server": "172.66.46.249",
             "server_port": 443,
             "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
@@ -1922,37 +1936,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "79193c43.aryoovpn-5fr.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 8443,
-            "uuid": "9d5e7586-64e1-4c29-9d47-6cbbd57fe8d1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg48.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-NUFiLTER",
-                "headers": {
-                    "Host": "pardazeshvpn-tg48.pages.dev"
                 }
             }
         },
