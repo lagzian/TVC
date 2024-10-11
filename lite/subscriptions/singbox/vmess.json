@@ -107,8 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 24",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 25",
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -122,8 +120,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 24",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 25",
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -166,74 +162,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 24",
-            "type": "vmess",
-            "server": "104.21.226.229",
-            "server_port": 443,
-            "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 25",
-            "type": "vmess",
-            "server": "104.21.226.173",
-            "server_port": 443,
-            "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
