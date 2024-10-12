@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -120,7 +119,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -174,42 +172,6 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "www.uplod.ir.download.ir.209-sms.ir",
-            "server_port": 2096,
-            "uuid": "dacd12ee-d990-499a-bc96-9396c9635ff8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.python.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TS5-zLzFKNxp7JFXjT_uxmcBKWyW2cesU1YsdgRlQTs",
-                    "short_id": "c7ad7539483029e7"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "www.python.org"
-                ],
-                "path": "\/resource\/9876\/abcd\/ef12g3h4i5j6k7l8m9n0opqrs\/2024\/xyz?auth=abcd1234efgh5678ijkl9101mnopqrstu"
             }
         },
         {
