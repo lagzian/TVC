@@ -141,9 +141,12 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
@@ -166,8 +169,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -229,9 +232,12 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
@@ -254,8 +260,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -1123,6 +1129,57 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 15",
+            "type": "vmess",
+            "server": "172.67.138.140",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "103.85.25.134",
+            "server_port": 55218,
+            "uuid": "3827a5c8-c031-46cf-848d-e890d0ead803",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 11",
             "type": "vless",
             "server": "151.101.67.10",
@@ -1159,6 +1216,37 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+            "type": "vless",
+            "server": "live.wkrq.com",
+            "server_port": 443,
+            "uuid": "1edabefc-f41f-4bb0-a001-0b3c95c4d18e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.wkrq.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880",
+                "headers": {
+                    "Host": "live.wkrq.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
@@ -1735,33 +1823,9 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net",
-            "server_port": 2095,
-            "uuid": "17e3fee1-d266-4617-ff64-bb8afdc84727",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "172.64.166.8",
+            "server": "172.64.166.9",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
@@ -1778,7 +1842,41 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "172.64.166.8"
+                    "Host": "172.64.166.9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "104.19.45.15",
+            "server_port": 8443,
+            "uuid": "4bbc92db-5f8f-42fd-87ff-440e9040d23c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.19.45.15",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.dongtaiwang.com",
+                "headers": {
+                    "Host": "104.19.45.15"
                 }
             }
         },

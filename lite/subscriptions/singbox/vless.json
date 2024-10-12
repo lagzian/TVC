@@ -138,6 +138,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
@@ -215,6 +216,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 6",
@@ -1020,6 +1022,37 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
+            "type": "vless",
+            "server": "live.wkrq.com",
+            "server_port": 443,
+            "uuid": "1edabefc-f41f-4bb0-a001-0b3c95c4d18e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.wkrq.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880",
+                "headers": {
+                    "Host": "live.wkrq.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
