@@ -119,14 +119,14 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 22",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 23",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -159,8 +159,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -197,14 +197,14 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇩🇪DE | 🔴 | vless | @ARv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 22",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 23",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 20",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 21",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
@@ -237,8 +237,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -620,12 +620,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
             "type": "vless",
-            "server": "188.245.164.28",
-            "server_port": 8443,
+            "server": "bwdraper.faculty.ucdavis.edu",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -634,32 +634,27 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "bwdraper.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SO5o7DN7pF-elJrqiH0XRDYQqNvuXlLDHg_xtC77cRw",
-                    "short_id": "c34717"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "bwdraper.faculty.ucdavis.edu"
+                }
             }
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 10",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8880,
+            "server_port": 8080,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -670,7 +665,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -764,11 +759,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 20",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "76d8e4e4-43a6-4106-8994-7e5380e1915e",
+            "uuid": "fcbca551-4333-4c2c-954e-666dcf2bcc7c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -785,11 +780,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 23",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 21",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "76d8e4e4-43a6-4106-8994-7e5380e1915e",
+            "uuid": "fcbca551-4333-4c2c-954e-666dcf2bcc7c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1573,7 +1568,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "193.107.48.5",
             "server_port": 40107,
@@ -1594,7 +1589,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "104.18.39.232",
             "server_port": 2083,
