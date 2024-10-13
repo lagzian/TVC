@@ -106,26 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6"
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6"
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 45020,
@@ -165,7 +165,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
             "server": "afrhms16v.bestxray.buzz",
             "server_port": 443,
@@ -216,7 +216,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -240,7 +240,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -274,11 +274,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "162.159.62.69",
+            "server": "ParsVds.ir",
             "server_port": 443,
-            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -291,7 +291,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Rockp.Blanku.Me",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,18 +301,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wss49406",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "Rockp.Blanku.Me"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "webmail.shokoohsanat.ir",
+            "server": "hms082.gwdef.sbs",
             "server_port": 443,
-            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -325,7 +325,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Rockp.Blanku.Me",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -335,9 +335,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wss49406",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "Rockp.Blanku.Me"
+                    "Host": ""
                 }
             }
         }
