@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
@@ -121,7 +121,7 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
@@ -167,9 +167,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "108.181.200.220",
-            "server_port": 50613,
-            "uuid": "09e81eaa-d298-432c-e7b6-17add32d14fc",
+            "server": "172.67.170.103",
+            "server_port": 2095,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -182,18 +182,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/glweidf.sbs\/linkws",
                 "headers": {
-                    "Host": "108.181.200.220"
+                    "Host": "172.67.170.103"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 0",
             "type": "vmess",
-            "server": "2a01:4f8:1c1b:222a::1",
+            "server": "2a12:5940:b856::2",
             "server_port": 80,
-            "uuid": "5e74a2f8-5516-40be-b9d7-b39a80e5726b",
+            "uuid": "ec844506-3b53-4a0c-86b6-f76d3347c0fd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
