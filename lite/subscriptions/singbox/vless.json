@@ -164,8 +164,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 3",
-                "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
@@ -244,8 +244,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 3",
-                "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "❔XX | 🔴 | vless | @iP_CF | 5",
@@ -1689,6 +1689,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
+            "type": "vless",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "151.101.2.216"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1717,27 +1738,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
-            "type": "vless",
-            "server": "81.12.27.93",
-            "server_port": 52722,
-            "uuid": "2c3e2c41-4395-4df3-e788-cb9cc82beceb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "81.12.27.93"
-                }
             }
         },
         {
