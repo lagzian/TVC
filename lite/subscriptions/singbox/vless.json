@@ -1743,9 +1743,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "10213083-7f12-446f-acf4-3ea37bdac41d",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "880bc947-a08b-4340-beb4-55fab71d1388",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1753,21 +1753,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray\/?ed=1024",
+                "path": "\/melo\/",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1776,7 +1766,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "4839195f-442a-4f1d-9b8e-dff843cedfdb",
+            "uuid": "10213083-7f12-446f-acf4-3ea37bdac41d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
