@@ -128,8 +128,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "❔XX | 🟢 | vmess | @customv2ray | 10",
-                "🇷🇺RU | 🟢 | vmess | @customv2ray | 13",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
@@ -173,8 +172,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
-                "❔XX | 🟢 | vmess | @customv2ray | 10",
-                "🇷🇺RU | 🟢 | vmess | @customv2ray | 13",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 5",
                 "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 1",
@@ -737,13 +735,13 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @customv2ray | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
             "type": "vmess",
-            "server": "mrconfig---v6.secretvps1.top",
-            "server_port": 80,
-            "uuid": "58e96593-2e44-4e1a-9703-153e68a52f2f",
+            "server": "lammaland.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -751,23 +749,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @customv2ray | 13",
-            "type": "vmess",
-            "server": "meme859.secretvps.cam",
-            "server_port": 80,
-            "uuid": "0b20454f-cec7-48fe-af19-2ec9d76b5f6e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "lammaland.org"
+                }
             }
         },
         {
