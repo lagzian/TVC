@@ -111,8 +111,9 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
-                "❔XX | 🟢 | vmess | @Hope_Net | 15"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 9"
             ]
         },
         {
@@ -124,8 +125,9 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
-                "❔XX | 🟢 | vmess | @Hope_Net | 15"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -274,10 +276,44 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
+            "type": "vmess",
+            "server": "usarm.ptuu.gq",
+            "server_port": 443,
+            "uuid": "8f0dae33-195e-46b1-fb4a-3e8fd8806153",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "usarm.ptuu.gq",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ray",
+                "headers": {
+                    "Host": "usarm.ptuu.gq"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
             "server": "221.131.165.72",
-            "server_port": 11915,
+            "server_port": 11930,
             "uuid": "2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2",
             "security": "auto",
             "alter_id": 0,
@@ -291,11 +327,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @FreakConfig | 9",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "baacbac-caab-aacb-cbad-bbaaabcbccca",
+            "server": "172.64.155.209",
+            "server_port": 80,
+            "uuid": "441e10f0-4c76-4d6c-97b9-83bbefcbc602",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,6 +341,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
             }
         }
     ],
