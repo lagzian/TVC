@@ -153,13 +153,13 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi&security=none&encryption=none&host=sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi1.v2vless.sitespeedtest.net&type=ws#🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -233,13 +233,13 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi&security=none&encryption=none&host=sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi1.v2vless.sitespeedtest.net&type=ws#🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1440,10 +1440,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 346",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "3a695ef0-5a70-4c29-b244-e7bb82db7f68",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1451,6 +1451,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1461,10 +1471,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "3a695ef0-5a70-4c29-b244-e7bb82db7f68",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1472,6 +1482,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1558,21 +1578,7 @@
             }
         },
         {
-            "tag": "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi&security=none&encryption=none&host=sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi1.v2vless.sitespeedtest.net&type=ws#🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "104.21.22.239",
-            "server_port": 2052,
-            "uuid": "d3acc981-9f22-4f57-a203-779c7e0ec8f7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "172.66.44.111",
             "server_port": 443,
@@ -1600,6 +1606,20 @@
                 "headers": {
                     "Host": "094cB6e9.mhassANi.pagES.DEV"
                 }
+            }
+        },
+        {
+            "tag": "@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi&security=none&encryption=none&host=sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi1.v2vless.sitespeedtest.net&type=ws#🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "type": "vless",
+            "server": "104.21.22.239",
+            "server_port": 2052,
+            "uuid": "d3acc981-9f22-4f57-a203-779c7e0ec8f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
