@@ -150,6 +150,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 0",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 343",
@@ -227,6 +228,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 0",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 343",
@@ -1333,6 +1335,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazesh18.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 0",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAy",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "headers": {
+                    "Host": "104.17.148.22"
                 }
             }
         },
