@@ -164,17 +164,14 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 1",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 3",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 6",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 8",
                 "🇸🇪SE | 🔴 | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | 🟢 | vless | @Good_V2rayy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4",
@@ -243,17 +240,14 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 1",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 3",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 6",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 8",
                 "🇸🇪SE | 🔴 | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | 🟢 | vless | @Good_V2rayy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4",
@@ -1717,68 +1711,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "88afdc30-f2c4-4416-ac22-4a157ab4656e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cmd.felafel.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigTell",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 2",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "88afdc30-f2c4-4416-ac22-4a157ab4656e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xd28ajjn.felafel.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigTell",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1835,7 +1767,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
             "type": "vless",
             "server": "151.101.2.216",
             "server_port": 80,
@@ -1850,27 +1782,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "151.101.2.216"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-            "type": "vless",
-            "server": "151.101.2.216",
-            "server_port": 80,
-            "uuid": "b0d23584-afa8-4d19-884a-19a7e5900951",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS?ed=8080",
                 "headers": {
                     "Host": "151.101.2.216"
                 }
@@ -1949,7 +1860,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 7",
             "type": "vless",
             "server": "172.67.160.192",
             "server_port": 8080,
@@ -1963,7 +1874,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 8",
             "type": "vless",
             "server": "162.251.82.56",
             "server_port": 8080,
