@@ -172,7 +172,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -183,8 +183,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -264,7 +264,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -275,8 +275,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @iP_CF | 2",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1948,11 +1948,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "aabccab-aabc-cbaa-bacd-accbbcbaaacb",
+            "server": "104.16.243.91",
+            "server_port": 2095,
+            "uuid": "200d3219-285b-4eeb-9bec-941268c71d21",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1962,6 +1962,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=512",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -2193,7 +2200,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
             "type": "vless",
             "server": "Abrha.net",
             "server_port": 8443,
@@ -2207,7 +2214,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 443,
