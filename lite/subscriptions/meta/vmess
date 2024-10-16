@@ -126,8 +126,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"172.67.244.191","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 0","type":"vmess","server":"2a12:5940:b856::2","port":"80","cipher":"auto","uuid":"ec844506-3b53-4a0c-86b6-f76d3347c0fd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"splithttp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"104.16.243.91","port":"2095","cipher":"auto","uuid":"200d3219-285b-4eeb-9bec-941268c71d21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=512","headers":{"host":"sgcdn3.fask511.cfd"}}}
-  - {"name":"🇵🇱PL | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"128.204.223.42","port":"4017","cipher":"auto","uuid":"f8cf7fa6-0914-47fd-8701-e7eb593d2f79","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"104.16.243.91","port":"2095","cipher":"auto","uuid":"200d3219-285b-4eeb-9bec-941268c71d21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=512","headers":{"host":"sgcdn3.fask511.cfd"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"none","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"germanY.digiTALOCEAn.isvVPn.ORG."}}}
 proxy-groups:
   - name: MANUAL
@@ -141,8 +140,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
-      - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 9'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: URL-TEST
     type: url-test
@@ -156,8 +154,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
-      - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 9'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: FALLBACK
     type: fallback
@@ -170,8 +167,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 8'
-      - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 9'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 9'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
