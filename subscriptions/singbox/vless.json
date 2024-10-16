@@ -153,7 +153,7 @@
                 "🚩CF | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
-                "TVCfzvkdtlzsd",
+                "TVCdakzimzzof",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
@@ -357,7 +357,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -583,7 +582,7 @@
                 "🚩CF | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
-                "TVCfzvkdtlzsd",
+                "TVCdakzimzzof",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
@@ -787,7 +786,6 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -2123,7 +2121,7 @@
             }
         },
         {
-            "tag": "TVCfzvkdtlzsd",
+            "tag": "TVCdakzimzzof",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -7204,37 +7202,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "104.21.90.210",
-            "server_port": 8443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tnetplus-1wc.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "tnetplus-1wc.pages.dev"
-                }
             }
         },
         {
