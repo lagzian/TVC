@@ -147,6 +147,7 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
+                "❔XX | 🔴 | vless | @ServerNett | 22",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 36",
@@ -170,12 +171,14 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 3",
@@ -236,6 +239,7 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
+                "❔XX | 🔴 | vless | @ServerNett | 22",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 36",
@@ -259,12 +263,14 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
+                "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 3",
@@ -1282,11 +1288,25 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @ServerNett | 22",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1c:3786::1]",
+            "server_port": 49461,
+            "uuid": "1f6cb664-3435-48ba-a25c-ee17b6107b04",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "476c9705-0ab2-4729-904b-3774179fad8b",
+            "uuid": "a57ddecb-1922-4e97-ba8e-577147e6e51e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1611,7 +1631,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "5141c571-0bfd-447d-a2e2-0f4aab7e7563",
+            "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1642,7 +1662,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "5141c571-0bfd-447d-a2e2-0f4aab7e7563",
+            "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1844,7 +1864,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "104.27.207.92",
+            "server_port": 443,
+            "uuid": "f06ac303-e626-451d-bcfc-ee825ee69398",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "AzAdnET-SemeJ.pAGES.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/iLBB4pavFZGckVIC",
+                "headers": {
+                    "Host": "AzAdnET-SemeJ.pAGES.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "108.165.216.31",
             "server_port": 443,
@@ -1871,37 +1922,6 @@
                 "path": "\/QDgbPY504qRAGCv5?ed=2560",
                 "headers": {
                     "Host": "xN----Pmcnaac0DKn0Rb71nDa.PAGes.deV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "104.18.39.232",
-            "server_port": 2083,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ArGodev11222.PaGes.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@\/?ed=2560",
-                "headers": {
-                    "Host": "ArGodev11222.PaGes.Dev"
                 }
             }
         },
@@ -1988,6 +2008,48 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "81.12.27.90",
+            "server_port": 39568,
+            "uuid": "9520a1fd-5ced-4a0f-a912-ffabccc52543",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "81.12.27.90"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "151.101.2.216"
                 }
             }
         },
