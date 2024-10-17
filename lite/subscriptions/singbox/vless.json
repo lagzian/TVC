@@ -109,7 +109,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 35",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
@@ -158,7 +158,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
@@ -189,7 +189,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 35",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
@@ -238,7 +238,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
@@ -341,7 +341,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1542,10 +1542,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1553,16 +1553,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
