@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -200,11 +200,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
             "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2053,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "104.21.83.115",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -217,7 +217,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
+                "server_name": "hms02.fxiaomi.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -227,9 +227,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "path": "\/link",
                 "headers": {
-                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
@@ -343,6 +343,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "1229VM6.nnaotexiongditkgroup.top",
+            "server_port": 2053,
+            "uuid": "23de7970-038f-403f-f979-28124f3be02a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/1229VM6",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "104.17.75.75",
@@ -364,23 +388,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bacabca-acab-baca-bcda-acbcbababcca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
