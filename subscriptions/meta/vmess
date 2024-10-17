@@ -159,9 +159,9 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"172.64.167.5","port":"2095","cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"172.64.167.22","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip3.6929198.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"104.26.5.112","port":"2095","cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 5","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"6529ee7d-b090-4515-8595-8bbdb6227fe1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"gerMAnyISvP.iR."}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 11","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"0c32c3dc-e7f3-482c-b3b1-b68fd8cda65a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"bRItISh.ovH.ISVvpn.uk."}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 13","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG."}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 7","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"6529ee7d-b090-4515-8595-8bbdb6227fe1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"gerMAnyISvP.iR."}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 13","type":"vmess","server":"www.Kayak.com","port":"443","cipher":"auto","uuid":"0c32c3dc-e7f3-482c-b3b1-b68fd8cda65a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"bRItISh.ovH.ISVvpn.uk."}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG."}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -207,9 +207,9 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 5'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 11'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -255,9 +255,9 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 5'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 11'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -302,9 +302,9 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 5'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 11'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 7'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 13'
+      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
