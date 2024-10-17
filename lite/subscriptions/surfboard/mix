@@ -11,18 +11,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 13.39.248.46, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17 = trojan, 13.39.203.163, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | 🟢 | trojan | @DirectVPN | 15 = trojan, 13.37.192.246, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | 🟢 | trojan | @DirectVPN | 16 = trojan, 15.188.124.132, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 18.135.120.70, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 18.169.67.91, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | @DirectVPN | 15 = trojan, 13.42.241.86, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | @DirectVPN | 16 = trojan, 35.179.222.220, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🟢 | vmess | @mftizi | 16 = vmess, 104.19.51.232, 2086, username = 29eebb60-b27b-4a9d-bba5-947763d9205e, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip005.dtku47.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13 = vmess, 104.16.61.8, 2053, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = false, ws-path = /linde06.indiavideo.sbs/linkws, ws-headers = Host:"worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0 = vmess, 172.67.244.191, 443, username = bc864078-dcf3-4bf4-8dbf-ca9f200b56be, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"gwdef.sbs", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇫🇷FR | 🟢 | trojan | @DirectVPN | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
-URL-TEST = url-test,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇫🇷FR | 🟢 | trojan | @DirectVPN | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
-FALLBACK = fallback,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17,🇫🇷FR | 🟢 | trojan | @DirectVPN | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+URL-TEST = url-test,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+FALLBACK = fallback,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @DirectVPN | 15,🇬🇧GB | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
