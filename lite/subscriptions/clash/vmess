@@ -122,8 +122,6 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"104.19.51.232","port":"2086","cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}}}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"2a12:5940:b856::2","port":"80","cipher":"auto","uuid":"ec844506-3b53-4a0c-86b6-f76d3347c0fd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"splithttp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"15086.kuaiyin02.top","port":"15086","cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.19.32.216","port":"2095","cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG."}}}
 proxy-groups:
   - name: MANUAL
@@ -135,8 +133,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: URL-TEST
     type: url-test
@@ -148,8 +144,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: FALLBACK
     type: fallback
@@ -160,8 +154,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
