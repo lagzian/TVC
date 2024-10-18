@@ -124,11 +124,10 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"18.188.22.64","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/orbHPhkP","headers":{"host":"cscEqFeksg1.wzjwkqya.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"104.19.51.232","port":"2086","cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"172.67.244.191","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"2a12:5940:b856::2","port":"80","cipher":"auto","uuid":"ec844506-3b53-4a0c-86b6-f76d3347c0fd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"splithttp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"172.64.166.2","port":"2095","cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"104.20.25.146","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ip3.6929198.xyz"}}}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"15086.kuaiyin02.top","port":"15086","cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.19.32.216","port":"2095","cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"www.Kayak.com","port":"80","cipher":"auto","uuid":"b40aefd2-4431-41a0-8623-4d552a730070","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn","headers":{"host":"copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG."}}}
 proxy-groups:
   - name: MANUAL
@@ -142,11 +141,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: URL-TEST
     type: url-test
@@ -160,11 +158,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: FALLBACK
     type: fallback
@@ -177,11 +174,10 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
