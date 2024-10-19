@@ -121,7 +121,7 @@
                 "🇺🇸US | 🔴 | vless | @frev2ray | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
-                "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 7",
+                "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 6",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 4",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 5",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -151,8 +151,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -194,7 +194,7 @@
                 "🇺🇸US | 🔴 | vless | @frev2ray | 7",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
-                "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 7",
+                "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 6",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 4",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 5",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -224,8 +224,8 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -662,7 +662,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 7",
+            "tag": "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 6",
             "type": "vless",
             "server": "185.146.173.82",
             "server_port": 8880,
@@ -1401,27 +1401,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 341",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 324",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "c0259a71-9059-4ba3-9004-17e0b831f023",
+            "server_port": 80,
+            "uuid": "77a55f57-b0bb-403f-a3f3-e233b9ea0a5f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -1432,7 +1422,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 325",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
