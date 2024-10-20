@@ -13,13 +13,13 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | 🟢 | vmess | @mftizi | 16 = vmess, cfcdn3.sanfencdn9.com, 80, username = de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44, ws = true, tls = , vmess-aead = true, ws-path = /video/qTjvEqix, ws-headers = Host:"CfwMEEhvjp3.wzjwkqya.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @mftizi | 17 = vmess, cfcdn2.sanfencdn9.com, 2052, username = de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44, ws = true, tls = , vmess-aead = true, ws-path = /video/orbHPhkP, ws-headers = Host:"cscEqFeksg1.wzjwkqya.xyz", skip-cert-verify = true, tfo = false
+🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16 = vmess, 104.16.61.8, 2086, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = , vmess-aead = false, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"vmess.taxar71054.workers.dev", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6 = vmess, www.speedtest.net, 8880, username = 48c766e5-c9b7-4561-9b9f-5b62b0f3a9c2, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @Hope_Net | 2 = vmess, 104.19.59.89, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip2.6016725.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 2
-URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 2
-FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 2
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16,🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
