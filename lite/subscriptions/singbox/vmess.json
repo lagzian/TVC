@@ -112,8 +112,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -297,11 +297,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "85.133.195.41",
-            "server_port": 8888,
-            "uuid": "8d535673-6112-4eb0-a9f5-bed343d93035",
+            "server": "104.20.18.168",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,14 +311,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.20.18.168"
+                }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "50021.baidu-cdn.top",
-            "server_port": 50021,
-            "uuid": "9f5e9155-2356-40be-8549-ee2f3e45fe36",
+            "server": "85.133.195.41",
+            "server_port": 8888,
+            "uuid": "8d535673-6112-4eb0-a9f5-bed343d93035",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

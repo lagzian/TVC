@@ -123,8 +123,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6","type":"vmess","server":"www.speedtest.net","port":"8880","cipher":"auto","uuid":"48c766e5-c9b7-4561-9b9f-5b62b0f3a9c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"2a12:5940:b856::2","port":"80","cipher":"auto","uuid":"ec844506-3b53-4a0c-86b6-f76d3347c0fd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"splithttp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"104.20.18.168","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🇮🇷IR | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"85.133.195.41","port":"8888","cipher":"auto","uuid":"8d535673-6112-4eb0-a9f5-bed343d93035","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"50021.baidu-cdn.top","port":"50021","cipher":"auto","uuid":"9f5e9155-2356-40be-8549-ee2f3e45fe36","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -136,8 +136,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -149,8 +149,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -161,8 +161,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 4'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
