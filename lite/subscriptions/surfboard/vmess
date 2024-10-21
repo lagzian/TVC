@@ -15,11 +15,10 @@ DIRECT = direct
 🇺🇸US | 🟢 | vmess | @mftizi | 17 = vmess, cfcdn2.sanfencdn9.com, 2052, username = de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44, ws = true, tls = , vmess-aead = true, ws-path = /video/orbHPhkP, ws-headers = Host:"cscEqFeksg1.wzjwkqya.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17 = vmess, gcore-bwg.1929585.xyz, 443, username = 4ffb2fa9-d321-4a73-8d5f-1d6c37b4a683, ws = true, tls = 1, vmess-aead = false, ws-path = /ab, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇭🇰HK | 🟢 | vmess | @Hope_Net | 9 = vmess, 168.70.122.186, 40090, username = f74d582c-f53d-4a68-8586-67f7340fcd55, ws = true, tls = , vmess-aead = true, ws-path = , ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 9
-URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 9
-FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
+FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
