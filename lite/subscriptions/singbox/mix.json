@@ -161,14 +161,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 308",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -248,14 +248,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 308",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1699,10 +1699,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 308",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "77a55f57-b0bb-403f-a3f3-e233b9ea0a5f",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1710,6 +1710,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1859,11 +1869,11 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "162.159.134.23",
-            "server_port": 8080,
-            "uuid": "9b196b50-37f2-4f4b-b175-06273adc6207",
+            "server": "yichueng.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1872,20 +1882,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "yichueng.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/9b196b50-37f2-4f4b-b175-06273adc6207-vm",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "162.159.134.23"
+                    "Host": "yichueng.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "172.67.116.48",
-            "server_port": 80,
-            "uuid": "22a13aa2-4854-44cb-e090-ec71ab84b1ff",
+            "server": "168.70.122.186",
+            "server_port": 40090,
+            "uuid": "f74d582c-f53d-4a68-8586-67f7340fcd55",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1900,7 +1920,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.116.48"
+                    "Host": ""
                 }
             }
         },
