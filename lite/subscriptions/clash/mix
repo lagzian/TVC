@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.126.110.234","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 18","type":"trojan","server":"18.198.105.61","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.36.102.108","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 18","type":"trojan","server":"3.126.110.234","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"52.212.213.42","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"18.203.140.219","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"ambxxic01hk.dorabbb.top","port":"44806","cipher":"auto","uuid":"fe9333e9-c864-41ea-8076-a0df85cc50de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -136,7 +136,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 17'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
@@ -154,7 +154,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 17'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
@@ -171,7 +171,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 17'
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 18'
