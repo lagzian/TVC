@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | trojan | @PrivateVPNs | 18 = trojan, 13.51.220.245, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-❔XX | 🟢 | trojan | @PrivateVPNs | 19 = trojan, 13.51.188.221, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-TVCovrzczqkpk = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
+🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18 = trojan, 13.51.220.245, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19 = trojan, 13.51.188.221, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+TVCfnzocapoej = trojan, , , password = , udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @PrivateVPNs | 18,❔XX | 🟢 | trojan | @PrivateVPNs | 19,TVCovrzczqkpk
-URL-TEST = url-test,❔XX | 🟢 | trojan | @PrivateVPNs | 18,❔XX | 🟢 | trojan | @PrivateVPNs | 19,TVCovrzczqkpk
-FALLBACK = fallback,❔XX | 🟢 | trojan | @PrivateVPNs | 18,❔XX | 🟢 | trojan | @PrivateVPNs | 19,TVCovrzczqkpk
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,TVCfnzocapoej
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,TVCfnzocapoej
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,TVCfnzocapoej
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
