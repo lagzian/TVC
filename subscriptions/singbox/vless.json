@@ -127,9 +127,6 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "❔XX | 🔴 | vless | @Parsashonam | 30",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 31",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "❔XX | 🔴 | vless | @Parsashonam | 35",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 0",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -156,7 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "❔XX | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCflrbzbqbjd",
+                "TVCxufhzjpzjn",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -593,9 +590,6 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "❔XX | 🔴 | vless | @Parsashonam | 30",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 31",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "❔XX | 🔴 | vless | @Parsashonam | 35",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 0",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -622,7 +616,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "❔XX | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCflrbzbqbjd",
+                "TVCxufhzjpzjn",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -1467,65 +1461,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-            "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-79",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @Parsashonam | 35",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1b:26eb::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-79",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
-            "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "Parsashonam-79",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 0",
             "type": "vless",
             "server": "speedtest.net",
@@ -2244,7 +2179,7 @@
             }
         },
         {
-            "tag": "TVCflrbzbqbjd",
+            "tag": "TVCxufhzjpzjn",
             "type": "vless",
             "server": "",
             "server_port": 0,
