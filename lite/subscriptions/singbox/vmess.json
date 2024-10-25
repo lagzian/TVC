@@ -112,7 +112,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
             ]
@@ -127,7 +127,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
             ],
@@ -285,11 +285,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "172.64.166.2",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "36.150.27.84",
+            "server_port": 28365,
+            "uuid": "a4a981bb-b3b1-4cd3-a502-4772462945d9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,16 +302,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "36.150.27.84"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "an.anaviriti.info",
+            "server": "c.pelang.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -326,7 +326,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "an.anaviriti.info",
+                "server_name": "c.pelang.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -338,7 +338,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "an.anaviriti.info"
+                    "Host": "c.pelang.org"
                 }
             }
         },
