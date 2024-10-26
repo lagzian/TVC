@@ -142,7 +142,6 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 19",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 20",
-                "❔XX | 🔴 | vless | @ServerNett | 20",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 21",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 39",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 40",
@@ -161,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -219,7 +218,6 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 19",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 20",
-                "❔XX | 🔴 | vless | @ServerNett | 20",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 21",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 39",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 40",
@@ -238,8 +236,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1248,20 +1246,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ServerNett | 20",
-            "type": "vless",
-            "server": "[2a01:4f8:c010:4462::1]",
-            "server_port": 28561,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇸🇪SE | 🔴 | vless | @ServerNett | 21",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1692,6 +1676,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "104.26.11.137",
+            "server_port": 443,
+            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-gb-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-gb-1.brocdn.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "104.16.60.8",
@@ -1720,20 +1735,6 @@
                 "headers": {
                     "Host": "ahmedquran19.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "79.127.70.113",
-            "server_port": 2083,
-            "uuid": "2a363760-265f-4885-a96e-8d9daf0ad5c5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
