@@ -106,7 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 16",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 0",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 14"
             ]
@@ -115,7 +117,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 4",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 16",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 0",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 14"
             ],
@@ -140,12 +144,32 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 4",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
             "type": "shadowsocks",
-            "server": "exchange.gameaurela.click",
-            "server_port": 52952,
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 9",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         },
