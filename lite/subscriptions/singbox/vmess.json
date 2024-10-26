@@ -108,14 +108,14 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇹🇼TW | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇹🇼TW | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -124,14 +124,14 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9",
-                "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇹🇼TW | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇹🇼TW | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -202,11 +202,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35",
             "type": "vmess",
-            "server": "188.114.96.6",
+            "server": "172.67.170.11",
             "server_port": 443,
-            "uuid": "ca76a969-3a05-436d-ae49-662872dd5df3",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -219,7 +219,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fvn.ujuhuaflo.com",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -229,18 +229,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "fvn.ujuhuaflo.com"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36",
             "type": "vmess",
-            "server": "185.146.173.59",
+            "server": "188.114.97.210",
             "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,7 +253,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -263,9 +263,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/link",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -362,7 +362,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "ritchier.info",
             "server_port": 443,
@@ -396,7 +396,7 @@
             }
         },
         {
-            "tag": "🇹🇼TW | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇹🇼TW | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "103.177.33.19",
             "server_port": 30013,

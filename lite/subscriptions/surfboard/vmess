@@ -13,14 +13,14 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | 🟢 | vmess | @mftizi | 16 = vmess, cfcdn3.sanfencdn9.com, 80, username = 472628d9-f89c-4891-bb60-4161bc2583d5, ws = true, tls = , vmess-aead = true, ws-path = /video/VDXcaM7r, ws-headers = Host:"GWYp69Yujp2.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @mftizi | 17 = vmess, cfcdn1.sanfencdn9.com, 2052, username = cd47cb10-d851-489b-86cd-ffaf659ed943, ws = true, tls = , vmess-aead = true, ws-path = /video/WNMicnDh, ws-headers = Host:"tw1eskJpKcA.inivtrak.xyz", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9 = vmess, 188.114.96.6, 443, username = ca76a969-3a05-436d-ae49-662872dd5df3, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"fvn.ujuhuaflo.com", skip-cert-verify = true, tfo = false
-🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10 = vmess, 185.146.173.59, 443, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = 1, vmess-aead = true, ws-path = /link, ws-headers = Host:"hms02.fxiaomi.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35 = vmess, 172.67.170.11, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36 = vmess, 188.114.97.210, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇹🇼TW | 🟢 | vmess | @Hope_Net | 10 = vmess, 103.177.33.19, 30013, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = true, tls = 1, vmess-aead = false, ws-path = /path/351212081517, ws-headers = Host:"www.35709620.xyz", skip-cert-verify = true, tfo = false
+🇹🇼TW | 🟢 | vmess | @Hope_Net | 11 = vmess, 103.177.33.19, 30013, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = true, tls = 1, vmess-aead = false, ws-path = /path/351212081517, ws-headers = Host:"www.35709620.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 10
-URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 10
-FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 9,🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 10,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 10
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 11
+URL-TEST = url-test,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 11
+FALLBACK = fallback,🇺🇸US | 🟢 | vmess | @mftizi | 16,🇺🇸US | 🟢 | vmess | @mftizi | 17,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 35,🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇹🇼TW | 🟢 | vmess | @Hope_Net | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
