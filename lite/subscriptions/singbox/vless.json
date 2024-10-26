@@ -110,7 +110,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
@@ -150,7 +150,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
-                "❔XX | 🔴 | vless | @V2RayTz | 19",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 14",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 341",
@@ -184,7 +185,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
@@ -224,7 +225,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
-                "❔XX | 🔴 | vless | @V2RayTz | 19",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 14",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 15",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 341",
@@ -360,9 +362,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "107.21.230.36",
+            "server": "15.223.84.137",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -393,7 +395,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.86.238.176",
+            "server": "107.21.230.36",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -637,7 +639,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "bfc32272-c86e-4f27-82e8-17c647e7e1ac",
+            "uuid": "45ff2b3d-061a-4244-bb5e-151c9b12895f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -658,7 +660,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "bfc32272-c86e-4f27-82e8-17c647e7e1ac",
+            "uuid": "45ff2b3d-061a-4244-bb5e-151c9b12895f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1389,17 +1391,65 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @V2RayTz | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "[2a01:4f8:c010:7c82::1]",
-            "server_port": 59493,
-            "uuid": "TELEGRAM-ServerNett",
+            "server": "151.101.194.228",
+            "server_port": 443,
+            "uuid": "733b690e-e8fb-4a7e-a1d5-ad96c1e3bda1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 15",
+            "type": "vless",
+            "server": "151.101.194.228",
+            "server_port": 443,
+            "uuid": "f3504ff0-b19c-410e-80ba-7e8ac62e39ff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy@Shh_Proxy",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
             }
         },
         {
