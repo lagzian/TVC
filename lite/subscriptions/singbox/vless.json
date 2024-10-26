@@ -152,14 +152,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 14",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 15",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 343",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -228,14 +228,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 14",
                 "🇺🇸US | 🔴 | vless | @V2RayTz | 15",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 343",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1455,7 +1455,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1476,31 +1476,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "a4a12c4c-c63a-4aac-9685-0c52fbebfe65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol-@VmessProtocol",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 341",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "b7dc61b1-5ff2-429b-a02e-08f178bc5eeb",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1508,6 +1487,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1518,10 +1507,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 342",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 343",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "b7dc61b1-5ff2-429b-a02e-08f178bc5eeb",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1529,6 +1518,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1616,6 +1615,37 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "104.16.190.131",
+            "server_port": 8443,
+            "uuid": "9d5e7586-64e1-4c29-9d47-6cbbd57fe8d1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg48.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazeshvpn-tg48.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "104.26.11.137",
             "server_port": 443,
