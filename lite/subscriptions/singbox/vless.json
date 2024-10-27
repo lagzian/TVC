@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 12",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 13",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -185,8 +185,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 12",
-                "🇨🇦CA | 🔴 | vless | @VlessConfig | 13",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -362,9 +362,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 12",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
             "type": "vless",
-            "server": "3.99.111.26",
+            "server": "15.188.41.219",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -393,9 +393,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 13",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "15.157.224.252",
+            "server": "13.37.92.123",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -729,6 +729,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
             "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 443,
+            "uuid": "Parsashonam-85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
@@ -744,37 +775,6 @@
                 "path": "\/Telegram-Xv2ry2?ed=512",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
-            "type": "vless",
-            "server": "104.16.16.16",
-            "server_port": 443,
-            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Xv2ry2-5?ed=512",
-                "headers": {
-                    "Host": "Pages.dev"
                 }
             }
         },
