@@ -113,8 +113,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -128,8 +128,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -326,11 +326,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "z2.fragranceninja.com",
-            "server_port": 12938,
-            "uuid": "a32313ad-5e39-4f9a-9cad-512041790050",
+            "server": "162.159.140.93",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,32 +341,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "z2.fragranceninja.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "z2.fragranceninja.com"
+                    "Host": "162.159.140.93"
                 }
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "23.162.152.177",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "103.85.25.134",
+            "server_port": 55218,
+            "uuid": "3827a5c8-c031-46cf-848d-e890d0ead803",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -374,23 +364,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "23.162.152.177",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "23.162.152.177"
-                }
             }
         }
     ],
