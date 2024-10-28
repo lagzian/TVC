@@ -169,8 +169,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -254,8 +254,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -1823,6 +1823,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
+            "server": "172.67.75.172",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "172.67.75.172"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
             "server": "172.67.183.220",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1855,23 +1879,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "198.2.218.108",
-            "server_port": 41400,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 8",
             "type": "vless",
             "server": "162.159.138.178",
@@ -1886,7 +1893,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "172.67.37.213",
+            "server_port": 8443,
+            "uuid": "1dfb1ecb-e610-4ab0-8133-4a384850c1a3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "paGES.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Pages.Dev\/?ed=2560",
+                "headers": {
+                    "Host": "paGES.dEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "sky.rethinkdns.com",
             "server_port": 2096,
@@ -1913,37 +1951,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "1223-9ux.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-            "type": "vless",
-            "server": "172.66.44.233",
-            "server_port": 443,
-            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aksnmaioas.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "aksnmaioas.pages.dev"
                 }
             }
         },
@@ -2106,9 +2113,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 16",
             "type": "vless",
-            "server": "104.19.58.3",
-            "server_port": 8443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "199.232.5.159",
+            "server_port": 443,
+            "uuid": "1d93eae1-ef79-44ad-b5f2-02e336ec59de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2118,7 +2125,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Join-ELiV2RaY-Join-ELiV2RaY.paGEs.DEV",
+                "server_name": "JoinBde.ELiV2RaY.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2128,9 +2135,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/JoinBede,@ELiV2RaY-@ELiV2RaY?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "Join-ELiV2RaY-Join-ELiV2RaY.paGEs.DEV"
+                    "Host": "JoinBde.ELiV2RaY.io"
                 }
             }
         },
