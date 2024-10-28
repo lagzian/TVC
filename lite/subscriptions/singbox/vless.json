@@ -158,8 +158,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -235,8 +235,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1599,6 +1599,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "104.26.11.137",
+            "server_port": 443,
+            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-gb-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-gb-1.brocdn.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "104.21.48.53",
@@ -1626,37 +1657,6 @@
                 "path": "\/Telegram@V2ray_Alpha\/?ed=2087",
                 "headers": {
                     "Host": "pAgES.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "172.66.47.200",
-            "server_port": 443,
-            "uuid": "c6d299d4-db0b-4444-8b56-b23bbdcbcd67",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "midsUMmER-Bpb.pAgES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/StDNeNqkbQxrj6Xy?ed=2560",
-                "headers": {
-                    "Host": "midsUMmER-Bpb.pAgES.DEV"
                 }
             }
         },
