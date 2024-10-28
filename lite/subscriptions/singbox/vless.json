@@ -109,7 +109,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
@@ -186,7 +186,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
@@ -335,7 +335,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1881,9 +1881,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 16",
             "type": "vless",
-            "server": "151.101.0.155",
-            "server_port": 80,
-            "uuid": "6c76e884-b9cf-4e3c-b308-6f61d891f886",
+            "server": "104.19.58.3",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1891,11 +1891,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Join-ELiV2RaY-Join-ELiV2RaY.paGEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/JoinBede,@ELiV2RaY-@ELiV2RaY?ed=2560",
                 "headers": {
-                    "Host": "151.101.0.155"
+                    "Host": "Join-ELiV2RaY-Join-ELiV2RaY.paGEs.DEV"
                 }
             }
         },
