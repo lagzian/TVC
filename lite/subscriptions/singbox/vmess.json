@@ -112,8 +112,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -300,7 +300,34 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "z3.fragranceninja.com",
+            "server_port": 12960,
+            "uuid": "a32313ad-5e39-4f9a-9cad-512041790050",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "z3.fragranceninja.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "128.204.223.42",
             "server_port": 29532,
@@ -321,23 +348,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cacbaba-caab-abca-cdba-abbbcbcccaaa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
