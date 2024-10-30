@@ -112,7 +112,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5"
             ]
         },
@@ -126,7 +126,7 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -300,11 +300,11 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "147.45.51.16",
-            "server_port": 2098,
-            "uuid": "83876222-64a4-4912-aa18-b7d9d34959de",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "babacac-aabc-aabc-abcd-bbcacaaacbbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,9 +319,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "hsj.lbxjc.online",
-            "server_port": 80,
-            "uuid": "e6543319-0574-42ac-b778-1c4325d626f5",
+            "server": "172.67.186.118",
+            "server_port": 443,
+            "uuid": "48f837fa-12d0-498d-b5f6-94f9979736a4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -332,11 +332,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3.clarity168.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/tk",
                 "headers": {
-                    "Host": ""
+                    "Host": "3.clarity168.com"
                 }
             }
         }
