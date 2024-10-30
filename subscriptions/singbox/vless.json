@@ -156,7 +156,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "❔XX | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCuuldrvhgly",
+                "TVCxlbvvjmwvm",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -431,10 +431,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -566,7 +567,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "❔XX | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCuuldrvhgly",
+                "TVCxlbvvjmwvm",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -841,10 +842,11 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -2132,7 +2134,7 @@
             }
         },
         {
-            "tag": "TVCuuldrvhgly",
+            "tag": "TVCxlbvvjmwvm",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -9137,7 +9139,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "172.67.73.241",
+            "server_port": 443,
+            "uuid": "22c3edb8-d637-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-fr-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
             "type": "vless",
             "server": "108.165.216.31",
             "server_port": 443,
@@ -9168,7 +9201,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "104.16.190.131",
             "server_port": 8443,
@@ -9199,7 +9232,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "joinmahdiserver-bg3.pages.dev",
             "server_port": 8443,
@@ -9230,7 +9263,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "172.67.73.241",
             "server_port": 443,
