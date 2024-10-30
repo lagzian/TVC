@@ -118,10 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"13.43.125.71","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.39.229.9","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"3.11.222.242","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.39.175.105","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"18.171.129.56","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.43.125.71","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.11.222.242","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"13.39.175.105","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"80","cipher":"auto","uuid":"01dee9d8-7147-44b4-b3df-b4fe053d18d5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"sFcCXgBijp2.wzjwkqya.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"ambxxic01hk.dorabbb.top","port":"44801","cipher":"auto","uuid":"ac92dfb6-ce5b-4c2b-9c1c-59b9770901fc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"185.146.173.59","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
@@ -136,9 +136,9 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 13'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 14'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18'
@@ -153,9 +153,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 13'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 14'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18'
@@ -169,9 +169,9 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
-      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 13'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 14'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 18'

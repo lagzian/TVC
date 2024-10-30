@@ -106,12 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 48",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 49",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 46",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -160,8 +159,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -175,12 +174,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 48",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 49",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 46",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -229,8 +227,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -260,38 +258,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 48",
-            "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "Parsashonam-82",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 49",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 46",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
@@ -319,7 +286,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -352,7 +319,7 @@
         {
             "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "35.176.89.172",
+            "server": "3.11.127.2",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -381,9 +348,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.39.6.25",
+            "server": "35.176.89.172",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1594,6 +1561,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+            "type": "vless",
+            "server": "104.17.234.114",
+            "server_port": 443,
+            "uuid": "2f717234-c62a-4e7b-98f6-3ff3743d8a9a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "UNLIMITEDDEV.unlimiteddev-vpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "UNLIMITEDDEV.unlimiteddev-vpn.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "104.18.39.232",
@@ -1621,37 +1619,6 @@
                 "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "ArGodev11222.PaGes.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-            "type": "vless",
-            "server": "104.17.234.114",
-            "server_port": 8443,
-            "uuid": "1ad95b6a-8dca-4773-8947-eedf49fdc4c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de"
                 }
             }
         },
