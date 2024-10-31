@@ -106,8 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11",
+                "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 4",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 5",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 19"
@@ -117,8 +119,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11",
+                "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 4",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 5",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 19"
@@ -144,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
@@ -154,12 +158,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16",
+            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14",
+            "type": "shadowsocks",
+            "server": "194.87.45.189",
+            "server_port": 40076,
+            "method": "chacha20-ietf-poly1305",
+            "password": "sOJ7Wo6yHqWQv8FUEq3BKV",
             "plugin": "",
             "plugin_opts": ""
         },

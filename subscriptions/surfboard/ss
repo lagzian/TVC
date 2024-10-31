@@ -11,15 +11,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14 = ss, 194.87.45.189, 40076, encrypt-method = chacha20-ietf-poly1305, password = sOJ7Wo6yHqWQv8FUEq3BKV
 🇦🇪AE | 🟢 | ss | @kingofilter | 4 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇦🇪AE | 🟢 | ss | @kingofilter | 5 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇧🇭BH | 🟢 | ss | @kingofilter | 19 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
-URL-TEST = url-test,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
-FALLBACK = fallback,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 16,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10,🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11,🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
+URL-TEST = url-test,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10,🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11,🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
+FALLBACK = fallback,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 2,🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 10,🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 11,🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 14,🇦🇪AE | 🟢 | ss | @kingofilter | 4,🇦🇪AE | 🟢 | ss | @kingofilter | 5,🇧🇭BH | 🟢 | ss | @kingofilter | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
