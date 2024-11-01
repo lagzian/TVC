@@ -172,7 +172,6 @@
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
@@ -259,7 +258,6 @@
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
@@ -1921,30 +1919,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "104.21.3.233",
-            "server_port": 8880,
-            "uuid": "f0d584bc-342f-4443-ba24-79e4d0e504b1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.21.3.233"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
-            "type": "vless",
-            "server": "172.66.44.233",
+            "server": "104.26.11.137",
             "server_port": 443,
-            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
+            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1954,7 +1931,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "aksnmaioas.pages.dev",
+                "server_name": "st-gb-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1964,9 +1941,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/websocket",
                 "headers": {
-                    "Host": "aksnmaioas.pages.dev"
+                    "Host": "st-gb-1.brocdn.com"
                 }
             }
         },
