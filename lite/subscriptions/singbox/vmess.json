@@ -111,8 +111,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -264,33 +264,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "de-new01.daluquan.top",
-            "server_port": 8080,
-            "uuid": "237c632a-8ac0-4040-ab02-adbc3b9e6610",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "186.190.215.32",
+            "server": "d.kampong.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -305,7 +281,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "d.kampong.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -317,7 +293,41 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "d.kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "15.235.50.172",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "15.235.50.172",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "15.235.50.172"
                 }
             }
         }
