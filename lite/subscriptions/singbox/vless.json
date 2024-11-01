@@ -166,7 +166,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇹🇷TR | 🔴 | vless | @iP_CF | 1",
                 "❔XX | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -242,7 +241,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "🇹🇷TR | 🔴 | vless | @iP_CF | 1",
                 "❔XX | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -1672,9 +1670,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
-            "server": "172.66.47.151",
+            "server": "172.66.45.7",
             "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1684,7 +1682,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iSaA1.paGes.DEv",
+                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1694,18 +1692,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T7OzaaLG5SkllZJf?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "iSaA1.paGes.DEv"
+                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "172.67.37.213",
-            "server_port": 8443,
-            "uuid": "1dfb1ecb-e610-4ab0-8133-4a384850c1a3",
+            "server": "104.18.39.232",
+            "server_port": 2083,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1715,7 +1713,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "paGES.dEV",
+                "server_name": "ArGodev11222.PaGes.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1725,9 +1723,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Pages.Dev\/?ed=2560",
+                "path": "\/Telegram@Linkvws?ed=2560",
                 "headers": {
-                    "Host": "paGES.dEV"
+                    "Host": "ArGodev11222.PaGes.Dev"
                 }
             }
         },
@@ -1788,20 +1786,6 @@
                 "headers": {
                     "Host": "live.wkrq.com"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🔴 | vless | @iP_CF | 1",
-            "type": "vless",
-            "server": "194.87.39.142",
-            "server_port": 56246,
-            "uuid": "0d891268-002f-40be-b583-4290834a3255",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
