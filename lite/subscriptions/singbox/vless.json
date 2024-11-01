@@ -164,7 +164,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "❔XX | 🔴 | vless | @iP_CF | 2",
+                "🇹🇷TR | 🔴 | vless | @iP_CF | 2",
+                "❔XX | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -237,7 +238,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-                "❔XX | 🔴 | vless | @iP_CF | 2",
+                "🇹🇷TR | 🔴 | vless | @iP_CF | 2",
+                "❔XX | 🔴 | vless | @iP_CF | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
@@ -635,7 +637,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e231ee1b-a890-4e86-90c9-ea76556da724",
+            "uuid": "361c616f-907b-4288-9676-bb22b3855307",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -656,7 +658,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e231ee1b-a890-4e86-90c9-ea76556da724",
+            "uuid": "361c616f-907b-4288-9676-bb22b3855307",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1757,7 +1759,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @iP_CF | 2",
+            "tag": "🇹🇷TR | 🔴 | vless | @iP_CF | 2",
+            "type": "vless",
+            "server": "194.87.39.142",
+            "server_port": 56246,
+            "uuid": "0d891268-002f-40be-b583-4290834a3255",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @iP_CF | 3",
             "type": "vless",
             "server": "IP_CF",
             "server_port": 0,
