@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 1",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 10",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 11"
             ]
@@ -116,8 +117,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
+                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 1",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 10",
                 "🇦🇪AE | 🟢 | ss | @kingofilter | 11"
             ],
@@ -142,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 4",
+            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 0",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -152,12 +154,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 1",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         },
