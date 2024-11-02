@@ -164,8 +164,8 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+                "🇨🇷CR | 🔴 | vless | @flyv2ray | 11",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -239,8 +239,8 @@
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+                "🇨🇷CR | 🔴 | vless | @flyv2ray | 11",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -639,7 +639,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5f0baba3-332b-46a2-88f9-ecb4fa99f961",
+            "uuid": "0a76119b-d6d7-4ff9-9800-be977f09b317",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -660,7 +660,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5f0baba3-332b-46a2-88f9-ecb4fa99f961",
+            "uuid": "0a76119b-d6d7-4ff9-9800-be977f09b317",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1744,11 +1744,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 11",
+            "tag": "🇨🇷CR | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
-            "server": "185.146.173.52",
-            "server_port": 8880,
-            "uuid": "bca5b78a-c5bb-4d60-9326-f3a6f285fc8b",
+            "server": "190.93.247.56",
+            "server_port": 2052,
+            "uuid": "b574fc79-9e52-418f-9a05-3ed3876a5d62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1758,34 +1758,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
+            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
             "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "Parsashonam-78",
+            "server": "185.146.173.52",
+            "server_port": 8880,
+            "uuid": "23b41d65-d0b2-4a50-f94d-ae187e0bd456",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
-                }
             }
         },
         {
