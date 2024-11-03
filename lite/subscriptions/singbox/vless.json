@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
                 "🇫🇷FR | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -185,8 +185,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
                 "🇫🇷FR | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -362,9 +362,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.48.179.82",
+            "server": "18.199.117.25",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -393,9 +393,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "34.251.229.14",
+            "server": "16.171.131.5",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1653,6 +1653,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
+            "server": "172.67.73.241",
+            "server_port": 443,
+            "uuid": "22c3edb8-d637-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-fr-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "type": "vless",
             "server": "172.66.45.7",
             "server_port": 443,
             "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
@@ -1678,37 +1709,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "5c53ca21.vpn-aryoo.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "104.16.60.8",
-            "server_port": 443,
-            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ahmedquran19.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/current_time",
-                "headers": {
-                    "Host": "ahmedquran19.xyz"
                 }
             }
         },
@@ -1790,6 +1790,37 @@
             "type": "vless",
             "server": "newt.ns.cloudflare.com",
             "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Mahdiserver-F4v.pages.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/n43JfueuwrMHbtF5?ed=2560",
+                "headers": {
+                    "Host": "Mahdiserver-F4v.pages.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+            "type": "vless",
+            "server": "newt.ns.cloudflare.com",
+            "server_port": 443,
             "uuid": "2eb29a03-6d5f-4a9b-9e7d-76527016bc20",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1813,37 +1844,6 @@
                 "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "UNLIMITEDDEV1.unlimiteddev-vpn.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
-            "type": "vless",
-            "server": "104.17.234.128",
-            "server_port": 443,
-            "uuid": "28c27cde-5cf8-4cdb-af94-f773b0263729",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join.VPNCUSTOMIZE.www.speedtest.net.ovh.Powerfullserver.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "join.VPNCUSTOMIZE.www.speedtest.net.ovh.Powerfullserver.de"
                 }
             }
         },
