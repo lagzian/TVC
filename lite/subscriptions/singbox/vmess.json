@@ -110,7 +110,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
@@ -122,7 +122,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -245,11 +245,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "127.0.0.1",
+            "server": "m003.mmzhk.website",
             "server_port": 8080,
-            "uuid": "abbcaac-baac-baca-adcb-babbaccabcca",
+            "uuid": "c3d1b53d-8cbe-4455-a009-bfa08e55f11d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -259,14 +259,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m003.mmzhk.website",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/xyz",
+                "headers": {
+                    "Host": "m003.mmzhk.website"
+                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "aababcc-cbaa-aacb-dcba-baccabcacabb",
+            "server_port": 8080,
+            "uuid": "abbcaac-baac-baca-adcb-babbaccabcca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
