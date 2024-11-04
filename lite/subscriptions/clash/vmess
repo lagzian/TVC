@@ -118,39 +118,39 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇭🇰HK | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"45.125.35.57","port":"52919","cipher":"auto","uuid":"a5b081ca-aaa2-4f46-ae19-f156ac5706ef","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"80","cipher":"auto","uuid":"01dee9d8-7147-44b4-b3df-b4fe053d18d5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"sFcCXgBijp2.wzjwkqya.xyz"}}}
+  - {"name":"🇰🇷KR | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"45.94.68.193","port":"48279","cipher":"auto","uuid":"34a8ac77-4f20-4635-9334-565e48011cd1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"45.125.35.57","port":"52919","cipher":"auto","uuid":"a5b081ca-aaa2-4f46-ae19-f156ac5706ef","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"m003.mmzhk.website","port":"8080","cipher":"auto","uuid":"c3d1b53d-8cbe-4455-a009-bfa08e55f11d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/xyz","headers":{"host":"daohang.mmzhk.website"}}}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"1.65.205.116","port":"30251","cipher":"auto","uuid":"9e88a10b-655c-5120-89d0-408634169561","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
+      - '🇰🇷KR | 🟢 | vmess | @mftizi | 17'
+      - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
+      - '🇰🇷KR | 🟢 | vmess | @mftizi | 17'
+      - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
-      - '🇺🇸US | 🟢 | vmess | @mftizi | 18'
+      - '🇰🇷KR | 🟢 | vmess | @mftizi | 17'
+      - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 7'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
