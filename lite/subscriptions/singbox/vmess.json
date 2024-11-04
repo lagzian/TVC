@@ -112,8 +112,8 @@
                 "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -300,30 +300,13 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "acbabac-caba-aacb-dbca-bcaaccbcaabb",
+            "server": "104.21.94.20",
+            "server_port": 2053,
+            "uuid": "23de7970-038f-403f-f979-28124f3be02a",
             "security": "auto",
             "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "104.21.60.81",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -334,7 +317,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "d.bukitk.homes",
+                "server_name": "1229VM6.nnaotexiongditkgroup.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -344,10 +327,27 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/1229VM6",
                 "headers": {
-                    "Host": "d.bukitk.homes"
+                    "Host": "1229VM6.nnaotexiongditkgroup.top"
                 }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "3.112.45.176",
+            "server_port": 38764,
+            "uuid": "dfbae13f-7fff-4c10-916d-c053fc2152c5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
