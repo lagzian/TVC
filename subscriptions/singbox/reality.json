@@ -111,6 +111,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -142,6 +143,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -340,6 +342,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
+            "type": "vless",
+            "server": "Mp6.ImageFlowAI.ir",
+            "server_port": 2083,
+            "uuid": "336a1cc3-dc1c-4d20-b2cc-618b50dc3f23",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "varzesh3.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nS5815rpEsXGTPO9hjUW7KPMg_gkIgSfKHIN-JoLzg4",
+                    "short_id": "1c5fb555a9609e45"
+                }
             }
         },
         {
