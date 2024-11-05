@@ -115,6 +115,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -145,6 +146,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -394,6 +396,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "188.245.154.141",
+            "server_port": 6543,
+            "uuid": "b551a105-2391-4182-8e5a-5e0d3323fc27",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W0KzAPz2e3FFi-yzHzDdeo4mH_ZmkGb97dny2fkHjjY",
+                    "short_id": "ad52706b"
+                }
             }
         },
         {
