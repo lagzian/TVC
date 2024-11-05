@@ -142,8 +142,8 @@ proxies:
   - {"name":"🇭🇰HK | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"45.125.35.57","port":"52919","cipher":"auto","uuid":"a5b081ca-aaa2-4f46-ae19-f156ac5706ef","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 12","type":"vless","server":"SPDNET.fastly80-2.hosting-ip.com","port":80,"udp":false,"uuid":"9867495d-e46b-40c6-96ee-fa705afcacdf","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Channel,SPDNET,SPDNET?ed=1024","headers":{"host":"fast.net.bomb.xcxcspdnet.net"}}}
   - {"name":"🇺🇸US | 🟢 | vless | @UnlimitedDev | 12","type":"vless","server":"live.wkrq.com","port":443,"udp":false,"uuid":"6ab373bb-4e17-4a75-a034-53b308dcf33c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"live.wkrq.com","ws-opts":{"path":"@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880","headers":{"host":"UNLIMITEDDEV.zr.ir"}}}
+  - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 6","type":"vless","server":"zmaoz.faculty.ucdavis.edu","port":443,"udp":false,"uuid":"c0898e3b-bcf1-4210-b887-6d1011d648c4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"zmaoz.faculty.ucdavis.edu","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880","headers":{"host":"TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 7","type":"vless","server":"zmaoz.faculty.ucdavis.edu","port":443,"udp":false,"uuid":"fb1e6568-e4dc-48bd-8853-c664de8fe4bb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"zmaoz.faculty.ucdavis.edu","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880","headers":{"host":"TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir"}}}
-  - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 8","type":"vless","server":"zmaoz.faculty.ucdavis.edu","port":443,"udp":false,"uuid":"7629875e-5255-4a46-970f-5f343a179984","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"zmaoz.faculty.ucdavis.edu","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880","headers":{"host":"TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31","type":"vmess","server":"104.21.83.115","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32","type":"vmess","server":"185.146.173.59","port":"80","cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/glweidf.cfd/linkws","headers":{"host":"freevpn878.hamidimorteza680.workers.dev"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @ServerNett | 17","type":"vless","server":"185.146.173.58","port":8880,"udp":false,"uuid":"b4f08f28-1049-443e-846b-0e14b7c9a332","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/servernett","headers":{"host":"lc70.lebasnoo.ir."}}}
@@ -204,8 +204,8 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 12'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 12'
+      - '🇺🇸US | 🟢 | vless | @vmessorg | 6'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 7'
-      - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 17'
@@ -266,8 +266,8 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 12'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 12'
+      - '🇺🇸US | 🟢 | vless | @vmessorg | 6'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 7'
-      - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 17'
@@ -327,8 +327,8 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 12'
       - '🇺🇸US | 🟢 | vless | @UnlimitedDev | 12'
+      - '🇺🇸US | 🟢 | vless | @vmessorg | 6'
       - '🇺🇸US | 🟢 | vless | @vmessorg | 7'
-      - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31'
       - '🇸🇪SE | 🟢 | vmess | @ShadowProxy66 | 32'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 17'
