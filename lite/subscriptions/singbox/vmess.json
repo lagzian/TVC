@@ -240,9 +240,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "p2.v2raybrasil.xyz",
-            "server_port": 443,
-            "uuid": "db0c0df4-be29-40ec-9637-da40f6a66778",
+            "server": "104.26.5.67",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,30 +253,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "p2.v2raybrasil.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/xraybr",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "p2.v2raybrasil.xyz"
+                    "Host": "104.26.5.67"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "p3.v2raybrasil.xyz",
-            "server_port": 443,
-            "uuid": "db0c0df4-be29-40ec-9637-da40f6a66778",
+            "server": "104.16.60.8",
+            "server_port": 2086,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -287,21 +277,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "p3.v2raybrasil.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/xraybr",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
                 "headers": {
-                    "Host": "p3.v2raybrasil.xyz"
+                    "Host": "104.16.60.8"
                 }
             }
         }
