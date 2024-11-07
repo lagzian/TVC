@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇰🇷KR | 🟢 | vmess | @mftizi | 17",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
@@ -118,8 +118,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇰🇷KR | 🟢 | vmess | @mftizi | 17",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
@@ -146,11 +146,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
-            "server": "45.94.68.193",
-            "server_port": 48279,
-            "uuid": "34a8ac77-4f20-4635-9334-565e48011cd1",
+            "server": "149.104.15.209",
+            "server_port": 22201,
+            "uuid": "f022200b-43e0-4e41-8e89-df369cf1d93b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -163,11 +163,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+            "tag": "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
-            "server": "45.125.35.57",
-            "server_port": 52919,
-            "uuid": "a5b081ca-aaa2-4f46-ae19-f156ac5706ef",
+            "server": "45.94.68.193",
+            "server_port": 48279,
+            "uuid": "34a8ac77-4f20-4635-9334-565e48011cd1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -240,6 +240,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
+            "server": "104.21.95.16",
+            "server_port": 443,
+            "uuid": "fa5b55cd-cafc-4de0-a4c8-722e02a9f58e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms03.dongfeng.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms03.dongfeng.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "type": "vmess",
             "server": "172.64.198.249",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
@@ -258,30 +292,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.198.249"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "104.17.106.151",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.106.151"
                 }
             }
         }
