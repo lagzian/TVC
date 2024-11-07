@@ -157,7 +157,7 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0","type":"trojan","server":"104.18.12.229","port":2053,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1","type":"trojan","server":"172.66.44.131","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3","type":"trojan","server":"172.64.153.235","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpB-worKER-paneL1-e4p.pAGes.dEV"}
-  - {"name":"🇭🇰HK | 🟢 | trojan | @VmessProtocol | 4","type":"trojan","server":"45.146.232.171","port":10465,"udp":false,"password":"325ba822-760d-4a51-9711-f72ba8d16933","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"q08m.vgraxiw73s.hasyaf.cn"}
+  - {"name":"🇭🇰HK | 🟢 | trojan | @VmessProtocol | 6","type":"trojan","server":"45.146.232.171","port":10465,"udp":false,"password":"325ba822-760d-4a51-9711-f72ba8d16933","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"q08m.vgraxiw73s.hasyaf.cn"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -203,7 +203,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 4'
+      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -249,7 +249,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 4'
+      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -294,7 +294,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 4'
+      - '🇭🇰HK | 🟢 | trojan | @VmessProtocol | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
