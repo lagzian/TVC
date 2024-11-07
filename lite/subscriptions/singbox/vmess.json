@@ -110,8 +110,8 @@
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13"
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13"
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,28 @@
             }
         },
         {
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "107.148.1.76",
+            "server_port": 20219,
+            "uuid": "c9f5b2aa-d50c-48e0-fd7d-d4cdc325d905",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "108.181.200.220",
-            "server_port": 50613,
-            "uuid": "09e81eaa-d298-432c-e7b6-17add32d14fc",
+            "server": "172.64.193.129",
+            "server_port": 80,
+            "uuid": "78761739-4d26-4a49-b6f9-8107f6e183d2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,27 +272,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/cloudflareisthebest",
                 "headers": {
-                    "Host": "108.181.200.220"
+                    "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cabbaac-abca-cbaa-bdac-ccccbabbaaba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
