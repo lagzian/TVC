@@ -110,8 +110,8 @@
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "104.17.106.151",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "m003.mmzhk.website",
+            "server_port": 8080,
+            "uuid": "c3d1b53d-8cbe-4455-a009-bfa08e55f11d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -253,20 +253,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "m003.mmzhk.website",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/xyz",
                 "headers": {
-                    "Host": ""
+                    "Host": "m003.mmzhk.website"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "172.64.155.209",
-            "server_port": 80,
-            "uuid": "ea7747d7-0f2b-4bce-89c8-3b1c65450bf2",
+            "server": "89.169.55.152",
+            "server_port": 33026,
+            "uuid": "06053cbe-a299-4934-bca6-0707e1416dc7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,11 +287,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "89.169.55.152",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "path": "\/dangerzone",
                 "headers": {
-                    "Host": "172.64.155.209"
+                    "Host": "89.169.55.152"
                 }
             }
         }
