@@ -423,9 +423,10 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | trojan | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
+                "🚩CF | 🔴 | trojan | @v2ray1_ng | 7",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "❔XX | 🔴 | vless | @MTConfig | 2",
@@ -496,7 +497,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -895,9 +895,10 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🚩CF | 🔴 | trojan | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
+                "🚩CF | 🔴 | trojan | @v2ray1_ng | 7",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "❔XX | 🔴 | vless | @MTConfig | 2",
@@ -968,7 +969,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -8786,6 +8786,37 @@
         {
             "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
             "type": "vless",
+            "server": "172.66.47.33",
+            "server_port": 443,
+            "uuid": "bba5ce00-09e4-4fce-8d26-35db5b4e38d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfpage-39t.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "cfpage-39t.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
+            "type": "vless",
             "server": "104.16.16.16",
             "server_port": 443,
             "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
@@ -8815,7 +8846,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "172.66.45.7",
             "server_port": 443,
@@ -8846,7 +8877,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | trojan | @v2ray1_ng | 4",
+            "tag": "🚩CF | 🔴 | trojan | @v2ray1_ng | 7",
             "type": "trojan",
             "server": "162.159.136.232",
             "server_port": 8443,
@@ -8875,7 +8906,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "151.101.130.228",
             "server_port": 443,
@@ -10792,40 +10823,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.175.213"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "d.seribus.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "d.seribus.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "d.seribus.org"
                 }
             }
         },
