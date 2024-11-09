@@ -349,10 +349,9 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "❔XX | 🔴 | vless | @MTConfig | 2",
@@ -737,10 +736,9 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
+                "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "❔XX | 🔴 | vless | @MTConfig | 2",
@@ -6845,38 +6843,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
-            "type": "vless",
-            "server": "172.66.45.7",
-            "server_port": 443,
-            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
             "type": "vless",
             "server": "104.16.16.16",
             "server_port": 443,
@@ -6907,7 +6874,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
+            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
+            "type": "vless",
+            "server": "172.66.45.7",
+            "server_port": 443,
+            "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 9",
             "type": "vless",
             "server": "151.101.130.228",
             "server_port": 443,
@@ -6934,37 +6932,6 @@
                 "path": "\/5Ve373mPjKg4vceF?ed",
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-            "type": "vless",
-            "server": "172.66.47.74",
-            "server_port": 443,
-            "uuid": "105c7a94-ddd4-4025-bf6f-5be4fc657354",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHAh-9Aq.PAGes.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@Azarakhsh_Proxy\/?ed=2560",
-                "headers": {
-                    "Host": "SHAh-9Aq.PAGes.deV"
                 }
             }
         },
