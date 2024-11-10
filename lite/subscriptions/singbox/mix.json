@@ -163,8 +163,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -177,8 +177,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 16",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 17",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ]
@@ -244,8 +244,8 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -258,8 +258,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 16",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 17",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ],
@@ -574,7 +574,7 @@
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8880,
+            "server_port": 2052,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -585,7 +585,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -641,7 +641,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5e341d85-4feb-4d93-b57b-b5334ea2eb6c",
+            "uuid": "5f2e498a-c7dc-41d6-9683-cf968fff05f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -662,7 +662,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "5e341d85-4feb-4d93-b57b-b5334ea2eb6c",
+            "uuid": "5f2e498a-c7dc-41d6-9683-cf968fff05f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1722,6 +1722,40 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "185.148.104.118",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ab-test-frosty-flower-e7fb.tariroc864.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hms02.fxiaomi.sbs\/link",
+                "headers": {
+                    "Host": "ab-test-frosty-flower-e7fb.tariroc864.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "172.67.64.120",
@@ -1742,30 +1776,6 @@
                 "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "icook.tw",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "icook.tw"
                 }
             }
         },
@@ -2071,11 +2081,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 16",
             "type": "vless",
-            "server": "172.66.47.200",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "c6d299d4-db0b-4444-8b56-b23bbdcbcd67",
+            "uuid": "73ca0126-f6ae-462f-b21c-86c43e282e87",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2085,7 +2095,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "midsUMmER-Bpb.pAgES.DEV",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2095,31 +2105,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/StDNeNqkbQxrj6Xy?ed=2560",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "midsUMmER-Bpb.pAgES.DEV"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+            "tag": "🇳🇱NL | 🔴 | vless | @kingofilter | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "server": "89.105.223.195",
+            "server_port": 38987,
+            "uuid": "0e834419-e72d-49cd-83e6-d149f673481d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tm-Digiv2-teldIGIv2-DIGiv",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
