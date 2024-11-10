@@ -122,6 +122,8 @@ dns:
 proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"yfg4l.c6tu5uwk9.buzz","port":"80","cipher":"auto","uuid":"219eb7ea-8f9a-4af8-857b-4b4b564224ef","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.industriouseileen.buzz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"120.232.153.40","port":"35601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36","type":"vmess","server":"www.bzfmc.com","port":"443","cipher":"auto","uuid":"fa5b55cd-cafc-4de0-a4c8-722e02a9f58e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws/hms03.dongfeng.cfd","headers":{"host":"yelan.thelastronin.cloudns.org"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 37","type":"vmess","server":"104.21.8.157","port":"2082","cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +133,8 @@ proxy-groups:
       - FALLBACK
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 37'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: URL-TEST
     type: url-test
@@ -140,6 +144,8 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 37'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: FALLBACK
     type: fallback
@@ -148,6 +154,8 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🟢 | vmess | @mftizi | 16'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 36'
+      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 37'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
