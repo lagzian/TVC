@@ -109,9 +109,9 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -166,8 +166,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 15",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ]
@@ -179,9 +179,9 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 36",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 37",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 14",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -236,8 +236,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 15",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "❔XX | 🔴 | vless | @VpnSkyy | 4"
             ],
@@ -321,7 +321,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -352,9 +352,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "54.220.169.243",
+            "server": "3.227.105.27",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -383,9 +383,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "99.81.12.93",
+            "server": "54.220.169.243",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1630,6 +1630,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
             "type": "vless",
+            "server": "104.17.234.114",
+            "server_port": 443,
+            "uuid": "43a7becf-a79b-4dd7-8d01-cece7d210327",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "UNLIMITEDDEV1.unlimiteddev-vpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "UNLIMITEDDEV1.unlimiteddev-vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "bc5e7e48-9b47-4903-a57a-f4723f5dd3be",
@@ -1656,27 +1687,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "60ac18fc-6f55-48fa-926e-c026f07e7676",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
             }
         },
         {
@@ -1773,38 +1783,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 14",
-            "type": "vless",
-            "server": "172.66.47.200",
-            "server_port": 443,
-            "uuid": "c6d299d4-db0b-4444-8b56-b23bbdcbcd67",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "midsUMmER-Bpb.pAgES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/StDNeNqkbQxrj6Xy?ed=2560",
-                "headers": {
-                    "Host": "midsUMmER-Bpb.pAgES.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -1821,6 +1800,37 @@
                 "path": "\/tm-Digiv2-teldIGIv2-DIGiv",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+            "type": "vless",
+            "server": "172.66.47.151",
+            "server_port": 443,
+            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iSaA1.paGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/T7OzaaLG5SkllZJf?ed=2560",
+                "headers": {
+                    "Host": "iSaA1.paGes.DEv"
                 }
             }
         },
