@@ -281,8 +281,6 @@
                 "🚩CF | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 2",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 3",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 1",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 5",
@@ -674,8 +672,6 @@
                 "🚩CF | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 2",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 3",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 1",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 5",
@@ -5119,68 +5115,6 @@
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
             "uuid": "cb5c7d29-5ca3-4b73-bea3-060aa3d9b7b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 2",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "7d3020a1-f293-4442-86ca-392b533fd0b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 3",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "ad3cc925-52f0-4834-ab85-602d9c1c08ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
