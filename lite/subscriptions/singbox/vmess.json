@@ -110,8 +110,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+                "🇦🇺AU | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -245,7 +245,31 @@
             }
         },
         {
-            "tag": "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇵🇱PL | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "128.204.223.42",
+            "server_port": 62049,
+            "uuid": "d7d9ec7c-da8f-4ac7-9485-70110d12cad1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@AstroVPN_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇦🇺AU | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "158.178.139.190",
             "server_port": 25231,
@@ -266,23 +290,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "aababcc-caab-aabc-bdca-cbababcacbca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
