@@ -374,10 +374,6 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 4",
                 "🇺🇸US | 🟢 | vless | @vmess_vless_v2rayng | 5",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 8",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 9",
-                "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
-                "🚩CF | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 1",
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 3",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 4",
@@ -422,7 +418,6 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -765,10 +760,6 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 4",
                 "🇺🇸US | 🟢 | vless | @vmess_vless_v2rayng | 5",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 8",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 9",
-                "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
-                "🚩CF | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 1",
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 3",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 4",
@@ -813,7 +804,6 @@
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 1",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
@@ -7437,86 +7427,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 8",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1c:9736::1]",
-            "server_port": 36871,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 9",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1c:3786::1]",
-            "server_port": 49461,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "af9c101a-64c3-4678-b588-7fe1fc8fe698",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/servernett",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @vmess_vless_v2rayng | 11",
-            "type": "vless",
-            "server": "172.66.47.155",
-            "server_port": 443,
-            "uuid": "34a83286-ba4e-4f0a-ac08-77a95469eeaf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh18.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazesh18.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @VmessProtocol | 1",
             "type": "vless",
             "server": "162.159.152.2",
@@ -8652,37 +8562,6 @@
                 "path": "\/websocket",
                 "headers": {
                     "Host": "st-pl-1.brocdn.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
-            "type": "vless",
-            "server": "104.16.60.8",
-            "server_port": 443,
-            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ahmedquran19.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/current_time",
-                "headers": {
-                    "Host": "ahmedquran19.xyz"
                 }
             }
         },
