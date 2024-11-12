@@ -141,7 +141,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"162.159.140.91","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"104.21.83.208","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"104.25.110.87","port":"443","cipher":"auto","uuid":"7a88dee0-9da1-11ef-b936-205c6d5f5d78","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/uyjeo7km","headers":{"host":"eu-2.hihu.net"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"104.19.21.63","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip26.6929198.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -171,7 +170,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 0'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -201,7 +199,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 0'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -230,7 +227,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 0'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 2'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
