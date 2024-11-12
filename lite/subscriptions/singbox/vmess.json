@@ -110,7 +110,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
@@ -122,7 +122,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -245,11 +245,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aabaccb-acab-acba-adcb-cbabcabcacab",
+            "server": "104.17.234.128",
+            "server_port": 80,
+            "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,11 +264,11 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "speedtest.net",
+            "server": "104.21.35.67",
             "server_port": 443,
-            "uuid": "57727d7d-8873-4000-b3f4-33a93fcfdd51",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -279,7 +279,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "b.kandap.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -289,9 +289,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/m28jcoZZUhkqg6pk11",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "b.kandap.homes"
                 }
             }
         }
