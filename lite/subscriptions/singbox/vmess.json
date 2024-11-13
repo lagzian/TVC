@@ -110,8 +110,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9"
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9"
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -245,11 +245,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "speedtest.net",
+            "server": "185.146.173.59",
             "server_port": 443,
-            "uuid": "57727d7d-8873-4000-b3f4-33a93fcfdd51",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,41 +262,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/m28jcoZZUhkqg6pk11",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "discord.vpnsell.beauty",
-            "server_port": 443,
-            "uuid": "57529232-b316-4b4e-abf1-9b6063ba0316",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.vpnsell.beauty",
+                "server_name": "185.146.173.59",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -308,8 +274,25 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "discord.vpnsell.beauty"
+                    "Host": "185.146.173.59"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcacaab-abac-abac-cabd-aacccbbbcaab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
