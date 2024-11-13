@@ -308,7 +308,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 5",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
@@ -477,12 +477,13 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🔴 | vless | @free1_vpn | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -771,7 +772,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 5",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
@@ -940,12 +941,13 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🔴 | vless | @free1_vpn | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -5726,7 +5728,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 5",
+            "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 5",
             "type": "vless",
             "server": "tun.ferdowsi.shop",
             "server_port": 2087,
@@ -10158,7 +10160,24 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aacacbb-aacb-baca-bdac-acaabccbbbac",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "172.64.155.209",
             "server_port": 80,
@@ -10182,7 +10201,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -10199,7 +10218,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -10216,7 +10235,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "www.wban2012.com",
             "server_port": 443,
@@ -10250,7 +10269,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "162.159.152.2",
             "server_port": 443,
@@ -10284,7 +10303,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "172.64.99.22",
             "server_port": 2095,
