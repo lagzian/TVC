@@ -153,7 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -220,7 +220,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -536,7 +536,7 @@
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8080,
+            "server_port": 8880,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -547,7 +547,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -634,7 +634,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "2da0c950-3de2-4754-a7b6-a4cdfbfe205e",
+            "uuid": "d64d0cf9-5f39-48d0-8185-86d0334ab690",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -655,7 +655,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "2da0c950-3de2-4754-a7b6-a4cdfbfe205e",
+            "uuid": "d64d0cf9-5f39-48d0-8185-86d0334ab690",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1445,12 +1445,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "188.245.197.174",
-            "server_port": 1622,
-            "uuid": "7e6c5fae-62fe-4ed0-a4b2-64d4170c556b",
-            "flow": "xtls-rprx-vision",
+            "server": "104.16.60.8",
+            "server_port": 443,
+            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1459,17 +1459,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "ahmedquran19.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/current_time",
+                "headers": {
+                    "Host": "ahmedquran19.xyz"
                 }
             }
         },
