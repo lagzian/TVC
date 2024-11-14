@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @mftizi | 18",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
@@ -118,8 +118,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @mftizi | 18",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
@@ -146,7 +146,24 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+            "type": "vmess",
+            "server": "45.125.35.57",
+            "server_port": 55305,
+            "uuid": "db87b0f5-01bb-448c-bb5f-9668fe09300e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "120.232.153.40",
             "server_port": 35601,
@@ -160,30 +177,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 18",
-            "type": "vmess",
-            "server": "yfg4l.c6tu5uwk9.buzz",
-            "server_port": 80,
-            "uuid": "219eb7ea-8f9a-4af8-857b-4b4b564224ef",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
