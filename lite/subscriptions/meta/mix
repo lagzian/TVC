@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @XsV2ray | 13","type":"vless","server":"www.speedtest.net","port":2082,"udp":false,"uuid":"86795c84-2287-4198-9df3-2760926ef431","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @XsV2ray | 14","type":"vless","server":"zula.ir","port":2083,"udp":false,"uuid":"81dabced-dd35-445b-83fa-9ee3d786d97c","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Xs.bo3kot.com","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
+  - {"name":"🇺🇸US | 🔴 | vless | @XsV2ray | 14","type":"vless","server":"zula.ir","port":2083,"udp":false,"uuid":"81dabced-dd35-445b-83fa-9ee3d786d97c","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Xs.bo3kot.com","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @VlessConfig | 18","type":"vless","server":"16.171.75.121","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @VlessConfig | 19","type":"vless","server":"51.20.62.103","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @ipV2Ray | 12","type":"vless","server":"151.101.3.8","port":80,"udp":false,"uuid":"d810397a-f423-45f4-b0fd-41fd8ecd28ee","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048","headers":{"host":"barkatc2.ir"}}}
@@ -162,6 +162,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 6","type":"vless","server":"time.is","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"bPb-woRkEr-PAneL-bcr.paGEs.DeV","ws-opts":{"path":"/6gtQ2yeWx97hsYDK/dGltZS5pcw==?ed=2560","headers":{"host":"bpb-worker-panel-bcr.pages.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 7","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"bpB-WORkER-PanEl-bcR.PAgES.deV","ws-opts":{"path":"/MQCtFapSEsrolddT/dGltZS5pcw==?ed=2560","headers":{"host":"bpb-worker-panel-bcr.pages.dev"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"104.21.31.62","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @fnet00 | 8","type":"vless","server":"162.159.138.178","port":8080,"udp":false,"uuid":"d3bbc9aa-a915-4f57-80eb-6ba881d961fb","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8","type":"vless","server":"172.66.44.233","port":443,"udp":false,"uuid":"38720105-063f-40f5-a5eb-f3198b9b617d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"aksnmaioas.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"aksnmaioas.pages.dev"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 11","type":"vless","server":"151.101.3.8","port":80,"udp":false,"uuid":"d95a0e83-902d-4396-b2af-5c5023f40168","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048","headers":{"host":"barkatc2.ir"}}}
@@ -180,7 +181,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇺🇸US | 🔴 | vless | @XsV2ray | 13'
-      - '🇨🇦CA | 🔴 | vless | @XsV2ray | 14'
+      - '🇺🇸US | 🔴 | vless | @XsV2ray | 14'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 18'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 19'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 12'
@@ -221,6 +222,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
@@ -239,7 +241,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇺🇸US | 🔴 | vless | @XsV2ray | 13'
-      - '🇨🇦CA | 🔴 | vless | @XsV2ray | 14'
+      - '🇺🇸US | 🔴 | vless | @XsV2ray | 14'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 18'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 19'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 12'
@@ -280,6 +282,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
@@ -297,7 +300,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇺🇸US | 🔴 | vless | @XsV2ray | 13'
-      - '🇨🇦CA | 🔴 | vless | @XsV2ray | 14'
+      - '🇺🇸US | 🔴 | vless | @XsV2ray | 14'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 18'
       - '🇸🇪SE | 🔴 | vless | @VlessConfig | 19'
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 12'
@@ -338,6 +341,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 6'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 7'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
       - '🇺🇸US | 🔴 | vless | @fnet00 | 8'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 11'
