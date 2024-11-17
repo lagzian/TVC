@@ -254,7 +254,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | 🔴 | vless | @Watashi_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
                 "🇸🇪SE | 🔴 | vless | @servermomo | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
@@ -468,11 +468,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -731,7 +727,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | 🔴 | vless | @Watashi_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
                 "🇸🇪SE | 🔴 | vless | @servermomo | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
@@ -945,11 +941,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -4592,7 +4584,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "WwW.gOv.Se",
             "server_port": 8443,
@@ -9883,72 +9875,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "hms19.best-tizi.top",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms19.best-tizi.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "hms19.best-tizi.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "sky.rethinkdns.com",
-            "server_port": 2096,
-            "uuid": "6285e567-0c25-4ce2-a2fa-80517c1345e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1223-9ux.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "1223-9ux.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -9975,68 +9902,6 @@
                 "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "162.159.44.205",
-            "server_port": 443,
-            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "freedom-1rj.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
-                "headers": {
-                    "Host": "freedom-1rj.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "104.26.14.85",
-            "server_port": 2096,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hagh.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hagh.pages.dev"
                 }
             }
         },
