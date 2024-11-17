@@ -110,8 +110,8 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,45 +238,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "192.74.241.165",
-            "server_port": 38003,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "192.74.241.165",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/1729331099084",
-                "headers": {
-                    "Host": "192.74.241.165"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15",
-            "type": "vmess",
-            "server": "b.jishuzhai.cloudns.biz",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "server": "104.26.5.112",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -287,9 +253,33 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "ip3.6929198.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "type": "vmess",
+            "server": "b.hungshing.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
             "tls": {
                 "enabled": true,
-                "server_name": "b.jishuzhai.cloudns.biz",
+                "server_name": "b.hungshing.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -299,9 +289,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/hms19.best-tizi.top:443\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "b.jishuzhai.cloudns.biz"
+                    "Host": "b.hungshing.org"
                 }
             }
         }

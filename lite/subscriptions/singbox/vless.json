@@ -153,6 +153,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -220,6 +222,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -676,7 +680,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "bc47d1e5-8c86-4c7e-9809-cef0e0cc14bb",
+            "uuid": "38b95b9f-7fb0-4661-9ac7-c179aba8974e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -697,7 +701,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "bc47d1e5-8c86-4c7e-9809-cef0e0cc14bb",
+            "uuid": "38b95b9f-7fb0-4661-9ac7-c179aba8974e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1397,6 +1401,68 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "japantimes.co.jp",
+            "server_port": 443,
+            "uuid": "c95a5a3a-5a4c-4ee5-b11a-96f72cf80661",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "4cbba020.fastpurnet3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4cbba020.mobilesignal.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "4cbba020.fastpurnet3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.18.124.198",
+            "server_port": 443,
+            "uuid": "53027f0f-2581-469a-a802-825d46f37cda",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cassiusvpn.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
                 }
             }
         },
