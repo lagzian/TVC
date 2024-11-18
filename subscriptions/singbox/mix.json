@@ -408,7 +408,7 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 0",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "❔XX | 🔴 | vless | @proxyymeliii | 2",
-                "🇺🇸US | 🔴 | vless | @proxyymeliii | 3",
+                "🇨🇦CA | 🔴 | vless | @proxyymeliii | 3",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -476,15 +476,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | trojan | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -892,7 +887,7 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 0",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "❔XX | 🔴 | vless | @proxyymeliii | 2",
-                "🇺🇸US | 🔴 | vless | @proxyymeliii | 3",
+                "🇨🇦CA | 🔴 | vless | @proxyymeliii | 3",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
@@ -960,15 +955,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | trojan | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
                 "🚩CF | 🔴 | trojan | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
@@ -8388,7 +8378,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxyymeliii | 3",
+            "tag": "🇨🇦CA | 🔴 | vless | @proxyymeliii | 3",
             "type": "vless",
             "server": "www.canva.com",
             "server_port": 8880,
@@ -10063,6 +10053,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "b037ff46-dfc8-43dd-a1b0-1afd0e1f2157",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
             "uuid": "5cf043d9-f752-4c05-be56-1570ade52ac6",
@@ -10092,11 +10113,13 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | trojan | @ConfigsHUB | 1",
-            "type": "trojan",
-            "server": "104.16.223.104",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "162.159.44.154",
             "server_port": 443,
-            "password": "auto",
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -10104,7 +10127,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojanmz.pages.dev",
+                "server_name": "freedom-1rj.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -10114,14 +10137,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/trojanmz.pages.dev\/?ed=2560",
+                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
                 "headers": {
-                    "Host": "trojanmz.pages.dev"
+                    "Host": "freedom-1rj.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -10152,7 +10175,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -10179,175 +10202,6 @@
                 "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "b037ff46-dfc8-43dd-a1b0-1afd0e1f2157",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇬BG | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "147.78.140.68",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6c47-butterfly-6c47.yexoji3749.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "6c47-butterfly-6c47.yexoji3749.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "80772220-3e7d-5f06-ae29-96672b8fa6df",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "199.232.8.68",
-            "server_port": 443,
-            "uuid": "80772220-3e7d-5f06-ae29-96672b8fa6df",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ELiv2RAy-jOiN.cOm",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ELiv2RAy-jOiN.cOm"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "190.93.244.0",
-            "server_port": 2086,
-            "uuid": "636b1684-b26c-4a9c-bc6e-8e1197a36d74",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "workerr.hashdiler.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "151.101.130.228",
-            "server_port": 443,
-            "uuid": "041f671a-63f5-4af1-a492-8cbff5797b8a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2087fp=randomizedfp=chrome",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
