@@ -106,24 +106,24 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @mftizi | 18",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @mftizi | 18",
-                "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
+                "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
+                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -146,7 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "143.92.42.65",
             "server_port": 2902,
@@ -163,7 +163,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 18",
+            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "149.104.20.212",
             "server_port": 18210,
@@ -180,7 +180,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -204,7 +204,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "47.74.8.202",
-            "server_port": 23468,
-            "uuid": "9f563bc7-0481-41d2-f8fd-a4736ded9bc0",
+            "server": "az05.beyondy.cfd",
+            "server_port": 443,
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,14 +252,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cbaabac-acba-baca-bdac-acbbaacbaccb",
+            "server": "47.74.8.202",
+            "server_port": 23468,
+            "uuid": "9f563bc7-0481-41d2-f8fd-a4736ded9bc0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
