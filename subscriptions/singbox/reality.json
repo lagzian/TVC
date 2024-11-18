@@ -116,6 +116,10 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 13",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
@@ -150,6 +154,10 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 13",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
@@ -409,6 +417,143 @@
             "type": "vless",
             "server": "188.245.197.174",
             "server_port": 1623,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwww.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "57.128.123.50",
+            "server_port": 2096,
+            "uuid": "1250c0dd-856e-4cb9-b254-5d8e55419fed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalfak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
+                    "short_id": "a56f693ce784b4cc"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "dalfak.com"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "my.jasrama.com",
+            "server_port": 2096,
+            "uuid": "1250c0dd-856e-4cb9-b254-5d8e55419fed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalfak.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY",
+                    "short_id": "a56f693ce784b4cc"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "dalfak.com"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "93.185.163.238",
+            "server_port": 8082,
+            "uuid": "feb6f54a-1c99-4281-b0d4-113765e70c61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "use.fontawesome.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k",
+                    "short_id": "6a69d0c3821da542"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "use.fontawesome.com"
+                ],
+                "path": "\/media\/download?file_id=12345"
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.245.197.174",
+            "server_port": 1618,
             "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
