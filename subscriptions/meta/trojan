@@ -165,9 +165,6 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0","type":"trojan","server":"104.18.12.229","port":2053,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1","type":"trojan","server":"172.66.44.131","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3","type":"trojan","server":"172.64.153.235","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpB-worKER-paneL1-e4p.pAGes.dEV"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 13","type":"trojan","server":"104.21.7.153","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpb.macser.us.kg"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"104.20.19.48","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 16","type":"trojan","server":"104.16.224.104","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanmz.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @proxystore11 | 0","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -220,9 +217,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 13'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: URL-TEST
     type: url-test
@@ -275,9 +269,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 13'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: FALLBACK
     type: fallback
@@ -329,9 +320,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 13'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
