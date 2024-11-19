@@ -16,10 +16,11 @@ DIRECT = direct
 🇩🇪DE | 🟢 | trojan | @DirectVPN | 18 = trojan, 3.72.228.193, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | trojan | @DirectVPN | 19 = trojan, 51.20.156.141, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3 = trojan, 172.64.153.235, 2053, password = bpb-trojan, udp-delay = true, skip-cert-verify = false, sni = bpB-worKER-paneL1-e4p.pAGes.dEV, ws = false
+🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18 = trojan, 45.146.232.173, 27101, password = 4e399fb9-5a4c-49cd-9849-2051512f4c6c, udp-delay = true, skip-cert-verify = true, sni = q08m.vgraxiw73s.hasyaf.cn, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3
-URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3
-FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3,🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3,🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇩🇪DE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3,🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

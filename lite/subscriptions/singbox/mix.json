@@ -159,6 +159,8 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -171,7 +173,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 22",
@@ -237,6 +239,8 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -249,7 +253,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 22",
@@ -1550,6 +1554,49 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.19.223.79",
+            "server_port": 443,
+            "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2f2aa869a6c74af796bb.starsha-goodd.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/abcdewsfp=chrome",
+                "headers": {
+                    "Host": "2f2aa869a6c74af796bb.starsha-goodd.info"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "45.146.232.173",
+            "server_port": 27101,
+            "password": "4e399fb9-5a4c-49cd-9849-2051512f4c6c",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "188.114.97.2",
@@ -1877,31 +1924,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
             "type": "vless",
-            "server": "1622.postsafir.ir",
-            "server_port": 1622,
-            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
-            "flow": "xtls-rprx-vision",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "headers": {
+                    "Host": "151.101.3.8"
                 }
             }
         },
