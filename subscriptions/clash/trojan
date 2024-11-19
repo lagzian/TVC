@@ -163,6 +163,8 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0","type":"trojan","server":"104.18.12.229","port":2053,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1","type":"trojan","server":"172.66.44.131","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3","type":"trojan","server":"172.64.153.235","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpB-worKER-paneL1-e4p.pAGes.dEV"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"104.19.174.68","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanfree-76s.pages.dev"}
+  - {"name":"🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"45.146.232.173","port":27101,"udp":false,"password":"4e399fb9-5a4c-49cd-9849-2051512f4c6c","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"q08m.vgraxiw73s.hasyaf.cn"}
   - {"name":"🚩CF | 🔴 | trojan | @proxystore11 | 0","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -215,6 +217,8 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: URL-TEST
     type: url-test
@@ -267,6 +271,8 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: FALLBACK
     type: fallback
@@ -318,6 +324,8 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 0'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 1'
       - '🚩CF | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 14'
+      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
