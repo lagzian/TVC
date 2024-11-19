@@ -161,8 +161,9 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.147.113.96","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"3.147.110.253","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"15.157.149.94","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 0","type":"trojan","server":"185.176.24.2","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV"}
-  - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 2","type":"trojan","server":"172.67.49.134","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanfree-76s.pages.dev"}
+  - {"name":"🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 2","type":"trojan","server":"185.176.24.2","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV"}
+  - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 4","type":"trojan","server":"172.67.49.134","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanfree-76s.pages.dev"}
+  - {"name":"🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"135.84.79.80","port":443,"udp":false,"password":"dns68","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.putata.us.kg"}
   - {"name":"🚩CF | 🔴 | trojan | @proxystore11 | 0","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -211,8 +212,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 18'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 19'
-      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 0'
-      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
+      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: URL-TEST
     type: url-test
@@ -261,8 +263,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 18'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 19'
-      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 0'
-      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
+      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: FALLBACK
     type: fallback
@@ -310,8 +313,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 18'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 19'
-      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 0'
-      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 2'
+      - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
+      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
