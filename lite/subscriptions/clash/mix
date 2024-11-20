@@ -125,7 +125,6 @@ proxies:
   - {"name":"🇭🇰HK | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"143.92.42.65","port":"2902","cipher":"auto","uuid":"640c1077-d10b-4225-a9fb-d3e9c3ce7a00","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"149.104.20.212","port":"18210","cipher":"auto","uuid":"d57c4ac9-f43b-4856-ac46-4987a08e1f6f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"www.speedtest.net","port":"8880","cipher":"auto","uuid":"2c11b21e-a56b-404c-8422-8d31fc8190b1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17","type":"trojan","server":"3.69.41.217","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +139,6 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: URL-TEST
     type: url-test
@@ -155,7 +153,6 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: FALLBACK
     type: fallback
@@ -169,7 +166,6 @@ proxy-groups:
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 17'
       - '🇭🇰HK | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
