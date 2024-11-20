@@ -163,7 +163,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"51.21.116.87","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 3","type":"trojan","server":"185.176.24.2","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV"}
   - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 5","type":"trojan","server":"172.67.49.134","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanfree-76s.pages.dev"}
-  - {"name":"🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 15","type":"trojan","server":"95.164.38.151","port":443,"udp":false,"password":"c5691b8f-d833-41e4-9295-769f3edb4cd2","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"customer-95-164-38-151.stark-industries.solutions"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"104.24.85.249","port":443,"udp":false,"password":"WOeXShhJpL","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"05jzus.zdzdzd.xyz"}
   - {"name":"🚩CF | 🔴 | trojan | @proxystore11 | 0","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -214,7 +214,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 3'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 5'
-      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: URL-TEST
     type: url-test
@@ -265,7 +265,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 3'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 5'
-      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
   - name: FALLBACK
     type: fallback
@@ -315,7 +315,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇳🇱NL | 🔴 | trojan | @v2ray1_ng | 3'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 5'
-      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
