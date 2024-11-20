@@ -163,14 +163,14 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -248,14 +248,14 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -1680,11 +1680,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.21.95.137",
+            "server": "162.159.195.149",
             "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
+            "uuid": "38a20c4d-ae34-4dce-90ca-a949ada6da29",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1694,7 +1694,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev",
+                "server_name": "BPB-tUrKey.pAGEs.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1704,20 +1704,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/j07Rxrtk1vI7kkPi\/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
                 "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev"
+                    "Host": "BPB-tUrKey.pAGEs.DEv"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.19.75.119",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 17",
+            "type": "trojan",
+            "server": "3.69.41.217",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1725,19 +1723,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev"
                 }
             }
         },
@@ -1862,11 +1853,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "104.20.17.186",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "https:\/\/github.com\/ALIILAPRO\/v2rayNG-Config",
+            "server_port": 433,
+            "uuid": "Free",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1876,21 +1867,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "162.159.140.56",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "61.120.9.18",
+            "server_port": 43720,
+            "uuid": "f248d0e9-19f7-ea7f-6659-17a610dfe8d6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1900,13 +1884,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
