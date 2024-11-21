@@ -111,8 +111,8 @@
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -264,11 +264,35 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.21.238.200",
-            "server_port": 8443,
-            "uuid": "9201ffaa-6ca3-4f57-8b1f-266a2f390e43",
+            "server": "141.193.213.201",
+            "server_port": 2086,
+            "uuid": "fbe5943b-58ad-4862-8af3-30e8b4f10dd0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "45.67.32.147",
+            "server_port": 20664,
+            "uuid": "a5483118-8d40-48da-bde1-b20445d8c380",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,7 +305,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "http1.9290254.xyz",
+                "server_name": "somethings.iseasy.tw",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -291,27 +315,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/socks5tobefree",
                 "headers": {
-                    "Host": "http1.9290254.xyz"
+                    "Host": "somethings.iseasy.tw"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cabacba-bcaa-baac-dcab-bccbbabcacaa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
