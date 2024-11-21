@@ -116,8 +116,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -151,8 +150,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -443,7 +441,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 6",
+            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
             "type": "vless",
             "server": "188.245.197.174",
             "server_port": 1623,
@@ -468,35 +466,6 @@
                     "enabled": true,
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "65.109.199.60",
-            "server_port": 45187,
-            "uuid": "324318a5-2823-421d-b282-c1fd469d5939",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nko9VHbKvB3ZxWUguFPQjhoXikGfUV22Fmf2dmUKw38",
-                    "short_id": "ac9b"
                 }
             }
         },
