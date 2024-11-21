@@ -131,7 +131,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -157,11 +157,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -203,7 +205,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -229,11 +231,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
@@ -871,7 +875,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "162.159.129.60",
             "server_port": 443,
@@ -1505,6 +1509,51 @@
             }
         },
         {
+            "tag": "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "89.35.73.171",
+            "server_port": 8443,
+            "uuid": "20fda433-1864-433b-b3dd-8f119fe4cafd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "happy.mianfeicf.lol",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "happy.mianfeicf.lol"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-112",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "188.114.97.2",
@@ -1583,9 +1632,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "Parsashonam-111",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "5089fef5-c1ac-406a-b145-b0fe5f3b0b07",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1593,36 +1642,33 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                    "Host": "151.101.3.8"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-111",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "e9490174-77ec-426f-85f2-11dea5d84155",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "151.101.3.8"
+                }
             }
         },
         {
