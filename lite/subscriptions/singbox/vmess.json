@@ -111,8 +111,8 @@
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 4",
-                "🇰🇿KZ | 🟢 | vmess | @Hope_Net | 5"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 4",
-                "🇰🇿KZ | 🟢 | vmess | @Hope_Net | 5"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -264,11 +264,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "8.209.250.150",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "gzo.runjustfast.com",
+            "server_port": 30006,
+            "uuid": "58bb35bc-8c58-4065-8c5f-9eeedb237eb1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,7 +281,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "8.209.250.150",
+                "server_name": "gzo.runjustfast.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -291,18 +291,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/obdii.cfd:443\/linkws",
+                "path": "\/4su6gxksa11c",
                 "headers": {
-                    "Host": "8.209.250.150"
+                    "Host": "gzo.runjustfast.com"
                 }
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "194.76.18.197",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acbcaba-cbaa-abac-cdab-bacacabbbcca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,23 +312,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "194.76.18.197",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/obdii.cfd:443\/linkws",
-                "headers": {
-                    "Host": "194.76.18.197"
-                }
             }
         }
     ],
