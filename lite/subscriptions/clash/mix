@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"172.64.166.20","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"112.132.212.19","port":"50004","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 18","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇦🇪AE | 🟢 | ss | @kingofilter | 28","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -146,7 +145,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 18'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 28'
   - name: URL-TEST
     type: url-test
@@ -164,7 +162,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 18'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 28'
   - name: FALLBACK
     type: fallback
@@ -181,7 +178,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 7'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 8'
-      - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 18'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 28'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
