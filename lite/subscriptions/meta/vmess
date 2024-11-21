@@ -125,6 +125,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | vmess | @customv2ray | 16","type":"vmess","server":"Back.MsV2ray.online","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0","type":"vmess","server":"www.speedtest.net","port":"8880","cipher":"auto","uuid":"2c11b21e-a56b-404c-8422-8d31fc8190b1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"104.19.46.103","port":2095,"cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.6016725.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"gzo.runjustfast.com","port":"30006","cipher":"auto","uuid":"58bb35bc-8c58-4065-8c5f-9eeedb237eb1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4su6gxksa11c","headers":{"host":"us1.runjustfast.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -137,6 +138,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @customv2ray | 16'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
   - name: URL-TEST
     type: url-test
@@ -149,6 +151,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @customv2ray | 16'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
   - name: FALLBACK
     type: fallback
@@ -160,6 +163,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @customv2ray | 16'
       - '🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
       - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 12'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
