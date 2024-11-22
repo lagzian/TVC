@@ -16,10 +16,11 @@ DIRECT = direct
 🇸🇪SE | 🟢 | trojan | @DirectVPN | 18 = trojan, 16.171.76.41, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | trojan | @DirectVPN | 19 = trojan, 13.48.83.146, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11 = trojan, 172.67.49.134, 443, password = auto, udp-delay = true, skip-cert-verify = false, sni = trojanfree-76s.pages.dev, ws = false
+🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 19 = trojan, 132.145.84.172, 20983, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11
-URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11
-FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11,🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 19
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11,🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 19
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18,🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19,🇸🇪SE | 🟢 | trojan | @DirectVPN | 18,🇸🇪SE | 🟢 | trojan | @DirectVPN | 19,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 11,🇰🇷KR | 🔴 | trojan | @ConfigsHUB | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
