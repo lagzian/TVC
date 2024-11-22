@@ -161,8 +161,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -246,8 +246,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1648,16 +1648,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "cs.putihb.org",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAy",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "9866995e-7225-4919-8de8-19a3f941c4d4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1665,7 +1683,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cs.putihb.org",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1675,24 +1693,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
-                    "Host": "cs.putihb.org"
+                    "Host": "hajlab.ucdavis.edu"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "157.90.236.4",
-            "server_port": 29032,
-            "uuid": "41ed1447-0623-4e86-b159-aee5a6f67a1c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
