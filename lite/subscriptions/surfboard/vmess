@@ -14,12 +14,12 @@ DIRECT = direct
 🇸🇪SE | 🟢 | vmess | @customv2ray | 16 = vmess, Back.MsV2ray.online, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0 = vmess, www.speedtest.net, 8880, username = 2c11b21e-a56b-404c-8422-8d31fc8190b1, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇸🇪SE | 🟢 | vmess | @Hope_Net | 9 = vmess, 185.146.173.59, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @Hope_Net | 10 = vmess, 188.114.97.2, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+🇳🇱NL | 🟢 | vmess | @Hope_Net | 10 = vmess, 45.149.12.84, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+🇸🇪SE | 🟢 | vmess | @Hope_Net | 11 = vmess, 185.146.173.59, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇸🇪SE | 🟢 | vmess | @Hope_Net | 9,🇺🇸US | 🟢 | vmess | @Hope_Net | 10
-URL-TEST = url-test,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇸🇪SE | 🟢 | vmess | @Hope_Net | 9,🇺🇸US | 🟢 | vmess | @Hope_Net | 10
-FALLBACK = fallback,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇸🇪SE | 🟢 | vmess | @Hope_Net | 9,🇺🇸US | 🟢 | vmess | @Hope_Net | 10
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇳🇱NL | 🟢 | vmess | @Hope_Net | 10,🇸🇪SE | 🟢 | vmess | @Hope_Net | 11
+URL-TEST = url-test,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇳🇱NL | 🟢 | vmess | @Hope_Net | 10,🇸🇪SE | 🟢 | vmess | @Hope_Net | 11
+FALLBACK = fallback,🇸🇪SE | 🟢 | vmess | @customv2ray | 16,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇳🇱NL | 🟢 | vmess | @Hope_Net | 10,🇸🇪SE | 🟢 | vmess | @Hope_Net | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
