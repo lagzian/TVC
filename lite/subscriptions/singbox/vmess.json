@@ -109,11 +109,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9"
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 7",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -123,11 +123,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9"
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 7",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -218,11 +218,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "2c11b21e-a56b-404c-8422-8d31fc8190b1",
+            "server": "cs.putihb.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,11 +233,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cs.putihb.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "cs.putihb.org"
                 }
             }
         },
@@ -300,13 +310,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.67.144.114",
+            "server": "149.7.16.194",
             "server_port": 443,
-            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -317,7 +327,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dkzbofzkop.com",
+                "server_name": "149.7.16.194",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -327,16 +337,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/rbqqvws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "dkzbofzkop.com"
+                    "Host": "149.7.16.194"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "45.149.12.84",
+            "server": "185.146.173.59",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
@@ -351,7 +361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "45.149.12.84",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -361,9 +371,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1\/?ed=2560",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "45.149.12.84"
+                    "Host": "obdii.cfd"
                 }
             }
         }
