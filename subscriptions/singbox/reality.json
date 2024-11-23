@@ -118,7 +118,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -154,7 +153,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇳🇱NL | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -500,42 +498,6 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "165.22.54.50",
-            "server_port": 8889,
-            "uuid": "7c2ba149-2827-4e07-b82a-61b74b76d68b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "p8caKe6MUNLfGgOoSPVVHDdSPTG6Fi02pz0ae9vygxo",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "addons.mozilla.org"
-                ],
-                "path": "\/"
             }
         },
         {
