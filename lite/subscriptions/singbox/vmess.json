@@ -277,8 +277,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abccbaa-acab-acba-cadb-bbbccacacbaa",
+            "server_port": 8080,
+            "uuid": "bcbacaa-caba-caab-dbac-abaabcabccbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,9 +293,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "206.206.80.66",
-            "server_port": 23423,
-            "uuid": "8825fd04-9005-4410-b48c-d2f345ec7fee",
+            "server": "172.67.64.120",
+            "server_port": 8080,
+            "uuid": "b952c094-b477-4a5e-a4d7-b62d6d1675af",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,6 +305,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
             }
         }
     ],
