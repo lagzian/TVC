@@ -122,7 +122,6 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19","type":"trojan","server":"16.171.118.101","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"18.193.202.191","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"16.170.129.178","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"104.16.192.1","port":443,"udp":false,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sherasheba.com"}
   - {"name":"🇺🇸US | 🔴 | trojan | @proxystore11 | 1","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +133,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 1'
   - name: URL-TEST
     type: url-test
@@ -146,7 +144,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 1'
   - name: FALLBACK
     type: fallback
@@ -157,7 +154,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
