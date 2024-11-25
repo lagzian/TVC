@@ -118,7 +118,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 9",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -153,7 +154,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 9",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -508,7 +510,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "my.jasrama.com",
             "server_port": 2096,
@@ -539,6 +541,42 @@
                 "type": "http",
                 "host": [
                     "dalfak.com"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "dllvarzeshtvsamanehouignbguvuibybfhfgdrews.website.24digitalmarkting.ir",
+            "server_port": 12345,
+            "uuid": "3a759bdf-f49a-426b-aa5b-b4091eaf8f6b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QDqpqvWPsDtooLg5PTHd2rmRfQhDJLf7-S5cUyFxUQk",
+                    "short_id": "8e36c7e79b74a6fa"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir"
                 ],
                 "path": "\/"
             }
