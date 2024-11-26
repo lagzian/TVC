@@ -111,8 +111,8 @@
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -274,11 +274,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "172.64.166.22",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "104.21.1.76",
+            "server_port": 8443,
+            "uuid": "fa9a1935-a965-4b9d-bfe1-7fe15553c44b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -289,22 +289,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v034.emovpn.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.64.166.22"
+                    "Host": "v034.emovpn.xyz"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇮🇹IT | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "120.232.153.27",
-            "server_port": 58831,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "147.45.51.16",
+            "server_port": 2098,
+            "uuid": "83876222-64a4-4912-aa18-b7d9d34959de",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
