@@ -118,6 +118,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -153,6 +154,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -505,6 +507,42 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "dllvarzeshtvsamanehouignbguvuibybfhfgdrews.website.24digitalmarkting.ir",
+            "server_port": 12345,
+            "uuid": "3a759bdf-f49a-426b-aa5b-b4091eaf8f6b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QDqpqvWPsDtooLg5PTHd2rmRfQhDJLf7-S5cUyFxUQk",
+                    "short_id": "8e36c7e79b74a6fa"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir"
+                ],
+                "path": "\/"
             }
         },
         {
