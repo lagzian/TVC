@@ -111,8 +111,8 @@
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8"
+                "🇮🇳IN | 🟢 | vmess | @Hope_Net | 7",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8"
+                "🇮🇳IN | 🟢 | vmess | @Hope_Net | 7",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -274,11 +274,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇮🇳IN | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "194.87.31.160",
-            "server_port": 8081,
-            "uuid": "a7e00c2f-411a-438f-9119-0f022a85a5e3",
+            "server": "129.154.254.254",
+            "server_port": 8443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,14 +288,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/obdii.cfd:443\/linkws",
+                "headers": {
+                    "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
+                }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "183.236.51.36",
-            "server_port": 59003,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "194.87.31.160",
+            "server_port": 8081,
+            "uuid": "a7e00c2f-411a-438f-9119-0f022a85a5e3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
