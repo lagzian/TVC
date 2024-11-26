@@ -151,8 +151,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
@@ -169,8 +169,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 26",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 27",
-                "❔XX | 🔴 | vless | @VpnSkyy | 3",
-                "❔XX | 🔴 | vless | @VpnSkyy | 4"
+                "❔XX | 🔴 | vless | @VpnSkyy | 2",
+                "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ]
         },
         {
@@ -222,8 +222,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
@@ -240,8 +240,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 26",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 27",
-                "❔XX | 🔴 | vless | @VpnSkyy | 3",
-                "❔XX | 🔴 | vless | @VpnSkyy | 4"
+                "❔XX | 🔴 | vless | @VpnSkyy | 2",
+                "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1423,11 +1423,25 @@
             }
         },
         {
-            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "190.93.245.137",
+            "server": "94.130.99.166",
+            "server_port": 53545,
+            "uuid": "633b5fd7-5945-4db9-986e-32541e2ade6e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "0948673a-e607-4629-a07e-c70e1122fb73",
+            "uuid": "9978631f-d2c2-46c1-b0ff-b0bc492caf39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1437,40 +1451,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Ruc80.TehrANsiMAn.co.UK.",
+                "server_name": "chde.black-melo.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "Ruc80.TehrANsiMAn.co.UK."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "ipcloudflaretamiz.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "668dfd6e-ae71-4afe-96e5-bde0d165cbe4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ipcloudflaretamiz.fastly80-2.hosting-ip.com"
                 }
             }
         },
@@ -1928,6 +1914,37 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 2",
+            "type": "vless",
+            "server": "web.bbv2ry.pics",
+            "server_port": 443,
+            "uuid": "ca544ad7-181d-408f-8f95-8ce7c51cd399",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Skyy.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Skyy.bbv2ry.pics"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @VpnSkyy | 3",
             "type": "vless",
             "server": "web.bbv2ry.pics",
@@ -1955,37 +1972,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Skyy.bbv2ry.pics"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @VpnSkyy | 4",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "12e9debb-5f13-4981-b600-073f5e9307c9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Sky1.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Sky1.bbv2ry.pics"
                 }
             }
         }
