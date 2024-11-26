@@ -112,7 +112,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
@@ -125,7 +125,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -276,9 +276,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "s2.db-link02.top",
-            "server_port": 2086,
-            "uuid": "ac9c5899-29ee-3139-a2ae-b5803a68524f",
+            "server": "172.64.166.22",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -291,20 +291,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in104.16.98.32",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "s2.db-link02.top"
+                    "Host": "172.64.166.22"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "104.19.48.236",
-            "server_port": 2082,
-            "uuid": "1c713b69-0abe-3a1e-bf70-b0579ea2f772",
+            "server": "120.232.153.27",
+            "server_port": 58831,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -312,13 +312,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in172.64.25.37",
-                "headers": {
-                    "Host": ""
-                }
             }
         }
     ],
