@@ -158,7 +158,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -240,7 +241,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1601,11 +1603,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "9978631f-d2c2-46c1-b0ff-b0bc492caf39",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "fa12a8d8-c572-4b60-a5ed-46d52755af94",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1613,14 +1615,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "chde.black-melo.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "e5f0a1d3-a236-43b5-9b43-36265e73f1fe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "185.146.173.58"
                 }
             }
         },
