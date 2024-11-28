@@ -149,7 +149,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -213,7 +214,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -1325,11 +1327,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "50.7.85.221",
-            "server_port": 8443,
-            "uuid": "f21e1b2d-71e6-4f50-b921-acd4e89ef19a",
+            "server": "104.19.216.72",
+            "server_port": 443,
+            "uuid": "714c776d-ccf4-57db-97b2-3628ae1f1b3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1339,7 +1341,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hello-world-nameless-morning-b71b.bojipar202.workers.dev",
+                "server_name": "ztv2ray.teyekas893.wORKeRS.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1349,10 +1351,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "hello-world-nameless-morning-b71b.bojipar202.workers.dev"
+                    "Host": "ztv2ray.teyekas893.wORKeRS.DEV"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "185.119.240.34",
+            "server_port": 4009,
+            "uuid": "c97861ff-0b79-44df-9019-6f8b5dd796ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
