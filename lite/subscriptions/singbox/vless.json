@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -149,7 +149,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -176,8 +176,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
+                "🇺🇸US | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -215,7 +215,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -344,9 +344,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "54.236.152.164",
+            "server": "15.156.178.65",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -375,9 +375,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "46.51.152.182",
+            "server": "98.85.39.51",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1329,11 +1329,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "160.153.0.183",
-            "server_port": 2087,
-            "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1341,21 +1341,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Tp0500PzH8.eHsAnDnS10.iR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
                 "headers": {
-                    "Host": "Tp0500PzH8.eHsAnDnS10.iR"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
