@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -151,6 +152,7 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -467,6 +469,42 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "193.43.91.84",
+            "server_port": 8495,
+            "uuid": "b6067899-8c64-4e83-8ec9-b0abeef1596f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc",
+                    "short_id": "acbc173b1eef54b5"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "icloud.com"
+                ],
+                "path": "\/"
             }
         },
         {
