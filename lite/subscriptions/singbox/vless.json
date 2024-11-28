@@ -150,6 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -160,7 +161,8 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ]
@@ -213,6 +215,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -223,7 +226,8 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ],
@@ -1354,6 +1358,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "104.21.69.44",
@@ -1647,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 28",
             "type": "vless",
             "server": "funnelytics.io",
             "server_port": 8443,
@@ -1661,19 +1686,33 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de",
+                "server_name": "funnelytics.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 29",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
+                "path": "\/Telegram-Xv2ry2?ed=512",
                 "headers": {
-                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
