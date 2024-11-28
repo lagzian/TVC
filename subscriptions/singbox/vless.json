@@ -206,7 +206,7 @@
                 "🇺🇸US | 🔴 | vless | @frev2ray | 14",
                 "🚩CF | 🔴 | vless | @frev2ray | 15",
                 "🚩CF | 🔴 | vless | @frev2ray | 16",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 17",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -392,6 +392,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -575,7 +578,7 @@
                 "🇺🇸US | 🔴 | vless | @frev2ray | 14",
                 "🚩CF | 🔴 | vless | @frev2ray | 15",
                 "🚩CF | 🔴 | vless | @frev2ray | 16",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 17",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -761,6 +764,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -3440,7 +3446,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @frev2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @frev2ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -8038,6 +8044,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
+            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "dd1db063-d419-4ab7-9eba-ddc972300de8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
             "server": "Zmaoz.Faculty.UcdavIS.Edu",
             "server_port": 443,
             "uuid": "347c666a-f909-4394-f5b2-715e914db254",
@@ -8063,6 +8090,58 @@
                 "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
                     "Host": "Zmaoz.Faculty.UcdavIS.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "172.65.90.52",
+            "server_port": 2096,
+            "uuid": "263497fb-9ae2-4f7b-94c6-b0179e480448",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mOOn-AZaDNet.PAgeS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/gyUbkW525zXZfMgC?ed=2560",
+                "headers": {
+                    "Host": "mOOn-AZaDNet.PAgeS.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "043d66f3-2147-4e62-8503-5fd9626acb5f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560",
+                "headers": {
+                    "Host": "104.17.147.22"
                 }
             }
         },
