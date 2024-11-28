@@ -121,6 +121,7 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"ambxxic01hk.dorabbb.top","port":"44801","cipher":"auto","uuid":"525bf680-dda1-451f-8758-d5ce847e5dc9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"50021.baidu-cdn.top","port":"50021","cipher":"auto","uuid":"9f5e9155-2356-40be-8549-ee2f3e45fe36","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"176.32.33.158","port":"8080","cipher":"auto","uuid":"7eaefdd1-6210-4837-8ce5-3ac2c4f391e0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇮🇷IR | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"2.189.85.234","port":55910,"cipher":"auto","uuid":"4f80820e-f433-447f-87c8-3ee6dfafe1b1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 16","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
 proxy-groups:
@@ -132,6 +133,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 11'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 16'
   - name: URL-TEST
@@ -143,6 +145,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 11'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 16'
   - name: FALLBACK
@@ -153,6 +156,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
+      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 11'
       - '🇮🇷IR | 🟢 | vmess | @Hope_Net | 12'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 16'
 rules:
