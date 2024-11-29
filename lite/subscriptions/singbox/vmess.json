@@ -111,8 +111,7 @@
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0"
             ]
         },
         {
@@ -124,8 +123,7 @@
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -274,9 +272,9 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "d.ritchier.info",
+            "server": "104.21.84.114",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -291,7 +289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "d.ritchier.info",
+                "server_name": "be.hkddisney.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -303,31 +301,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "d.ritchier.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "172.64.99.22",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.99.22"
+                    "Host": "be.hkddisney.org"
                 }
             }
         }
