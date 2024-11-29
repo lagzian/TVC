@@ -11,19 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17 = trojan, 13.41.83.158, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 18 = trojan, 18.130.53.220, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @DirectVPN | 17 = trojan, 35.178.160.100, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @DirectVPN | 18 = trojan, 18.135.189.173, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 17 = trojan, 54.217.125.105, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 18 = trojan, 34.250.180.100, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @DirectVPN | 17 = trojan, 52.16.85.104, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @DirectVPN | 18 = trojan, 54.247.141.10, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13 = trojan, 141.101.114.52, 443, password = bpb-trojan, udp-delay = true, skip-cert-verify = false, sni = fcspring.ggff.net, ws = false
 🇺🇸US | 🔴 | trojan | @proxystore11 | 0 = trojan, 104.17.102.149, 2053, password = bpb-trojan, udp-delay = true, skip-cert-verify = false, sni = bpb-WorkEr-panel-bcr.PagEs.DEv, ws = false
 🇨🇳CN | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @Hope_Net | 11 = vmess, 104.26.0.7, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"c3.6016725.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | @Hope_Net | 12 = vmess, 104.21.238.228, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"c3.6016725.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 18,🇬🇧GB | 🟢 | trojan | @DirectVPN | 17,🇬🇧GB | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
-URL-TEST = url-test,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 18,🇬🇧GB | 🟢 | trojan | @DirectVPN | 17,🇬🇧GB | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
-FALLBACK = fallback,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 18,🇬🇧GB | 🟢 | trojan | @DirectVPN | 17,🇬🇧GB | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 17,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 18,🇮🇪IE | 🟢 | trojan | @DirectVPN | 17,🇮🇪IE | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
+URL-TEST = url-test,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 17,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 18,🇮🇪IE | 🟢 | trojan | @DirectVPN | 17,🇮🇪IE | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
+FALLBACK = fallback,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 17,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 18,🇮🇪IE | 🟢 | trojan | @DirectVPN | 17,🇮🇪IE | 🟢 | trojan | @DirectVPN | 18,🇺🇸US | 🔴 | trojan | @v2ray1_ng | 13,🇺🇸US | 🔴 | trojan | @proxystore11 | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 11,🇺🇸US | 🟢 | vmess | @Hope_Net | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
