@@ -106,26 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 18",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 18",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "ambxxic01hk.dorabbb.top",
             "server_port": 44801,
@@ -165,7 +165,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "50021.baidu-cdn.top",
             "server_port": 50021,
@@ -216,7 +216,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -240,7 +240,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -274,11 +274,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "45.67.32.147",
-            "server_port": 40413,
-            "uuid": "93ef2025-b198-4a30-8be4-b90c1bce3f02",
+            "server": "128.204.223.115",
+            "server_port": 44085,
+            "uuid": "1db458f2-5df2-4fa5-8754-497c7ef0681b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,31 +288,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jh57.dumbppl.lovestoblog.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/makeacall",
-                "headers": {
-                    "Host": "jh57.dumbppl.lovestoblog.com"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
-            "uuid": "cbbaaca-baac-acab-dbac-aaabcbccbbca",
+            "uuid": "bbacaca-caab-bcaa-dcab-cbcbbccaabaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
