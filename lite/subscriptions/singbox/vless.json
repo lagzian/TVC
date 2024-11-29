@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 24",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 25",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ]
@@ -224,8 +224,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 24",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 25",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 28",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 29",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ],
@@ -1559,7 +1559,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 24",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 28",
             "type": "vless",
             "server": "104.17.234.114",
             "server_port": 8443,
@@ -1573,24 +1573,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de",
+                "server_name": "104.17.234.114",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 25",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 29",
             "type": "vless",
             "server": "funnelytics.io",
             "server_port": 8443,
@@ -1604,19 +1597,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de",
+                "server_name": "funnelytics.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
-                "headers": {
-                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.Powerfullserver.de"
                 }
             }
         },
