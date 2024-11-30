@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -118,6 +119,7 @@
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -196,6 +198,35 @@
                     "enabled": true,
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "docs.twixspace.com",
+            "server_port": 443,
+            "uuid": "6b9389e5-0dc3-42cb-b1c7-70b21ca0a26f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "isna.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MM2ZuhIbjaM6h7NOhWQZM8R8hkSE7Qc0uaEwzZ9YuQ0",
+                    "short_id": "15bf9cd93a696bc5"
                 }
             }
         },
