@@ -129,7 +129,6 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | trojan | @proxystore11 | 2","type":"trojan","server":"104.17.102.149","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpb-WorkEr-panel-bcr.PagEs.DEv"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇨🇼CW | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"92.60.74.143","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}}}
-  - {"name":"🇷🇺RU | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"176.32.35.198","port":"6191","cipher":"auto","uuid":"eb335cf0-c534-40b2-80d5-07b5a5da6119","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @nofiltering2 | 15","type":"vmess","server":"mtn.ivy-net.ir","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
 proxy-groups:
   - name: MANUAL
@@ -148,7 +147,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇼CW | 🟢 | vmess | @Hope_Net | 2'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: URL-TEST
     type: url-test
@@ -167,7 +165,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇼CW | 🟢 | vmess | @Hope_Net | 2'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
   - name: FALLBACK
     type: fallback
@@ -185,7 +182,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @proxystore11 | 2'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇨🇼CW | 🟢 | vmess | @Hope_Net | 2'
-      - '🇷🇺RU | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @nofiltering2 | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
