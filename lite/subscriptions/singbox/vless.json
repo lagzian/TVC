@@ -111,8 +111,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 38",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 14",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -147,8 +147,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 15",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -176,8 +176,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 38",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 14",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -212,8 +212,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 15",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -363,9 +363,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "18.168.222.111",
+            "server": "13.60.154.140",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -394,9 +394,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.11.219.46",
+            "server": "52.19.13.128",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1289,40 +1289,32 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "188.245.163.79",
-            "server_port": 1621,
-            "uuid": "24f65efb-4885-4e3c-b598-f70336ce8c63",
-            "flow": "xtls-rprx-vision",
+            "server": "190.93.247.56",
+            "server_port": 8080,
+            "uuid": "974f5231-0196-46ec-938e-4a5f11a534ce",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "wwww.refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560",
+                "headers": {
+                    "Host": "190.93.247.56"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.18.8.209",
-            "server_port": 2053,
-            "uuid": "1af8b2d6-213d-49ce-9bc9-ffbdc5830c35",
+            "server": "119.197.35.190",
+            "server_port": 50000,
+            "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1332,7 +1324,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "EDGETunnel-AMl.pages.DEV",
+                "server_name": "edgetunnel.xiaomayi.nyc.mn",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1342,9 +1334,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/REvilxXx?ed=2560",
+                "path": "\/Telegram🇨🇳 @WangCai2 \/",
                 "headers": {
-                    "Host": "EDGETunnel-AMl.pages.DEV"
+                    "Host": "edgetunnel.xiaomayi.nyc.mn"
                 }
             }
         },
