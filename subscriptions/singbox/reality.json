@@ -119,10 +119,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇺🇸US | 🟢 | vless | @VmessProtocol | 0",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @VmessProtocol | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -158,10 +156,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇺🇸US | 🟢 | vless | @VmessProtocol | 0",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @VmessProtocol | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -538,7 +534,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @VmessProtocol | 0",
+            "tag": "🇺🇸US | 🟢 | vless | @VmessProtocol | 3",
             "type": "vless",
             "server": "107.172.57.21",
             "server_port": 443,
@@ -567,40 +563,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "sdctrk2.codesofun.pp.ua",
-            "server_port": 13509,
-            "uuid": "dbc34aa9-3cb1-477a-c47d-998f8badf0e8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sega.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "107.172.57.21",
+            "server": "89.187.169.71",
             "server_port": 443,
-            "uuid": "e8cfc69c-f9a4-40ed-b48d-d5da257f5c7c",
+            "uuid": "6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -610,36 +577,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "osxapps.itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "f12r3TyZUUckM-XWQ7w63kcF19eZVvWdgZqqk4ry3Ss",
-                    "short_id": "5b6fd34e"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "sdctrk2.codesofun.pp.ua",
-            "server_port": 13509,
-            "uuid": "dbc34aa9-3cb1-477a-c47d-998f8badf0e8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sega.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -648,8 +586,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
-                    "short_id": ""
+                    "public_key": "B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g",
+                    "short_id": "01b200e90e250221"
                 }
             }
         },
