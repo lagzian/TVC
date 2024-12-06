@@ -403,20 +403,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 16",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 18",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -782,20 +774,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 316",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 16",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 18",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -8236,7 +8220,62 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 443,
+            "uuid": "7411ab59-5fac-41bf-947a-0163ea82d568",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chde.black-melo.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.UcdavIS.Edu",
+            "server_port": 443,
+            "uuid": "35017be6-5b1c-4cd4-a248-95c4a99a46b1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "172.67.26.173",
             "server_port": 443,
@@ -8267,7 +8306,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "104.21.11.206",
             "server_port": 443,
@@ -8298,7 +8337,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
             "server": "104.21.211.74",
             "server_port": 443,
@@ -8329,7 +8368,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "104.22.4.136",
             "server_port": 443,
@@ -8356,259 +8395,6 @@
                 "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
                     "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "aBrHA.DE",
-            "server_port": 443,
-            "uuid": "5164ba71-f145-42f7-b618-b3a7659544ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aBrHA.DE",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
-                "headers": {
-                    "Host": "aBrHA.DE"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "Parsashonam-121",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam\/ws?ed=2560",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "151.101.194.133",
-            "server_port": 443,
-            "uuid": "9f725d18-91f6-43ee-b5b8-1ddada19a445",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mio.splashthat.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "mio.splashthat.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "7b88e28e-d390-4f1f-aec3-47153e72e8b2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 80,
-            "uuid": "f846c7b2-eca6-496a-9716-134e1b253be5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Hqv2RayNG?ed=2480",
-                "headers": {
-                    "Host": "visa.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "live.989bull.com",
-            "server_port": 443,
-            "uuid": "ID-ViraV2ray-5050",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "live.989bull.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/digikala.com\/login\/@ViraV2ray,@ViraV2ray,@ViraV2ray?ed=443",
-                "headers": {
-                    "Host": "live.989bull.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2053,
-            "uuid": "ca719d36-6fa3-4dcd-f7d0-29ed568f17bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.piazon.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "151.101.194.133",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "151.101.194.133"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "151.101.194.133",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "151.101.194.133"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 80,
-            "uuid": "f846c7b2-eca6-496a-9716-134e1b253be5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Hqv2RayNG?ed=2480",
-                "headers": {
-                    "Host": "visa.com"
                 }
             }
         },
