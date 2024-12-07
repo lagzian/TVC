@@ -148,10 +148,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 252",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 253",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -216,10 +216,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 252",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 253",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1312,53 +1312,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 252",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "5ab44197-b3dd-42d4-95da-61b5a9965b5e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "5ab44197-b3dd-42d4-95da-61b5a9965b5e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.19.130.18",
-            "server_port": 2087,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server_port": 443,
+            "uuid": "c784ab83-75c4-4a07-a35c-529e3237f6ab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1368,7 +1326,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "V2.YUnCHUn.tOp",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1378,18 +1336,49 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dzc7zir9eo038lmk\/ynbilnlvdxnlzi5pc2vnyxjvlmnvbq==?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "V2.YUnCHUn.tOp"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 253",
             "type": "vless",
-            "server": "EXPRESSVPN_420.fastly80-3.hosting-ip.com",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "c784ab83-75c4-4a07-a35c-529e3237f6ab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "Telegram-EXPRESSVPN_420",
+            "uuid": "b7b5990f-cd48-45ad-b1d9-ce88b5010961",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1399,9 +1388,33 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "EXPRESSVPN_420.fastly80-3.hosting-ip.com"
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 443,
+            "uuid": "7411ab59-5fac-41bf-947a-0163ea82d568",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chde.black-melo.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
