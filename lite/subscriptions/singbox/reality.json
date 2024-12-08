@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🟢 | vless | @Outlinev2rayNG | 6",
-                "❔XX | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇳🇱NL | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -118,10 +117,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🟢 | vless | @Outlinev2rayNG | 6",
-                "❔XX | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇳🇱NL | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -146,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+            "tag": "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
             "type": "vless",
             "server": "95.217.31.246",
             "server_port": 18929,
@@ -175,7 +173,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 15",
+            "tag": "🇳🇱NL | 🟢 | vless | @VmessProtocol | 15",
             "type": "vless",
             "server": "51.158.243.62",
             "server_port": 443,
@@ -204,7 +202,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "172.233.162.95",
             "server_port": 80,
@@ -229,35 +227,6 @@
                     "enabled": true,
                     "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
                     "short_id": "94aa1bdc"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "de-re.afteam.ir",
-            "server_port": 11163,
-            "uuid": "ff8cd74e-21ec-4a25-9a73-cdf3ee9305fc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BHwcQOO7FJVCW0W2naMQ3F7tbZlLgBrKfjhspc66IzU",
-                    "short_id": "f830f6"
                 }
             }
         },
