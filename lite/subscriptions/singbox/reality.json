@@ -107,8 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -119,8 +117,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -172,71 +168,6 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "51.158.243.62",
-            "server_port": 443,
-            "uuid": "fd17fd03-844b-4c4b-9551-27f2b055d4f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0",
-                    "short_id": "42"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "109.120.176.218",
-            "server_port": 2095,
-            "uuid": "6107e262-dff7-47be-9ca2-af43932e6f81",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "as3V2kb1978Tw-uXSuKUO7VaOBOBzhubcZ3lFki3S14",
-                    "short_id": "672ed5de"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
