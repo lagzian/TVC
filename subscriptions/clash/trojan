@@ -151,10 +151,6 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"51.44.3.80","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"15.237.38.122","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"16.171.126.56","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"18.200.122.117","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.17.85.90","port":443,"udp":false,"password":"NISHIKUITAN111","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"108.162.195.207","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tb.promote.icu"}
-  - {"name":"🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17","type":"trojan","server":"52.195.6.65","port":20230,"udp":false,"password":"0028109a-37ed-4ded-b858-e566388a904c","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"421421.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -194,10 +190,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
-      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -237,10 +229,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
-      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -279,10 +267,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇮🇪IE | 🟢 | trojan | @ConfigsHUB | 1'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 2'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
-      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
