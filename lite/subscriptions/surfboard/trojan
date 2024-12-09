@@ -15,10 +15,12 @@ DIRECT = direct
 🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 13.38.146.138, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇫🇷FR | 🟢 | trojan | @DirectVPN | 14 = trojan, 15.237.38.122, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | trojan | @DirectVPN | 15 = trojan, 16.171.126.56, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇺🇸US | 🟢 | trojan | @ConfigsHUB | 12 = trojan, 104.18.3.11, 2096, password = Telegram-DailyConfigs, udp-delay = true, skip-cert-verify = false, sni = kanale-daily-configs.blackoutconnection.ir, ws = false
+🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13 = trojan, 198.41.220.5, 443, password = cb1f26aa437d4bfa9b841d28503ce8cc, udp-delay = true, skip-cert-verify = false, sni = jobscareertoday.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15
-URL-TEST = url-test,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15
-FALLBACK = fallback,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 12,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
+URL-TEST = url-test,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 12,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
+FALLBACK = fallback,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14,🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15,🇫🇷FR | 🟢 | trojan | @DirectVPN | 14,🇸🇪SE | 🟢 | trojan | @DirectVPN | 15,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 12,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
