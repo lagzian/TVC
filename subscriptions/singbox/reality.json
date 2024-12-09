@@ -126,7 +126,8 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 15",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 5",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 0",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -169,7 +170,8 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 15",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 5",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 0",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -756,7 +758,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 5",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "mass.clockdeny2.eu",
+            "server_port": 443,
+            "uuid": "e7c2b0ac-a760-4ac6-bfd1-4a12d6631c38",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mass.clockdeny2.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zyjTvDRbojRiBhMbHOOBOVuYgwr1BJ4tNJ-thndhkQg",
+                    "short_id": "657e37a6a5558c04"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
             "type": "vless",
             "server": "45.142.44.47",
             "server_port": 8443,
