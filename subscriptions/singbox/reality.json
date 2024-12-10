@@ -124,8 +124,6 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 5",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
-                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -166,8 +164,6 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 5",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 9",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
-                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -692,64 +688,6 @@
                     "enabled": true,
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "frankfurt.faforex.eu.org",
-            "server_port": 18443,
-            "uuid": "d370e927-72b3-4eaf-9884-9a375c263020",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tesla.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I",
-                    "short_id": "e6658462"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "103.192.179.61",
-            "server_port": 17895,
-            "uuid": "2d5035e0-574f-434b-87ec-000c868fe18c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "54NiRArALC-7w7tL9SvV7YLqBrPvXO8xftFGLdwPpRA",
-                    "short_id": ""
                 }
             }
         },
