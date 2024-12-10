@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -148,7 +148,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -172,13 +172,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -214,7 +214,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -254,11 +254,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-119",
+            "uuid": "Parsashonam-120",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -396,7 +396,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
             "type": "vless",
             "server": "Www.speedtest.net",
             "server_port": 8080,
@@ -1234,9 +1234,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "bcd0a64e-00ee-4d78-a1c9-edf1dba003cc",
+            "server": "EXPRESSVPN_420.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "06af0b85-602c-4a27-98d8-150f2bf5cb49",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,58 +1244,33 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=2560",
+                "path": "\/@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "EXPRESSVPN_420.fast.hosting-ip.com"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "109.207.172.223",
-            "server_port": 8443,
-            "uuid": "00260262-2598-4035-b31a-1f8928c49d91",
-            "flow": "xtls-rprx-vision",
+            "server": "ArV2ry.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0UslOEYP-RXX7kOiWtEs7oMEHvJZrqILf2Fl-nCoPE4",
-                    "short_id": "12d1c921"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "ArV2ry.fastly80-2.hosting-ip.com"
+                }
             }
         },
         {
