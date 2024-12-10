@@ -109,7 +109,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
@@ -144,7 +144,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560&security=tls&encryption=none&fp=chrome&type=ws&sni=de04.abvpn.ru#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -171,7 +172,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
@@ -206,7 +207,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560&security=tls&encryption=none&fp=chrome&type=ws&sni=de04.abvpn.ru#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -305,9 +307,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "100.29.80.125",
+            "server": "52.60.91.109",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -338,7 +340,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.202.23.28",
+            "server": "100.29.80.125",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1176,11 +1178,32 @@
             }
         },
         {
-            "tag": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560&security=tls&encryption=none&fp=chrome&type=ws&sni=de04.abvpn.ru#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "de04.abvpn.ru",
+            "server": "Zula.ir",
+            "server_port": 80,
+            "uuid": "v2rayng____76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2053",
+                "headers": {
+                    "Host": "Zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "baby.bia2bax.shop",
             "server_port": 443,
-            "uuid": "b6cdcef0-b61b-424d-81f8-41e40e762dde",
+            "uuid": "v2rayng____76",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,9 +1389,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
             "type": "vless",
-            "server": "visa.com.co",
+            "server": "NUFiLTER.fastly80.hosting-ip.com",
             "server_port": 80,
-            "uuid": "0f738e39-c681-4f87-ab95-d683a61265c4",
+            "uuid": "TELEGRAM-iD-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1378,9 +1401,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2560",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "visa.com.co"
+                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
                 }
             }
         },
