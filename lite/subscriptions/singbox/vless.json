@@ -111,9 +111,9 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 11",
@@ -147,8 +147,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -177,9 +177,9 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 11",
@@ -213,8 +213,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -375,7 +375,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
             "type": "vless",
             "server": "visa.com",
             "server_port": 80,
@@ -396,7 +396,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 22",
             "type": "vless",
             "server": "Www.speedtest.net",
             "server_port": 8080,
@@ -410,7 +410,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 23",
             "type": "vless",
             "server": "Www.speedtest.net",
             "server_port": 8080,
@@ -1232,21 +1232,28 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "65.109.176.108",
-            "server_port": 2053,
-            "uuid": "47e9b63c-6a86-4ae6-acd0-4361f475f53a",
+            "server": "151.101.128.204",
+            "server_port": 80,
+            "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/ws",
+                "headers": {
+                    "Host": "151.101.128.204"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "clearcreditrepair.com",
             "server_port": 443,
