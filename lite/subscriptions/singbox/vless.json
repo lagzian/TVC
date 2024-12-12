@@ -134,7 +134,6 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -148,8 +147,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -199,7 +197,6 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -213,8 +210,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -960,27 +956,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 0",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "c921c664-d82d-4317-b4d0-7640cc9aa760",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
             "type": "vless",
             "server": "151.101.64.155",
@@ -1289,60 +1264,23 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "176.98.41.45",
-            "server_port": 13509,
-            "uuid": "dbc34aa9-3cb1-477a-c47d-998f8badf0e8",
-            "flow": "xtls-rprx-vision",
+            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sega.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "51.158.243.62",
-            "server_port": 443,
-            "uuid": "fd17fd03-844b-4c4b-9551-27f2b055d4f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0",
-                    "short_id": "42"
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
                 }
             }
         },
