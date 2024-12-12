@@ -124,7 +124,10 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 8",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -166,7 +169,10 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 8",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -696,7 +702,94 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "de-re.afteam.ir",
+            "server_port": 11163,
+            "uuid": "10ef6b6f-71e8-45a4-a271-6a72adfa6cdf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de-re.afteam.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BHwcQOO7FJVCW0W2naMQ3F7tbZlLgBrKfjhspc66IzU",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "san.digipapetdev.ir",
+            "server_port": 1621,
+            "uuid": "fda4655e-e0c1-4a64-9835-089b01e90003",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "san.digipapetdev.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "1618.digipapetdev.ir",
+            "server_port": 1618,
+            "uuid": "fda4655e-e0c1-4a64-9835-089b01e90003",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1618.digipapetdev.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "mx1ccfa.matrix-shop8.ir",
             "server_port": 1022,
