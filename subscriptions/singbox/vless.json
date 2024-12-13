@@ -203,6 +203,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -298,7 +299,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 20",
-                "🇸🇪SE | 🔴 | vless | @customv2ray | 22",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 22",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 23",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 24",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 25",
@@ -427,8 +428,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 16",
                 "🚩CF | 🔴 | vless | @proxystore11 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -598,6 +599,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -693,7 +695,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 20",
-                "🇸🇪SE | 🔴 | vless | @customv2ray | 22",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 22",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 23",
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 24",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 25",
@@ -822,8 +824,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
-                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 16",
                 "🚩CF | 🔴 | vless | @proxystore11 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -2976,8 +2978,8 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
             "type": "vless",
-            "server": "A36.fastly80-2.hosting-ip.com",
-            "server_port": 80,
+            "server": "live.skornorth.com",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -2986,19 +2988,29 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "A36.fastly80-2.hosting-ip.com"
+                    "Host": "live.skornorth.com"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
             "type": "vless",
-            "server": "live.skornorth.com",
-            "server_port": 443,
+            "server": "A36.fastly80-2.hosting-ip.com",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3007,29 +3019,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "live.skornorth.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
                 "headers": {
-                    "Host": "live.skornorth.com"
+                    "Host": "A36.fastly80-2.hosting-ip.com"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
             "type": "vless",
-            "server": "A36.fastly80-2.hosting-ip.com",
-            "server_port": 80,
+            "server": "live.skornorth.com",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3038,17 +3040,48 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "A36.fastly80-2.hosting-ip.com"
+                    "Host": "live.skornorth.com"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 3",
             "type": "vless",
+            "server": "A36.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "A36.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 4",
+            "type": "vless",
             "server": "live.skornorth.com",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -3078,7 +3111,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
             "type": "vless",
             "server": "A36.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -3099,7 +3132,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 6",
             "type": "vless",
             "server": "live.skornorth.com",
             "server_port": 443,
@@ -3130,7 +3163,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 7",
             "type": "vless",
             "server": "A34.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -3151,7 +3184,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
             "type": "vless",
             "server": "live.skornorth.com",
             "server_port": 443,
@@ -3182,7 +3215,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
             "type": "vless",
             "server": "A33.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -3203,7 +3236,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -3224,7 +3257,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "live.skornorth.com",
             "server_port": 443,
@@ -5668,7 +5701,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 22",
             "type": "vless",
             "server": "tun.ferdowsi.shop",
             "server_port": 2087,
@@ -8908,7 +8941,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
             "type": "vless",
             "server": "45.149.12.39",
             "server_port": 8443,
@@ -8939,7 +8972,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "172.67.204.84",
             "server_port": 8443,
