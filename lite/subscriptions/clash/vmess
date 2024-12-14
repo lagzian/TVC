@@ -122,6 +122,7 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"z3.fragranceninja.com","port":"12959","cipher":"auto","uuid":"a32313ad-5e39-4f9a-9cad-512041790050","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"z3.fragranceninja.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"173.245.59.8","port":"443","cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/glweidf.cfd/linkws","headers":{"host":"77h2quiet-dream-5c34.foratay741.workers.dev"}}}
   - {"name":"🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9","type":"vmess","server":"79.127.229.54","port":"18000","cipher":"auto","uuid":"fa1897db-1925-4c86-a495-939a959af900","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 17","type":"vmess","server":"165.22.206.171","port":"29616","cipher":"auto","uuid":"07aec5c9-c0d9-478a-8daa-e3da07dd0ede","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -133,6 +134,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: URL-TEST
     type: url-test
@@ -144,6 +146,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
   - name: FALLBACK
     type: fallback
@@ -154,6 +157,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18'
       - '🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 17'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
