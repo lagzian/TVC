@@ -158,8 +158,7 @@
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 250",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -239,8 +238,7 @@
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 250",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1524,47 +1522,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "b-corsairs.com",
-            "server_port": 443,
-            "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
+            "server": "matrix4.mobindvil.shop",
+            "server_port": 18764,
+            "uuid": "d15a8968-954d-4315-9ea2-b8147908e688",
             "flow": "",
             "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-d=2048",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu."
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "128.204.223.115",
-            "server_port": 44085,
-            "uuid": "1db458f2-5df2-4fa5-8754-497c7ef0681b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
