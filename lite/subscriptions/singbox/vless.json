@@ -150,8 +150,8 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
@@ -215,8 +215,8 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
@@ -1315,6 +1315,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "11a943c5-67a5-4b46-b124-e8274cb9ef6e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@custom_config",
+                "headers": {
+                    "Host": "live.skornorth.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
@@ -1342,27 +1373,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "R3.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
-                "headers": {
-                    "Host": "R3.fastly80-3.hosting-ip.com"
                 }
             }
         },
