@@ -145,8 +145,8 @@
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 292",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -210,8 +210,8 @@
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 11",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 292",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 4",
@@ -1184,7 +1184,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 291",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "1de81780-e871-4c6b-b1f7-e1f120fd86f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 292",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -1205,27 +1226,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "1de81780-e871-4c6b-b1f7-e1f120fd86f2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
