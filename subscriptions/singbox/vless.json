@@ -437,10 +437,11 @@
                 "🇦🇹AT | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+                "🇮🇳IN | 🔴 | vless | @flyv2ray | 0",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -842,10 +843,11 @@
                 "🇦🇹AT | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+                "🇮🇳IN | 🔴 | vless | @flyv2ray | 0",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -9064,7 +9066,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+            "tag": "🇮🇳IN | 🔴 | vless | @flyv2ray | 0",
+            "type": "vless",
+            "server": "151.101.158.204",
+            "server_port": 80,
+            "uuid": "ff835b04-638a-4dc5-ed95-64131ddef6dd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=64",
+                "headers": {
+                    "Host": "151.101.158.204"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "MSV2RAY.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -9085,7 +9108,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -9106,7 +9129,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "151.101.66.219",
             "server_port": 80,
@@ -9127,7 +9150,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "151.101.66.219",
             "server_port": 80,
