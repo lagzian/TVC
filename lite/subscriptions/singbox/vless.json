@@ -159,8 +159,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 16",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 17",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+                "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -224,8 +224,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 16",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 17",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 19",
+                "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -1564,11 +1564,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 19",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 80,
-            "uuid": "30d89c00-fe7f-4459-a5d4-76e7f6b2007d",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "01c8e316-66bf-490a-86d5-efcc674c66c6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1578,18 +1578,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=2560",
+                "path": "\/Omid?ed=2560",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "3794b46c-64b5-474e-b38f-034f15e5c8ab",
+            "server": "151.101.87.26",
+            "server_port": 80,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1597,21 +1597,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "path": "\/",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "151.101.87.26"
                 }
             }
         },
