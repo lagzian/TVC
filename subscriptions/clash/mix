@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15","type":"vmess","server":"88.198.93.175","port":"8880","cipher":"auto","uuid":"58531009-b664-445b-b896-7bb9026b744d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0","type":"trojan","server":"99.81.131.216","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1","type":"trojan","server":"54.75.205.131","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -178,7 +179,7 @@ proxies:
   - {"name":"🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 1","type":"vmess","server":"166.108.231.71","port":"31886","cipher":"auto","uuid":"bb60ee15-6c6e-49d3-b0d2-b7bece94b2cc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 2","type":"vmess","server":"57.155.31.98","port":"80","cipher":"auto","uuid":"b831381d-6324-4d53-ad4f-8cda48b30812","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 3","type":"vmess","server":"57.155.30.204","port":"80","cipher":"auto","uuid":"b831381d-6324-4d53-ad4f-8cda48b30812","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4","type":"vmess","server":"151.101.194.133","port":"443","cipher":"auto","uuid":"9e67869b-ee62-4253-a92a-b6d9097d6800","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/telegram-@Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,Mmdv2rayng-V2rayngmmd-telegram-haji-v2ray?ed=2056","headers":{"host":"banknabi-mahdi313.ir"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5","type":"vmess","server":"151.101.194.133","port":"443","cipher":"auto","uuid":"9e67869b-ee62-4253-a92a-b6d9097d6800","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/telegram-@Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,Mmdv2rayng-V2rayngmmd-telegram-haji-v2ray?ed=2056","headers":{"host":"banknabi-mahdi313.ir"}}}
   - {"name":"🇫🇷FR | 🟢 | ss | @VmessProtocol | 0","type":"ss","server":"213.176.66.228","port":24495,"password":"xk5c6OgvtSu9d2mUTYZPiI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳CN | 🟢 | trojan | @VmessProtocol | 2","type":"trojan","server":"223.113.54.145","port":36442,"udp":false,"password":"QwwHvrnN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇸🇬SG | 🟢 | trojan | @VmessProtocol | 3","type":"trojan","server":"polished-ox.treefrog761.one","port":443,"udp":false,"password":"3648425794742788096","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"polished-ox.treefrog761.one"}
@@ -207,6 +208,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1'
@@ -267,7 +269,7 @@ proxy-groups:
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 2'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 3'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 0'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 2'
       - '🇸🇬SG | 🟢 | trojan | @VmessProtocol | 3'
@@ -296,6 +298,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1'
@@ -356,7 +359,7 @@ proxy-groups:
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 2'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 3'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 0'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 2'
       - '🇸🇬SG | 🟢 | trojan | @VmessProtocol | 3'
@@ -384,6 +387,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15'
       - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1'
@@ -444,7 +448,7 @@ proxy-groups:
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 1'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 2'
       - '🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 3'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 0'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 2'
       - '🇸🇬SG | 🟢 | trojan | @VmessProtocol | 3'
