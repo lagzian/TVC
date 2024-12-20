@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 10",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 3",
                 "🇨🇦CA | 🟢 | ss | @VmessProtocol | 8",
                 "❔XX | 🟢 | ss | @kingofilter | 4",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5",
@@ -118,7 +118,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 10",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 3",
                 "🇨🇦CA | 🟢 | ss | @VmessProtocol | 8",
                 "❔XX | 🟢 | ss | @kingofilter | 4",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5",
@@ -146,12 +146,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 10",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 3",
             "type": "shadowsocks",
-            "server": "45.87.175.166",
+            "server": "beesyar.org",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
             "plugin": "",
             "plugin_opts": ""
         },
