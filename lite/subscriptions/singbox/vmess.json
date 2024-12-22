@@ -111,13 +111,14 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇬SG | 🟢 | vmess | @prrofile_purple | 154",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 8",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 7",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 0",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 1",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 13",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14"
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 14",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15"
             ]
         },
         {
@@ -129,13 +130,14 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇸🇬SG | 🟢 | vmess | @prrofile_purple | 154",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 8",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 7",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 0",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 1",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 13",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14"
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 14",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -260,11 +262,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "de01.tiktokcloud.us.kg",
-            "server_port": 443,
-            "uuid": "a76c1300-65a2-4e3d-a6cd-89cb902419e5",
+            "server": "89.116.161.240",
+            "server_port": 8443,
+            "uuid": "e88b85c6-93b4-47f6-b3fb-2c55dcb1289f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,7 +279,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de01.tiktokcloud.us.kg",
+                "server_name": "lax2.ibgfw.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -287,9 +289,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/de01",
+                "path": "\/dyajvws",
                 "headers": {
-                    "Host": "de01.tiktokcloud.us.kg"
+                    "Host": "lax2.ibgfw.top"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "213.241.198.57",
+            "server_port": 8443,
+            "uuid": "191babc5-2aaf-4fe5-a563-f14244aefb4e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lax1.ibgfw.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/xrenvws",
+                "headers": {
+                    "Host": "lax1.ibgfw.top"
                 }
             }
         },
@@ -393,7 +429,41 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 14",
+            "type": "vmess",
+            "server": "45.159.218.144",
+            "server_port": 8443,
+            "uuid": "191babc5-2aaf-4fe5-a563-f14244aefb4e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "45.159.218.144",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/xrenvws",
+                "headers": {
+                    "Host": "45.159.218.144"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
             "server": "27.50.48.188",
             "server_port": 8443,
@@ -424,23 +494,6 @@
                 "headers": {
                     "Host": "27.50.48.188"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 14",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "abaaccb-aacb-bcaa-badc-ccbacabbcaab",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
