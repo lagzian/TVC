@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 17"
@@ -116,7 +117,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 17"
@@ -142,11 +144,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "45.67.32.147",
-            "server_port": 37665,
-            "uuid": "5d2e9d3b-adfd-4056-935b-e9c86acfaec1",
+            "server": "jpn.kitten-tube.com",
+            "server_port": 443,
+            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,17 +158,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "psv4.vkuseraudio.net",
+                "server_name": "adobe.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fcjBIZcvVsr1Gy-iZbIko-0Ey5icPtmXIxY3sd4UEFw",
-                    "short_id": "9168"
+                    "public_key": "ZEgjKMDhjpkZoi1LJ6LF22jOF20YwyORl20jHyGdKCU",
+                    "short_id": "5281ACDe"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "tur.kitten-tube.com",
+            "server_port": 443,
+            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PlJHlfpSGU1qQzfrdjziVEKausAhFZXb4Q0pJZWFCWE",
+                    "short_id": "4b4a1a3c"
                 }
             }
         },
