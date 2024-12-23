@@ -147,7 +147,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 316",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -212,7 +212,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 316",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1274,12 +1274,12 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "37.27.3.97",
-            "server_port": 2052,
-            "uuid": "8fa898a3-789a-44d4-8bc5-d0c77e94fcc7",
-            "flow": "xtls-rprx-vision",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Join--ZEDMODEON",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1288,25 +1288,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wordpress.org",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
-                    "short_id": "4156caa9"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "2052vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
             }
         },
         {
