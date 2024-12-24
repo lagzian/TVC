@@ -112,7 +112,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -283,11 +283,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "baaacbc-cbaa-abca-dabc-bcaaabcabcbc",
+            "server": "104.17.148.22",
+            "server_port": 8080,
+            "uuid": "cc9be09e-c05e-4f54-831b-969ecb185692",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,14 +297,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/njbvhfgxdgthj",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "acabbca-acba-caba-cadb-bbacaaccabbc",
+            "server_port": 1080,
+            "uuid": "baaacbc-cbaa-abca-dabc-bcaaabcabcbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
