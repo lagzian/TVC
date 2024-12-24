@@ -109,12 +109,13 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 0",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
@@ -124,12 +125,13 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 35",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 0",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 1",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -191,6 +193,23 @@
             "server": "78.47.102.195",
             "server_port": 44484,
             "uuid": "8a2ce574-2b74-4f10-a28e-b6d852e3f725",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "38.99.82.128",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,11 +321,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "195.58.49.86",
-            "server_port": 16712,
-            "uuid": "3968cc63-8126-49d6-a7c2-14f119fa8182",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "caabbac-aabc-aacb-badc-ccaababccbba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,21 +335,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "195.58.49.86"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "38.99.82.193",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bccbaaa-abca-acba-cdba-acbabcbacbca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -340,23 +352,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "38.99.82.193",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "38.99.82.193"
-                }
             }
         }
     ],
