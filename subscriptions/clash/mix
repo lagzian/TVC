@@ -187,9 +187,13 @@ proxies:
   - {"name":"🇹🇼TW | 🟢 | trojan | @VmessProtocol | 5","type":"trojan","server":"ddns.200566.xyz","port":30337,"udp":false,"password":"1a668915-d98f-4440-8bac-2c51d508f811","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ddns.200566.xyz"}
   - {"name":"🇫🇷FR | 🟢 | ss | @VmessProtocol | 9","type":"ss","server":"213.176.66.228","port":24495,"password":"xk5c6OgvtSu9d2mUTYZPiI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11","type":"trojan","server":"223.113.54.145","port":36442,"udp":false,"password":"QwwHvrnN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"8650bae0-c2af-11ef-819d-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 11","type":"trojan","server":"uk1.test3.net","port":443,"udp":false,"password":"625ae120-c2af-11ef-8ae9-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 12","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"3f33c890-c2af-11ef-851e-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 1","type":"vmess","server":"45.8.158.32","port":"13530","cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 2","type":"vmess","server":"95.179.128.114","port":"80","cipher":"auto","uuid":"a6292090-afe1-4640-97a7-4f1d1d877cf1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Av8czorIlYicU6D349brWUw6a","headers":{"host":"google.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4","type":"vmess","server":"us-21.hihu.net","port":"80","cipher":"auto","uuid":"81877c80-b97d-11ef-b234-205c6d5f5d78","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ami5e9jl","headers":{"host":"mtn.zm"}}}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 12","type":"trojan","server":"18.193.113.18","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"13.48.5.87","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 15","type":"trojan","server":"3.71.206.184","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 19","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"3f33c890-c2af-11ef-851e-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
   - {"name":"🇳🇱NL | 🟢 | vmess | @yaney_01 | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @yaney_01 | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
@@ -276,9 +280,13 @@ proxy-groups:
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 9'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 19'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
@@ -365,9 +373,13 @@ proxy-groups:
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 9'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 19'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
@@ -453,9 +465,13 @@ proxy-groups:
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 5'
       - '🇫🇷FR | 🟢 | ss | @VmessProtocol | 9'
       - '🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
-      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 11'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 2'
+      - '🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 12'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 19'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
