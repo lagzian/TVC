@@ -110,6 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 17",
                 "🇩🇰DK | 🟢 | vmess | @ShadowProxy66 | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 11",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
@@ -126,6 +128,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 17",
                 "🇩🇰DK | 🟢 | vmess | @ShadowProxy66 | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 11",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
@@ -223,6 +227,54 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess#t-me-DarkVPNpro",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "us-21.hihu.net",
+            "server_port": 80,
+            "uuid": "81877c80-b97d-11ef-b234-205c6d5f5d78",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ami5e9jl",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 11",
+            "type": "vmess",
+            "server": "95.179.128.114",
+            "server_port": 80,
+            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Av8czorIlYicU6D349brWUw6a",
                 "headers": {
                     "Host": ""
                 }

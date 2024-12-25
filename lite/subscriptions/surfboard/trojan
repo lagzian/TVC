@@ -16,11 +16,10 @@ DIRECT = direct
 🇺🇸US | 🟢 | trojan | @DirectVPN | 16 = trojan, 3.232.165.143, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🟢 | trojan | @DirectVPN | 17 = trojan, 3.20.155.96, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11 = trojan, 223.113.54.145, 36442, password = QwwHvrnN, udp-delay = true, skip-cert-verify = false, ws = false
-🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 15 = trojan, fr1.test3.net, 443, password = 3f33c890-c2af-11ef-851e-1239d0255272, udp-delay = true, skip-cert-verify = false, sni = telewebion.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11,🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 15
-URL-TEST = url-test,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11,🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 15
-FALLBACK = fallback,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11,🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 15
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11
+URL-TEST = url-test,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11
+FALLBACK = fallback,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 17,🇺🇸US | 🟢 | trojan | @DirectVPN | 16,🇺🇸US | 🟢 | trojan | @DirectVPN | 17,🇨🇳CN | 🟢 | trojan | @VmessProtocol | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
