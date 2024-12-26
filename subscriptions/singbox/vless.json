@@ -424,12 +424,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 357",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
@@ -822,12 +820,10 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 357",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
@@ -8726,37 +8722,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "U_CONFINGVPN.web.unc.edu",
-            "server_port": 443,
-            "uuid": "7b95887d-3bec-4d9c-9983-6baa09fe23bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ergwork.web.unc.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws\/?ed=2052",
-                "headers": {
-                    "Host": "ergwork.web.unc.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-            "type": "vless",
             "server": "zula.ir",
             "server_port": 2086,
             "uuid": "9c4c3633-441c-60d3-50a6-893a7c904f7e",
@@ -8769,7 +8734,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "italy-01.mobiledarinel.ir",
             "server_port": 666,
@@ -8783,21 +8748,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "188.245.205.87",
-            "server_port": 4500,
-            "uuid": "6c7c0cf7-eca0-4b42-8729-bb806b0d9dfc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -8828,7 +8779,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -8859,11 +8810,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "151.101.194.133",
+            "server": "U_CONFINGVPN.web.unc.edu",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "7b95887d-3bec-4d9c-9983-6baa09fe23bf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8873,7 +8824,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "ergwork.web.unc.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8883,9 +8834,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/ws\/?ed=2052",
                 "headers": {
-                    "Host": "mio.splashthat.com"
+                    "Host": "ergwork.web.unc.edu"
                 }
             }
         },
