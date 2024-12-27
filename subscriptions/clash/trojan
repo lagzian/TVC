@@ -153,6 +153,10 @@ proxies:
   - {"name":"🇮🇪IE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"54.171.188.252","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"51.24.40.78","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇹🇼TW | 🟢 | trojan | @VmessProtocol | 11","type":"trojan","server":"ddns.200566.xyz","port":30337,"udp":false,"password":"1a668915-d98f-4440-8bac-2c51d508f811","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ddns.200566.xyz"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 7","type":"trojan","server":"uk1.test3.net","port":443,"udp":false,"password":"acce0250-c42b-11ef-98dd-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 8","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"97bc3270-c42b-11ef-a244-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 9","type":"trojan","server":"uk1.test3.net","port":443,"udp":false,"password":"76c8e7d0-c42b-11ef-a4b9-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"4dcbec80-c42b-11ef-ab4b-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -194,6 +198,10 @@ proxy-groups:
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 14'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 15'
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 11'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,6 +243,10 @@ proxy-groups:
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 14'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 15'
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 11'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -275,6 +287,10 @@ proxy-groups:
       - '🇮🇪IE | 🟢 | trojan | @DirectVPN | 14'
       - '🇬🇧GB | 🟢 | trojan | @DirectVPN | 15'
       - '🇹🇼TW | 🟢 | trojan | @VmessProtocol | 11'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
