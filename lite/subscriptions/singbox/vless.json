@@ -145,10 +145,9 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 349",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 348",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -211,10 +210,9 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 349",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 348",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -1175,11 +1173,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "f81e1756-def6-43d0-b5ba-c01c97d40bf2",
+            "uuid": "3c92fcc2-9363-41cd-9be7-a10848e8270e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1206,11 +1204,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 349",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 348",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "f81e1756-def6-43d0-b5ba-c01c97d40bf2",
+            "uuid": "3c92fcc2-9363-41cd-9be7-a10848e8270e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1229,9 +1227,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Joinin--ZEDMODEON",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "V2RAXX",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,52 +1237,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/Telegram,V2RAXX,Telegram,",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Biain--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "speedtest.net"
                 }
             }
         },
