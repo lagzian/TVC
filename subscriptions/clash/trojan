@@ -155,7 +155,10 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"51.20.214.2","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"34.236.106.232","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.19.191.129","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"216.24.57.30","port":443,"udp":false,"password":"tg-fq521free","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"torjan.xn--xhq44j.eu.org"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"uk1.test3.net","port":443,"udp":false,"password":"34c981c0-c76e-11ef-9dd2-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"0977b740-c76e-11ef-9ad2-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 3","type":"trojan","server":"uk1.test3.net","port":443,"udp":false,"password":"f2b470d0-c76d-11ef-be06-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"fr1.test3.net","port":443,"udp":false,"password":"dca4ead0-c76d-11ef-b9f5-1239d0255272","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telewebion.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -199,7 +202,10 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -243,7 +249,10 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -286,7 +295,10 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇬🇧GB | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
