@@ -126,7 +126,6 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -171,7 +170,6 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -772,42 +770,6 @@
                     "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
                     "short_id": "4048A3da"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "s.iphone-shopp.ir",
-            "server_port": 3000,
-            "uuid": "ProxyPJ",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xWTkdCVBi9Dl6rk2NMPK5Ba40PjBO57xh09T_TBJb3M",
-                    "short_id": "cc1a4c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ------ProxyPJ",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
