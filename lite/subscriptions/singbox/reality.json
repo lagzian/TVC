@@ -109,7 +109,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -121,7 +120,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -214,35 +212,6 @@
                     "enabled": true,
                     "public_key": "LRnxYf6GAqSZwr6JWbVSnq_pKW99mXJ5VjhtLJMzom0",
                     "short_id": "5c75A51C"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "89.110.121.252",
-            "server_port": 443,
-            "uuid": "GROZA_27728012",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "whatsapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0vZRLEfvyJs66hHH8xashGigAKqIpSLA4BJj9dL-iTU",
-                    "short_id": "ffffffffff"
                 }
             }
         },
