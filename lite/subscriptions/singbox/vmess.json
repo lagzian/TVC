@@ -116,8 +116,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 7",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -134,8 +133,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 7",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -373,11 +371,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "38.99.82.128",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "fiwejniavzoj.xn--fiqs8sjz2bull.com",
+            "server_port": 64667,
+            "uuid": "69cdf2a0-64cc-4cd3-8465-1e96dd24e395",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -387,33 +385,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 11",
-            "type": "vmess",
-            "server": "zzsn4-g06.jp01-0986-vm0.entry.fr0307a.art",
-            "server_port": 21586,
-            "uuid": "076c0982-f879-324d-8683-35a0eb5615ee",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zzsn4-g06.jp01-0986-vm0.entry.fr0307a.art",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         }
     ],
