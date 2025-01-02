@@ -150,8 +150,8 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 15",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 16",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
@@ -159,14 +159,14 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 7",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
@@ -230,8 +230,8 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 15",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 16",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
@@ -239,14 +239,14 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 7",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
@@ -1253,37 +1253,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 14",
-            "type": "vless",
-            "server": "199.232.112.31",
-            "server_port": 443,
-            "uuid": "837ee305-f265-4d16-8e56-0fa79bb9501b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Elena.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VLESS?ed=2560",
-                "headers": {
-                    "Host": "Elena.io"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 15",
             "type": "vless",
             "server": "pscresearch.faculty.ucdavis.edu",
@@ -1311,6 +1280,30 @@
                 "path": "\/ws\/",
                 "headers": {
                     "Host": "pscresearch.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 16",
+            "type": "vmess",
+            "server": "151.101.2.216",
+            "server_port": 80,
+            "uuid": "545485da-9ff4-48c5-ae94-45e6e4ee7d26",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": "plex.com"
                 }
             }
         },
@@ -1518,28 +1511,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "151.101.158.204",
-            "server_port": 80,
-            "uuid": "16adb454-50e3-4c1c-b516-7ee0493b1889",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "151.101.158.204"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -1566,6 +1538,27 @@
                 "path": "\/olem\/ws@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "dc7b6c02-707f-4beb-99bd-7be9526aa502",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1669,7 +1662,41 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "2606:4700:9a94:4b91:d8f1:662d:6456:fcb0",
+            "server_port": 2096,
+            "uuid": "27dbf6c4-5727-45a6-b54c-142995ff4ad7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2606:4700:9a94:4b91:d8f1:662d:6456:fcb0",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/465YRTS2AQTEW",
+                "headers": {
+                    "Host": "2606:4700:9a94:4b91:d8f1:662d:6456:fcb0"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "cm.awslcn.info",
             "server_port": 25216,
@@ -1689,40 +1716,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cm.awslcn.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "3.144.191.4",
-            "server_port": 443,
-            "uuid": "60c0bbfa-c54f-49a9-81ba-779b0206a9fd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3.144.191.4",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ylks",
-                "headers": {
-                    "Host": "3.144.191.4"
                 }
             }
         },
