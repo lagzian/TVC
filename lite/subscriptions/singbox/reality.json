@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -115,7 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -140,11 +140,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 8",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "91.107.156.225",
-            "server_port": 7869,
-            "uuid": "c0e7d787-4162-41fe-b5c8-c73d0d728d97",
+            "server": "87.98.149.193",
+            "server_port": 443,
+            "uuid": "4f126546-f34f-4977-a467-373961fff60e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -154,17 +154,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mega.de",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6LvV2B0l_OISYEHxe7p_KgGBZwJb9lzSYlXEvOzOvwc",
-                    "short_id": "5af5c37f"
+                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
+                    "short_id": "6d49a78191f4d90f"
                 }
             }
         },
