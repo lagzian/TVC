@@ -11,8 +11,8 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 35.179.44.103, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 3.8.108.119, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15 = trojan, 54.228.153.22, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16 = trojan, 54.155.92.147, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | @DirectVPN | 13 = trojan, 3.127.128.233, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | @DirectVPN | 14 = trojan, 3.79.169.224, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18 = ss, 89.185.84.185, 12575, encrypt-method = chacha20-ietf-poly1305, password = CkJF3P4LFIiQsKKfnNNnL2
@@ -21,9 +21,9 @@ DIRECT = direct
 🇺🇸US | 🟢 | vmess | @free1_vpn | 9 = vmess, www.speedtest.net, 8080, username = cc9be09e-c05e-4f54-831b-969ecb185692, ws = true, tls = , vmess-aead = true, ws-path = /njbvhfgxdgthj, ws-headers = Host:"gi7ip5kbae7a.libreone.com", skip-cert-verify = true, tfo = false
 ❔XX | 🟢 | ss | @kingofilter | 15 = ss, freakconfig27.usecharge.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
-URL-TEST = url-test,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
-FALLBACK = fallback,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 15,🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
+URL-TEST = url-test,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
+FALLBACK = fallback,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 15,🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 16,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18,🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0,🇨🇳CN | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @free1_vpn | 9,❔XX | 🟢 | ss | @kingofilter | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
