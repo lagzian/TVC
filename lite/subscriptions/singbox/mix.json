@@ -155,8 +155,8 @@
                 "🇮🇹IT | 🟢 | ss | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 122",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 123",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
@@ -233,8 +233,8 @@
                 "🇮🇹IT | 🟢 | ss | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 122",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 123",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 9",
@@ -1349,11 +1349,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "151.101.2.216",
+            "server": "baby.bia2bax.shop",
             "server_port": 80,
-            "uuid": "telegram-ArV2ray",
+            "uuid": "v2rayvpn___official",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1363,41 +1363,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "151.101.2.216"
+                    "Host": "baby.bia2bax.shop"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "104.17.134.62",
+            "server": "baby.bia2bax.shop",
             "server_port": 443,
-            "uuid": "18722220-9249-0051-5849-e8a8f1f76424",
+            "uuid": "v2rayvpn___official",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hvxoo.metahkh.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1502,6 +1485,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
+            "server": "38.33.56.53",
+            "server_port": 37001,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.33.56.53",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1735725550785",
+                "headers": {
+                    "Host": "38.33.56.53"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
             "server": "38.33.23.98",
             "server_port": 30003,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
@@ -1530,40 +1547,6 @@
                 "path": "\/path\/1735812367788",
                 "headers": {
                     "Host": "38.33.23.98"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "hms02opi.fxiaomi.sbs",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02opi.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02opi.fxiaomi.sbs"
                 }
             }
         },
