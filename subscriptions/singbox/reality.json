@@ -121,7 +121,7 @@
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 49",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 51",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 53",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 12",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @VmessProtocol | 9",
@@ -159,9 +159,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 125",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 128",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 129",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -201,7 +199,7 @@
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 49",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 51",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 53",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 12",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @VmessProtocol | 9",
@@ -239,9 +237,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 125",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 128",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 129",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -745,7 +741,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 12",
+            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 13",
             "type": "vless",
             "server": "persian--k2k.gamebaz98.ir",
             "server_port": 7870,
@@ -1854,11 +1850,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
-            "server": "ns6.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "dbf66532-f25a-44ed-be20-fc29c5b662c3",
+            "server": "91.107.129.223",
+            "server_port": 42090,
+            "uuid": "express_v2ray",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1868,7 +1864,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1877,88 +1873,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
+                    "public_key": "CrfqNf37Q8FXrPxPOJV0j9HFKuO0KHoyG5WnruII51Y",
+                    "short_id": "3a"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "ns9.esfahansiman.com",
-            "server_port": 1210,
-            "uuid": "dbf66532-f25a-44ed-be20-fc29c5b662c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ubuntu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "ns7.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "dbf66532-f25a-44ed-be20-fc29c5b662c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
