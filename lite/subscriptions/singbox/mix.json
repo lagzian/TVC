@@ -163,8 +163,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇮🇳IN | 🔴 | vless | @flyv2ray | 12",
@@ -241,8 +241,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇮🇳IN | 🔴 | vless | @flyv2ray | 12",
@@ -1473,9 +1473,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "151.101.194.120",
-            "server_port": 80,
-            "uuid": "a0f8dbb6-f306-4061-a973-cdce1c88eb9d",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Join--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1483,11 +1483,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "151.101.194.120"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
@@ -1588,13 +1598,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "192.74.231.199",
-            "server_port": 37001,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "cf-vod.nimo.tv",
+            "server_port": 80,
+            "uuid": "3a18edb8-80c1-4cba-b912-4f10513da259",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1603,29 +1613,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "192.74.231.199",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1736040833184",
+                "path": "\/vmessws",
                 "headers": {
-                    "Host": "192.74.231.199"
+                    "Host": "cf-vod.nimo.tv"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "38.11.44.115",
-            "server_port": 36003,
+            "server": "38.174.190.80",
+            "server_port": 38007,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -1639,7 +1639,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.11.44.115",
+                "server_name": "38.174.190.80",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1649,9 +1649,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1736075590186",
+                "path": "\/path\/102206282005",
                 "headers": {
-                    "Host": "38.11.44.115"
+                    "Host": "38.174.190.80"
                 }
             }
         },
