@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"❔XX | 🔴 | vless | @VmessProtocol | 11","type":"vless","server":"[2407:3640:2185:9595:0:1:c2d0:9336]","port":59009,"udp":true,"uuid":"57c0ba73-b381-4fa6-aad0-f87c72a4d2d1","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"addons.mozilla.org","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"pthse3E3BBt3kWrXayFIWMQuLwMpKjwNOGkKHG5VZRc"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18","type":"vless","server":"dream.reza.lat","port":12827,"udp":true,"uuid":"009dbb5e-5cf4-4d3c-9609-284197910cde","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"espn.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"RXYhk6mlyX7iLXpwhFsNAZNu2PhE20CUrHPEB1_96ic","short-id":"b30c"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 21","type":"vless","server":"public.alpanel.top","port":1403,"udp":true,"uuid":"4c6451ba-6594-4d67-a8ae-4df79815a4e3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tuyacn.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA","short-id":"99"}}
 proxy-groups:
   - name: MANUAL
@@ -129,6 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '❔XX | 🔴 | vless | @VmessProtocol | 11'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
   - name: URL-TEST
     type: url-test
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '❔XX | 🔴 | vless | @VmessProtocol | 11'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
   - name: FALLBACK
     type: fallback
@@ -144,6 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '❔XX | 🔴 | vless | @VmessProtocol | 11'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

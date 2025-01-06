@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -173,6 +175,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "dream.reza.lat",
+            "server_port": 12827,
+            "uuid": "009dbb5e-5cf4-4d3c-9609-284197910cde",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "espn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RXYhk6mlyX7iLXpwhFsNAZNu2PhE20CUrHPEB1_96ic",
+                    "short_id": "b30c"
+                }
             }
         },
         {
