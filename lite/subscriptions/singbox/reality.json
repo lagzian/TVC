@@ -109,7 +109,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 144",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 145",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -121,7 +121,7 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 144",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 145",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -233,11 +233,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "vippro.mispd.ir",
-            "server_port": 443,
-            "uuid": "54ae1b45-dafc-4c12-b222-6917e75a15e5",
+            "server": "193.46.81.83",
+            "server_port": 563,
+            "uuid": "telegram-i-ArV2ray",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -247,18 +247,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.latimes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "f4cl0AKbsKgO0EQ5cQyBhfRlMH3TwLJ5dCZQNkEP-yM",
-                    "short_id": "6d49a78191f4d90f"
+                    "public_key": "b7yHxJvpMviU0y0ncrxzOuwWfwfGhzQ4nzJDPtfN4WM",
+                    "short_id": "4c5e6e2a09"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
