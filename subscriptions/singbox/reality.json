@@ -115,8 +115,8 @@
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 150",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "❔XX | 🟢 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @VmessProtocol | 12",
+                "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "❔XX | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 152",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 153",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 154",
@@ -132,8 +132,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 191",
-                "🇸🇬SG | 🔴 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 4",
@@ -174,8 +172,8 @@
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 150",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "❔XX | 🟢 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @VmessProtocol | 12",
+                "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "❔XX | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 152",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 153",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 154",
@@ -191,8 +189,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 190",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 191",
-                "🇸🇬SG | 🔴 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 4",
@@ -522,7 +518,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 11",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 12",
             "type": "vless",
             "server": "[2407:3640:2185:9595:0:1:c2d0:9336]",
             "server_port": 59008,
@@ -551,7 +547,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 12",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 13",
             "type": "vless",
             "server": "[2407:3640:2185:9595:0:1:c2d0:9336]",
             "server_port": 59009,
@@ -1018,64 +1014,6 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🔴 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "7b5b9580.ddns-link-b5.uk",
-            "server_port": 10039,
-            "uuid": "D5EC598E-93A9-4D77-B8C2-0959361820A2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "swcdn.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE",
-                    "short_id": "686c0ef0"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "49.12.106.37",
-            "server_port": 55822,
-            "uuid": "Telegram@v2rayng_vpnn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "swrGFiH1GGLp80EgD_iDAuyb701VeVirfXCbI_5cinw",
-                    "short_id": ""
                 }
             }
         },
