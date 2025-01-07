@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+                "🇰🇷KR | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,7 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+                "🇰🇷KR | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -178,11 +178,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "🇰🇷KR | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "dream.reza.lat",
-            "server_port": 12827,
-            "uuid": "009dbb5e-5cf4-4d3c-9609-284197910cde",
+            "server": "146.56.47.79",
+            "server_port": 23258,
+            "uuid": "73159dbd-e01e-4492-a234-e5d7c335b128",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -192,17 +192,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "espn.com",
+                "server_name": "microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RXYhk6mlyX7iLXpwhFsNAZNu2PhE20CUrHPEB1_96ic",
-                    "short_id": "b30c"
+                    "public_key": "p-g7A0RMBXZOUey2V-HjWsI-5j-EpNITj_JVqx_9OnI",
+                    "short_id": "545abc6e"
                 }
             }
         },
