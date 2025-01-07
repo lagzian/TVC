@@ -109,6 +109,7 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -120,6 +121,7 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -234,6 +236,35 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
                 }
             }
         },

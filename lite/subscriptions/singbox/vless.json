@@ -147,7 +147,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -211,7 +212,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 189",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -1239,11 +1241,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "151.101.66.219",
-            "server_port": 80,
-            "uuid": "1185a1af-2ad7-5abe-90fb-ca183a3abd96",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "d28832c6-b491-4592-9133-c62806d487f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,10 +1254,39 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/l?ed=443ed=2560",
-                "headers": {
-                    "Host": "151.101.66.219"
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
                 }
             }
         },
