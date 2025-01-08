@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -165,6 +167,35 @@
                     "enabled": true,
                     "public_key": "pthse3E3BBt3kWrXayFIWMQuLwMpKjwNOGkKHG5VZRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "fear.anabelrz.xyz",
+            "server_port": 46646,
+            "uuid": "56c56243-91fb-4da8-c9db-e770f20e76c8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gaoozG55HRzdfA0FNB65eKRzmBd7NEu4qdPArZN9Fw0",
+                    "short_id": "74e2f6"
                 }
             }
         },
