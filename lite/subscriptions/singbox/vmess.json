@@ -259,6 +259,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
+            "server": "192.74.240.108",
+            "server_port": 31003,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "192.74.240.108",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/1736329715306",
+                "headers": {
+                    "Host": "192.74.240.108"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
             "server": "198.2.195.7",
             "server_port": 38005,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
@@ -287,30 +321,6 @@
                 "path": "\/path\/1736329715306",
                 "headers": {
                     "Host": "198.2.195.7"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "198.41.209.70",
-            "server_port": 2082,
-            "uuid": "65c003b7-d0b5-3751-8e22-b959f46463bc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in104.24.107.6",
-                "headers": {
-                    "Host": "198.41.209.70"
                 }
             }
         }
