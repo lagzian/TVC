@@ -152,14 +152,14 @@
                 "❔XX | 🔴 | vless | @MTConfig | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 176",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.caw2.baldh.ir&type=ws#🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
                 "🇸🇰SK | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -225,14 +225,14 @@
                 "❔XX | 🔴 | vless | @MTConfig | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 175",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 176",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.caw2.baldh.ir&type=ws#🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
                 "🇸🇰SK | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -1357,12 +1357,33 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "156.67.30.77",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "8b43abce-8170-432c-9d85-cc93807aa098",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "151.101.194.133",
             "server_port": 443,
-            "uuid": "1051bfbb-90db-4261-b5e4-8b91f62b436f",
-            "flow": "xtls-rprx-vision",
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1371,32 +1392,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "spotify.com",
+                "server_name": "mio.splashthat.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SDUAmbkyV3wQEEXwV9wpwTqS2qi7gOekiZNpS1jfcXc",
-                    "short_id": "d59cd3"
                 }
-            }
-        },
-        {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560&security=&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.caw2.baldh.ir&type=ws#🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "4fe2025a-29f1-5c7e-ac64-c9b777de11e6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "mio.splashthat.com"
+                }
             }
         },
         {
@@ -1513,9 +1522,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "s5.cn-db.top",
+            "server": "s1.db-link02.top",
             "server_port": 8080,
             "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
@@ -1530,17 +1539,17 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in172.67.26.191",
+                "path": "\/dabai.in104.21.151.202",
                 "headers": {
-                    "Host": "s5.cn-db.top"
+                    "Host": "s1.db-link02.top"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "s5.db-link02.top",
-            "server_port": 2052,
+            "server": "s5.db-link01.top",
+            "server_port": 2086,
             "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
             "alter_id": 0,
@@ -1554,9 +1563,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in172.64.19.172",
+                "path": "\/dabai.in104.20.74.23",
                 "headers": {
-                    "Host": "s5.db-link02.top"
+                    "Host": "s5.db-link01.top"
                 }
             }
         },
