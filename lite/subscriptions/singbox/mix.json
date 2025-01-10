@@ -145,21 +145,23 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
-                "❔XX | 🔴 | vless | @MTConfig | 15",
+                "❔XX | 🔴 | vless | @MTConfig | 12",
+                "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 212",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 213",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇸🇰SK | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -220,21 +222,23 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
-                "❔XX | 🔴 | vless | @MTConfig | 15",
+                "❔XX | 🔴 | vless | @MTConfig | 12",
+                "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 212",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 213",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇸🇰SK | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1175,6 +1179,20 @@
             }
         },
         {
+            "tag": "🇫🇮FI | 🔴 | vless | @v2ray1_ng | 11",
+            "type": "vless",
+            "server": "65.109.228.235",
+            "server_port": 45743,
+            "uuid": "3c2e5f39-d738-40d4-929c-249ea568cb4a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "v3.vixsm.ir",
@@ -1251,11 +1269,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @MTConfig | 15",
+            "tag": "❔XX | 🔴 | vless | @MTConfig | 12",
             "type": "vless",
-            "server": "o.mmd111.sbs",
-            "server_port": 2053,
-            "uuid": "da853330-a294-4257-9a87-f481b9126d51",
+            "server": "all.vipxali.cfd",
+            "server_port": 2083,
+            "uuid": "21a78493-40c9-4a44-9b03-9c45f41d1845",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1265,7 +1283,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "m.mmd111.sbs",
+                "server_name": "dm.XsV2ray.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1274,11 +1292,42 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "m.mmd111.sbs"
+                "type": "grpc",
+                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @MTConfig | 13",
+            "type": "vless",
+            "server": "all.vipxali.cfd",
+            "server_port": 2083,
+            "uuid": "adc29165-bdfc-495a-8cc3-e117bd0231fb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dm.XsV2ray.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1340,11 +1389,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "server": "ad5.transitkala.com",
             "server_port": 443,
-            "uuid": "36238374-9522-4d8c-c355-ecb503387ddc",
+            "uuid": "10321f1d-6418-40fe-b5ac-dc2a5f6fb0e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,38 +1403,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=4096",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu."
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "ns4.esfahansiman.com",
-            "server_port": 443,
-            "uuid": "41bb7247-c37a-48ab-8421-c9f76f4ed570",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "WWW.EsfahAnsimaN.infO.",
+                "server_name": "ad5.transitkala.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1397,8 +1415,29 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "WWW.EsfahAnsimaN.infO."
+                    "Host": "ad5.transitkala.com"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "8b43abce-8170-432c-9d85-cc93807aa098",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1549,7 +1588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "142.171.134.126",
             "server_port": 37007,
@@ -1583,7 +1622,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "38.33.23.98",
             "server_port": 30003,
