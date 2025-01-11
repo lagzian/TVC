@@ -109,6 +109,7 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -122,6 +123,7 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -239,6 +241,42 @@
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "37.27.3.97",
+            "server_port": 2052,
+            "uuid": "8bca284c-d2f2-4367-999c-5f490a872c2d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+                    "short_id": "4156caa9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2052vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
