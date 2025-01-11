@@ -147,8 +147,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -211,8 +211,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1275,11 +1275,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "ns6.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
+            "server": "188.245.220.62",
+            "server_port": 5052,
+            "uuid": "ffe06cc2-2d2e-d5b2-4d34-fc6e8fb334ba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1289,7 +1289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1298,24 +1298,24 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
+                    "public_key": "FLIrozF9a1skg-PFqlw1iZ4lJZHA46uu7dBPNxYiUgc",
+                    "short_id": "12a9d573ec6d2978"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
+                "service_name": "666vless",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "ns4.esfahansiman.com",
-            "server_port": 443,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "8b43abce-8170-432c-9d85-cc93807aa098",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1323,22 +1323,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "WWW.EsfahAnsimaN.infO.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "WWW.EsfahAnsimaN.infO."
-                }
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
