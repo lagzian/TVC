@@ -147,8 +147,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -161,7 +161,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 16",
                 "🇬🇧GB | 🟢 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+                "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ]
@@ -211,8 +211,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -225,7 +225,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 16",
                 "🇬🇧GB | 🟢 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+                "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ],
@@ -1275,11 +1275,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "4h4.ghalikermaniz.info",
+            "server": "ns4.esfahansiman.com",
             "server_port": 443,
-            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1287,20 +1287,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.moghavEmat.bLOg.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "4h4.ghalikermaniz.info"
+                    "Host": "WWW.moghavEmat.bLOg."
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇷CR | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "168.119.101.219",
+            "server": "ns4.esfahansiman.com",
             "server_port": 443,
-            "uuid": "07ba7aaf-f180-413d-9e62-fded2788e9ce",
+            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1308,11 +1318,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "WWW.pegAh-Esfahan.De.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "168.119.101.219"
+                    "Host": "WWW.pegAh-Esfahan.De."
                 }
             }
         },
@@ -1635,7 +1655,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
             "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
