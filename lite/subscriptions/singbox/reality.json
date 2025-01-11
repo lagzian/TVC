@@ -110,6 +110,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 311",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 312",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
+                "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -122,6 +123,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 311",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 312",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
+                "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -266,6 +268,42 @@
                     "public_key": "AraqCk8OydZjw2ZT-9WEmt_D1vIrtOf88o5YlbKqgRM",
                     "short_id": "1b7d7614d14c"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
+            "type": "vless",
+            "server": "91.134.100.48",
+            "server_port": 55235,
+            "uuid": "7de0385b-8c3b-46fd-8574-1db0c061eb9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "P-dMTeNvUezXYK97e_5bCXKNOZfbTDjQepoTbRFzuDw",
+                    "short_id": "29b94609"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
