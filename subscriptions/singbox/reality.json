@@ -150,10 +150,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 304",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
+                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -228,10 +230,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 304",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
+                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -1603,7 +1607,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
             "type": "vless",
             "server": "deko.tinadresses.ir",
             "server_port": 5048,
@@ -1639,7 +1643,79 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 46833,
+            "uuid": "Id-Telegram-@AB_841",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BVeybHiH94MlmCXLuia0kix3hCWelEuDxFAp_PXDECc",
+                    "short_id": "9bcab5e48a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-@BugFreeNet-@AB_841",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 47252,
+            "uuid": "Tel-AB_841",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "plm7PtLeSp27aIMuf1qPJaLxyYpSGZGG-EFUjw-giUM",
+                    "short_id": "a3f762"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-id:@BugFreeNet[@AB_841]",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
             "server": "ns7.esfahansiman.com",
             "server_port": 2030,
@@ -1675,7 +1751,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
             "server": "ns8.esfahansiman.com",
             "server_port": 1210,
@@ -1711,7 +1787,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "ns9.esfahansiman.com",
             "server_port": 1210,
