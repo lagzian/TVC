@@ -145,9 +145,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 304",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -209,9 +208,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 304",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1229,9 +1227,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
             "type": "vless",
-            "server": "13.58.144.224",
+            "server": "3.144.110.49",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1258,9 +1256,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 304",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
             "type": "vless",
-            "server": "107.20.18.124",
+            "server": "18.216.29.97",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1283,37 +1281,6 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "13.37.81.53",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
