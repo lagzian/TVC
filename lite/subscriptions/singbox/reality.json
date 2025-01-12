@@ -109,7 +109,6 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -124,7 +123,6 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -243,42 +241,6 @@
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 47252,
-            "uuid": "Tel-AB_841",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "plm7PtLeSp27aIMuf1qPJaLxyYpSGZGG-EFUjw-giUM",
-                    "short_id": "a3f762"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-id:@BugFreeNet[@AB_841]",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
