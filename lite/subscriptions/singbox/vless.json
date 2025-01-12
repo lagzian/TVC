@@ -129,7 +129,8 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "❔XX | 🔴 | vless | @prrofile_purple | 159",
                 "❔XX | 🔴 | vless | @prrofile_purple | 160",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 35",
@@ -147,7 +148,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 330",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 331",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇫🇮FI | 🔴 | vless | @fnet00 | 0",
@@ -193,7 +195,8 @@
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "❔XX | 🔴 | vless | @prrofile_purple | 159",
                 "❔XX | 🔴 | vless | @prrofile_purple | 160",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 35",
@@ -211,7 +214,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 330",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 331",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇫🇮FI | 🔴 | vless | @fnet00 | 0",
@@ -805,11 +809,42 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.fastly80-3.hosting-ip.com",
+            "server": "spain-01.ab-841.ip-ddns.com",
+            "server_port": 443,
+            "uuid": "18758238-2625-2730-3689-f157ae275ad4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wrcgbsu.qwapples.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 14",
+            "type": "vless",
+            "server": "167.82.1.102",
             "server_port": 80,
-            "uuid": "11e5adbc-8b9e-4d71-9f27-7fc5224faa40",
+            "uuid": "253ef561-9e57-4336-befd-878ddd30df01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -819,9 +854,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE-telegram-VPNCUSTOMIZE?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.fastly80-3.hosting-ip.com"
+                    "Host": "teleirani.ir"
                 }
             }
         },
@@ -1280,11 +1315,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.68.157",
-            "server_port": 2083,
-            "uuid": "d603cba7-4ec4-4744-a1df-1fcbec323066",
+            "server": "78.47.51.169",
+            "server_port": 443,
+            "uuid": "aa4f5b15-cc52-4ff7-988e-69da1d3c3f31",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1292,21 +1327,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "GERmAnHp.PAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "78.47.51.169"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "65.109.238.202",
+            "server_port": 443,
+            "uuid": "95089f63-c732-4594-bfcb-c8180bd09a1c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/qqNNQTl6DJ5lIGLb\/My4xMjYuMTU5LjEy",
+                "path": "\/",
                 "headers": {
-                    "Host": "GERmAnHp.PAgES.dEv"
+                    "Host": "65.109.238.202"
                 }
             }
         },
