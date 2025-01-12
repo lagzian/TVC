@@ -112,7 +112,8 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇳🇱NL | 🟢 | vless | @kingofilter | 14"
             ]
         },
         {
@@ -125,7 +126,8 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇷FR | 🔴 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
-                "❔XX | 🔴 | vless | @vpn_go67 | 21"
+                "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇳🇱NL | 🟢 | vless | @kingofilter | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -376,6 +378,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @kingofilter | 14",
+            "type": "vless",
+            "server": "174.138.13.224",
+            "server_port": 15891,
+            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
+                    "short_id": "10f1"
+                }
             }
         }
     ],
