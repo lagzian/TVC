@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -119,6 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -179,6 +181,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "5.75.203.85",
+            "server_port": 28028,
+            "uuid": "3cde1e77-9345-4f87-9d38-f92ef2bed744",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xXwGwJOlSUEvc17KLNCPDF1WtjxiMTUxQb8aaZIuCnI",
+                    "short_id": "0a896646c2"
+                }
             }
         },
         {
