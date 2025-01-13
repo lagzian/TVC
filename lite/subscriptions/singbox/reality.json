@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -120,7 +119,6 @@
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -208,42 +206,6 @@
                     "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
                     "short_id": "f8d8d12585198cb5"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "138.199.145.158",
-            "server_port": 4030,
-            "uuid": "f7bbb6ad-d01f-4a42-b96e-1865b058d136",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lHSrAqdEQ-QuZHqifEry3JQuInA3-BZCZpBWFhEBwjs",
-                    "short_id": "d33833fa07a73354"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "4030vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
