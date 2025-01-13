@@ -147,6 +147,7 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -210,6 +211,7 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1226,9 +1228,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "151.101.66.133",
             "server_port": 80,
-            "uuid": "telegram-ArV2ray",
+            "uuid": "f51aebe4-678e-41ac-96bf-fecd259e3616",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1238,9 +1240,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "151.101.66.133"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "151.101.158.204",
+            "server_port": 80,
+            "uuid": "50dbe8d9-abef-46e5-d44b-00117a5025d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=64",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu."
                 }
             }
         },
