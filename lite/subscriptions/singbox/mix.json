@@ -151,9 +151,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -227,9 +228,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
+                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1354,7 +1356,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
             "type": "vless",
             "server": "168.119.101.219",
             "server_port": 443,
@@ -1375,7 +1377,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
             "type": "vless",
             "server": "159.69.206.4",
             "server_port": 443,
@@ -1396,9 +1398,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 13",
             "type": "trojan",
-            "server": "13.61.159.91",
+            "server": "100.29.116.54",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1414,6 +1416,27 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
