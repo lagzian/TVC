@@ -143,8 +143,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 261",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+                "@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
                 "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -204,8 +204,8 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 261",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+                "@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
                 "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1167,6 +1167,27 @@
             }
         },
         {
+            "tag": "@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng,@FreeV2rng#🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "80.71.157.25",
+            "server_port": 2052,
+            "uuid": "c04c3b23-9611-59e2-9275-e922d9044011",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "80.71.157.25"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "37.27.189.156",
@@ -1197,42 +1218,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "deko.tinadresses.ir",
-            "server_port": 5042,
-            "uuid": "da7dcc12-05b0-930e-7258-8fa7c44d51e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qdfo8UQXXsXPViln7MbAIIvVgKrDnuRoFBGVTJDm134",
-                    "short_id": "31e7200536a1ad45"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "666vless",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
