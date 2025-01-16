@@ -112,18 +112,18 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇵🇱PL | 🟢 | vless | @prrofile_purple | 107",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 108",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 112",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 122",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 128",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 137",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 147",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 2",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 13",
                 "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 11",
-                "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 17",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 5",
+                "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 11",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇫🇮FI | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
@@ -175,18 +175,18 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇵🇱PL | 🟢 | vless | @prrofile_purple | 107",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 108",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 112",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 122",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 128",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 137",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 147",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 2",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 13",
                 "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 11",
-                "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 17",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 5",
+                "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 11",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇫🇮FI | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
@@ -443,65 +443,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @prrofile_purple | 107",
-            "type": "vless",
-            "server": "45.82.255.149",
-            "server_port": 443,
-            "uuid": "46ce658d-c433-430a-84aa-5980026badac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "website.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 108",
-            "type": "vless",
-            "server": "188.245.240.68",
-            "server_port": 2083,
-            "uuid": "dda6dc2f-fba7-424b-8413-adfe056c1de1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hwKuMbkMN0NuBzsoBMDh6VRlWDv7UBXyw6-1MUlFAms",
-                    "short_id": "e0f1ce196ee5"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 112",
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
             "type": "vless",
             "server": "188.245.184.26",
             "server_port": 1633,
@@ -614,6 +556,78 @@
                     "public_key": "lRikN_UN7-xcX5w8Mt8JuEsvLRkBvkvjp2JD8vDn9hs",
                     "short_id": "5a1cc3"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+            "type": "vless",
+            "server": "37.27.3.97",
+            "server_port": 2052,
+            "uuid": "187556a8-e805-4eb8-8187-a59c89df211d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "joinplatinumrealty.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+                    "short_id": "4156caa9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2052vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @prrofile_purple | 147",
+            "type": "vless",
+            "server": "37.27.15.167",
+            "server_port": 2052,
+            "uuid": "187556a8-e805-4eb8-8187-a59c89df211d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+                    "short_id": "4156caa9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2052vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -740,7 +754,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "5.75.193.5",
             "server_port": 48363,
@@ -769,7 +783,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 17",
+            "tag": "🇪🇸ES | 🔴 | vless | @v2ray1_ng | 11",
             "type": "vless",
             "server": "ns9.esfahansiman.com",
             "server_port": 1210,
