@@ -161,6 +161,7 @@
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -238,6 +239,7 @@
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -1595,6 +1597,40 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "104.21.64.1",
+            "server_port": 8443,
+            "uuid": "89c344f2-096c-445c-b629-9b15152f38e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.64.1",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/89c344f2",
+                "headers": {
+                    "Host": "104.21.64.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "104.16.155.10",
             "server_port": 80,
