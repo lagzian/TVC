@@ -111,11 +111,11 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
@@ -153,8 +153,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -174,11 +174,11 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+                "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
@@ -216,8 +216,8 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -323,7 +323,7 @@
         {
             "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.96.122.77",
+            "server": "15.157.234.162",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -352,9 +352,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇨🇦CA | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.2.78.34",
+            "server": "3.96.122.77",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -445,11 +445,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -457,16 +457,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -1396,11 +1406,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "python.org",
-            "server_port": 80,
-            "uuid": "79c318b9-d2be-4f63-8687-dd66e930bb7c",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,20 +1418,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "python.org"
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "python.org",
-            "server_port": 80,
-            "uuid": "2dc676e8-5dbf-4149-8006-dac092f65776",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1429,11 +1449,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "python.org"
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
