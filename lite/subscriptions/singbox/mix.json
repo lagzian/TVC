@@ -153,8 +153,8 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 15",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 16",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
-                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 231",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -230,8 +230,8 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 15",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 16",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
-                "🇪🇸ES | 🔴 | vless | @DailyV2RY | 231",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
@@ -1410,12 +1410,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 229",
             "type": "vless",
-            "server": "harlan.ns.cloudflare.com",
+            "server": "54.188.160.181",
             "server_port": 443,
-            "uuid": "0c34e8bb-ae2f-4fbc-bd75-d9c03c4e1eb7",
-            "flow": "",
+            "uuid": "2b50b3d0-63e2-4927-b7b8-59790681071b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1424,40 +1424,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3vv57r.alligator27.com",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/wss",
-                "headers": {
-                    "Host": "3vv57r.alligator27.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PUZ33dJSwX3bsLDidLH01AZA62ckDeYH31lbx4OSN3c",
+                    "short_id": "af6e23a61da9"
                 }
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @DailyV2RY | 231",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 230",
             "type": "vless",
-            "server": "65.20.103.196",
-            "server_port": 8080,
-            "uuid": "042b8276-1db0-40b6-f54c-fb3de27c368a",
-            "flow": "",
+            "server": "35.90.86.174",
+            "server_port": 443,
+            "uuid": "2b50b3d0-63e2-4927-b7b8-59790681071b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "65.20.103.196"
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PUZ33dJSwX3bsLDidLH01AZA62ckDeYH31lbx4OSN3c",
+                    "short_id": "af6e23a61da9"
                 }
             }
         },
