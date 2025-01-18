@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | 🔴 | vless | @ipV2Ray | 12","type":"vless","server":"c2.vact.ir","port":2083,"udp":true,"uuid":"78e610b2-c477-47d8-b3f8-5fe820258806","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo","short-id":"11a4b6bca8"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @ipV2Ray | 13","type":"vless","server":"c1.vact.ir","port":2083,"udp":true,"uuid":"b8b6aa29-7abc-47c0-bcc2-b28c69ef6b84","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18","short-id":"90278dfc"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @ipV2Ray | 12","type":"vless","server":"c2.vact.ir","port":2083,"udp":true,"uuid":"0f5909ee-80bb-4671-b0cf-9292f4a990c8","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo","short-id":"11a4b6bca8"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @ipV2Ray | 13","type":"vless","server":"c1.vact.ir","port":2083,"udp":true,"uuid":"051e5334-d946-4fac-920d-d731e240cd93","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"Re7kdDBxVgsI4VmCHrcsPeKD4CBoB6Oc8fqxtWJ6m18","short-id":"90278dfc"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @proxy_kafee | 2","type":"vless","server":"c2.vact.ir","port":2083,"udp":true,"uuid":"078e70f3-47ed-4908-89b4-4886bc0793ae","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"refersion.com","reality-opts":{"public-key":"IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo","short-id":"11a4b6bca8"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @v2ray1_ng | 13","type":"vless","server":"5.75.193.5","port":48363,"udp":true,"uuid":"e8e6921c-da08-4d51-af5a-9d7710134fcf","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"docker.com","reality-opts":{"public-key":"w8xfpG5vc5edKaa7eizbn0dWQ22Ayo_1cIuI-DOUPHk","short-id":"29bc6c739408"}}
   - {"name":"🇺🇸US | 🟢 | vless | @DailyV2RY | 231","type":"vless","server":"142.93.66.199","port":443,"udp":true,"uuid":"2fabc3ce-7f6d-4b5e-a7f8-dacdd8d30fff","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"zula.ir","reality-opts":{"public-key":"8CB1BkQTP2cLEwW5RjwQ9UAY7cZY6n4Q1seWvyyQVCo","short-id":"6c6bed66"}}
@@ -134,7 +134,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | 🔴 | vless | @ipV2Ray | 12'
+      - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🔴 | vless | @proxy_kafee | 2'
       - '🇩🇪DE | 🔴 | vless | @v2ray1_ng | 13'
@@ -148,7 +148,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | 🔴 | vless | @ipV2Ray | 12'
+      - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🔴 | vless | @proxy_kafee | 2'
       - '🇩🇪DE | 🔴 | vless | @v2ray1_ng | 13'
@@ -161,7 +161,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | 🔴 | vless | @ipV2Ray | 12'
+      - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 12'
       - '🇩🇪DE | 🟢 | vless | @ipV2Ray | 13'
       - '🇩🇪DE | 🔴 | vless | @proxy_kafee | 2'
       - '🇩🇪DE | 🔴 | vless | @v2ray1_ng | 13'
