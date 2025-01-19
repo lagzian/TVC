@@ -170,7 +170,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
-                "🇫🇷FR | 🟢 | vless | @nofiltering2 | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🟢 | ss | @kingofilter | 15",
@@ -250,7 +249,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
-                "🇫🇷FR | 🟢 | vless | @nofiltering2 | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🟢 | ss | @kingofilter | 15",
@@ -1819,35 +1817,6 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
                 "headers": {
                     "Host": "151.101.0.155"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @nofiltering2 | 10",
-            "type": "vless",
-            "server": "45.95.233.11",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
                 }
             }
         },
