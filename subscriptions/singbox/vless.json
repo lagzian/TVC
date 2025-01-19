@@ -205,7 +205,6 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
-                "🇨🇷CR | 🟢 | vless | @proxy_kafee | 4",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -586,7 +585,6 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
-                "🇨🇷CR | 🟢 | vless | @proxy_kafee | 4",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
                 "🇺🇸US | 🔴 | vless | @v2logy | 1",
                 "🇺🇸US | 🔴 | vless | @v2logy | 2",
@@ -3355,37 +3353,6 @@
                 "path": "\/@VpnWedbaz-----@VpnWedbaz?ed=2560",
                 "headers": {
                     "Host": "live.wkrq.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | 🟢 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "ns4.esfahansiman.com",
-            "server_port": 443,
-            "uuid": "cd8e9b4f-8ba1-4ddc-99e7-29cfbffc9d41",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "WWW.pegAh-Esfahan.De.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "WWW.pegAh-Esfahan.De."
                 }
             }
         },
