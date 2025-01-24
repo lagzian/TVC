@@ -152,7 +152,6 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 7",
-                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -224,7 +223,6 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 7",
-                "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
@@ -405,7 +403,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "tell--ZEDMODEON",
+            "uuid": "join--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -425,7 +423,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
@@ -436,7 +434,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "Join--ZEDMODEON",
+            "uuid": "tell--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1378,35 +1376,6 @@
                     "enabled": true,
                     "public_key": "g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "sg04.ssr.ee",
-            "server_port": 55560,
-            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dvv84goWLMnFoZWWLI8xtEErCIao_XnzXUVz9ryVSAU",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
