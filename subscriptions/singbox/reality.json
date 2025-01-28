@@ -135,21 +135,10 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇯🇵JP | 🟢 | vless | @VmessProtocol | 1",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 340",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 349",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 350",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 351",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 352",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 353",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 356",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 1",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 2",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 3",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -213,21 +202,10 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇯🇵JP | 🟢 | vless | @VmessProtocol | 1",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 340",
-                "🇫🇷FR | 🟢 | vless | @DailyV2RY | 341",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 349",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 350",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 351",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 352",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 353",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 356",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 1",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 2",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 3",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -1161,282 +1139,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 340",
-            "type": "vless",
-            "server": "v13.blkrose.ir",
-            "server_port": 2053,
-            "uuid": "bb04da46-54ef-401a-920f-6738f0b64a76",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
-                    "short_id": "5640288dca4f8519"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "2053vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @DailyV2RY | 341",
-            "type": "vless",
-            "server": "v08.blkrose.ir",
-            "server_port": 2053,
-            "uuid": "bb04da46-54ef-401a-920f-6738f0b64a76",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
-                    "short_id": "5640288dca4f8519"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "2053vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 342",
-            "type": "vless",
-            "server": "44.202.163.45",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
-            "type": "vless",
-            "server": "sv5.cloudjetn.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 345",
-            "type": "vless",
-            "server": "sv5.cloudjetm.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 346",
-            "type": "vless",
-            "server": "sv4.cloudjetn.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 347",
-            "type": "vless",
-            "server": "sv4.cloudjetm.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 348",
-            "type": "vless",
-            "server": "sv3.cloudjetn.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 349",
-            "type": "vless",
-            "server": "sv3.cloudjetm.com",
-            "server_port": 443,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 350",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 1",
             "type": "vless",
             "server": "sv2.cloudjetn.com",
             "server_port": 443,
@@ -1465,7 +1168,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 351",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 2",
             "type": "vless",
             "server": "sv2.cloudjetm.com",
             "server_port": 443,
@@ -1494,7 +1197,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 352",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 3",
             "type": "vless",
             "server": "sv1.cloudjetn.com",
             "server_port": 443,
@@ -1523,7 +1226,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 353",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 4",
             "type": "vless",
             "server": "sv1.cloudjetm.com",
             "server_port": 443,
@@ -1548,64 +1251,6 @@
                     "enabled": true,
                     "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
                     "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 355",
-            "type": "vless",
-            "server": "34.217.95.2",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 356",
-            "type": "vless",
-            "server": "18.236.160.29",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
                 }
             }
         },
