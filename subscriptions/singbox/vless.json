@@ -433,9 +433,10 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 4",
-                "🇬🇧GB | 🔴 | vless | @kingofilter | 9",
-                "🇳🇱NL | 🔴 | vless | @kingofilter | 12",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 0",
+                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 5",
+                "🇬🇧GB | 🔴 | vless | @kingofilter | 10",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 13",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 1",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 2",
@@ -780,9 +781,10 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 4",
-                "🇬🇧GB | 🔴 | vless | @kingofilter | 9",
-                "🇳🇱NL | 🔴 | vless | @kingofilter | 12",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 0",
+                "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 5",
+                "🇬🇧GB | 🔴 | vless | @kingofilter | 10",
+                "🇳🇱NL | 🔴 | vless | @kingofilter | 13",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 1",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 2",
@@ -9265,7 +9267,36 @@
             }
         },
         {
-            "tag": "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 4",
+            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 0",
+            "type": "vless",
+            "server": "de-re.afteam.ir",
+            "server_port": 11163,
+            "uuid": "01569302-ddab-4d89-8804-a16c3a9001b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BHwcQOO7FJVCW0W2naMQ3F7tbZlLgBrKfjhspc66IzU",
+                    "short_id": "f830f6"
+                }
+            }
+        },
+        {
+            "tag": "&security=none&encryption=none&type=ws#🇳🇴NO | 🔴 | vless | @kingofilter | 5",
             "type": "vless",
             "server": "95.164.38.201",
             "server_port": 2052,
@@ -9279,7 +9310,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @kingofilter | 9",
+            "tag": "🇬🇧GB | 🔴 | vless | @kingofilter | 10",
             "type": "vless",
             "server": "198.244.140.163",
             "server_port": 22671,
@@ -9293,7 +9324,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @kingofilter | 12",
+            "tag": "🇳🇱NL | 🔴 | vless | @kingofilter | 13",
             "type": "vless",
             "server": "108.61.99.185",
             "server_port": 8080,
