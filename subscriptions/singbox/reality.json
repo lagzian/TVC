@@ -112,6 +112,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 106",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 113",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 120",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 121",
@@ -166,8 +167,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇳🇱NL | 🟢 | vless | @kingofilter | 0",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 2",
+                "🇳🇱NL | 🟢 | vless | @kingofilter | 1",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 1",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 5",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 11"
@@ -183,6 +184,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 106",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 113",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 120",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 121",
@@ -237,8 +239,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇳🇱NL | 🟢 | vless | @kingofilter | 0",
-                "🇩🇪DE | 🟢 | vless | @kingofilter | 2",
+                "🇳🇱NL | 🟢 | vless | @kingofilter | 1",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 1",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 5",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 11"
@@ -456,6 +458,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 106",
+            "type": "vless",
+            "server": "138.124.61.246",
+            "server_port": 443,
+            "uuid": "V2rayArgoN-",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1tA2CIltAtu_CMKCMWqH4zuRi-EA9LFG9Wz6SI0_sG4",
+                    "short_id": "ff"
+                }
             }
         },
         {
@@ -2216,7 +2247,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @kingofilter | 0",
+            "tag": "🇳🇱NL | 🟢 | vless | @kingofilter | 1",
             "type": "vless",
             "server": "194.54.158.180",
             "server_port": 88,
@@ -2245,7 +2276,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 2",
+            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
             "type": "vless",
             "server": "de-re.afteam.ir",
             "server_port": 11163,
