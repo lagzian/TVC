@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
@@ -150,8 +151,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 2",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 3",
@@ -173,7 +174,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
@@ -217,8 +219,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 2",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 3",
@@ -256,11 +258,42 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 41",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 443,
+            "uuid": "Parsashonam-154",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 42",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-153",
+            "uuid": "Parsashonam-154",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1332,7 +1365,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "18.221.192.180",
             "server_port": 4433,
@@ -1361,7 +1394,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "147.135.125.117",
             "server_port": 443,
