@@ -197,7 +197,7 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"91.107.247.219","port":"48617","cipher":"auto","uuid":"df79a753-1586-4819-bd76-79d27f94ed9d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇺🇸US | 🔴 | trojan | @fnet00 | 5","type":"trojan","server":"deliver.missionsec.io","port":28331,"udp":false,"password":"C9zSyneYN7Rl3K38qxu5y3axI82CaEXZ0SwjZFplDpYaTcOABDDOC6SeF4R3Ag","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"deliver.missionsec.io"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @fnet00 | 7","type":"vmess","server":"5.75.201.39","port":"59521","cipher":"auto","uuid":"53e6dd39-27d4-4063-817a-9c00b077a2b7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6","type":"vmess","server":"all97-vip.f-sub.com","port":"9416","cipher":"auto","uuid":"3a256ff3-5a7f-4972-968b-568040356df5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6","type":"vmess","server":"all97-vip.f-sub.com","port":"9416","cipher":"auto","uuid":"3a256ff3-5a7f-4972-968b-568040356df5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | 🟢 | ss | @kingofilter | 12","type":"ss","server":"45.158.171.151","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -284,7 +284,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6'
+      - '🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6'
       - '🇳🇱NL | 🟢 | ss | @kingofilter | 12'
   - name: URL-TEST
     type: url-test
@@ -371,7 +371,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6'
+      - '🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6'
       - '🇳🇱NL | 🟢 | ss | @kingofilter | 12'
   - name: FALLBACK
     type: fallback
@@ -457,7 +457,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 7'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
       - '🇩🇪DE | 🟢 | vmess | @fnet00 | 7'
-      - '🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6'
+      - '🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6'
       - '🇳🇱NL | 🟢 | ss | @kingofilter | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
