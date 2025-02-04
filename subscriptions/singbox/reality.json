@@ -112,8 +112,9 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🔴 | vless | @ShadowProxy66 | 26",
+                "🇬🇧GB | 🟢 | vless | @ShadowProxy66 | 4",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 12",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 35",
                 "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
@@ -169,8 +170,9 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🔴 | vless | @ShadowProxy66 | 26",
+                "🇬🇧GB | 🟢 | vless | @ShadowProxy66 | 4",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 12",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 35",
                 "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 8",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
@@ -431,7 +433,36 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 3",
+            "tag": "🇬🇧GB | 🟢 | vless | @ShadowProxy66 | 4",
+            "type": "vless",
+            "server": "91.208.92.226",
+            "server_port": 56022,
+            "uuid": "ba86f1d8-775c-478c-bd88-be0cb1611242",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B2Hdkb8ZsVs2ajJ6PMmWEEXq8kWJ3bBp4knn89j_Two",
+                    "short_id": "21"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 12",
             "type": "vless",
             "server": "213.142.156.28",
             "server_port": 443,
@@ -460,7 +491,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ShadowProxy66 | 26",
+            "tag": "❔XX | 🔴 | vless | @ShadowProxy66 | 35",
             "type": "vless",
             "server": "[2a0b:4140:bc60:1::1001]",
             "server_port": 33000,
