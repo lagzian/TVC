@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 39",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 40",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
@@ -174,6 +175,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 39",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 40",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
@@ -258,11 +260,42 @@
             "type": "dns"
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 39",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 443,
+            "uuid": "Parsashonam-160",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 40",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-158",
+            "uuid": "Parsashonam-160",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -429,6 +462,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+            "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -454,27 +508,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "mio.splashthat.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
