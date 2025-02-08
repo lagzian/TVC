@@ -126,8 +126,8 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "❔XX | 🟢 | vless | @DailyV2RY | 154",
-                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 155",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 154",
+                "❔XX | 🟢 | vless | @DailyV2RY | 155",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 165",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 166",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 167",
@@ -143,7 +143,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 5",
@@ -196,8 +197,8 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
-                "❔XX | 🟢 | vless | @DailyV2RY | 154",
-                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 155",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 154",
+                "❔XX | 🟢 | vless | @DailyV2RY | 155",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 165",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 166",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 167",
@@ -213,7 +214,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 188",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 5",
@@ -919,7 +921,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 154",
+            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 154",
             "type": "vless",
             "server": "v21.blkrose.ir",
             "server_port": 2053,
@@ -955,7 +957,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 155",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 155",
             "type": "vless",
             "server": "v13.blkrose.ir",
             "server_port": 2053,
@@ -1468,7 +1470,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "svnteam.misvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "91.107.131.93",
             "server_port": 2053,
