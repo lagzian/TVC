@@ -126,7 +126,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 18","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13","type":"ss","server":"23.157.40.95","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14","type":"ss","server":"67.220.95.102","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | 🟢 | vmess | @prrofile_purple | 135","type":"vmess","server":"104.19.150.10","port":"2095","cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🔴 | trojan | @fnet00 | 5","type":"trojan","server":"deliver.missionsec.io","port":28331,"udp":false,"password":"C9zSyneYN7Rl3K38qxu5y3axI82CaEXZ0SwjZFplDpYaTcOABDDOC6SeF4R3Ag","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"deliver.missionsec.io"}
 proxy-groups:
@@ -143,7 +142,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 135'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
   - name: URL-TEST
@@ -160,7 +158,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 135'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
   - name: FALLBACK
@@ -176,7 +173,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 18'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇺🇸US | 🟢 | vmess | @prrofile_purple | 135'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🔴 | trojan | @fnet00 | 5'
 rules:
