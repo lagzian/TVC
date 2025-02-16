@@ -134,10 +134,10 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 81",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 82",
+                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 50",
+                "🇫🇷FR | 🔴 | vless | @ShadowProxy66 | 51",
                 "❔XX | 🔴 | vless | @ServerNett | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -204,10 +204,10 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 81",
-                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 82",
+                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 50",
+                "🇫🇷FR | 🔴 | vless | @ShadowProxy66 | 51",
                 "❔XX | 🔴 | vless | @ServerNett | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -958,7 +958,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
             "type": "vless",
             "server": "104.18.165.30",
             "server_port": 80,
@@ -979,7 +979,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1010,25 +1010,32 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 81",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 50",
             "type": "vless",
-            "server": "77.90.11.193",
-            "server_port": 28622,
-            "uuid": "ecb449a4-f3cb-4471-984f-035c44f2a21e",
+            "server": "104.20.129.2",
+            "server_port": 80,
+            "uuid": "e497da22-d020-40fb-a1fa-bc294066a2d2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MTMVPN?ed=2560",
+                "headers": {
+                    "Host": "104.20.129.2"
+                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 82",
+            "tag": "🇫🇷FR | 🔴 | vless | @ShadowProxy66 | 51",
             "type": "vless",
-            "server": "128.140.43.250",
-            "server_port": 8081,
-            "uuid": "5d245df1-c570-4b84-9642-faa4d0e3d3b7",
+            "server": "185.231.205.74",
+            "server_port": 3237,
+            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
