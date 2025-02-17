@@ -137,6 +137,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
@@ -165,7 +166,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 13",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -217,6 +218,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
@@ -245,7 +247,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 13",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -1029,6 +1031,16 @@
             }
         },
         {
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "45.158.171.146",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1779,7 +1791,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "120.232.153.123",
             "server_port": 45402,
