@@ -157,9 +157,9 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"51.21.78.54","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"52.54.22.38","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.15.123.113","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇳IN | 🟢 | trojan | @VmessProtocol | 2","type":"trojan","server":"model-fly.adder289.quest","port":443,"udp":false,"password":"3747000103274291200","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"model-fly.adder289.quest"}
-  - {"name":"🇯🇵JP | 🟢 | trojan | @VmessProtocol | 3","type":"trojan","server":"www.tiktok.com.jp3.viefast.net","port":443,"udp":false,"password":"3bcd9e33-8377-4b32-af33-217158577ff3","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kdlsupport.zendesk.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 7","type":"trojan","server":"162.159.45.156","port":8443,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ngepz.ambercc.filegear-sg.me"}
+  - {"name":"🇮🇳IN | 🟢 | trojan | @VmessProtocol | 3","type":"trojan","server":"model-fly.adder289.quest","port":443,"udp":false,"password":"3747000103274291200","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"model-fly.adder289.quest"}
+  - {"name":"🇯🇵JP | 🟢 | trojan | @VmessProtocol | 4","type":"trojan","server":"www.tiktok.com.jp3.viefast.net","port":443,"udp":false,"password":"3bcd9e33-8377-4b32-af33-217158577ff3","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kdlsupport.zendesk.com"}
+  - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 8","type":"trojan","server":"162.159.45.156","port":8443,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ngepz.ambercc.filegear-sg.me"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -203,9 +203,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 2'
-      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 3'
-      - '🚩CF | 🔴 | trojan | @VmessProtocol | 7'
+      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 3'
+      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 4'
+      - '🚩CF | 🔴 | trojan | @VmessProtocol | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -249,9 +249,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 2'
-      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 3'
-      - '🚩CF | 🔴 | trojan | @VmessProtocol | 7'
+      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 3'
+      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 4'
+      - '🚩CF | 🔴 | trojan | @VmessProtocol | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -294,9 +294,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 16'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 17'
-      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 2'
-      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 3'
-      - '🚩CF | 🔴 | trojan | @VmessProtocol | 7'
+      - '🇮🇳IN | 🟢 | trojan | @VmessProtocol | 3'
+      - '🇯🇵JP | 🟢 | trojan | @VmessProtocol | 4'
+      - '🚩CF | 🔴 | trojan | @VmessProtocol | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
