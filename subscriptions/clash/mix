@@ -201,8 +201,8 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"104.19.48.236","port":2052,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dabai.in172.67.71.198","headers":{"host":"100-41-36-35.s2.db-link01.top"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"142.4.108.141","port":38007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1723457615032","headers":{"host":""}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"ny1.bulkcash.top","port":41507,"cipher":"auto","uuid":"695ac0a3-406a-41d7-83c5-5af8c39d3bec","alterId":5,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ny1.bulkcash.top"}}}
-  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 2","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 8","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 3","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 9","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -292,8 +292,8 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 8'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 3'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -383,8 +383,8 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 8'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 3'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -473,8 +473,8 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 2'
-      - '🇺🇸US | 🟢 | ss | @kingofilter | 8'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 3'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
