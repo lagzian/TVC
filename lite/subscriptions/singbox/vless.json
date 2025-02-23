@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -152,7 +152,6 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 368",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 369",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
@@ -179,8 +178,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 12",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
@@ -221,7 +220,6 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 368",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 369",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
@@ -350,9 +348,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.38.198.228",
+            "server": "51.44.152.204",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -381,9 +379,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "51.44.152.204",
+            "server": "3.79.68.84",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1420,35 +1418,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "108.61.202.126"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
-            "type": "vless",
-            "server": "98.80.209.158",
-            "server_port": 443,
-            "uuid": "b49fb5f2-cc98-4123-833d-851363a57917",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hIHHr09OU4MFPDaY4b17NEO1goGisb1g98CxDIeHjzE",
-                    "short_id": "f820a2"
                 }
             }
         },
