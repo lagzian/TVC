@@ -156,10 +156,11 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 13",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 8",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 14",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 15",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
@@ -221,10 +222,11 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 13",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+                "🇺🇸US | 🔴 | vless | @kingofilter | 8",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 14",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 15",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
@@ -1537,11 +1539,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 11",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 443,
-            "uuid": "d262c8dd-ae75-4d5e-b004-d9414598195b",
+            "uuid": "c1475197-4d29-4f77-8760-84680ab19e7a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1560,13 +1562,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Aq5jw0I0Vtj6AOthjzuEMrMgzv9uqarSiK-S3qWJmQU",
-                    "short_id": "bae995654d"
+                    "public_key": "BqyR1J0knEz_ExHwER9WKfxCeoMduUlb4oCGTez7-yg",
+                    "short_id": "6b"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1646,6 +1648,27 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 7",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,
