@@ -130,8 +130,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
+                "🇪🇪EE | 🔴 | vless | @prrofile_purple | 142",
+                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -152,6 +152,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 412",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 413",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -199,8 +200,8 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
+                "🇪🇪EE | 🔴 | vless | @prrofile_purple | 142",
+                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -221,6 +222,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 412",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 413",
+                "🇮🇷IR | 🔴 | vless | @free1_vpn | 11",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
@@ -858,11 +860,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+            "tag": "🇪🇪EE | 🔴 | vless | @prrofile_purple | 142",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "5.181.23.67",
+            "server_port": 2052,
+            "uuid": "d8c7256f-921a-50ff-9d36-5564197fd4a6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -871,19 +873,19 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/tmevpnAndroid2\/?ed=2560",
-                "headers": {
-                    "Host": "zula.ir"
-                }
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
+            "tag": "🇳🇱NL | 🔴 | vless | @prrofile_purple | 143",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server": "81.28.12.12",
             "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-7c3e03bb8c4c",
+            "uuid": "6b437afc-62b3-40ba-9112-ee667a783c3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -893,9 +895,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
+                "path": "\/o2H5qkTE2DdX1kv2?ed=2560",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                    "Host": "13dl.net"
                 }
             }
         },
@@ -1397,6 +1399,20 @@
                 "headers": {
                     "Host": "radrr.accra-ghashang.org"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @free1_vpn | 11",
+            "type": "vless",
+            "server": "iri.ginuerzht.ir",
+            "server_port": 2053,
+            "uuid": "5e95d97b-0db2-42dd-f462-18fd323a9eee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
