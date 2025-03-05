@@ -447,10 +447,10 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "❔XX | 🔴 | vless | @flyv2ray | 10",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 6",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 14",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 1",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 6",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 8",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -831,10 +831,10 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "❔XX | 🔴 | vless | @flyv2ray | 10",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 6",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 14",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 1",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 6",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 8",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -8998,7 +8998,38 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 4",
+            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 1",
+            "type": "vless",
+            "server": "104.21.56.44",
+            "server_port": 443,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "reDFrEE8-304.POorIaM.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2rayNGcloud-Telegram-v2rayNGcloud-@V2rayNGcloud-Telegram-@V2rayNGcloud-Telegram-@V2rayNGcloud?ed=2560",
+                "headers": {
+                    "Host": "reDFrEE8-304.POorIaM.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 6",
             "type": "vless",
             "server": "172.67.202.155",
             "server_port": 443,
@@ -9029,7 +9060,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -9050,7 +9081,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
             "type": "vless",
             "server": "s2.vact.ir",
             "server_port": 443,
@@ -9083,27 +9114,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 14",
-            "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "104.21.56.44"
-                }
             }
         },
         {
