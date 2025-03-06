@@ -451,10 +451,9 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 4",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
-                "❔XX | 🔴 | vless | @nofiltering2 | 15",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 6",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -838,10 +837,9 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "❔XX | 🔴 | vless | @flyv2ray | 11",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 4",
-                "🚩CF | 🔴 | vless | @nofiltering2 | 9",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
-                "❔XX | 🔴 | vless | @nofiltering2 | 15",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 6",
+                "🚩CF | 🔴 | vless | @nofiltering2 | 11",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -9144,7 +9142,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 4",
+            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 6",
             "type": "vless",
             "server": "104.21.56.44",
             "server_port": 443,
@@ -9175,7 +9173,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 9",
+            "tag": "🚩CF | 🔴 | vless | @nofiltering2 | 11",
             "type": "vless",
             "server": "172.67.202.155",
             "server_port": 443,
@@ -9206,7 +9204,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -9224,42 +9222,6 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "s2.vact.ir",
-            "server_port": 443,
-            "uuid": "9acb3764-9a9b-4cbe-b6ce-aa0f2a74d461",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-Klt3151vv7nNAJFA1XI73cfw8DUnKjIetrSLxXGBEw",
-                    "short_id": "83a3c1c336165ead"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
