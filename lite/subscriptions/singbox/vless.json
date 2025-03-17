@@ -159,7 +159,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
@@ -232,7 +233,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
@@ -1583,7 +1585,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 8",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2096,
+            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "An66Mg2Gf4.MySpDmMeTi.CoM",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "An66Mg2Gf4.MySpDmMeTi.CoM"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
