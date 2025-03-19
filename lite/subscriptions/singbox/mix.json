@@ -143,7 +143,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -163,9 +163,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
@@ -222,7 +222,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -242,9 +242,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 7",
@@ -1118,7 +1118,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 2",
             "type": "vmess",
             "server": "91.107.241.36",
             "server_port": 10683,
@@ -1620,7 +1620,41 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "54.218.241.217",
+            "server_port": 33443,
+            "uuid": "3519dfc0-fa27-41cc-8c19-981818f9f6d5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tls.05.node-for-bigairport.win",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tls.05.node-for-bigairport.win"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "13.212.143.189",
             "server_port": 40000,
@@ -1644,41 +1678,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "La05.890614.XYz",
-            "server_port": 443,
-            "uuid": "60cdd89e-a9cf-4850-8577-e3c6abf5515d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "La05.890614.XYz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gyCVORfjoXYyHHcJBuLd",
-                "headers": {
-                    "Host": "La05.890614.XYz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "51.81.36.243",
             "server_port": 443,
