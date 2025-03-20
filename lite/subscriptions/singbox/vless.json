@@ -111,11 +111,11 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇫🇷FR | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
@@ -175,11 +175,11 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 4",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇫🇷FR | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
@@ -325,7 +325,7 @@
         {
             "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.43.9.244",
+            "server": "13.42.201.169",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -354,9 +354,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.39.73.218",
+            "server": "13.43.9.244",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -427,11 +427,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 4",
             "type": "vless",
-            "server": "94.177.244.32",
-            "server_port": 40734,
-            "uuid": "ZEDMODEON--joinZEDMODEON",
+            "server": "151.101.59.75",
+            "server_port": 443,
+            "uuid": "ZEDMODEON--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -439,20 +439,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @V2pedia | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
             "type": "vless",
-            "server": "51.83.78.193",
-            "server_port": 19247,
-            "uuid": "ZEDMODEON--ZEDMODEON",
+            "server": "94.177.244.32",
+            "server_port": 40734,
+            "uuid": "ZEDMODEON--joinZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
