@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🔴 | vless | @v2_team | 0",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 2",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 1",
@@ -133,6 +134,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 294",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 295",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -163,6 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🔴 | vless | @v2_team | 0",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 2",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @vpn_xw | 1",
@@ -190,6 +193,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 294",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 295",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -234,6 +238,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 0",
+            "type": "vless",
+            "server": "195.201.249.29",
+            "server_port": 443,
+            "uuid": "3d044bd1-2de9-4bc2-b1d1-f55102fdf1f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3boboxyL1-ER1h5995Q9M9kIOEoflWM1dCoj-UqQh3E",
+                    "short_id": "e110ad656c15553b"
+                }
+            }
         },
         {
             "tag": "🇵🇱PL | 🔴 | vless | @V2pedia | 2",
@@ -1079,6 +1112,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @nofiltering2 | 1",
+            "type": "vless",
+            "server": "mw1.rogha.ir",
+            "server_port": 443,
+            "uuid": "00cb16a4-4170-4e97-a5a3-852dea723681",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gFo7E95jYIdI1R8fmBzuPfCyQ4CHTFW-KHoDKIql7XE",
+                    "short_id": "5d589d05"
+                }
             }
         },
         {
