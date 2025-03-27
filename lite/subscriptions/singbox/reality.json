@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 117",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
                 "❔XX | 🔴 | vless | @proxy_mtm | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -119,9 +120,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 117",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
                 "❔XX | 🔴 | vless | @proxy_mtm | 19",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -146,6 +148,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 117",
+            "type": "vless",
+            "server": "18.224.67.85",
+            "server_port": 8443,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @proxystore11 | 6",
@@ -213,7 +244,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "185.184.70.48",
             "server_port": 13507,
