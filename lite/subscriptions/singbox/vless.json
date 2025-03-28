@@ -112,8 +112,8 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 5",
@@ -147,8 +147,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇯🇵JP | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 118",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 119",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
@@ -184,8 +183,8 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 5",
@@ -219,8 +218,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇯🇵JP | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 118",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 119",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
@@ -388,9 +386,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.43.244.92",
+            "server": "52.208.149.77",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -419,9 +417,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "35.181.246.186",
+            "server": "35.179.63.122",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1242,32 +1240,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🔴 | vless | @VmessProtocol | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
             "type": "vless",
-            "server": "156.238.18.153",
-            "server_port": 2095,
+            "server": "104.21.56.44",
+            "server_port": 443,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "156.238.18.153"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
-            "type": "vless",
-            "server": "104.18.41.190",
-            "server_port": 8443,
-            "uuid": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1277,7 +1254,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "5-55sfjslf.ifenxiang.cfd",
+                "server_name": "reDFrEE8-304.POorIaM.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1287,9 +1264,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/MTMVPN?ed=2560",
                 "headers": {
-                    "Host": "5-55sfjslf.ifenxiang.cfd"
+                    "Host": "reDFrEE8-304.POorIaM.ir"
                 }
             }
         },
