@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | @EliV2ray | 3",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 43",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 44",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
@@ -188,7 +188,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | @EliV2ray | 3",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 43",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 44",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
@@ -286,11 +286,11 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | @EliV2ray | 3",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 1",
             "type": "vless",
-            "server": "cdn.fastly.f-35.store",
-            "server_port": 8080,
-            "uuid": "c5293efa-28f8-4a0f-8f34-541078970cee",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "7e23ff78-9b60-5cfe-95c8-0e20ae38bff1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -300,9 +300,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560",
+                "path": "\/@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY",
                 "headers": {
-                    "Host": "cdn.fastly.f-35.store"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
