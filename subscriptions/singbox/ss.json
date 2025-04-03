@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 1"
+                "🇬🇧GB | 🟢 | ss | @kingofilter | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 1"
+                "🇬🇧GB | 🟢 | ss | @kingofilter | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,7 +140,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
+            "tag": "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 5",
             "type": "shadowsocks",
             "server": "old.afoothabs.monster",
             "server_port": 55330,
@@ -160,7 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @kingofilter | 1",
+            "tag": "🇬🇧GB | 🟢 | ss | @kingofilter | 2",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
