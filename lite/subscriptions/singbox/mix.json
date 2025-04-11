@@ -134,6 +134,8 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 9",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
@@ -161,6 +163,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 295",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -214,6 +217,8 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 9",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 10",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
@@ -241,6 +246,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 295",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -906,6 +912,33 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "120.210.205.59",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "109.120.177.122",
+            "server_port": 6774,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ytW281XjAfk2rG003JDGap",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 9",
@@ -1591,6 +1624,35 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
+            "type": "vless",
+            "server": "37.27.15.167",
+            "server_port": 2089,
+            "uuid": "7a24dbf2-455a-480e-ae03-f99d436d43c6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg",
+                    "short_id": "e3c5c005cae07eb8"
                 }
             }
         },
