@@ -492,21 +492,21 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🚩CF | 🔴 | vless | @flyv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🚩CF | 🔴 | vless | @flyv2ray | 4",
                 "🚩CF | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🚩CF | 🔴 | vless | @flyv2ray | 7",
+                "🚩CF | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🚩CF | 🔴 | vless | @flyv2ray | 8",
                 "🚩CF | 🔴 | vless | @flyv2ray | 9",
                 "🚩CF | 🔴 | vless | @flyv2ray | 10",
                 "🚩CF | 🔴 | vless | @flyv2ray | 11",
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
                 "🚩CF | 🔴 | vless | @flyv2ray | 13",
-                "🚩CF | 🔴 | vless | @flyv2ray | 15",
+                "🚩CF | 🔴 | vless | @flyv2ray | 14",
                 "🚩CF | 🔴 | vless | @flyv2ray | 16",
                 "🚩CF | 🔴 | vless | @flyv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🚩CF | 🔴 | vless | @flyv2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
@@ -946,21 +946,21 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
-                "🚩CF | 🔴 | vless | @flyv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🚩CF | 🔴 | vless | @flyv2ray | 4",
                 "🚩CF | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🚩CF | 🔴 | vless | @flyv2ray | 7",
+                "🚩CF | 🔴 | vless | @flyv2ray | 6",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🚩CF | 🔴 | vless | @flyv2ray | 8",
                 "🚩CF | 🔴 | vless | @flyv2ray | 9",
                 "🚩CF | 🔴 | vless | @flyv2ray | 10",
                 "🚩CF | 🔴 | vless | @flyv2ray | 11",
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
                 "🚩CF | 🔴 | vless | @flyv2ray | 13",
-                "🚩CF | 🔴 | vless | @flyv2ray | 15",
+                "🚩CF | 🔴 | vless | @flyv2ray | 14",
                 "🚩CF | 🔴 | vless | @flyv2ray | 16",
                 "🚩CF | 🔴 | vless | @flyv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🚩CF | 🔴 | vless | @flyv2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
@@ -10153,7 +10153,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "28f66a10-6021-4b12-ac2c-4536193c0896",
+            "uuid": "c33c6019-e4d2-48b2-b217-670d75d33693",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -10164,6 +10164,20 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "28f66a10-6021-4b12-ac2c-4536193c0896",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -10184,7 +10198,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -10205,7 +10219,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10226,7 +10240,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10247,7 +10261,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10268,7 +10282,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "NUFiLTER.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -10289,7 +10303,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10310,7 +10324,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 8",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10331,7 +10345,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 9",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10352,7 +10366,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 10",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10373,7 +10387,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 11",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10394,7 +10408,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 12",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10415,7 +10429,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 13",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10436,7 +10450,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 15",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10457,7 +10471,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 16",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 17",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10478,7 +10492,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 17",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -10495,27 +10509,6 @@
                 "path": "\/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry",
                 "headers": {
                     "Host": "104.19.54.50"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "07a227b7-745e-4b4b-b653-7c05466e662f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry",
-                "headers": {
-                    "Host": "151.101.64.155"
                 }
             }
         },
