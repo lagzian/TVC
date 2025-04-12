@@ -129,6 +129,11 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 1",
                 "❔XX | 🟢 | vless | @VmessProtocol | 3",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 4",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 192",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 193",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 210",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 211",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 212",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 3",
@@ -186,6 +191,11 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 1",
                 "❔XX | 🟢 | vless | @VmessProtocol | 3",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 4",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 192",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 193",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 210",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 211",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 212",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 3",
@@ -955,6 +965,151 @@
                     "enabled": true,
                     "public_key": "k9oHeYY0hNmcd6BRZQTX9sp0ZQR7Bx85fPMu0v4uvwc",
                     "short_id": "c5a5eca0d8234375"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 192",
+            "type": "vless",
+            "server": "3.148.186.10",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 193",
+            "type": "vless",
+            "server": "18.190.213.105",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 210",
+            "type": "vless",
+            "server": "44.215.125.146",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 211",
+            "type": "vless",
+            "server": "34.200.205.188",
+            "server_port": 8444,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 212",
+            "type": "vless",
+            "server": "usoff.qwertyuioaasdfghjkzxcvbnmdfghvqsadwqewqeqwqsxqaztghbhjntgbrfded.top",
+            "server_port": 443,
+            "uuid": "67b77ef8-a819-47ab-820c-1c31c6e08d24",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "usoff.qwertyuioaasdfghjkzxcvbnmdfghvqsadwqewqeqwqsxqaztghbhjntgbrfded.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "43E_yt39_WSz1BYZu7-H02MxTz4HjHdLaKq7y-NSA0U",
+                    "short_id": "41760bc34890ee"
                 }
             }
         },
