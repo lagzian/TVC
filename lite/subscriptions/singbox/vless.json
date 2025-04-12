@@ -112,7 +112,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇦🇹AT | 🔴 | vless | @V2pedia | 7",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 8",
@@ -162,7 +162,8 @@
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
-                "❔XX | 🔴 | vless | @proxy_mtm | 18",
+                "🇺🇸US | 🔴 | vless | @proxy_mtm | 16",
+                "🇺🇸US | 🔴 | vless | @proxy_mtm | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
@@ -183,7 +184,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇦🇹AT | 🔴 | vless | @V2pedia | 7",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 8",
@@ -233,7 +234,8 @@
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
-                "❔XX | 🔴 | vless | @proxy_mtm | 18",
+                "🇺🇸US | 🔴 | vless | @proxy_mtm | 16",
+                "🇺🇸US | 🔴 | vless | @proxy_mtm | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
@@ -406,7 +408,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -1647,39 +1649,45 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_mtm | 16",
             "type": "vless",
-            "server": "mehdi24.zemestanil.ir",
-            "server_port": 443,
+            "server": "172.67.204.84",
+            "server_port": 80,
             "uuid": "0e6b413b-e25c-40eb-b7e7-423f019bf972",
-            "flow": "xtls-rprx-vision",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZfJhYHphztYrI4N-RpcZqfNhqV-9PG-qT80ShLpJQ8",
-                    "short_id": "a473bfc1f4"
+            "transport": {
+                "type": "ws",
+                "path": "\/MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
+                "headers": {
+                    "Host": "172.67.204.84"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_mtm | 17",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "0e6b413b-e25c-40eb-b7e7-423f019bf972",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
