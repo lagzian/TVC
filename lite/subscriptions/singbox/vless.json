@@ -131,7 +131,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 136",
+                "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
@@ -196,7 +196,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 136",
+                "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
@@ -816,17 +816,39 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 136",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 142",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "63298f04-dd8c-4cc3-bc13-7a7d97416e2b",
-            "flow": "",
+            "server": "mehdi22.vact.ir",
+            "server_port": 2083,
+            "uuid": "6a26baa6-fcb1-4c44-9f84-bf9ef4b5987d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wlghahz8IBborsnQMFjenhi87XdUiueAe32SWbmOPxc",
+                    "short_id": "5745335c15"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Telegram-channel-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
