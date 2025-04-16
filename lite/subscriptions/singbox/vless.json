@@ -131,6 +131,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
+                "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
@@ -196,6 +197,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
+                "❔XX | 🔴 | vless | @prrofile_purple | 142",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 1",
@@ -816,6 +818,42 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 142",
+            "type": "vless",
+            "server": "mehdi22.vact.ir",
+            "server_port": 2083,
+            "uuid": "6a26baa6-fcb1-4c44-9f84-bf9ef4b5987d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wlghahz8IBborsnQMFjenhi87XdUiueAe32SWbmOPxc",
+                    "short_id": "5745335c15"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Telegram-channel-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
             "type": "vless",
             "server": "104.18.165.30",
@@ -1298,6 +1336,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
+            "server": "162.159.10.162",
+            "server_port": 2087,
+            "uuid": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "5-55sfjslf.ifenxiang.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/net.net?ed=2560",
+                "headers": {
+                    "Host": "5-55sfjslf.ifenxiang.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
+            "type": "vless",
             "server": "104.17.148.22",
             "server_port": 443,
             "uuid": "c7d543af-1023-4b96-a698-187c190d3f4c",
@@ -1323,37 +1392,6 @@
                 "path": "\/47.89.39.186-39251",
                 "headers": {
                     "Host": "nautica.foolvpn.me"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-            "type": "vless",
-            "server": "104.21.73.239",
-            "server_port": 443,
-            "uuid": "4088e698-69fd-4d15-98bc-f1fe4c071642",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DigITALsciENTIfiCrESeARCHGRoup.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/4McLR3NKFOydbxDs\/MTguMTk5LjIxMy4yMDE",
-                "headers": {
-                    "Host": "DigITALsciENTIfiCrESeARCHGRoup.IR"
                 }
             }
         },
