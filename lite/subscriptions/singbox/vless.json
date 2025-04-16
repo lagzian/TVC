@@ -112,7 +112,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -125,6 +125,7 @@
                 "🇲🇾MY | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
@@ -178,7 +179,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -191,6 +192,7 @@
                 "🇲🇾MY | 🔴 | vless | @vpn_xw | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
@@ -396,7 +398,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -659,6 +661,27 @@
                 "headers": {
                     "Host": "Speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "88.218.95.8",
+            "server_port": 8880,
+            "uuid": "9e28dd25-f4e1-4434-a31d-40c8ed0c0f52",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
