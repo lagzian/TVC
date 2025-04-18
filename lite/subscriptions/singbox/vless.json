@@ -147,6 +147,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇮🇱IL | 🔴 | vless | @DailyV2RY | 346",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -214,6 +216,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
+                "🇮🇱IL | 🔴 | vless | @DailyV2RY | 346",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -1202,6 +1206,48 @@
                 "path": "\/",
                 "headers": {
                     "Host": "sni2.tohid3aeed.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱IL | 🔴 | vless | @DailyV2RY | 346",
+            "type": "vless",
+            "server": "64.176.166.124",
+            "server_port": 8080,
+            "uuid": "3e49baab-c3f3-43ee-a8ac-1589da9bca97",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "64.176.166.124"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 347",
+            "type": "vless",
+            "server": "66.42.103.238",
+            "server_port": 8080,
+            "uuid": "0f743236-d373-42f8-b255-c217c6d881b5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "66.42.103.238"
                 }
             }
         },
