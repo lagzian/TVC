@@ -170,8 +170,8 @@
                 "❔XX | 🟢 | vmess | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -254,8 +254,8 @@
                 "❔XX | 🟢 | vmess | @FreakConfig | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1694,7 +1694,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
             "type": "vless",
             "server": "91.107.168.205",
             "server_port": 443,
@@ -1730,24 +1730,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
-            "server": "116.203.133.145",
-            "server_port": 6666,
-            "uuid": "1004cc48-cc96-4b54-c3e8-10315f8caa7a",
+            "server": "151.101.2.165",
+            "server_port": 80,
+            "uuid": "bc3a7c38-e273-41dc-b920-52ee6f375cf4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
