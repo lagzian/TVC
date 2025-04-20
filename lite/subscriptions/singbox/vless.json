@@ -132,8 +132,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇫🇮FI | 🔴 | vless | @Outline_Vpn | 14",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 143",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 136",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 2",
@@ -166,7 +165,7 @@
                 "🇺🇸US | 🔴 | vless | @kingofilter | 41",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+                "❔XX | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -202,8 +201,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇫🇮FI | 🔴 | vless | @Outline_Vpn | 14",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 143",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 136",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 2",
@@ -236,7 +234,7 @@
                 "🇺🇸US | 🔴 | vless | @kingofilter | 41",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+                "❔XX | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -577,7 +575,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "4e59dd01-ba09-455a-bedf-c150120678e5",
+            "uuid": "3bbbbd5b-0e8f-4ba8-bb04-6ba48aa52fe0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -598,7 +596,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "619eee45-bfce-4ff4-b581-0577e889b7cc",
+            "uuid": "4e59dd01-ba09-455a-bedf-c150120678e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -820,11 +818,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 143",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 136",
             "type": "vless",
-            "server": "128.140.90.226",
-            "server_port": 8880,
-            "uuid": "1b0f1d84-c07a-4be5-a4fc-cba3aad7a407",
+            "server": "217.60.239.58",
+            "server_port": 26165,
+            "uuid": "2319600a-19b1-41c4-b73f-69b96d58072e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -833,25 +831,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@cephalon_ai_bot",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "48ee8f13-4073-4092-bbf8-0a7394d7fea2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/telegram: @summertimeus",
+                "headers": {
+                    "Host": "217.60.239.58"
+                }
             }
         },
         {
@@ -1596,7 +1580,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
