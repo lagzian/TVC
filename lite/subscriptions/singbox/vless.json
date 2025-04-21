@@ -106,13 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 11",
@@ -135,7 +134,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 4",
-                "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
+                "🇫🇮FI | 🔴 | vless | @ServerNett | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -177,13 +176,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 11",
@@ -206,7 +204,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @ShadowProxy66 | 4",
-                "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
+                "🇫🇮FI | 🔴 | vless | @ServerNett | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -264,28 +262,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 28",
-            "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 80,
-            "uuid": "Parsashonam-220",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Parsashonam",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 26",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
@@ -379,7 +356,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -884,7 +861,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 7",
+            "tag": "🇫🇮FI | 🔴 | vless | @ServerNett | 7",
             "type": "vless",
             "server": "3900230223.torob.com.tr",
             "server_port": 1522,
@@ -1199,7 +1176,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s33.sabzmaghz.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1211,7 +1188,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s33.sabzmaghz.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir"
                 }
             }
         },
@@ -1230,7 +1207,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1242,7 +1219,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir"
                 }
             }
         },
