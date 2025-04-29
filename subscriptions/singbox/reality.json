@@ -127,7 +127,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇵🇱PL | 🔴 | vless | @DailyV2RY | 292",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 283",
+                "🇵🇱PL | 🔴 | vless | @DailyV2RY | 306",
                 "🇫🇷FR | 🟢 | vless | @proxystore11 | 10",
                 "❔XX | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
@@ -182,7 +183,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇵🇱PL | 🔴 | vless | @DailyV2RY | 292",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 283",
+                "🇵🇱PL | 🔴 | vless | @DailyV2RY | 306",
                 "🇫🇷FR | 🟢 | vless | @proxystore11 | 10",
                 "❔XX | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
@@ -876,7 +878,36 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🔴 | vless | @DailyV2RY | 292",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 283",
+            "type": "vless",
+            "server": "15.204.66.150",
+            "server_port": 35232,
+            "uuid": "3e99e8f7-66a1-4579-a79d-b903be75f453",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fy-h3-frontier-a2z-com.customer.fastly.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BzCBV3P4Q1xCr17BqZfmZQK6S7kX-ZJz7Oc47VcOETY",
+                    "short_id": "2d"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🔴 | vless | @DailyV2RY | 306",
             "type": "vless",
             "server": "morvaridsiahsefid.floorshoping22.com",
             "server_port": 55342,
