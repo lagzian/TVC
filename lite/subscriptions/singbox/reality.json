@@ -106,9 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | @prrofile_purple | 156",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🔴 | vless | @free1_vpn | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 8"
@@ -118,9 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | @prrofile_purple | 156",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🔴 | vless | @free1_vpn | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 8"
@@ -144,42 +140,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 156",
-            "type": "vless",
-            "server": "me16.zemestanil.ir",
-            "server_port": 2087,
-            "uuid": "e2bc7e9d-32e8-4711-babb-b043a2ce98b9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YKw5x4_zsP6u81Gqwvr2rWrojNM1C_X-9H-3Ib3v0Qg",
-                    "short_id": "e8ab"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "MTM-MTM-MTM-MTM-MTM",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "❔XX | 🟢 | vless | @VmessProtocol | 15",
@@ -207,35 +167,6 @@
                     "enabled": true,
                     "public_key": "q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM",
                     "short_id": "4022a0e5fa8ccd7f"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 13",
-            "type": "vless",
-            "server": "mmdv.s8573.ir",
-            "server_port": 28982,
-            "uuid": "d197d32d-962e-4d5a-a0f1-ca18e59c43a1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fy-h3-frontier-a2z-com.customer.fastly.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VGULpliqwCC98vIUyB4olrmgUjGjRbgY6z3QxinkA2g",
-                    "short_id": "2ddfc3d063c09388"
                 }
             }
         },
