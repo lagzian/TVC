@@ -106,12 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 37",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 38",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
@@ -132,7 +134,6 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
@@ -175,12 +176,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 37",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 38",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
@@ -201,7 +204,6 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
@@ -258,6 +260,48 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
+            "type": "vless",
+            "server": "ufc.ru",
+            "server_port": 80,
+            "uuid": "26ad6098-1015-4cd5-bac0-a3fbcc3cb729",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY----Channel-ELiV2RAY",
+                "headers": {
+                    "Host": "ufc.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 2",
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 8880,
+            "uuid": "26ad6098-1015-4cd5-bac0-a3fbcc3cb729",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Channel-ELiV2RAY---ELiV2RAY---ELiV2RAY---ELiV2RAY----Channel-ELiV2RAY----Channel-ELiV2RAY",
+                "headers": {
+                    "Host": "www.zula.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 37",
@@ -361,7 +405,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "website.acveo.ir",
             "server_port": 8080,
@@ -821,32 +865,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @prrofile_purple | 146",
-            "type": "vless",
-            "server": "5.253.30.14",
-            "server_port": 8880,
-            "uuid": "c7d4b0f6-0f18-45a3-97c7-caaf373f032d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 147",
             "type": "vless",
-            "server": "AK111.amirak.cfd",
-            "server_port": 25679,
-            "uuid": "95984f4e-0733-4430-a937-f630cb2fb113",
+            "server": "151.234.162.87",
+            "server_port": 443,
+            "uuid": "a850d045-3c17-4430-b9fe-e6411b27b038",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
