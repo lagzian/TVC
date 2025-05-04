@@ -162,10 +162,10 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
-                "❔XX | 🔴 | vless | @free1_vpn | 15",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
@@ -175,10 +175,9 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+                "❔XX | 🔴 | vless | @SvnTeam | 8",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
@@ -245,10 +244,10 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
-                "❔XX | 🔴 | vless | @free1_vpn | 15",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
@@ -258,10 +257,9 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+                "❔XX | 🔴 | vless | @SvnTeam | 8",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
@@ -1504,6 +1502,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gpt.smatiz.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/salaam",
+                "headers": {
+                    "Host": "gpt.smatiz.info"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
             "type": "vless",
             "server": "104.22.15.132",
@@ -1535,36 +1564,24 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 15",
-            "type": "vless",
-            "server": "mmdv.s8573.ir",
-            "server_port": 28982,
-            "uuid": "d197d32d-962e-4d5a-a0f1-ca18e59c43a1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 5229,
+            "uuid": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fy-h3-frontier-a2z-com.customer.fastly.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VGULpliqwCC98vIUyB4olrmgUjGjRbgY6z3QxinkA2g",
-                    "short_id": "2ddfc3d063c09388"
-                }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "59.42.247.189",
             "server_port": 8004,
@@ -1585,23 +1602,6 @@
                 "headers": {
                     "Host": "59.42.247.189"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "ru1a-20250420.88888009.xyz",
-            "server_port": 80,
-            "uuid": "c97cf46e-1554-36cb-8b36-c3556b883dc4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1806,37 +1806,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gpt.smatiz.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/salaam",
-                "headers": {
-                    "Host": "gpt.smatiz.info"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
             "type": "vless",
             "server": "GozargahVPN.fastly80-3.hosting-ip.com",
@@ -1882,7 +1851,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
+            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
