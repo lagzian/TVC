@@ -159,6 +159,8 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 22",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 25",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 29",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 0",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 1",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 2",
@@ -235,7 +237,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -549,6 +551,8 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 22",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 25",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 26",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 29",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 0",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 1",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 2",
@@ -625,7 +629,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -1813,6 +1817,48 @@
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
             "uuid": "ca9074b2-2442-43b8-c7ab-5440cb7f3ef7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 29",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "99578e88-bc64-479f-e498-050bbb70c4d1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 30",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "99578e88-bc64-479f-e498-050bbb70c4d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3474,7 +3520,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
