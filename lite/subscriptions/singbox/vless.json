@@ -149,6 +149,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇬🇧GB | 🔴 | vless | @DailyV2RY | 398",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 399",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 11",
@@ -219,6 +220,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇬🇧GB | 🔴 | vless | @DailyV2RY | 398",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 399",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 11",
@@ -1236,11 +1238,32 @@
             }
         },
         {
+            "tag": "🇬🇧GB | 🔴 | vless | @DailyV2RY | 398",
+            "type": "vless",
+            "server": "78.141.195.105",
+            "server_port": 8080,
+            "uuid": "1ebdb351-110d-4918-c4e6-1a0fbddf116b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "78.141.195.105"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 399",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "0b0c34e8-3cc3-4c2b-846f-b2071dcd0fab",
+            "uuid": "19179218-18c3-4f16-9cf8-149c68cd4a0a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
