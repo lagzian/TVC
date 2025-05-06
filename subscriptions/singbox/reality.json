@@ -121,11 +121,11 @@
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 143",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 10",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -173,11 +173,11 @@
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 143",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 149",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 10",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -696,35 +696,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 12",
-            "type": "vless",
-            "server": "172.82.67.154",
-            "server_port": 11476,
-            "uuid": "2fd823dd-767b-4245-b56e-4790ca8c1a93",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
-                    "short_id": "eeb3b8"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
             "type": "vless",
             "server": "172.233.174.160",
@@ -844,6 +815,35 @@
                     "enabled": true,
                     "public_key": "q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM",
                     "short_id": "4022a0e5fa8ccd7f"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 10",
+            "type": "vless",
+            "server": "172.82.67.154",
+            "server_port": 11476,
+            "uuid": "2fd823dd-767b-4245-b56e-4790ca8c1a93",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
+                    "short_id": "eeb3b8"
                 }
             }
         },
