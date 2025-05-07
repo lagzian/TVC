@@ -112,7 +112,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
@@ -163,10 +163,9 @@
                 "??cut0k9l@188.114.97.1:2053?path=\/trBO8dCAU3xSWEBOKo?ed=2560&security=tls&alpn=http\/1.1&host=g7tau5zf41eqnf9fpwj8rmqy3sfyei4l.prx11.workers.dev&fp=randomized&type=ws&sni=G7tAu5Zf41EQNf9fpWJ8RmQy3SFyEi4l.prX11.WOrkers.DEV#🇨🇦CA | 🔴 | trojan | @proxystore11 | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 12",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
@@ -195,7 +194,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
@@ -246,10 +245,9 @@
                 "??cut0k9l@188.114.97.1:2053?path=\/trBO8dCAU3xSWEBOKo?ed=2560&security=tls&alpn=http\/1.1&host=g7tau5zf41eqnf9fpwj8rmqy3sfyei4l.prx11.workers.dev&fp=randomized&type=ws&sni=G7tAu5Zf41EQNf9fpWJ8RmQy3SFyEi4l.prX11.WOrkers.DEV#🇨🇦CA | 🔴 | trojan | @proxystore11 | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 12",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
@@ -403,7 +401,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "website.acveo.ir",
             "server_port": 8080,
@@ -461,6 +459,27 @@
         {
             "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
             "type": "vless",
+            "server": "194.182.79.247",
+            "server_port": 13479,
+            "uuid": "847dbf20-4163-434d-83b8-86dd8bc13d7b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
+            "type": "vless",
             "server": "194.182.79.11",
             "server_port": 33900,
             "uuid": "9df596dc-cfda-4ca1-8f29-cdb9e0b1f4b2",
@@ -474,27 +493,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
-            "type": "vless",
-            "server": "194.182.79.175",
-            "server_port": 35861,
-            "uuid": "efc6f773-faa1-4adf-a0a4-6921a6c95406",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1523,38 +1521,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2096,
-            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ScKzAhYz14.qUiCkOrA.OrG",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ScKzAhYz14.qUiCkOrA.OrG"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 12",
+            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
             "type": "vless",
             "server": "172.82.67.154",
             "server_port": 11476,
@@ -1583,7 +1550,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "120.198.71.216",
             "server_port": 35921,
@@ -1600,7 +1567,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "sg1.g2.moonbase.life",
             "server_port": 35111,
