@@ -169,8 +169,9 @@
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇹🇷TR | 🔴 | vless | @FreakConfig | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🇸🇪SE | 🔴 | vless | @nofiltering2 | 1",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -251,8 +252,9 @@
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇹🇷TR | 🔴 | vless | @FreakConfig | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🇸🇪SE | 🔴 | vless | @nofiltering2 | 1",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -587,7 +589,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "7fe23f48-f5f8-44cd-be5b-10ae0a31473e",
+            "uuid": "64649f62-38c5-4338-909d-4f93ce75ebb2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -608,7 +610,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "fff9aac8-1cba-4cef-b50e-133419172565",
+            "uuid": "7fe23f48-f5f8-44cd-be5b-10ae0a31473e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1652,7 +1654,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -1673,7 +1675,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -1691,6 +1693,20 @@
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @nofiltering2 | 1",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-232",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
