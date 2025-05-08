@@ -112,9 +112,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 0",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 29",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -147,6 +146,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 257",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
@@ -179,9 +179,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 0",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 30",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 29",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -214,6 +213,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 257",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 9",
@@ -381,7 +381,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "website.acveo.ir",
             "server_port": 8080,
@@ -395,28 +395,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 30",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "ca9074b2-2442-43b8-c7ab-5440cb7f3ef7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=1024",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 29",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -1195,6 +1174,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 2087,
+            "uuid": "8ce30235-83ac-458c-8651-986922d5249b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "panel.proxystore11.news",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/prx11",
+                "headers": {
+                    "Host": "panel.proxystore11.news"
                 }
             }
         },
