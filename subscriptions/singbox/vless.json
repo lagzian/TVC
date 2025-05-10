@@ -354,6 +354,7 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
                 "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -738,6 +739,7 @@
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 3",
                 "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 6",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -6651,6 +6653,35 @@
                 "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "66.sgfc.dpdns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "164.90.182.56",
+            "server_port": 2053,
+            "uuid": "HelloWorld!",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iubenda.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lxmu1b8ExuOnk1tyM-p7hAaGtA6DS6gdS0daUdktjwE",
+                    "short_id": "beb4c6"
                 }
             }
         },
