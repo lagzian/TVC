@@ -141,16 +141,15 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
@@ -211,16 +210,15 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
+                "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
@@ -604,7 +602,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "96a41220-6ab5-4ba6-87c6-f382bc42049b",
+            "uuid": "225c2f8f-fd5c-4b5d-8de1-af02003fd697",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -625,7 +623,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "4c6f333d-27ee-48db-9f2f-a0282d3905a5",
+            "uuid": "96a41220-6ab5-4ba6-87c6-f382bc42049b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1041,6 +1039,37 @@
             }
         },
         {
+            "tag": "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 5",
+            "type": "vless",
+            "server": "lv01.abvpn.ru",
+            "server_port": 443,
+            "uuid": "588f094b-431b-422c-b80b-007945037072",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lv01.abvpn.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "lv01.abvpn.ru"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "104.24.251.4",
@@ -1068,35 +1097,6 @@
                 "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "66.sgfc.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
-            "type": "vless",
-            "server": "164.90.182.56",
-            "server_port": 2053,
-            "uuid": "HelloWorld!",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iubenda.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lxmu1b8ExuOnk1tyM-p7hAaGtA6DS6gdS0daUdktjwE",
-                    "short_id": "beb4c6"
                 }
             }
         },
@@ -1268,32 +1268,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 323",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "3b674b94-2339-42a8-9ffc-6e5a5b6904a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tgju.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 320",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "347af837-5960-4c03-be09-9576461eb0c2",
+            "uuid": "26aa3037-e916-4893-acc6-871af975966c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
