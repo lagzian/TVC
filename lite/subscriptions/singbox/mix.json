@@ -156,7 +156,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -165,8 +165,8 @@
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 16",
@@ -237,7 +237,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -246,8 +246,8 @@
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 16",
@@ -1429,11 +1429,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "347af837-5960-4c03-be09-9576461eb0c2",
+            "uuid": "3d936ec5-9a0d-4b64-b8ba-2b8d7463e362",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1668,7 +1668,28 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "94.228.164.249",
+            "server_port": 80,
+            "uuid": "504fa227-6493-4c4b-983c-4661c96a0e11",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
+                "headers": {
+                    "Host": "94.228.164.249"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "89.27.8.25",
             "server_port": 80,
@@ -1685,27 +1706,6 @@
                 "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
                 "headers": {
                     "Host": "89.27.8.25"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-            "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 8880,
-            "uuid": "f3b7552c-d4f6-43c9-b87b-2990c3063a6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.204.84"
                 }
             }
         },
