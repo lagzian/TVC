@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = YK6GT67yU6Sq5tddkkqgz28RAqh16VcftFxck4xbkXyYNQ98SCn4YG3vthQ6y1rJEfnzxmHt9UGvuin6kDnC1cRercRMTYs1
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18
+URL-TEST = url-test,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18
+FALLBACK = fallback,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
