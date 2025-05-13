@@ -117,7 +117,7 @@
                 "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
+                "🇨🇿CZ | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
@@ -158,6 +158,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -198,7 +200,7 @@
                 "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
+                "🇨🇿CZ | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
@@ -239,6 +241,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -517,7 +521,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
+            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 12",
             "type": "vless",
             "server": "194.182.79.247",
             "server_port": 13479,
@@ -1433,6 +1437,48 @@
                     "enabled": true,
                     "public_key": "7Dd-Z14Mxvy_CJmFe5Q-StNR2ZloyDeMAC6MEVSq4yg",
                     "short_id": "e9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 332",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "375ebb4e-ce95-4946-94f5-97785e1064ac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 333",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "220e3894-fb5c-492e-bf07-0c2d787b4c3d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
                 }
             }
         },
