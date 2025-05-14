@@ -164,8 +164,8 @@
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
@@ -243,8 +243,8 @@
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 10",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 1",
@@ -1661,7 +1661,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ipsychO.SUEx12.Ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/re5IzbZ9IZZMddtw?ed=2560flow=-udp443flow=-udp443",
+                "headers": {
+                    "Host": "ipsychO.SUEx12.Ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "104.16.41.28",
             "server_port": 443,
@@ -1688,37 +1719,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "d5.medicaltreatment.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 443,
-            "uuid": "f12977e6-d296-4d94-9aaf-d31770b70f84",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cr77.hedieh.dpdns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cr77.hedieh.dpdns.org"
                 }
             }
         },
