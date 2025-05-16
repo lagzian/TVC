@@ -111,8 +111,8 @@
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 3",
-                "❔XX | 🟢 | vless | @ipV2Ray | 4",
-                "❔XX | 🟢 | vless | @ipV2Ray | 5",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 4",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 5",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 7",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
@@ -136,10 +136,11 @@
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "❔XX | 🔴 | vless | @flyv2ray | 7",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -173,8 +174,8 @@
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 3",
-                "❔XX | 🟢 | vless | @ipV2Ray | 4",
-                "❔XX | 🟢 | vless | @ipV2Ray | 5",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 4",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 5",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 7",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
@@ -198,10 +199,11 @@
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "❔XX | 🔴 | vless | @flyv2ray | 7",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -419,7 +421,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 4",
+            "tag": "🇩🇪DE | 🟢 | vless | @ipV2Ray | 4",
             "type": "vless",
             "server": "Tabriz-Website.acveo.ir",
             "server_port": 443,
@@ -455,7 +457,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @ipV2Ray | 5",
             "type": "vless",
             "server": "Tabriz-Website.acveo.ir",
             "server_port": 443,
@@ -1193,6 +1195,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "Tabriz-Website.thorav.ir",
+            "server_port": 443,
+            "uuid": "eade0b85-d52f-44df-90e9-bceea0fbb59a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
+                    "short_id": "b1417d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "Tabriz-Website.thorav.ir",
@@ -1301,7 +1339,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "Tabriz-Website.acveo.ir",
             "server_port": 443,
