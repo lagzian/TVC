@@ -149,8 +149,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 12",
@@ -164,7 +162,7 @@
                 "🇳🇱NL | 🔴 | vless | @kingofilter | 19",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -217,8 +215,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇱🇻LV | 🔴 | vless | @free1_vpn | 12",
@@ -232,7 +228,7 @@
                 "🇳🇱NL | 🔴 | vless | @kingofilter | 19",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -1235,48 +1231,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
-            "type": "vless",
-            "server": "45.76.76.152",
-            "server_port": 8080,
-            "uuid": "152e5a3e-8e9e-4e37-f2e9-beac9e372796",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.76.76.152"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 313",
-            "type": "vless",
-            "server": "icook.tw",
-            "server_port": 443,
-            "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560security=tls",
-                "headers": {
-                    "Host": "nl.ylka.dpdns.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "cname.proxystore11.news",
@@ -1602,7 +1556,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
