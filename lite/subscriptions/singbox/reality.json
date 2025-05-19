@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 8"
@@ -118,7 +119,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 8"
@@ -173,7 +175,36 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
+            "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 8",
+            "type": "vless",
+            "server": "65.109.192.110",
+            "server_port": 55953,
+            "uuid": "b5ee8f67-0f25-467b-aca4-01001f00d802",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
+                    "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "32892393.web-manage.com.tr",
             "server_port": 2172,
