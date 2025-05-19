@@ -128,6 +128,10 @@
                 "❔XX | 🔴 | vless | @Parsashonam | 32",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "🇩🇪DE | 🟢 | vless | @v2_team | 0",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 1",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🚩CF | 🔴 | vless | @v2_team | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -490,6 +494,10 @@
                 "❔XX | 🔴 | vless | @Parsashonam | 32",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "🇩🇪DE | 🟢 | vless | @v2_team | 0",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 1",
+                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🚩CF | 🔴 | vless | @v2_team | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -1200,6 +1208,84 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @v2_team | 0",
+            "type": "vless",
+            "server": "free.hellray-server.fun",
+            "server_port": 56229,
+            "uuid": "7e5c827b-45f3-46df-80cd-c203bc94c267",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3VekXWs-HD05zRdqhvpnFt2SeJRGnO7ntV-TkMyevnA",
+                    "short_id": "c403dbc5"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2_team | 1",
+            "type": "vless",
+            "server": "84.47.235.218",
+            "server_port": 33585,
+            "uuid": "71e27c87-6680-46c5-8aee-92933b9d59ba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+            "type": "vless",
+            "server": "78.157.44.88",
+            "server_port": 27574,
+            "uuid": "ce20a6c7-c069-4bec-bd39-8201c49e31f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @v2_team | 3",
+            "type": "vless",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "6fbfa6cd-cfae-4d8b-a9ce-dba2cafccb28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hajmi?ed=2050",
+                "headers": {
+                    "Host": "172.67.73.163"
+                }
             }
         },
         {
