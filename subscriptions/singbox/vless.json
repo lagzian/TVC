@@ -398,6 +398,8 @@
                 "🚩CF | 🔴 | vless | @VmessProtocol | 10",
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 265",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 266",
@@ -414,8 +416,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 277",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 278",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 280",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 281",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 6",
@@ -429,7 +429,7 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
+                "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
@@ -768,6 +768,8 @@
                 "🚩CF | 🔴 | vless | @VmessProtocol | 10",
                 "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 263",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 265",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 266",
@@ -784,8 +786,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 277",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 278",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 280",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 281",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 6",
@@ -799,7 +799,7 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
+                "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
@@ -7762,6 +7762,48 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 263",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 264",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
@@ -8078,48 +8120,6 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 279",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 280",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "2404f667-5969-4883-a71a-ea2e0db2d25b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 281",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
@@ -8460,7 +8460,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
+            "tag": "🇫🇮FI | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "32892393.web-manage.com.tr",
             "server_port": 2172,
