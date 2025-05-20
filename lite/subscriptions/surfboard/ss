@@ -11,13 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18 = ss, 103.104.247.49, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 19 = ss, 134.209.147.198, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇨🇦CA | 🟢 | ss | @kingofilter | 13 = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18,🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 19,🇨🇦CA | 🟢 | ss | @kingofilter | 13
-URL-TEST = url-test,🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18,🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 19,🇨🇦CA | 🟢 | ss | @kingofilter | 13
-FALLBACK = fallback,🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18,🇮🇳IN | 🟢 | ss | @DeamNet_Proxy | 19,🇨🇦CA | 🟢 | ss | @kingofilter | 13
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
