@@ -165,7 +165,6 @@
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -243,7 +242,6 @@
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -1626,30 +1624,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM@MARAMBASHI_MARAMBASHI",
-                "headers": {
-                    "Host": "104.21.56.44"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "104.21.69.44",
+            "server": "zula.ir",
             "server_port": 443,
             "uuid": "f12977e6-d296-4d94-9aaf-d31770b70f84",
             "flow": "",
@@ -1671,7 +1648,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
                     "Host": "cr77.hedieh.dpdns.org"
                 }
