@@ -11,11 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 15 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = 3N72s3TiKcMaJH34m7i7bogM2EsQ1dQBfayVaLKbaXP9LWqePMstAkdQKJP94rg7HP13xfnHBvv68868b1w6XW1AZunxpS4H
+🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16 = ss, 45.87.175.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🇨🇦CA | 🟢 | ss | @kingofilter | 13 = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | ss | @kingofilter | 13
-URL-TEST = url-test,🇨🇦CA | 🟢 | ss | @kingofilter | 13
-FALLBACK = fallback,🇨🇦CA | 🟢 | ss | @kingofilter | 13
+MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 15,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16,🇨🇦CA | 🟢 | ss | @kingofilter | 13
+URL-TEST = url-test,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 15,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16,🇨🇦CA | 🟢 | ss | @kingofilter | 13
+FALLBACK = fallback,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 15,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16,🇨🇦CA | 🟢 | ss | @kingofilter | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
