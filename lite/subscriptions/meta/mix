@@ -162,8 +162,8 @@ proxies:
   - {"name":"🇮🇷IR | 🟢 | vless | @proxystore11 | 0","type":"vless","server":"local.connectix-d1.info","port":44444,"udp":true,"uuid":"9300ed1f-0ef3-414d-8cf7-1de35cc4548e","tls":true,"network":"tcp","client-fingerprint":"randomized","servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ"}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇯🇵JP | 🔴 | vless | @free1_vpn | 7","type":"vless","server":"156.238.18.127","port":8880,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram🇨🇳","headers":{"host":"reedfree8mahsang2.redorg.ir"}}}
-  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"43.247.135.192","port":"19504","cipher":"auto","uuid":"1322968d-536f-4dd4-8cea-fee6c04e2d97","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"183.236.51.38","port":"49121","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"43.247.135.192","port":"19504","cipher":"auto","uuid":"1322968d-536f-4dd4-8cea-fee6c04e2d97","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳CN | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"183.236.51.38","port":"49121","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | 🔴 | vless | @fnet00 | 0","type":"vless","server":"162.19.228.119","port":80,"udp":false,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/http","headers":{"host":"google.com"}}}
   - {"name":"❔XX | 🔴 | vless | @Outlinev2rayNG | 11","type":"vless","server":"Tabriz-Website.thorav.ir","port":443,"udp":true,"uuid":"0d53bc23-3e4a-48b3-b94b-271649e29735","tls":true,"network":"grpc","client-fingerprint":"qq","servername":"www.cdn77.com","grpc-opts":{"grpc-service-name":"telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"},"reality-opts":{"public-key":"S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8","short-id":"b1417d"}}
   - {"name":"🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12","type":"vless","server":"45.131.211.95","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"Telegram:","headers":{"host":"reedfree8mahsang2.redorg.ir"}}}
@@ -222,8 +222,8 @@ proxy-groups:
       - '🇮🇷IR | 🟢 | vless | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇯🇵JP | 🔴 | vless | @free1_vpn | 7'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 2'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '❔XX | 🔴 | vless | @Outlinev2rayNG | 11'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12'
@@ -282,8 +282,8 @@ proxy-groups:
       - '🇮🇷IR | 🟢 | vless | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇯🇵JP | 🔴 | vless | @free1_vpn | 7'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 2'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '❔XX | 🔴 | vless | @Outlinev2rayNG | 11'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12'
@@ -341,8 +341,8 @@ proxy-groups:
       - '🇮🇷IR | 🟢 | vless | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇯🇵JP | 🔴 | vless | @free1_vpn | 7'
-      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 1'
-      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 2'
+      - '🇭🇰HK | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇳CN | 🟢 | vmess | @Hope_Net | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 0'
       - '❔XX | 🔴 | vless | @Outlinev2rayNG | 11'
       - '🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 12'
