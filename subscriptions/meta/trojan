@@ -137,7 +137,7 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 11","type":"trojan","server":"3.76.52.178","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"15.237.148.165","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.126.195.11","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 0","type":"trojan","server":"94.131.20.3","port":443,"udp":false,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"chop-wrist-bud.stark-industries.solutions"}
+  - {"name":"🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 1","type":"trojan","server":"94.131.20.3","port":443,"udp":false,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"chop-wrist-bud.stark-industries.solutions"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -161,7 +161,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
-      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 0'
+      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -185,7 +185,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
-      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 0'
+      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -208,7 +208,7 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
-      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 0'
+      - '🇲🇩MD | 🟢 | trojan | @v2ray1_ng | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
