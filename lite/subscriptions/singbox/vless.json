@@ -112,12 +112,13 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
-                "❔XX | 🟢 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -175,12 +176,13 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
-                "❔XX | 🟢 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🟢 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -402,7 +404,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "Tabriz-Website.acveo.ir",
             "server_port": 443,
@@ -523,6 +525,27 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
