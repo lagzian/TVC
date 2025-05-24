@@ -109,7 +109,7 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
@@ -123,7 +123,7 @@
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
@@ -201,11 +201,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇵🇱PL | 🟢 | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 443,
-            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
+            "server": "45.144.48.128",
+            "server_port": 8443,
+            "uuid": "a4850481-9b95-430f-9b2d-192d2410b4f4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -218,7 +218,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "divine-salad-41fb.mostafasafair.workers.dev",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -228,9 +228,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/irvideo.cfd\/linkws",
+                "path": "\/vmess\/",
                 "headers": {
-                    "Host": "divine-salad-41fb.mostafasafair.workers.dev"
+                    "Host": ""
                 }
             }
         },
