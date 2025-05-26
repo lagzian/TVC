@@ -189,7 +189,6 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 8",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
@@ -564,7 +563,6 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 8",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 5",
@@ -2762,27 +2760,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 11",
-            "type": "vless",
-            "server": "194.182.79.112",
-            "server_port": 16875,
-            "uuid": "dc6f405f-9d5e-41b0-8b6b-fbee3318edc8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
