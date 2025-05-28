@@ -164,7 +164,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -241,7 +242,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
+                "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -1686,7 +1688,31 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
+            "type": "vless",
+            "server": "135.148.182.1",
+            "server_port": 443,
+            "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "147135001195.sec22org.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🔴 | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "176.124.223.20",
             "server_port": 8880,
