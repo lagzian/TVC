@@ -131,6 +131,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 140",
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 0",
@@ -190,6 +191,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 140",
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 0",
@@ -1066,6 +1068,35 @@
                     "enabled": true,
                     "public_key": "KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A",
                     "short_id": "d6d54c08fbbf895f"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "p9.punchline.ir",
+            "server_port": 29570,
+            "uuid": "840dc994-d232-4b71-b133-4f36a874c867",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lOuhgB0K7paehmJFBxd0GxSY2Ax00niQGkpH3-8jKz4",
+                    "short_id": "37"
                 }
             }
         },
