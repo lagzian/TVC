@@ -151,6 +151,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
@@ -414,7 +418,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 9",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -514,6 +518,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
@@ -777,7 +785,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🚩CF | 🔴 | vless | @free1_vpn | 9",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -1758,6 +1766,130 @@
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
             "type": "vless",
             "server": "51.44.125.229",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
+            "type": "vless",
+            "server": "3.124.58.13",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+            "type": "vless",
+            "server": "3.70.32.138",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+            "type": "vless",
+            "server": "35.181.231.189",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "type": "vless",
+            "server": "35.181.127.254",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -8275,7 +8407,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
