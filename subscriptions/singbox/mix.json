@@ -149,6 +149,9 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 12",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 13",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
@@ -284,6 +287,9 @@
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 11",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 0",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 1",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 2",
@@ -298,6 +304,9 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 11",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 12",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 13",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 14",
+                "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇯🇵JP | 🟢 | vmess | @mftizi | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 1",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 2",
@@ -565,6 +574,9 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 12",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 13",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 1",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 2",
@@ -700,6 +712,9 @@
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 11",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 0",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 1",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 2",
@@ -714,6 +729,9 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 11",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 12",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 13",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 14",
+                "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
+                "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇯🇵JP | 🟢 | vmess | @mftizi | 0",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 1",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 2",
@@ -1881,6 +1899,99 @@
             }
         },
         {
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+            "type": "vless",
+            "server": "13.39.228.102",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+            "type": "vless",
+            "server": "18.159.76.1",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
+            "type": "vless",
+            "server": "51.44.45.149",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -2165,7 +2276,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
+            "uuid": "e486066b-3308-4114-a9a6-5648750b071f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2186,7 +2297,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
+            "uuid": "e486066b-3308-4114-a9a6-5648750b071f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2207,7 +2318,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "c210a8f6-e6fe-41da-c0f0-3e5b477b077d",
+            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2228,7 +2339,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "c210a8f6-e6fe-41da-c0f0-3e5b477b077d",
+            "uuid": "e7b2d457-40e2-4f6e-d2d2-5de7f7ac180e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2249,7 +2360,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "d66e0084-c2cd-4eba-e803-7d842b1bf075",
+            "uuid": "c210a8f6-e6fe-41da-c0f0-3e5b477b077d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2270,7 +2381,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "d66e0084-c2cd-4eba-e803-7d842b1bf075",
+            "uuid": "c210a8f6-e6fe-41da-c0f0-3e5b477b077d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2291,7 +2402,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
+            "uuid": "d66e0084-c2cd-4eba-e803-7d842b1bf075",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2312,7 +2423,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
+            "uuid": "d66e0084-c2cd-4eba-e803-7d842b1bf075",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2333,7 +2444,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
+            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2354,7 +2465,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
+            "uuid": "c6ebff0f-7786-4bff-bdfc-d0557bf4b152",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2375,7 +2486,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
+            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2396,7 +2507,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
+            "uuid": "a0bf4979-b135-4396-c2b3-e492911dbda4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2417,7 +2528,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
+            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2438,7 +2549,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
+            "uuid": "17d7913a-da39-4e09-8634-8734679a19ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2459,7 +2570,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "0d083787-080d-4eaa-a741-e78c8fcd9547",
+            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2480,7 +2591,7 @@
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "0d083787-080d-4eaa-a741-e78c8fcd9547",
+            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2501,7 +2612,7 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "b26e6aca-66c8-491f-8389-b33ac192ffe8",
+            "uuid": "0d083787-080d-4eaa-a741-e78c8fcd9547",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -5076,6 +5187,72 @@
             }
         },
         {
+            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14",
+            "type": "trojan",
+            "server": "13.39.228.102",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
+            "type": "trojan",
+            "server": "18.159.76.1",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17",
+            "type": "trojan",
+            "server": "51.44.45.149",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | trojan | @DirectVPN | 0",
             "type": "trojan",
             "server": "35.156.137.154",
@@ -5365,6 +5542,72 @@
             "tag": "🇩🇪DE | 🟢 | trojan | @DirectVPN | 13",
             "type": "trojan",
             "server": "35.156.41.4",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | trojan | @DirectVPN | 14",
+            "type": "trojan",
+            "server": "13.39.228.102",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
+            "type": "trojan",
+            "server": "18.159.76.1",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
+            "type": "trojan",
+            "server": "51.44.45.149",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "multiplex": {
