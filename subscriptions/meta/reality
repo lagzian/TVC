@@ -159,7 +159,6 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | vless | @SvnTeam | 2","type":"vless","server":"SVNTEAM.MiSVN.iR","port":443,"udp":true,"uuid":"5f9bc1fe-e19b-4f90-9a91-180a0eb98f31","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @SvnTeam | 4","type":"vless","server":"SVNTEAM.MiSVN.iR","port":443,"udp":true,"uuid":"bfc73db8-88ee-4739-844d-2a1aebda0671","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
   - {"name":"🇩🇪DE | 🟢 | vless | @SvnTeam | 5","type":"vless","server":"SVNTEAM.MiSVN.iR","port":443,"udp":true,"uuid":"6c76ee27-5281-4d1f-9e28-9a33e0bb0820","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @SvnTeam | 6","type":"vless","server":"SVNTEAM.MiSVN.iR","port":443,"udp":true,"uuid":"88da5abf-08f2-44fe-951e-358e96bc86ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8","short-id":"e54b5ad736ae4c38"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -205,7 +204,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 2'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 4'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 5'
-      - '🇩🇪DE | 🟢 | vless | @SvnTeam | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -251,7 +249,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 2'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 4'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 5'
-      - '🇩🇪DE | 🟢 | vless | @SvnTeam | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -296,7 +293,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 2'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 4'
       - '🇩🇪DE | 🟢 | vless | @SvnTeam | 5'
-      - '🇩🇪DE | 🟢 | vless | @SvnTeam | 6'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
