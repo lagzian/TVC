@@ -128,6 +128,8 @@
                 "❔XX | 🔴 | vless | @Parsashonam | 32",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "❔XX | 🔴 | vless | @Parsashonam | 37",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -407,7 +409,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -486,6 +488,8 @@
                 "❔XX | 🔴 | vless | @Parsashonam | 32",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 36",
+                "❔XX | 🔴 | vless | @Parsashonam | 37",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "❔XX | 🔴 | vless | @XsV2ray | 3",
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
@@ -765,7 +769,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -1192,6 +1196,41 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Parsashonam | 37",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:e1d0::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-240",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 80,
+            "uuid": "Parsashonam-240",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
             }
         },
         {
@@ -8263,7 +8302,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
