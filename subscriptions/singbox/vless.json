@@ -422,7 +422,7 @@
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 7",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -438,7 +438,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -795,7 +794,7 @@
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 7",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 0",
-                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 4",
@@ -811,7 +810,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -8628,7 +8626,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
@@ -8996,27 +8994,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
-            "type": "vless",
-            "server": "62.60.193.221",
-            "server_port": 32774,
-            "uuid": "6603a779-07c9-4bc9-8f61-4a09c238653a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/6603a779",
-                "headers": {
-                    "Host": "62.60.193.221"
-                }
             }
         },
         {
