@@ -149,7 +149,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
-                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "🇫🇷FR | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -216,7 +216,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
                 "🇫🇮FI | 🔴 | vless | @proxystore11 | 5",
-                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "🇫🇷FR | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
@@ -1316,7 +1316,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 8",
+            "tag": "🇫🇷FR | 🔴 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "fr.lalegan.shop",
             "server_port": 2053,
@@ -1373,23 +1373,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 3",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "2ff8e538-3109-4c13-a89a-4a7df6866a3a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-            "type": "vless",
-            "server": "104.16.14.1",
-            "server_port": 443,
-            "uuid": "711627d2-1662-4e98-a3d6-086fd4fd4d31",
+            "server": "104.16.98.3",
+            "server_port": 2053,
+            "uuid": "c106802e-577e-4dfd-ab45-c65d88af1ef9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1399,7 +1385,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev",
+                "server_name": "0p9oj0annx3ywe408ctenbtw3mhacrc7.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1409,10 +1395,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/iqySBCJZh3v7AmTx?ed=2560",
+                "path": "\/pBo4JI9ey63R7sN5?ed=2560",
                 "headers": {
-                    "Host": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev"
+                    "Host": "0p9oj0annx3ywe408ctenbtw3mhacrc7.pages.dev"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 4",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "2ff8e538-3109-4c13-a89a-4a7df6866a3a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
