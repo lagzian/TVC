@@ -111,7 +111,7 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "❔XX | 🟢 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
@@ -157,8 +157,8 @@
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
                 "❔XX | 🟢 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
@@ -228,8 +228,8 @@
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
@@ -358,9 +358,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "3.77.119.255",
+            "server": "13.39.252.65",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -391,7 +391,7 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.76.74.74",
+            "server": "3.77.119.255",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -657,7 +657,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "1ba28252-b810-4a33-b816-68f1a7ad13e5",
+            "uuid": "953f9218-0df6-4baf-9d75-743ec888256c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -678,7 +678,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "dc0a723d-438d-4f79-b94e-276b8fe0ab90",
+            "uuid": "1ba28252-b810-4a33-b816-68f1a7ad13e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1501,11 +1501,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇰🇭KH | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
-            "server": "45.131.208.108",
-            "server_port": 8880,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "jalurtepat.com",
+            "server_port": 443,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1513,18 +1513,28 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shorekeeper.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@ShadowProxy66\/?ed=2560",
+                "path": "\/proxyip=zani.yaemiko.ggff.net",
                 "headers": {
-                    "Host": "45.131.208.108"
+                    "Host": "carlotta.shorekeeper.cloudns.org"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "45.12.30.145",
+            "server": "45.67.215.20",
             "server_port": 8880,
             "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "flow": "",
@@ -1536,9 +1546,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@vpnAndroid2\/?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "45.12.30.145"
+                    "Host": "45.67.215.20"
                 }
             }
         },
