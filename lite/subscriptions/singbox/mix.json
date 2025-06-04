@@ -119,7 +119,8 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 35",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 8",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -143,6 +144,7 @@
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "❔XX | 🔴 | vless | @ServerNett | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -202,7 +204,8 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 35",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 8",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+                "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 18",
@@ -226,6 +229,7 @@
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
                 "❔XX | 🔴 | vless | @ServerNett | 14",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -600,11 +604,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray8",
+            "uuid": "telegram-id-ArV2ray9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -618,6 +622,42 @@
                 "headers": {
                     "Host": "151.101.64.155"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "193.46.81.67",
+            "server_port": 3567,
+            "uuid": "telegram-id-ArV2ray3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_5Hw5RRcDyCnW7H3Ubmp9UnqNiQUaKfB5rPTDqI_kAA",
+                    "short_id": "c14b9292de5a8d6f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1153,6 +1193,23 @@
                 "headers": {
                     "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.de.Abrha.co.za"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | 🟢 | vmess | @ShadowProxy66 | 0",
+            "type": "vmess",
+            "server": "188.213.128.211",
+            "server_port": 1010,
+            "uuid": "799775e9-a2df-43dd-9d2d-b362fd60ef07",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
