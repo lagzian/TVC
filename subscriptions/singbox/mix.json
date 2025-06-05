@@ -240,7 +240,6 @@
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 7",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 8",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 9",
-                "🇮🇷IR | 🔴 | vless | @vpn_xw | 10",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -674,7 +673,6 @@
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 7",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 8",
                 "🇮🇷IR | 🔴 | vless | @vpn_xw | 9",
-                "🇮🇷IR | 🔴 | vless | @vpn_xw | 10",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -4037,37 +4035,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/wp-content?ed=2020",
-                "headers": {
-                    "Host": "mydigipay.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @vpn_xw | 10",
-            "type": "vless",
-            "server": "185.143.233.120",
-            "server_port": 443,
-            "uuid": "675537c4-5916-446f-b90d-15f64f3ccf67",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mydigipay.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/wp-admin",
                 "headers": {
                     "Host": "mydigipay.com"
                 }
