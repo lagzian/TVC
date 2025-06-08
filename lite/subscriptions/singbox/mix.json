@@ -139,6 +139,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 16",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 144",
                 "❔XX | 🟢 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
@@ -182,8 +183,8 @@
                 "🇫🇷FR | 🔴 | vless | @kingofilter | 13",
                 "🇹🇷TR | 🟢 | ss | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 4",
-                "❔XX | 🟢 | vless | @SvnTeam | 5",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 5",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
@@ -227,6 +228,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 16",
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 144",
                 "❔XX | 🟢 | vless | @prrofile_purple | 145",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
@@ -270,8 +272,8 @@
                 "🇫🇷FR | 🔴 | vless | @kingofilter | 13",
                 "🇹🇷TR | 🟢 | ss | @kingofilter | 14",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 4",
-                "❔XX | 🟢 | vless | @SvnTeam | 5",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 5",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
@@ -1106,6 +1108,16 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "67.220.95.102",
+            "server_port": 8118,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 144",
             "type": "vless",
             "server": "194.182.79.113",
@@ -1538,9 +1550,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
             "type": "vless",
-            "server": "104.16.30.244",
-            "server_port": 2053,
-            "uuid": "af84b164-93b2-4658-89d3-ef9ec44c0d69",
+            "server": "151.101.128.155",
+            "server_port": 80,
+            "uuid": "e2286c5e-d910-405f-9bcb-b0e81188ad53",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1548,21 +1560,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ezdriv-server.help",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560fp=random",
+                "path": "\/Pak91jqn-Mehskl.ir.shop.com\/?Join_Bade_Channel@JOKERRVPN",
                 "headers": {
-                    "Host": "ezdriv-server.help"
+                    "Host": "151.101.128.155"
                 }
             }
         },
@@ -2127,7 +2129,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @SvnTeam | 4",
+            "tag": "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
@@ -2156,7 +2158,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @SvnTeam | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @SvnTeam | 5",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
