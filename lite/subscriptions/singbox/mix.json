@@ -138,6 +138,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 16",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -156,7 +157,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 318",
-                "❔XX | 🟢 | vless | @DailyV2RY | 319",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 319",
                 "🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -168,7 +169,6 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
@@ -223,6 +223,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 16",
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -241,7 +242,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 15",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 318",
-                "❔XX | 🟢 | vless | @DailyV2RY | 319",
+                "🇩🇪DE | 🟢 | vless | @DailyV2RY | 319",
                 "🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -253,7 +254,6 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 3",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
@@ -1057,6 +1057,16 @@
             }
         },
         {
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "45.158.171.132",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 4",
             "type": "vless",
             "server": "NUFiLTER.fastly80-2.hosting-ip.com",
@@ -1479,7 +1489,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 319",
+            "tag": "🇩🇪DE | 🟢 | vless | @DailyV2RY | 319",
             "type": "vless",
             "server": "v07.vxlimir.com",
             "server_port": 1370,
@@ -1770,9 +1780,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
-            "server": "104.21.75.66",
-            "server_port": 2086,
-            "uuid": "7fed5bf9-a1de-41a0-ab89-694265c4895f",
+            "server": "45.194.53.26",
+            "server_port": 443,
+            "uuid": "d4e52293-4a82-404c-ac29-93afc006dcbb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1780,32 +1790,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/s9OZ6FClZzVoeUpN?ed=2560",
-                "headers": {
-                    "Host": "104.21.75.66"
+            "tls": {
+                "enabled": true,
+                "server_name": "crolindd.dearcarlotta.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "104.21.75.66",
-            "server_port": 8080,
-            "uuid": "7fed5bf9-a1de-41a0-ab89-694265c4895f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/XxRU33bZpeTdFLR6?ed=2560",
+                "path": "\/proxyip=citlali.shorekeeper.ir\/?Join_Bade_Channel@JOKERRVPN",
                 "headers": {
-                    "Host": "104.21.75.66"
+                    "Host": "crolindd.dearcarlotta.cloudns.org"
                 }
             }
         },
