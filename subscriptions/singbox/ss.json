@@ -106,16 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 6",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 8",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 9",
-                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 15",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🟢 | ss | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | ss | @VmessProtocol | 10",
                 "🇬🇧GB | 🟢 | ss | @VmessProtocol | 13",
@@ -128,16 +127,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 3",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 6",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7",
                 "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 8",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 9",
-                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 15",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🟢 | ss | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | ss | @VmessProtocol | 10",
                 "🇬🇧GB | 🟢 | ss | @VmessProtocol | 13",
@@ -166,7 +164,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 3",
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 2",
+            "type": "shadowsocks",
+            "server": "exchange.gameaurela.click",
+            "server_port": 52952,
+            "method": "chacha20-ietf-poly1305",
+            "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 6",
             "type": "shadowsocks",
             "server": "45.158.171.60",
             "server_port": 8080,
@@ -176,7 +184,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7",
             "type": "shadowsocks",
             "server": "mx2.drawnrisha.one",
             "server_port": 55988,
@@ -186,7 +194,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 5",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
             "server": "mx2.drawnrisha.one",
             "server_port": 55988,
@@ -196,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 8",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11",
             "type": "shadowsocks",
             "server": "mx2.drawnrisha.one",
             "server_port": 55988,
@@ -206,7 +214,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 9",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12",
             "type": "shadowsocks",
             "server": "mx2.drawnrisha.one",
             "server_port": 55988,
@@ -216,7 +224,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 11",
+            "tag": "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 14",
             "type": "shadowsocks",
             "server": "203.23.128.33",
             "server_port": 990,
@@ -226,7 +234,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 12",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 15",
             "type": "shadowsocks",
             "server": "series-a2.varzesh360.co",
             "server_port": 443,
@@ -236,32 +244,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 15",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
             "server": "admin.c3.webramz.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "AlCsBGpsejHdVCME",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "23.154.136.132",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "103.104.247.47",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
             "plugin": "",
             "plugin_opts": ""
         },
