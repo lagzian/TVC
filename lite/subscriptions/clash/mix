@@ -124,6 +124,7 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"15.188.224.218","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"51.44.103.6","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17","type":"vmess","server":"112.132.215.12","port":"50002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4","type":"vmess","server":"5.75.207.190","port":"8443","cipher":"auto","uuid":"a36bc162-c700-49e4-90b8-f1542b3fa9fb","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇺🇸US | 🟢 | ss | @VmessProtocol | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0","type":"vmess","server":"186.190.215.193","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
       - '🇺🇸US | 🟢 | ss | @VmessProtocol | 10'
       - '🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0'
@@ -160,6 +162,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
       - '🇺🇸US | 🟢 | ss | @VmessProtocol | 10'
       - '🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0'
@@ -177,6 +180,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
+      - '🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
       - '🇺🇸US | 🟢 | ss | @VmessProtocol | 10'
       - '🇨🇭CH | 🟢 | vmess | @v2ray_vpn_ir | 0'
