@@ -116,10 +116,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇱🇹LT | 🟢 | vless | @prrofile_purple | 96",
-                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 97",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 101",
-                "🇬🇧GB | 🟢 | vless | @prrofile_purple | 102",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 103",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 109",
@@ -171,10 +167,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇱🇹LT | 🟢 | vless | @prrofile_purple | 96",
-                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 97",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 101",
-                "🇬🇧GB | 🟢 | vless | @prrofile_purple | 102",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 103",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 109",
@@ -554,122 +546,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇱🇹LT | 🟢 | vless | @prrofile_purple | 96",
-            "type": "vless",
-            "server": "lt.accesspoints.cloakify.app",
-            "server_port": 55213,
-            "uuid": "b28681c9-f602-46b4-bd66-55dfee3f8e72",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Duo9axWRdu3BQ6K2Lg_3bHTkmaIEmhpmMQdSdor_Vmw",
-                    "short_id": "ef7dcf74"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @prrofile_purple | 97",
-            "type": "vless",
-            "server": "tr.accesspoints.cloakify.app",
-            "server_port": 28495,
-            "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
-                    "short_id": "0ecc2c1392"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 101",
-            "type": "vless",
-            "server": "de.accesspoints.cloakify.app",
-            "server_port": 28495,
-            "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
-                    "short_id": "0ecc2c1392"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @prrofile_purple | 102",
-            "type": "vless",
-            "server": "173.234.79.240",
-            "server_port": 2020,
-            "uuid": "a229a57d-d1d2-c3d0-73fa-3b1061688ccd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qdfo8UQXXsXPViln7MbAIIvVgKrDnuRoFBGVTJDm134",
-                    "short_id": "31e7200536a1ad45"
-                }
             }
         },
         {
