@@ -151,7 +151,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+                "❔XX | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 1",
@@ -169,6 +169,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 28",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 2",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 2",
@@ -382,7 +383,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇳🇱NL | 🔴 | vless | @mehrosaboran | 0",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -465,7 +466,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+                "❔XX | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 1",
@@ -483,6 +484,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 27",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 28",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 2",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 2",
@@ -696,7 +698,7 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
-                "🇳🇱NL | 🔴 | vless | @mehrosaboran | 0",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -1803,7 +1805,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 6",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -2179,6 +2181,20 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 2",
+            "type": "vless",
+            "server": "151.101.6.200",
+            "server_port": 80,
+            "uuid": "b198aacc-2812-4c9c-be95-520d7ceb48ac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -7305,39 +7321,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @mehrosaboran | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
             "type": "vless",
-            "server": "84.32.103.234",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "fadebdad-95ba-4f69-a16a-b0f0b7845483",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0ZELy90Fb5sh7DULwsa14x1B1NY-NO2Ga847T_Z-oXY",
-                    "short_id": "688c"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "151.101.64.155"
+                }
             }
         },
         {
