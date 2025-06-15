@@ -116,6 +116,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 23",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -128,8 +129,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "❔XX | 🔴 | vless | @prrofile_purple | 130",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 131",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 7",
@@ -179,6 +180,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 23",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -191,8 +193,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "❔XX | 🔴 | vless | @prrofile_purple | 130",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 131",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 7",
@@ -458,6 +460,20 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 0",
+            "type": "vless",
+            "server": "151.101.59.174",
+            "server_port": 80,
+            "uuid": "9a620099-7df2-4935-9c01-d52a3897512a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -729,25 +745,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 130",
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 130",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:e1d0::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-248",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 131",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 8880,
-            "uuid": "0623826f-6b43-4a96-ac3f-4dabaeaa61a7",
+            "server": "194.182.79.216",
+            "server_port": 52843,
+            "uuid": "a829aa2b-6740-4fbc-af99-a5e7f8ee42ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -756,11 +758,32 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "www.visa.com"
-                }
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 131",
+            "type": "vless",
+            "server": "194.182.79.143",
+            "server_port": 36936,
+            "uuid": "1da60ffd-f9f4-4601-89c4-e017f7584097",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
