@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 3",
@@ -120,10 +119,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
+                "🇳🇱NL | 🔴 | vless | @flyv2ray | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 3",
@@ -150,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -215,11 +213,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
+            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "warzone.adventuregameclub.com",
-            "server_port": 52894,
-            "uuid": "5f7e9bfc-1e25-4968-86d1-acaf001962bb",
+            "server": "84.32.101.93",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -229,7 +227,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -238,49 +236,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EfMRQn3g2dhdJODEadS3dh796eC6_2HXcPMyniqpHX0",
-                    "short_id": "bd4cf0b027b1"
+                    "public_key": "0ZELy90Fb5sh7DULwsa14x1B1NY-NO2Ga847T_Z-oXY",
+                    "short_id": "688c"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "mail",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
-            "type": "vless",
-            "server": "greencard.winuklottery.com",
-            "server_port": 52894,
-            "uuid": "bc316567-4c62-4f17-adad-92c89af629d7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EfMRQn3g2dhdJODEadS3dh796eC6_2HXcPMyniqpHX0",
-                    "short_id": "bd4cf0b027b1"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "mail",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
