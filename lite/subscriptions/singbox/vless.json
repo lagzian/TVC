@@ -115,9 +115,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -138,7 +139,7 @@
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 2",
-                "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
@@ -179,9 +180,10 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -202,7 +204,7 @@
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 2",
-                "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
@@ -424,7 +426,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -499,6 +501,20 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 1",
+            "type": "vless",
+            "server": "140.248.125.8",
+            "server_port": 80,
+            "uuid": "26c3a817-5ebd-4906-be77-dda2ade36800",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -958,7 +974,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
             "type": "vless",
             "server": "85.133.228.194",
             "server_port": 51131,
