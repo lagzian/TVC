@@ -161,6 +161,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 16",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 19",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
@@ -370,7 +371,6 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -462,6 +462,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 16",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 19",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
@@ -671,7 +672,6 @@
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -1985,6 +1985,20 @@
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 1",
+            "type": "vless",
+            "server": "140.248.125.8",
+            "server_port": 80,
+            "uuid": "26c3a817-5ebd-4906-be77-dda2ade36800",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -6989,27 +7003,6 @@
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "823b79de-822d-45d0-98d6-3bc35c43a2ee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
-                "headers": {
-                    "Host": "151.101.64.155"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
-            "type": "vless",
-            "server": "151.101.64.155",
-            "server_port": 80,
-            "uuid": "1dbe95b0-a4c2-4c80-9e86-dfcf8e00128f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
