@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇭🇰HK | 🟢 | vmess | @Hope_Net | 16 = vmess, d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com, 80, username = 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com", skip-cert-verify = true, tfo = false
+🇭🇰HK | 🟢 | vmess | @Hope_Net | 10 = vmess, 92988c16-sv0xs0-svk8tn-l1v4.hk3.p5pv.com, 80, username = 0d6b74f2-01c0-11ee-9014-f23c91369f2d, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
+🇭🇰HK | 🟢 | vmess | @Hope_Net | 11 = vmess, 0980fa89-sva740-t7uinf-i8ie.hk.p5pv.com, 80, username = 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"0980fa89-sva740-t7uinf-i8ie.hk.p5pv.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 16
-URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 16
-FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 16
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 10,🇭🇰HK | 🟢 | vmess | @Hope_Net | 11
+URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 10,🇭🇰HK | 🟢 | vmess | @Hope_Net | 11
+FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,🇭🇰HK | 🟢 | vmess | @Hope_Net | 10,🇭🇰HK | 🟢 | vmess | @Hope_Net | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -110,15 +110,13 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
-                "❔XX | 🔴 | vless | @XsV2ray | 3",
-                "❔XX | 🔴 | vless | @XsV2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
+                "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -151,6 +149,7 @@
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -175,15 +174,13 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
-                "❔XX | 🔴 | vless | @XsV2ray | 3",
-                "❔XX | 🔴 | vless | @XsV2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
+                "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
@@ -216,6 +213,7 @@
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
@@ -308,45 +306,17 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @XsV2ray | 3",
+            "tag": "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
             "type": "vless",
-            "server": "tel.bo3kot.com",
-            "server_port": 80,
-            "uuid": "Tel-XsV2ray",
+            "server": "am3.estarlink1.us",
+            "server_port": 51234,
+            "uuid": "a8ec0c05-e040-4b7c-b04d-39bd63db4661",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @XsV2ray | 4",
-            "type": "vless",
-            "server": "tel.bo3kot.com",
-            "server_port": 80,
-            "uuid": "80c9afaa-0b8c-498a-baf8-29bc69fd2b87",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -426,7 +396,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -501,20 +471,6 @@
                 "headers": {
                     "Host": "speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 1",
-            "type": "vless",
-            "server": "140.248.125.8",
-            "server_port": 80,
-            "uuid": "26c3a817-5ebd-4906-be77-dda2ade36800",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1281,6 +1237,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Q03l9EiQiA.9pEsC.cOm"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "147.135.4.2",
+            "server_port": 443,
+            "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "147135004002.sec20org.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,28 +238,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "120.198.71.219",
-            "server_port": 44015,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16",
-            "type": "vmess",
-            "server": "d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com",
+            "server": "92988c16-sv0xs0-svk8tn-l1v4.hk3.p5pv.com",
             "server_port": 80,
-            "uuid": "2b57ec48-0da4-11ef-8f35-f23c913c8d2b",
+            "uuid": "0d6b74f2-01c0-11ee-9014-f23c91369f2d",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -274,7 +257,31 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com"
+                    "Host": "92988c16-sv0xs0-svk8tn-l1v4.hk3.p5pv.com"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "0980fa89-sva740-t7uinf-i8ie.hk.p5pv.com",
+            "server_port": 80,
+            "uuid": "990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "0980fa89-sva740-t7uinf-i8ie.hk.p5pv.com"
                 }
             }
         }
