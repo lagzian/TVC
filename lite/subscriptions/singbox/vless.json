@@ -114,7 +114,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
@@ -152,8 +152,7 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 12",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -178,7 +177,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
-                "❔XX | 🔴 | vless | @ipV2Ray | 9",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 20",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 21",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
@@ -216,8 +215,7 @@
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 8",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇳🇱NL | 🔴 | vless | @flyv2ray | 12",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 3",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -396,7 +394,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -1300,60 +1298,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "5cc7c971-6859-45f8-9b91-bbe97c112b5c",
+            "server": "jojo.mysupport.monster",
+            "server_port": 5261,
+            "uuid": "5e2d1a2a-9570-4fd7-9d17-12d10bebd62d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @flyv2ray | 12",
-            "type": "vless",
-            "server": "95.164.17.75",
-            "server_port": 443,
-            "uuid": "a943a9e0-792e-4efe-af1e-54751a44fef8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pasVbAjcNpjQvgsHBN_WKxQPXwNdXsI4nXYC1usoV0s",
-                    "short_id": "df"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
