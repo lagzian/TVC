@@ -225,9 +225,12 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 1",
+                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 26",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 27",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 28",
+                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 29",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 30",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 31",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 32",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 33",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 34",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 35",
@@ -255,10 +258,6 @@
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 61",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 62",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 63",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 64",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 65",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 67",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 68",
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇹🇼TW | 🟢 | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | 🟢 | vless | @ShadowSocks_s | 2",
@@ -526,9 +525,12 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 1",
+                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 26",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 27",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 28",
+                "🇬🇧GB | 🔴 | vless | @prrofile_purple | 29",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 30",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 31",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 32",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 33",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 34",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 35",
@@ -556,10 +558,6 @@
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 61",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 62",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 63",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 64",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 65",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 67",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 68",
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇹🇼TW | 🟢 | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | 🟢 | vless | @ShadowSocks_s | 2",
@@ -3598,6 +3596,76 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🔴 | vless | @prrofile_purple | 26",
+            "type": "vless",
+            "server": "185.59.218.213",
+            "server_port": 8880,
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.59.218.213"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 27",
+            "type": "vless",
+            "server": "167.82.231.255",
+            "server_port": 80,
+            "uuid": "a58921db-144e-45fd-97dd-101dc190cc2f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 28",
+            "type": "vless",
+            "server": "151.101.69.6",
+            "server_port": 80,
+            "uuid": "9a620099-7df2-4935-9c01-d52a3897512a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @prrofile_purple | 29",
+            "type": "vless",
+            "server": "185.162.229.185",
+            "server_port": 80,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "185.162.229.185"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 30",
             "type": "vless",
             "server": "speedtest.net",
@@ -3617,20 +3685,6 @@
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "dee3faf2-2620-4bc9-9ae4-e3d93ac40557",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 32",
-            "type": "vless",
-            "server": "151.101.69.6",
-            "server_port": 80,
-            "uuid": "9a620099-7df2-4935-9c01-d52a3897512a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4064,76 +4118,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 64",
-            "type": "vless",
-            "server": "194.31.108.136",
-            "server_port": 12972,
-            "uuid": "6fcf8763-d06e-4699-a0ee-b32aac49fe49",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 65",
-            "type": "vless",
-            "server": "askasnasd.arcanpayer.com",
-            "server_port": 1952,
-            "uuid": "51626927-72ad-43f4-9b14-e9550161f2dc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 67",
-            "type": "vless",
-            "server": "SpEedTest.Net",
-            "server_port": 80,
-            "uuid": "👉chanel_JOKERRVPN👈",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN",
-                "headers": {
-                    "Host": "SpEedTest.Net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 68",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "👉chanel_JOKERRVPN👈",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
             }
         },
         {
