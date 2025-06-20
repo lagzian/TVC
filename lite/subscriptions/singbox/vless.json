@@ -139,13 +139,14 @@
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
                 "🇯🇵JP | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
@@ -208,13 +209,14 @@
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 0",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 10",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
                 "🇯🇵JP | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 5",
@@ -963,7 +965,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1163,17 +1165,55 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
             "type": "vless",
-            "server": "DE1.FIRELINKSERVERS.COM",
-            "server_port": 19300,
-            "uuid": "f8110a84-1471-4317-8056-67866b934153",
+            "server": "digipay.com.snapp.app.pwa.mci.ir.nitter.ir",
+            "server_port": 443,
+            "uuid": "3ab9c2a4-bf80-4920-89b0-e4dd2583a9b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "parsdl.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hajmi?ed=2560",
+                "headers": {
+                    "Host": "parsdl.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
+            "type": "vless",
+            "server": "vpncityy3.aliha.icu",
+            "server_port": 9089,
+            "uuid": "01e3cb69-c63c-49d4-b652-cc98ae4a6ea5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vpncityy3.aliha.icu"
+                }
             }
         },
         {
