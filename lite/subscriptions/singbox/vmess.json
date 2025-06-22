@@ -109,8 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11"
+                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -120,8 +120,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11"
+                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -219,13 +219,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "16.mamamajd.site",
-            "server_port": 23616,
-            "uuid": "195c1e0b-ef90-3321-98e8-eccd06880846",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "ababacc-caba-abca-dbac-aacacbcbbacb",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -233,23 +233,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "16.mamamajd.site"
-                }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "tk.hzlt.tkddns.xyz",
-            "server_port": 22641,
-            "uuid": "98e96c9f-4bb3-39d4-9a2c-fac04257f7c7",
+            "server": "LA04.890603.XYz",
+            "server_port": 443,
+            "uuid": "60cdd89e-a9cf-4850-8577-e3c6abf5515d",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -260,7 +253,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tk.hzlt.tkddns.xyz",
+                "server_name": "LA04.890603.XYz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -270,9 +263,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/gyCVORfjoXYyHHcJBuLd",
                 "headers": {
-                    "Host": "tk.hzlt.tkddns.xyz"
+                    "Host": "LA04.890603.XYz"
                 }
             }
         }
