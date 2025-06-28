@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧GB | 🔴 | vless | @V2pedia | 4",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧GB | 🔴 | vless | @V2pedia | 4",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -138,6 +140,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @V2pedia | 4",
+            "type": "vless",
+            "server": "p2.3dfigures.ir",
+            "server_port": 80,
+            "uuid": "2a7e7613-d490-425c-a9f1-c7e503143b8f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V0yu6BQhNI5cO2600tllGbF2D5AJcT7o6Xq7AiBKxBE",
+                    "short_id": "4d"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
