@@ -173,7 +173,7 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 15","type":"vmess","server":"183.236.48.163","port":"58831","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 16","type":"vmess","server":"120.232.153.27","port":"58831","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"beesyar.org","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"beesyar.org","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2","type":"vmess","server":"15.204.249.0","port":"48160","cipher":"auto","uuid":"5b113c12-4dd4-4bb5-9c01-cff092b559e3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3","type":"ss","server":"admin.c3.webramz.co","port":443,"password":"AlCsBGpsejHdVCME","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
@@ -190,7 +190,11 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @yaney_01 | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"142.4.104.33","port":"52143","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷FR | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"az05.beyondy.cfd","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"az05.beyondy.cfd"}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"127.1.1.127","port":"80","cipher":"auto","uuid":"602736e4-a2e8-4eb3-9fc9-7c7082925365","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮FI | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"95.216.145.222","port":"41279","cipher":"auto","uuid":"2f6c5bc8-5202-41dc-9d09-ae3c57906b61","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"142.4.104.33","port":"52143","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"159.69.120.98","port":"41391","cipher":"auto","uuid":"b5c3e2e8-dfb6-4a0a-b656-87e997610785","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @fnet00 | 3","type":"vmess","server":"151.101.3.8","port":"80","cipher":"auto","uuid":"1f7e2947-c4a5-4e3c-b284-777ff73a086e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
 proxy-groups:
   - name: MANUAL
@@ -253,7 +257,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4'
@@ -270,7 +274,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 0'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
+      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
+      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
   - name: URL-TEST
     type: url-test
@@ -333,7 +341,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4'
@@ -350,7 +358,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 0'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
+      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
+      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
   - name: FALLBACK
     type: fallback
@@ -412,7 +424,7 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 15'
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 16'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 0'
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1'
       - '🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 3'
       - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 4'
@@ -429,7 +441,11 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
       - '❔XX | 🟢 | vmess | @yaney_01 | 3'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '🇫🇷FR | 🟢 | vmess | @Hope_Net | 0'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
+      - '🇫🇮FI | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
+      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 6'
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
