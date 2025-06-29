@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 4",
-                "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,7 +116,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | 🔴 | vless | @V2pedia | 4",
-                "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -167,35 +165,6 @@
                     "enabled": true,
                     "public_key": "V0yu6BQhNI5cO2600tllGbF2D5AJcT7o6Xq7AiBKxBE",
                     "short_id": "4d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 10",
-            "type": "vless",
-            "server": "49.13.113.114",
-            "server_port": 8443,
-            "uuid": "8c8bb03a-0476-4f47-94c9-5f25f97f22ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amazoon.namavaa.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
             }
         },
