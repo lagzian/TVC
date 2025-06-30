@@ -112,7 +112,7 @@
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 4",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
@@ -159,10 +159,9 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 6",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -183,7 +182,7 @@
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 4",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
@@ -230,10 +229,9 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 6",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -379,9 +377,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.159.150.95",
+            "server": "13.36.196.135",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -412,7 +410,7 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "63.178.144.147",
+            "server": "18.159.150.95",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1494,7 +1492,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
+            "type": "vless",
+            "server": "91.99.231.218",
+            "server_port": 443,
+            "uuid": "7b6eca4c-44ae-40c6-973a-4e3b29d30803",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1515,35 +1527,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-            "type": "vless",
-            "server": "45.63.60.98",
-            "server_port": 12188,
-            "uuid": "2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 6",
-            "type": "vless",
-            "server": "91.99.203.193",
-            "server_port": 443,
-            "uuid": "153ee04c-dcc1-4ef8-a146-8fb31cec1f48",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
