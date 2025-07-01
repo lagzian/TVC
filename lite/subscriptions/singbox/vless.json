@@ -141,12 +141,12 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 70",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 71",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇬🇧GB | 🔴 | vless | @vmessorg | 8",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
+                "🇬🇧GB | 🔴 | vless | @vmessorg | 9",
+                "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 7",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 8",
+                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
@@ -216,12 +216,12 @@
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 70",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 71",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
-                "🇬🇧GB | 🔴 | vless | @vmessorg | 8",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
+                "🇬🇧GB | 🔴 | vless | @vmessorg | 9",
+                "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 7",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 8",
+                "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 8",
@@ -1007,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @vmessorg | 8",
+            "tag": "🇬🇧GB | 🔴 | vless | @vmessorg | 9",
             "type": "vless",
             "server": "45.12.30.101",
             "server_port": 80,
@@ -1028,7 +1028,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
             "type": "vless",
             "server": "91.99.139.18",
             "server_port": 443,
@@ -1096,9 +1096,9 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 7",
             "type": "vless",
-            "server": "91.99.171.12",
+            "server": "91.99.198.191",
             "server_port": 443,
-            "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
+            "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1108,27 +1108,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 8",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "91.99.171.12",
             "server_port": 443,
-            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
+            "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "auto.tas-bazi.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
