@@ -370,7 +370,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🚩CF | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🚩CF | 🔴 | vless | @free1_vpn | 10",
@@ -383,13 +382,14 @@
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🚩CF | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
-                "🚩CF | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🚩CF | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+                "🚩CF | 🔴 | vless | @flyv2ray | 1",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 3",
+                "🚩CF | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🚩CF | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
@@ -694,7 +694,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 4",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🚩CF | 🔴 | vless | @free1_vpn | 8",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🚩CF | 🔴 | vless | @free1_vpn | 10",
@@ -707,13 +706,14 @@
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🚩CF | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
-                "🚩CF | 🔴 | vless | @flyv2ray | 3",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🚩CF | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+                "🚩CF | 🔴 | vless | @flyv2ray | 1",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 3",
+                "🚩CF | 🔴 | vless | @flyv2ray | 4",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🚩CF | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
@@ -6973,30 +6973,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 8443,
-            "uuid": "3407d572-2d0b-43f2-9ee8-0d84c0fe13bd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "prx11.proxystore11.news",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "172.66.132.44",
@@ -7189,6 +7165,20 @@
         {
             "tag": "🚩CF | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
+            "server": "104.27.39.172",
+            "server_port": 2086,
+            "uuid": "d6ff470b-51b3-4fe3-b4db-419f101adc85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
             "server": "104.21.72.109",
             "server_port": 80,
             "uuid": "aee7f4dd-1505-4efe-a081-199a3d9b7b97",
@@ -7208,7 +7198,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "gsoowjowj.toppho.ir",
             "server_port": 8443,
@@ -7222,7 +7212,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "212.33.201.222",
             "server_port": 2054,
@@ -7236,7 +7226,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 80,
@@ -7257,7 +7247,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -7278,7 +7268,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🚩CF | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "172.67.160.192",
             "server_port": 2052,
@@ -7292,7 +7282,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -7313,7 +7303,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
