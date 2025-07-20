@@ -110,9 +110,10 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
-                "🇩🇪DE | 🔴 | vless | @shh_proxy | 8",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 8",
                 "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 15",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 14",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 155",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
@@ -133,9 +134,10 @@
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 7",
-                "🇩🇪DE | 🔴 | vless | @shh_proxy | 8",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 8",
                 "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 15",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 14",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 155",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
@@ -273,7 +275,7 @@
             "type": "vless",
             "server": "77.110.103.21",
             "server_port": 50810,
-            "uuid": "04ccc438-e67a-422e-b776-b18c98a6228f",
+            "uuid": "fe698e8a-3d12-4733-bb13-1143ec94a2e2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -298,11 +300,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @shh_proxy | 8",
+            "tag": "🇳🇱NL | 🔴 | vless | @shh_proxy | 8",
             "type": "vless",
-            "server": "193.108.117.141",
-            "server_port": 32379,
-            "uuid": "83d44fab-c989-4510-a459-835c39df3bef",
+            "server": "77.110.103.21",
+            "server_port": 50810,
+            "uuid": "04ccc438-e67a-422e-b776-b18c98a6228f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -321,8 +323,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "VFq1meciB_O8ayCOw0ZDGTNIRFbRW79nwIvjAk1v8BA",
-                    "short_id": "2b6778"
+                    "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
+                    "short_id": "19dc3c81"
                 }
             }
         },
@@ -389,6 +391,42 @@
                     "public_key": "TbZDTzAIogOy-LWQjdqXElxPlUd6xdcwd9xxCqhbj04",
                     "short_id": "eebcfab3"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 14",
+            "type": "vless",
+            "server": "join-dailyconfigs.resurrection-time.sbs",
+            "server_port": 35673,
+            "uuid": "8551c77e-3777-4c26-a5b9-22f53771e54f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "slack.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "X0Qh1nKfoT6KDIvVnHsGU8lYKHsW2fmn0Tm1QNsFRg8",
+                    "short_id": "752105e2e443eece"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
