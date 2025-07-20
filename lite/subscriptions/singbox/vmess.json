@@ -112,8 +112,8 @@
                 "🇩🇪DE | 🟢 | vmess | @DailyV2RY | 152",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
+                "❔XX | 🟢 | vmess | @Hope_Net | 19",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 49"
             ]
         },
@@ -127,8 +127,8 @@
                 "🇩🇪DE | 🟢 | vmess | @DailyV2RY | 152",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
+                "❔XX | 🟢 | vmess | @Hope_Net | 19",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 49"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -285,11 +285,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "babacca-baca-abac-bdac-acbbacabbacc",
+            "server": "104.21.238.33",
+            "server_port": 2086,
+            "uuid": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -299,14 +299,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.21.238.33"
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 19",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
-            "uuid": "caabacb-abac-cbaa-bdac-abbcaabcabcc",
+            "uuid": "cbaabac-abca-caab-dcab-abacbaabcbcc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
