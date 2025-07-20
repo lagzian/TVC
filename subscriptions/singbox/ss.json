@@ -106,13 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 21",
-                "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 23",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 25",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 18",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 21",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 22",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 23",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 24",
                 "🇺🇸US | 🟢 | ss | @iP_CF | 26",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 27",
                 "🇨🇾CY | 🟢 | ss | @kingofilter | 2",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5"
             ]
@@ -121,13 +123,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 21",
-                "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 23",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 25",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 12",
+                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 18",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 21",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 22",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 23",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 24",
                 "🇺🇸US | 🟢 | ss | @iP_CF | 26",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 27",
                 "🇨🇾CY | 🟢 | ss | @kingofilter | 2",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5"
             ],
@@ -152,7 +156,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0",
+            "type": "shadowsocks",
+            "server": "45.87.175.58",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | ss | @DeamNet_Proxy | 12",
+            "type": "shadowsocks",
+            "server": "203.23.128.33",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 18",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -162,7 +186,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
+            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 21",
             "type": "shadowsocks",
             "server": "103.106.1.92",
             "server_port": 23492,
@@ -172,7 +196,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 21",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 22",
             "type": "shadowsocks",
             "server": "45.87.175.10",
             "server_port": 8080,
@@ -182,7 +206,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
+            "tag": "🇬🇧GB | 🟢 | ss | @iP_CF | 23",
             "type": "shadowsocks",
             "server": "admin.c2.webramz.co",
             "server_port": 443,
@@ -192,7 +216,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 23",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 24",
             "type": "shadowsocks",
             "server": "api.namasha.co",
             "server_port": 443,
@@ -202,7 +226,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 25",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 26",
             "type": "shadowsocks",
             "server": "45.87.175.192",
             "server_port": 8080,
@@ -212,7 +236,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 26",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 27",
             "type": "shadowsocks",
             "server": "45.87.175.178",
             "server_port": 8080,
