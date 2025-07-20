@@ -112,12 +112,14 @@
                 "🇩🇪DE | 🔴 | vless | @shh_proxy | 8",
                 "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 15",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 17",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 173",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
-                "🇩🇪DE | 🟢 | vless | @Capoit | 13",
+                "🇩🇪DE | 🟢 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
             ]
@@ -132,12 +134,14 @@
                 "🇩🇪DE | 🔴 | vless | @shh_proxy | 8",
                 "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 15",
+                "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 17",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 173",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
-                "🇩🇪DE | 🟢 | vless | @Capoit | 13",
+                "🇩🇪DE | 🟢 | vless | @Capoit | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
+                "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
                 "❔XX | 🔴 | vless | @SvnTeam | 7"
             ],
@@ -350,6 +354,42 @@
             }
         },
         {
+            "tag": "🇨🇿CZ | 🔴 | vless | @v2rayngvpn | 17",
+            "type": "vless",
+            "server": "194.182.79.250",
+            "server_port": 52612,
+            "uuid": "83dc5c38-92fb-4d92-adb2-038575a12d49",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tVPnI0CG8zT6VlwpceDzo2WqrNwBSUMbYk0_08ybxhs",
+                    "short_id": "78a48e1e"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
             "type": "vless",
             "server": "a.ru.maviks.ru",
@@ -437,7 +477,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Capoit | 13",
+            "tag": "🇩🇪DE | 🟢 | vless | @Capoit | 15",
             "type": "vless",
             "server": "91.107.170.231",
             "server_port": 42370,
@@ -542,6 +582,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @kingofilter | 3",
+            "type": "vless",
+            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+            "server_port": 443,
+            "uuid": "1584806e-f63d-4f9b-a0b3-abe64b35a09c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
+                    "short_id": "974a74bf"
+                }
             }
         },
         {
