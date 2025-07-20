@@ -563,15 +563,16 @@
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🚩CF | 🔴 | vless | @fnet00 | 7",
-                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 1",
                 "🇺🇸US | 🔴 | vless | @Capoit | 2",
@@ -1123,15 +1124,16 @@
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🚩CF | 🔴 | vless | @fnet00 | 7",
-                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 0",
-                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+                "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 1",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 2",
+                "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 12",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @Capoit | 0",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 1",
                 "🇺🇸US | 🔴 | vless | @Capoit | 2",
@@ -11530,7 +11532,49 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
+            "type": "vless",
+            "server": "sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk",
+            "server_port": 80,
+            "uuid": "05020a61-3c0c-4ead-b256-7851ff905a75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "51.38.207.189",
+            "server_port": 2082,
+            "uuid": "17953b21-65ee-4b59-bf8f-6ebe90601e85",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "51.38.207.189"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 2",
             "type": "vless",
             "server": "194.182.79.142",
             "server_port": 11745,
@@ -11566,7 +11610,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 1",
+            "tag": "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "194.182.79.43",
             "server_port": 25245,
@@ -11602,7 +11646,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "brainY-party.sEOToOlsfORyOU.CO.uk",
             "server_port": 80,
@@ -11623,7 +11667,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "188.114.97.202",
             "server_port": 8443,
@@ -11654,7 +11698,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "162.159.129.67",
             "server_port": 8443,
@@ -11685,7 +11729,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "holkanas.atroart.ir",
             "server_port": 52928,
@@ -11699,7 +11743,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "178.162.244.224",
             "server_port": 443,
@@ -11713,7 +11757,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 13",
             "type": "vless",
             "server": "104.19.245.206",
             "server_port": 443,
@@ -11740,27 +11784,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "kawaiifreevpn-7ds.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "141.101.121.55",
-            "server_port": 8080,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "141.101.121.55"
                 }
             }
         },
