@@ -221,9 +221,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "104.26.14.16",
-            "server_port": 2087,
-            "uuid": "f35b713b-6d59-4323-bbdc-e9c4c4497755",
+            "server": "172.64.166.8",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,21 +234,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "OfFEr.miRAcLestorY.ToP.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "OfFEr.miRAcLestorY.ToP."
+                    "Host": "172.64.166.8"
                 }
             }
         },
@@ -257,7 +247,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abccaba-aacb-aacb-adcb-aaabbbccbcac",
+            "uuid": "acbaacb-baca-aacb-acbd-bbbaccccabaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
