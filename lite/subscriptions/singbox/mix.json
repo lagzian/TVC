@@ -175,7 +175,7 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 6",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 128",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 129",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 129",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 5",
                 "🇻🇳VN | 🔴 | vless | @SafeNet_Server | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
@@ -185,8 +185,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
@@ -283,7 +283,7 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 6",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 128",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 129",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 129",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 5",
                 "🇻🇳VN | 🔴 | vless | @SafeNet_Server | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
@@ -293,8 +293,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
@@ -1848,30 +1848,23 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 128",
             "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "949362b6-82e4-42e2-bb4d-e4afc8db7fe8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "104.16.86.73"
-                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 129",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 129",
             "type": "vless",
-            "server": "178.162.244.178",
-            "server_port": 443,
-            "uuid": "537fd084-1078-4fc6-bec6-dad70fc96297",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2059,7 +2052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "104.16.86.71",
             "server_port": 443,
@@ -2093,7 +2086,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "162.159.142.107",
             "server_port": 443,
@@ -2157,6 +2150,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
+            "server": "hopeful-appointment.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
+            "type": "vless",
             "server": "web.xhamster.biz.id",
             "server_port": 443,
             "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
@@ -2182,37 +2196,6 @@
                 "path": "\/Free-CF-Proxy-AT29",
                 "headers": {
                     "Host": "web.xhamster.biz.id"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
-            "type": "vless",
-            "server": "104.19.245.206",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
                 }
             }
         },
