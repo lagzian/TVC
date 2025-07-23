@@ -153,7 +153,8 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 18",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 13",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
+                "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 18",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 19",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇭🇰HK | 🟢 | vless | @ShadowProxy66 | 2",
@@ -250,7 +251,8 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 18",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 13",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
+                "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 18",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 19",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇭🇰HK | 🟢 | vless | @ShadowProxy66 | 2",
@@ -1405,7 +1407,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
+            "tag": "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 18",
+            "type": "vless",
+            "server": "z.encoder.site",
+            "server_port": 38534,
+            "uuid": "d2b1e111-d743-40ce-8dd5-75a4fccfd7fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Q969Np5Re88k8wZ6W8f1WMq9-MYs_qnSQ98UCln1pDU",
+                    "short_id": "0eed0d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 19",
             "type": "vless",
             "server": "91.107.170.231",
             "server_port": 2053,
