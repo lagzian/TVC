@@ -165,15 +165,15 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 6",
-                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 7",
+                "❔XX | 🔴 | vless | @SafeNet_Server | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capoit | 19",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
                 "🇫🇮FI | 🔴 | vless | @FreakConfig | 15",
@@ -257,15 +257,15 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 6",
-                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 7",
+                "❔XX | 🔴 | vless | @SafeNet_Server | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "❔XX | 🔴 | vless | @Capoit | 19",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
                 "🇫🇮FI | 🔴 | vless | @FreakConfig | 15",
@@ -1681,7 +1681,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 7",
+            "tag": "❔XX | 🔴 | vless | @SafeNet_Server | 7",
             "type": "vless",
             "server": "holkanas.atroart.ir",
             "server_port": 52928,
@@ -1833,6 +1833,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "type": "vless",
+            "server": "small-meal.oneeat.co",
+            "server_port": 80,
+            "uuid": "d1e44075-8c92-4698-9db0-e71d7015b757",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "small-meal.oneeat.co"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "104.17.1.197",
@@ -1850,27 +1871,6 @@
                 "path": "\/1ycR2zb3KeELWRha?ed=2560",
                 "headers": {
                     "Host": "104.17.1.197"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "104.16.86.73"
                 }
             }
         },
