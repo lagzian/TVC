@@ -174,7 +174,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 22",
                 "🇺🇸US | 🔴 | vless | @Capoit | 23",
@@ -266,7 +266,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 22",
                 "🇺🇸US | 🔴 | vless | @Capoit | 23",
@@ -1824,7 +1824,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "162.19.250.117",
+            "server_port": 25921,
+            "uuid": "598d2298-5e1f-4d07-bc4b-6d1949693852",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "communal-loss.oneeat.co",
             "server_port": 80,
@@ -1841,37 +1855,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "communal-loss.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "172.67.69.216",
-            "server_port": 2053,
-            "uuid": "39a91eaf-a379-4fff-a9c8-1cb01442b76f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iran.akcovufun.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "iran.akcovufun.ir"
                 }
             }
         },
