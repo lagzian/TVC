@@ -146,7 +146,7 @@
                 "🇬🇧GB | 🔴 | vless | @customv2ray | 38",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 39",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 8",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 27",
+                "🇳🇱NL | 🔴 | vless | @vmessorg | 27",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
@@ -236,7 +236,7 @@
                 "🇬🇧GB | 🔴 | vless | @customv2ray | 38",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 39",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 8",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 27",
+                "🇳🇱NL | 🔴 | vless | @vmessorg | 27",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
@@ -1201,7 +1201,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 27",
+            "tag": "🇳🇱NL | 🔴 | vless | @vmessorg | 27",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 28",
             "type": "vless",
             "server": "45.154.2.169",
             "server_port": 28784,
@@ -1212,37 +1236,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 28",
-            "type": "vless",
-            "server": "104.26.15.69",
-            "server_port": 2096,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip=zani.yaemiko.ggff.net",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
             }
         },
         {
