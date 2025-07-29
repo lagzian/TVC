@@ -574,8 +574,6 @@
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 7",
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 8",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 9",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 10",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -602,7 +600,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 18",
                 "🚩CF | 🔴 | vless | @Capoit | 19",
                 "🚩CF | 🔴 | vless | @Capoit | 20",
-                "🇸🇪SE | 🟢 | vless | @Capoit | 21",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 21",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 22",
                 "🚩CF | 🔴 | vless | @Capoit | 23",
                 "🇺🇸US | 🔴 | vless | @Capoit | 24",
@@ -1174,8 +1172,6 @@
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 7",
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 8",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 9",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 10",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -1202,7 +1198,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 18",
                 "🚩CF | 🔴 | vless | @Capoit | 19",
                 "🚩CF | 🔴 | vless | @Capoit | 20",
-                "🇸🇪SE | 🟢 | vless | @Capoit | 21",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 21",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 22",
                 "🚩CF | 🔴 | vless | @Capoit | 23",
                 "🇺🇸US | 🔴 | vless | @Capoit | 24",
@@ -12120,74 +12116,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "173.245.58.5",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
-                "headers": {
-                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 11",
-            "type": "vmess",
-            "server": "45.80.111.9",
-            "server_port": 443,
-            "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 0",
             "type": "vless",
             "server": "speedtest.net",
@@ -12794,7 +12722,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @Capoit | 21",
+            "tag": "🇫🇷FR | 🟢 | vless | @Capoit | 21",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
