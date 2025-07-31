@@ -185,12 +185,12 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇺🇸US | 🟢 | vless | @Capoit | 28",
+                "🇸🇪SE | 🟢 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 29",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -292,12 +292,12 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇺🇸US | 🟢 | vless | @Capoit | 28",
+                "🇸🇪SE | 🟢 | vless | @Capoit | 28",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 29",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -2109,33 +2109,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "162.159.45.194",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "172.67.64.57",
+            "server": "104.21.120.235",
             "server_port": 443,
             "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
             "security": "auto",
@@ -2150,7 +2126,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "172.67.64.57",
+                "server_name": "104.21.120.235",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2162,7 +2138,41 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.64.57"
+                    "Host": "104.21.120.235"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "162.159.140.3",
+            "server_port": 443,
+            "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "162.159.140.3",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "162.159.140.3"
                 }
             }
         },
@@ -2243,7 +2253,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Capoit | 28",
+            "tag": "🇸🇪SE | 🟢 | vless | @Capoit | 28",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
