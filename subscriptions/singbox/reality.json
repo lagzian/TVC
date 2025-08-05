@@ -140,7 +140,7 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 10",
+                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🟢 | vless | @ServerNett | 1",
                 "🇩🇪DE | 🟢 | vless | @ServerNett | 2",
@@ -231,7 +231,7 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 10",
+                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "🇩🇪DE | 🟢 | vless | @ServerNett | 1",
                 "🇩🇪DE | 🟢 | vless | @ServerNett | 2",
@@ -1402,11 +1402,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 10",
+            "tag": "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 0",
             "type": "vless",
-            "server": "51.38.129.192",
-            "server_port": 54217,
-            "uuid": "cba08f90-6b6e-4f51-8d07-d9dc01624706",
+            "server": "65.109.194.11",
+            "server_port": 23584,
+            "uuid": "33b8247e-1a56-4fb6-a5cd-5424572be295",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1416,18 +1416,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RviJb4RJy0JTMTcslnAJkgXcZZGNcFDxM_niM_kV61k",
-                    "short_id": "58ce1e2f7889b6"
+                    "public_key": "P493rf_2oHCfasd8wnbUs2KS8Z6D-nZibDPvwUbd_24",
+                    "short_id": "c92637"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "32135vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
