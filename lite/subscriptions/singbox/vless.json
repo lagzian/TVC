@@ -155,7 +155,7 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 27",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
@@ -252,7 +252,7 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 27",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 8",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
@@ -656,7 +656,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "9eca9c74-951c-4947-c108-72c0ae70a74a",
+            "uuid": "e8346e35-2be3-4743-d80b-95e460e7e86b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -677,7 +677,7 @@
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
-            "uuid": "9eca9c74-951c-4947-c108-72c0ae70a74a",
+            "uuid": "e8346e35-2be3-4743-d80b-95e460e7e86b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1422,34 +1422,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 9",
             "type": "vless",
-            "server": "104.26.15.69",
-            "server_port": 2096,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "server": "panke1.dadasoratmolayi.com",
+            "server_port": 2087,
+            "uuid": "3769c1f9-6686-4f70-952b-ec525378982c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
             }
         },
         {
