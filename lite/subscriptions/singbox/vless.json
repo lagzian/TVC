@@ -171,8 +171,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -264,8 +264,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -1785,25 +1785,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "142.132.227.65",
-            "server_port": 33036,
-            "uuid": "20a5849d-7f01-4a89-a296-05a39040deac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.19.144.33",
+            "server": "172.67.164.1",
             "server_port": 443,
-            "uuid": "0d0782a3-2c62-4936-b893-5790188778ea",
+            "uuid": "ec7de7e0-3f09-4ef4-8a34-e441917d65fa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1813,7 +1799,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.19.144.33",
+                "server_name": "verina.ccantarella.dns-dynamic.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1823,9 +1809,38 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/BIA_CHANEL@JKVPN",
                 "headers": {
-                    "Host": "104.19.144.33"
+                    "Host": "verina.ccantarella.dns-dynamic.net"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "146.59.15.81",
+            "server_port": 443,
+            "uuid": "c14b2731-7db6-49ee-9271-b1efc56c2630",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dl.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l8HS4g_h8xPWlhQm8hmj5ohKNMrMCBcoHSNBFij79Sk",
+                    "short_id": "5bb805"
                 }
             }
         },
