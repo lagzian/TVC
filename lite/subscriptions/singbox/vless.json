@@ -174,8 +174,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -273,8 +272,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1860,31 +1858,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "em-5.web-manage.com.tr",
-            "server_port": 3789,
-            "uuid": "404384c5-59e3-49be-b1c5-9f168dea8d77",
+            "server": "45.131.4.85",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "em-1.web-manage.com.tr",
-            "server_port": 4928,
-            "uuid": "404384c5-59e3-49be-b1c5-9f168dea8d77",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/193.123.81.105=443",
+                "headers": {
+                    "Host": "45.131.4.85"
+                }
             }
         },
         {
