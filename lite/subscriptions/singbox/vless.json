@@ -174,8 +174,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -273,8 +271,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1856,51 +1852,6 @@
                 "path": "\/193.123.81.105=443",
                 "headers": {
                     "Host": "104.21.112.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.21.11.173",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
             }
         },
