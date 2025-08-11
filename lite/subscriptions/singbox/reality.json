@@ -111,6 +111,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -130,6 +132,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -322,6 +326,64 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "64.188.96.208",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "64.188.96.208",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
                 }
             }
         },
