@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -130,9 +129,8 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -238,42 +236,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 12",
-            "type": "vless",
-            "server": "book.srv2.quest",
-            "server_port": 28796,
-            "uuid": "260f4e3a-e436-47a0-86c8-4c2b60aa17f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lvW1CMFXmIyUEtr16rnqqdliIINhh8loLoTcnQ_23Sc",
-                    "short_id": "2eb360"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
             "type": "vless",
             "server": "51.210.103.141",
@@ -303,11 +265,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "51.222.87.29",
-            "server_port": 8081,
-            "uuid": "40d9faec-3130-4e69-bb77-210193e65598",
+            "server": "89.58.1.98",
+            "server_port": 44807,
+            "uuid": "9f69c514-7aba-4cb2-88d2-1be504c97061",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -326,8 +288,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "C4lraeO0FAYyFmDWbRmHmX53xTf4XMalv5kGefeWBmA",
-                    "short_id": "4662ad"
+                    "public_key": "CKRx3TijRUQqqRcEOVF07CfvekiUlPbr0twB3wrpfiQ",
+                    "short_id": "6d78523a82d71956"
                 }
             }
         },
