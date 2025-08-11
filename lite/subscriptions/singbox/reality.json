@@ -106,11 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @v2_team | 5",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+                "🇩🇪DE | 🔴 | vless | @v2_team | 7",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -128,11 +128,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @v2_team | 5",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+                "🇩🇪DE | 🔴 | vless | @v2_team | 7",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -166,7 +166,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 6",
             "type": "vless",
             "server": "gr.globalunlimitedinternet.xyz",
             "server_port": 1911,
@@ -202,7 +202,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2_team | 7",
             "type": "vless",
             "server": "gr.globalunlimitedinternet.xyz",
             "server_port": 1911,
@@ -238,7 +238,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 12",
             "type": "vless",
             "server": "book.srv2.quest",
             "server_port": 28796,
@@ -303,11 +303,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 13",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.233.201.6",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "server": "109.61.16.89",
+            "server_port": 30938,
+            "uuid": "1068814a-6d43-40d9-a127-0f6b6b77ccfc",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -317,24 +317,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "server_name": "indeed.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
+                    "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
+                    "short_id": "9f2b1f07"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "172.233.200.241",
+            "server": "172.233.201.6",
             "server_port": 34045,
             "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
             "flow": "xtls-rprx-vision",
