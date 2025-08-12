@@ -153,10 +153,6 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"18.193.13.65","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"13.39.239.251","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"13.36.139.6","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"104.26.6.89","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hb.lii2010.us.kg"}
-  - {"name":"🇹🇷TR | 🟢 | trojan | @ConfigsHUB | 7","type":"trojan","server":"tr-1.stunnel.cc","port":8441,"udp":false,"password":"tunnel-astrovpn_official-tr","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"de-1.stunnel.cc","port":8441,"udp":false,"password":"tunnel-astrovpn_official-de","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 18","type":"trojan","server":"fr-1.stunnel.cc","port":8441,"udp":false,"password":"tunnel-astrovpnvpn_official","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 28","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
 proxy-groups:
   - name: MANUAL
@@ -199,10 +195,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🇹🇷TR | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 18'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 28'
   - name: URL-TEST
     type: url-test
@@ -245,10 +237,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🇹🇷TR | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 18'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 28'
   - name: FALLBACK
     type: fallback
@@ -290,10 +278,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🇹🇷TR | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 14'
-      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 18'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 28'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
