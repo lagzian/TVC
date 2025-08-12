@@ -110,7 +110,8 @@
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 87",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -128,7 +129,8 @@
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 87",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -288,11 +290,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "Free.mizbandana.org",
-            "server_port": 443,
-            "uuid": "3cc281c5-12ba-4b7f-b3cb-dffaead2e41b",
+            "server": "172.233.201.122",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -302,17 +304,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ISrfUELe0qT8oErISq19eLFM4VqFgkeiz5RWAA0t5FM",
-                    "short_id": "7a8117b83a6a3b45"
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
+            "type": "vless",
+            "server": "172.233.201.113",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
                 }
             }
         },
