@@ -171,14 +171,14 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @fnet00 | 1","type":"vmess","server":"v2ray.codefyinc.com","port":"443","cipher":"auto","uuid":"2c981164-9b93-4bca-94ff-b78d3f8498d7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"v2ray.codefyinc.com"}}}
   - {"name":"🇸🇬SG | 🟢 | vmess | @FreakConfig | 5","type":"vmess","server":"109.123.239.98","port":"8080","cipher":"chacha20-poly1305","uuid":"eff3b1fe-b458-59e2-b32a-73f0b8efd5b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 3","type":"ss","server":"164.92.156.41","port":24206,"password":"zI7kiNZ0UfV9cXB73a4nRD","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 10","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 14","type":"ss","server":"103.106.1.92","port":23492,"password":"yMX9WGPgUEcRZmlaa0YHHC","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 15","type":"ss","server":"45.87.175.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 16","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 17","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 18","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 19","type":"ss","server":"45.87.175.192","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 20","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 14","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 18","type":"ss","server":"103.106.1.92","port":23492,"password":"yMX9WGPgUEcRZmlaa0YHHC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 19","type":"ss","server":"45.87.175.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 20","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 21","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 22","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 23","type":"ss","server":"45.87.175.192","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @iP_CF | 24","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -238,14 +238,14 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 1'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 5'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 3'
-      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 10'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 14'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 15'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 16'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 17'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 18'
+      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 14'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 18'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 19'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 20'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 21'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 22'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 23'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 24'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -305,14 +305,14 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 1'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 5'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 3'
-      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 10'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 14'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 15'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 16'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 17'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 18'
+      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 14'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 18'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 19'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 20'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 21'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 22'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 23'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 24'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -371,14 +371,14 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @fnet00 | 1'
       - '🇸🇬SG | 🟢 | vmess | @FreakConfig | 5'
       - '🇳🇱NL | 🟢 | ss | @iP_CF | 3'
-      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 10'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 14'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 15'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 16'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 17'
-      - '🇺🇸US | 🟢 | ss | @iP_CF | 18'
+      - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 14'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 18'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 19'
       - '🇺🇸US | 🟢 | ss | @iP_CF | 20'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 21'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 22'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 23'
+      - '🇺🇸US | 🟢 | ss | @iP_CF | 24'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
