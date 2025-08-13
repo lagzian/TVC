@@ -155,14 +155,13 @@
                 "🇬🇧GB | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 3",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 3",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 4",
+                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
-                "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 4",
                 "❔XX | 🔴 | vless | @Capoit | 19",
@@ -252,14 +251,13 @@
                 "🇬🇧GB | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @v2rayNG_Matsuri | 3",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 3",
-                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 4",
+                "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
-                "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 4",
                 "❔XX | 🔴 | vless | @Capoit | 19",
@@ -1856,7 +1854,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 3",
+            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 4",
             "type": "vless",
             "server": "194.87.87.30",
             "server_port": 34045,
@@ -1885,7 +1883,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 6",
+            "tag": "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 7",
             "type": "vless",
             "server": "195.133.8.126",
             "server_port": 8081,
@@ -1910,35 +1908,6 @@
                     "enabled": true,
                     "public_key": "oB-VCWWpUePBe_v3vAOLWw054ZbdUN_4X3t_FkkPNFc",
                     "short_id": "220463"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "95.164.113.4",
-            "server_port": 443,
-            "uuid": "a6c5638d-dc8d-4303-a64c-a7f08a6aa1d4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "8453e5fd9af927"
                 }
             }
         },
@@ -2001,7 +1970,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "89.42.142.247",
             "server_port": 34045,
@@ -2030,7 +1999,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "77.246.109.191",
             "server_port": 34045,
@@ -2059,7 +2028,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "185.250.181.128",
             "server_port": 34045,
