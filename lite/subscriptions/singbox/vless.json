@@ -112,7 +112,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -174,8 +174,7 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -208,7 +207,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -270,8 +269,7 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -466,7 +464,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
             "type": "vless",
             "server": "still-bar-5702.vpnetwork3567.workers.dev",
             "server_port": 443,
@@ -1841,25 +1839,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "54.37.205.0",
-            "server_port": 59332,
-            "uuid": "d2dc2527-33d5-46f3-f39c-36da72fb1a62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "holanx.blacklike.ir",
-            "server_port": 9008,
-            "uuid": "9b6619f7-269d-4ac7-bd9a-3a3e42aface3",
+            "server": "vless.cillnet.my.id",
+            "server_port": 443,
+            "uuid": "204d108c-a677-4be0-8bed-bba90345f4f1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1867,11 +1851,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.cillnet.my.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sgoracle",
                 "headers": {
-                    "Host": "holanx.blacklike.ir"
+                    "Host": "vless.cillnet.my.id"
                 }
             }
         },
