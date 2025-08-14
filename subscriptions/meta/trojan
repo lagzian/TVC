@@ -151,7 +151,10 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"3.76.184.58","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"18.197.119.26","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.36.252.221","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 19","type":"trojan","server":"188.114.97.123","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"adagio.us.kg"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"104.21.72.108","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"esetsecuritylicense1.cxlrazo.workers.dev"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.21.19.243","port":443,"udp":false,"password":"WOeXShhJpL","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"06jzus.zdzdzd.xyz"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 5","type":"trojan","server":"13.51.246.10","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇦🇪AE | 🟢 | trojan | @ConfigsHUB | 12","type":"trojan","server":"188.208.110.58","port":8441,"udp":false,"password":"tunnel-tele-id-ibahad","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"Join.telegram.ibahad.ir"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 18","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
 proxy-groups:
   - name: MANUAL
@@ -190,7 +193,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇦🇪AE | 🟢 | trojan | @ConfigsHUB | 12'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
   - name: URL-TEST
     type: url-test
@@ -229,7 +235,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇦🇪AE | 🟢 | trojan | @ConfigsHUB | 12'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
   - name: FALLBACK
     type: fallback
@@ -267,7 +276,10 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇦🇪AE | 🟢 | trojan | @ConfigsHUB | 12'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
