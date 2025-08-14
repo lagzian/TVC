@@ -127,7 +127,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇦UA | 🔴 | vless | @rxv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 7",
@@ -177,8 +177,6 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -227,7 +225,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
-                "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇦UA | 🔴 | vless | @rxv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 7",
@@ -277,8 +275,6 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -828,7 +824,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Lockey_vpn | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8880,
@@ -1906,64 +1902,6 @@
                 "path": "\/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
                 "headers": {
                     "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "deu246.bypassall.org",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
-            "server_port": 39001,
-            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
-                    "short_id": "f23547"
                 }
             }
         },
