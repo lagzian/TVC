@@ -112,7 +112,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 19"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 19"
             ]
         },
         {
@@ -125,7 +125,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 19"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -259,9 +259,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.21.238.57",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "104.18.114.117",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,16 +276,16 @@
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.21.238.57"
+                    "Host": "104.18.114.117"
                 }
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.159.51.28",
-            "server_port": 47118,
-            "uuid": "ea034172-f33d-4f2b-a4a7-c700ca773f7a",
+            "server": "104.26.0.239",
+            "server_port": 2086,
+            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -295,6 +295,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.239"
+                }
             }
         }
     ],
