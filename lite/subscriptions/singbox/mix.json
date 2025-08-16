@@ -124,7 +124,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇨🇦CA | 🔴 | vless | @shh_proxy | 9",
+                "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 15",
@@ -182,8 +182,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -234,7 +233,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇨🇦CA | 🔴 | vless | @shh_proxy | 9",
+                "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 15",
@@ -292,8 +291,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -782,7 +780,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @shh_proxy | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -2054,56 +2052,15 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12",
             "type": "trojan",
-            "server": "104.20.17.176",
+            "server": "104.17.157.109",
             "server_port": 443,
-            "password": "auto",
+            "password": "NISHIKUITAN111",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/b96ef9ae.trojanfree-76s.pages.dev\/",
-                "headers": {
-                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "51.254.21.193",
-            "server_port": 20086,
-            "uuid": "9bcecb26-920a-4e68-b296-88526310bff6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
