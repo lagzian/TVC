@@ -111,7 +111,6 @@
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 142",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 11",
@@ -131,7 +130,6 @@
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 142",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 11",
@@ -318,42 +316,6 @@
                     "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
                     "short_id": "e54b5ad736ae4c38"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "rep.fin.cafinetmohammadi.ir",
-            "server_port": 2689,
-            "uuid": "06328e33-ced1-4a0a-b5a9-b1f66264d84c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
