@@ -135,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -172,6 +172,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -229,7 +231,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -266,6 +268,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -979,7 +983,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1773,6 +1777,56 @@
                 "path": "\/193.123.81.105=443",
                 "headers": {
                     "Host": "104.21.112.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "cp.dayhostpro.com",
+            "server_port": 45655,
+            "uuid": "aaa3d1db-44b0-4303-9c43-ca083acbcf61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jeHj2bSbC3OI17X0ZR2vqrzXFQI_MtgMylJKiGPkcRw",
+                    "short_id": "4f"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "glEefUL-ERror.sEoTOoLSfOrYou.cO.UK",
+            "server_port": 80,
+            "uuid": "9a37131b-2b68-427f-a2fc-cc7381c2d575",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "glEefUL-ERror.sEoTOoLSfOrYou.cO.UK"
                 }
             }
         },
