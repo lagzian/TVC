@@ -135,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -172,8 +172,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -231,7 +231,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -268,8 +268,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -983,7 +983,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1781,9 +1781,40 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "147.45.196.103",
+            "server": "www.speedtest.net",
+            "server_port": 2053,
+            "uuid": "8cf61002-0f8c-482e-997d-078283d52363",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dl1-fr1-cdn.easy-upload.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dl1-fr1-cdn.easy-upload.org"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "64.188.96.208",
             "server_port": 34045,
             "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
             "flow": "xtls-rprx-vision",
@@ -1806,27 +1837,6 @@
                     "enabled": true,
                     "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": "e8ab71d0"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "45.12.134.217",
-            "server_port": 80,
-            "uuid": "ed242313-b502-4a4a-97f4-336da621a837",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "45.12.134.217"
                 }
             }
         },
