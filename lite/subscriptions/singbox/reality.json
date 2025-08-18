@@ -112,6 +112,7 @@
                 "🇳🇱NL | 🟢 | vless | @rxv2ray | 14",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇬🇧GB | 🟢 | vless | @prrofile_purple | 150",
+                "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 18",
@@ -132,6 +133,7 @@
                 "🇳🇱NL | 🟢 | vless | @rxv2ray | 14",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇬🇧GB | 🟢 | vless | @prrofile_purple | 150",
+                "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 9",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 18",
@@ -346,6 +348,35 @@
                     "enabled": true,
                     "public_key": "B8FswH2bq-Te2rihKSyjn5eda9Z2MLVK6pi5WCF6ZTM",
                     "short_id": "86dfebd4b5406d7a"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "195.133.8.126",
+            "server_port": 8081,
+            "uuid": "fa886719-16fa-4b10-88c5-3c00a6f5a5f1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oB-VCWWpUePBe_v3vAOLWw054ZbdUN_4X3t_FkkPNFc",
+                    "short_id": "220463"
                 }
             }
         },
