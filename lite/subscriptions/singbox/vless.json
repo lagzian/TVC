@@ -174,7 +174,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
@@ -273,7 +272,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
@@ -505,7 +503,7 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "3.64.229.244",
+            "server": "3.67.162.65",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -536,7 +534,7 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.198.129.207",
+            "server": "3.64.229.244",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1492,6 +1490,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 11",
             "type": "vless",
+            "server": "172.67.74.133",
+            "server_port": 443,
+            "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "app-stg.gopay.co.id.servpn.my.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/sg3\/?-JKVPN_TELEGRAM_CHANEL_JKVPN_JKVPN_JKVPN",
+                "headers": {
+                    "Host": "app-stg.gopay.co.id.servpn.my.id"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "f644330e-b21f-42f8-af06-36b1613fbe62",
@@ -1517,27 +1546,6 @@
                 "path": "\/hajmi?ed=2560",
                 "headers": {
                     "Host": "zzula.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "f644330e-b21f-42f8-af06-36b1613fbe62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hajmi?ed=2050",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1880,37 +1888,6 @@
                 "path": "\/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
                 "headers": {
                     "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "104.21.10.227",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ppAL03.yEyESiB146.WorKers.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MuhCrbkPTOFJDDen?ed=2560",
-                "headers": {
-                    "Host": "ppAL03.yEyESiB146.WorKers.DEv"
                 }
             }
         },
