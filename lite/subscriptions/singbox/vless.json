@@ -111,7 +111,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 5",
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -173,8 +173,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -207,7 +205,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 17",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 5",
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -269,8 +267,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -445,7 +441,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
             "type": "vless",
             "server": "104.18.36.24",
             "server_port": 443,
@@ -1373,7 +1369,7 @@
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
-            "uuid": "799ed52a-3974-42d7-94c0-916c0c66fc47",
+            "uuid": "52bb1620-f57a-432d-b8fc-4db175ff3f63",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1394,7 +1390,7 @@
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 80,
-            "uuid": "d10a51d6-53ea-49af-eb73-8c7e61d6b3be",
+            "uuid": "d1bf6696-c690-49d8-8af5-3ba51a55bd3b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1831,51 +1827,6 @@
                 "headers": {
                     "Host": "172.66.40.99"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.66.46.236",
-            "server_port": 443,
-            "uuid": "0ef0630e-544c-4ed0-a4de-861f14695f37",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "M2-1CM.paGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "M2-1CM.paGes.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f51667a2-c1e6-5321-9d51-f03be3fc8d02",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
