@@ -112,6 +112,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 14",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 4",
+                "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -129,6 +130,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 14",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 4",
+                "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -341,6 +343,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "gozarfreebot.sg.niniweblog.org",
+            "server_port": 2030,
+            "uuid": "b393ba84-1862-4107-86d3-a8d09c5b842f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mG4hZx_-l8ZOQjZQrT6FujZEx0MI_smwTAW_NkiQs3s",
+                    "short_id": "ed7b2c20173684d2"
+                }
             }
         },
         {
