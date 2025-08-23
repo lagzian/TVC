@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14"
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 11",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12"
             ]
         },
         {
@@ -118,10 +119,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14"
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 11",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -151,6 +153,23 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "46.250.243.56",
+            "server_port": 50394,
+            "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
+            "security": "auto",
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -219,11 +238,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "104.19.48.236",
-            "server_port": 2082,
-            "uuid": "1c713b69-0abe-3a1e-bf70-b0579ea2f772",
+            "server": "94.242.230.206",
+            "server_port": 443,
+            "uuid": "9b38d152-6b12-4de0-a20d-87a8c9034cc4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,22 +253,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "94.242.230.206",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in172.64.25.37",
+                "path": "\/@RaFaV2Bot",
                 "headers": {
-                    "Host": ""
+                    "Host": "94.242.230.206"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "c.serkat.org",
+            "server": "5.182.84.123",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "9b38d152-6b12-4de0-a20d-87a8c9034cc4",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -260,7 +289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "c.serkat.org",
+                "server_name": "5.182.84.123",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -270,9 +299,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/@RaFaV2Bot",
                 "headers": {
-                    "Host": "c.serkat.org"
+                    "Host": "5.182.84.123"
                 }
             }
         }
