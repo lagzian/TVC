@@ -128,7 +128,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 6",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 6",
                 "🇨🇭CH | 🟢 | vless | @Outline_Vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 10",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
@@ -147,7 +147,8 @@
                 "🇱🇻LV | 🟢 | vless | @customv2ray | 21",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 14",
+                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 5",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇨🇿CZ | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇪🇸ES | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -208,7 +209,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 6",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 6",
                 "🇨🇭CH | 🟢 | vless | @Outline_Vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 10",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
@@ -227,7 +228,8 @@
                 "🇱🇻LV | 🟢 | vless | @customv2ray | 21",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 14",
+                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 5",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇨🇿CZ | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇪🇸ES | 🟢 | vless | @Outlinev2rayNG | 3",
@@ -976,7 +978,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 6",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 6",
             "type": "vless",
             "server": "185.250.181.128",
             "server_port": 16106,
@@ -1548,11 +1550,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 5",
             "type": "vless",
-            "server": "v16.gaterserver.ir",
-            "server_port": 1370,
-            "uuid": "45dc0b5f-143e-4a31-8ed0-49746409a10b",
+            "server": "it.panelmarzban.com",
+            "server_port": 3037,
+            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1567,13 +1569,49 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "pj.bestirstorei.top",
+            "server_port": 60000,
+            "uuid": "12FuseVPN----------ProxyPJ",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
-                    "short_id": "e1afb93bfe75a34b"
+                    "public_key": "7tLNRTi59oqO5FYHExWge-LbEdRpyk9n6x0PJWK2UiY",
+                    "short_id": "e1573b"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNET",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
