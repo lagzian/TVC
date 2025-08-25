@@ -148,9 +148,10 @@
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 144",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 6",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 9",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -232,9 +233,10 @@
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 144",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🟢 | vless | @customv2ray | 22",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 6",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 9",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇵🇱PL | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -1578,7 +1580,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 8",
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "amazon-20.cristiano.name.ng",
             "server_port": 443,
@@ -1607,11 +1609,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "r.optiping.ir",
-            "server_port": 33450,
-            "uuid": "df2f8de3-e855-47a6-8a87-6c72fdad4ddb",
+            "server": "198.244.142.2",
+            "server_port": 2053,
+            "uuid": "1fb52030-a522-4665-8a35-09b6710b062d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1621,7 +1623,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "p.optiping.ir",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1630,17 +1632,53 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Y3h3cOAkz3j_CbseRzm3EAkVq9HMkqv-gnwcXI2TI0Q",
-                    "short_id": ""
+                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
+                    "short_id": "5640288dca4f8519"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNET",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "213.176.66.228",
+            "server_port": 37021,
+            "uuid": "6fe5c2b2-37d1-4497-a7f2-e4e0d3bce178",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
+                    "short_id": "bc721eb6"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "rss.optiping.ir",
-            "server_port": 21934,
-            "uuid": "df2f8de3-e855-47a6-8a87-6c72fdad4ddb",
+            "server": "165.22.27.230",
+            "server_port": 10109,
+            "uuid": "9a412464-c195-4b0e-9a92-dab83adc1959",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1650,17 +1688,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chess.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
-                    "short_id": ""
+                    "public_key": "oxEpb_A0oUGY0bpUQo3u1rjY_uMTbeo-37UEVYSYf0g",
+                    "short_id": "6aa9086a91fb6831"
                 }
             }
         },
